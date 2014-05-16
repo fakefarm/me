@@ -5,3 +5,8 @@ Q - how do I add an argument to a coffee class? `#coffee`
 
 ## CSS Animations
 [view demo](animations.html)
+
+### animation fill mode
+- none
+- forwards
+-
