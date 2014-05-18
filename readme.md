@@ -1,7 +1,7 @@
 # Notes
-_5/18/14_
 
 ## Ruby file join
+_5/18/14_
 
     $LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
     require "quotes_controller"
@@ -13,11 +13,11 @@ We're pushing the file
 
 `File.dirname` tells current directory of script being run.
 
-We are starting with the load path (`$LOAD_PATH`) and adding something to it with `<< File.join`. We start with current location `File.dirname(__FILE__)` and navigat there with known, absolute paths (`'..', 'app', 'controllers'`). Once our load path has a new path on it, we can require the files inside the added directory with `require 'quotes_controller'`.
-
-_5/17/14_
+We are starting with the load path (`$LOAD_PATH`) and adding something to it with `<< File.join`. We start with current location `File.dirname(__FILE__)` and navigate there with known, absolute paths (`'..', 'app', 'controllers'`). Once our load path has a new path on it, we can require the files inside the added directory with `require 'quotes_controller'`.
 
 ## user interface
+_5/17/14_
+
 - lists
 - grids
 - hero images
@@ -29,6 +29,7 @@ _5/17/14_
 - navigation
 
 ## user experience
+_5/17/14_
 - loading
 - scrolling
 - navigating
@@ -40,6 +41,7 @@ _5/17/14_
 - alerting
 
 ## types of learning
+_5/17/14_
 ### informative
 learning to get a broad understanding. Learning to keep sharp, but doesn't have a direct application
 
@@ -56,11 +58,11 @@ knowing how something works, and trying to find a new way to apply current knowl
 taking what i've learned up to this point and applying it.
 
 
+## CSS Animations
 _5/16/14_
 
 Q - how do I add an argument to a coffee class? `#coffee`
 
-## CSS Animations
 [view demo](animations.html)
 
 ### animation fill mode
