@@ -3,6 +3,17 @@
 
 _5/17/14_
 
+## user experience
+- loading
+- scrolling
+- navigating
+- showing
+- hiding
+- active state
+- inactive state
+- tabbing
+- alerting
+
 ## types of learning
 ### informative
 learning to get a broad understanding. Learning to keep sharp, but doesn't have a direct application
