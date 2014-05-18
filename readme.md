@@ -1,5 +1,19 @@
 # Notes
+_5/18/14_
 
+## Ruby file join
+
+    $LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
+    require "quotes_controller"
+
+`$LOAD_PATH` shows all the paths that are loaded into current environment.
+We're pushing the file
+
+`File.join()` is used to mash files together.
+
+`File.dirname` tells current directory of script being run.
+
+We are starting with the load path (`$LOAD_PATH`) and adding something to it with `<< File.join`. We start with current location `File.dirname(__FILE__)` and navigat there with known, absolute paths (`'..', 'app', 'controllers'`). Once our load path has a new path on it, we can require the files inside the added directory with `require 'quotes_controller'`.
 
 _5/17/14_
 
