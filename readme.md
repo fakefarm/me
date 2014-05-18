@@ -3,6 +3,17 @@
 
 _5/17/14_
 
+## user interface
+- lists
+- grids
+- hero images
+- headlines
+- buttons
+- sections
+- content
+- backgrounds
+- navigation
+
 ## user experience
 - loading
 - scrolling
