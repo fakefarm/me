@@ -14,26 +14,36 @@
     width: 40%;
     padding: 2em;
   }
-  h1 {
+  .fire {
     font-size: 3em;
-    text-align: center;
-    -webkit-animation: breath-text 2s ease-in-out infinite alternate;
+    text-align: right;
+    float: left;
+    width: 50%;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    -webkit-animation: breath-text, fire-text;
+    -webkit-animation-duration: 2s, .5s;
+    -webkit-animation-iteration-count: infinite, 1;
+    -webkit-animation-direction: alternate, normal;
+    -webkit-animation-delay: 2s, 1.5s;
+    -webkit-animation-fill-mode: both;
+
   }
-  a {
-    color: #65bfd2;
-  }
+  p { -webkit-animation: slide-text .25s ease 3s 1 both; }
+  a { color: #65bfd2; }
 
   .footnote {
     font-weight: 400;
     color: white;
-    position: fixed;
-    bottom: 100px;
-    right: 0;
-    border-top: 2px solid white;
+    border-top: 2px solid rgba(0,0,0,0.6);
     width: 100%;
     text-align: right;
-    padding-right: 200px;
-    padding-top: 5px;
+    padding-top: 35px;
+    padding-right: 35px;
+    background: rgba(0,0,0,0.5);
+    height: 100px;
+    position: fixed;
+    -webkit-animation: moveup .5s ease 1s 1 both;
   }
 
   @-webkit-keyframes breath {
@@ -52,16 +62,51 @@
     90%   { color: #bebea4; }
     100%  { color: #ffff66; }
   }
+
+  @-webkit-keyframes moveup {
+    from {
+      opacity: 0;
+      bottom: -135px;
+    }
+    to  {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+  @-webkit-keyframes slide-text {
+    from {
+      opacity: 0;
+      padding-right: 90px;
+    }
+    to   {
+      opacity: 1;
+      padding-right: 120px;
+    }
+  }
+  @-webkit-keyframes fire-text {
+    from {
+      opacity: 0;
+      padding-top: 20px;
+    }
+    to   {
+      opacity: 1;
+      padding-top: 0px;
+    }
+  }
+
   </style>
 </head>
 <body>
   <div class="container">
     <div class="content">
-      <h1>fire</h1>
     </div>
   </div>
   <div class="footnote">
-    a CSS3 animation exercise by <a href="http://www.github.com/woodall" target="_blank">Dave Woodall</a>.
+    <div class='fire'>fire</div>
+    <p>
+      a CSS3 animation exercise by <a href="http://www.github.com/woodall" target="_blank">Dave Woodall</a>.
+    </p>
   </div>
 </body>
 </html>
