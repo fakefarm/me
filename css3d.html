@@ -4,12 +4,68 @@
   <style type="text/css">
     body {
       background: #ff6666;
-      width: 20%;
-      margin: 0 auto;
+      width: 70%;
+      margin: 3em auto;
       color: white;
       font-family: arial;
       text-transform: uppercase;
+      text-align: center;
+      vertical-align: middle;
       font-size: 3em;
+    }
+    .wrapper {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      background: #af4545;
+      -webkit-perspective: 600px;
+      box-shadow: inset 0px 0px 2px 1px #712c2c;
+    }
+    .card {
+      width: 300px;
+      height: 300px;
+
+      -webkit-transition: -webkit-transform 1s;
+      -moz-transition: -moz-transform 1s;
+      -ms-transition: -ms-transform 1s;
+      -o-transition: -o-transform 1s;
+      transition: transform 1s;
+
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+
+    }
+
+    .back, .card:hover {
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+    }
+    .front, .back {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .front {
+      background: #004080;
+      width:100%;
+      height:100%;
+      position:absolute;
+      display: block;
+    }
+    .back {
+      background: #0080ff;
+      width:100%;
+      height:100%;
+      position:absolute;
+      display: block;
     }
   </style>
 </head>
@@ -21,9 +77,9 @@
       <div class="front">
         <h1>A</h1>
       </div>
-      <div class="back">
+<!--       <div class="back">
         <h1>B</h1>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
