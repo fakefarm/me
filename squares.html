@@ -20,7 +20,7 @@
 
       -webkit-animation-duration: 3s;
       -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.275, 1.465);
-      -webkit-animation-iteration-count: 2;
+      -webkit-animation-iteration-count: infinite;
 
       /*
       -webkit-animation-direction: ;
@@ -33,7 +33,7 @@
 
       -webkit-animation-name: ride; /* 'ride' is the name of the keyframs */
 
-      -webkit-animation-fill-mode: forwards; /* 'forward' keeps animation at the end*/
+      -webkit-animation-fill-mode: alternate; /* 'forward' keeps animation at the end*/
     }
 
     @-webkit-keyframes ride { /* set the name of the animation. */
@@ -49,16 +49,17 @@
       background: #ffff66;
 
       -webkit-animation-name: move-left-right;
-      -webkit-animation-duration: 3s;
+      -webkit-animation-duration: 2s;
       -webkit-animation-timing-function: ease-in-out;
-      -webkit-animation-iteration-count: 1;
-      -webkit-animation-delay: 1s;
-      -webkit-animation-fill-mode: forwards; /* 'both allows for starting at 0, and ending on other side'*/
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-fill-mode: both; /* 'both allows for starting at 0, and ending on other side'*/
     }
 
     @-webkit-keyframes move-left-right {
-      0%   { -webkit-transform: translateX(100px);} /* using % let you do multiple spots */
+      0%   { -webkit-transform: translateX(0px);} /* using % let you do multiple spots */
       20%  { -webkit-transform: translateX(-10px);}
+      80%  { -webkit-transform: translateX(460px);}
       100% { -webkit-transform: translateX(450px);}
     }
 
