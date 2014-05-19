@@ -1,5 +1,45 @@
 # Notes
 
+## CSS 2D Transforms
+_5/19/14_
+The `transform` property has 4 different main functions.
+### The 4 function
+#### Translate
+Translate moves the object
+
+- `translateX(10px)` moves the item right 10px
+- `translateY(10px)` moves the item up 10px
+- `translate(10px, 10px)` is shorthand for both
+
+#### Scale
+Increases the size of the object. 
+- `ScaleX(.5)` will shrink the image 50% on the X axis
+- `ScaleY(2)` grows the image 200% on Y axis
+- `Scale(3)` will grow image on both, by 300%
+
+#### Rotate
+Rotates image
+
+- `rotate(150deg)` from 0 to 360deg
+**Note the unit is deg**
+
+#### SkewX/Y
+- `skewX(-10deg)` can be positive, or negative values
+- `skewY(30deg)`
+**Note the unit is deg**
+
+### transform-origin
+Transform is the center by default, but you can move it to other locations of the object including;
+
+- bottom left
+- bottom right
+- top left
+- top right
+
+_Example_
+
+        transform-origin: bottom left;
+
 ## CSS Animations
 _5/19/14_
 
