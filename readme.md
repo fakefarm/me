@@ -1,5 +1,78 @@
 # Notes
 
+## CSS Animations
+_5/19/14_
+
+CSS Animations are a combination of 2 main parts; Keyframes and animation properties.
+
+### Keyframes
+Keyframes have a name _('ride' in the following example)_ in order to be used by the animation property. Keyframes specify the specifics of an animation. (The `from` and `to`).
+
+_Example_
+
+     @keyframes ride {
+      from { transform: translateX(0px); }
+      to   { transform: translateX(450px); }
+    }
+
+Anything can be there including
+
+- transforms
+- background colors
+- translates
+
+### Animation
+
+The Animation property manages the specific execution of the keyframe property. Answering questions like
+
+- when to start?
+- how long to animate?
+- what happens when over?
+- how many times should it animate?
+
+_Example_
+
+    .square {
+      animation-name: ride;
+      animation-duration: 3s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+      animation-delay: 1s;
+    }
+
+#### List of animation properties
+
+**animation-name**  Specifies the name of the keyframe you want to bind to the selector
+**animation-duration**  Specifies how many seconds or milliseconds an animation takes to complete
+**animation-timing-function**   Specifies the speed curve of the animation
+**animation-delay** Specifies a delay before the animation will start
+**animation-iteration-count**   Specifies how many times an animation should be played
+**animation-direction** Specifies whether or not the animation should play in reverse on alternate cycles
+**animation-fill-mode** Specifies what values are applied by the animation outside the time it is executing
+**animation-play-state**    Specifies whether the animation is running or paused
+
+### Prefixes
+Until further notice, we need to use browser prefixes
+
+    -webkit-animation
+    -moz-animation
+    -o-animation
+    animation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Ruby file join
 _5/18/14_
 
