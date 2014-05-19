@@ -4,81 +4,63 @@
   <style type="text/css">
     body {
       background: #ff6666;
-      width: 70%;
-      margin: 3em auto;
-      color: white;
       font-family: arial;
       text-transform: uppercase;
       text-align: center;
-      vertical-align: middle;
-      font-size: 3em;
+      font-size: 5em;
     }
+    h1 {
+      margin-top: 0.3em;
+    }
+
+    .front {
+      background: #ff6666;
+      border: 2px dashed #d15252;
+      color: #d15252;
+     }
+
+    .back {
+      background: #d15252;
+      color: #ff6666;
+    }
+
     .wrapper {
-      position: relative;
       width: 300px;
       height: 300px;
+      margin: 2em auto;
+      position: relative;
       background: #af4545;
       box-shadow: inset 0px 0px 2px 1px #712c2c;
       -webkit-perspective: 800px;
+      cursor: pointer;
     }
+
     .card {
       width: 300px;
       height: 300px;
-      position: relative;
-      -webkit-transition: -webkit-transform 1s;
-      -moz-transition: -moz-transform 1s;
-      -ms-transition: -ms-transform 1s;
-      -o-transition: -o-transform 1s;
-      transition: transform 1s;
-
+      -webkit-transition: -webkit-transform 0.85s;
       -webkit-transform-style: preserve-3d;
-      -moz-transform-style: preserve-3d;
-      -ms-transform-style: preserve-3d;
-      -o-transform-style: preserve-3d;
-      transform-style: preserve-3d;
     }
-    .front, .back {
+
+    .card:hover {
+      -webkit-transform: rotateY(360deg);
+    }
+
+    .back {
+      -webkit-transform: rotateY(180deg);
+    }
+
+    .side {
       width:100%;
       height:100%;
       position:absolute;
       display: block;
-    }
-
-    .front { background: #004080; }
-    .back { background: #0067ce; }
-
-    .card:hover, .back {
-      -webkit-transform: rotateY(-180deg);
-      -moz-transform: rotateY(-180deg);
-      -ms-transform: rotateY(-180deg);
-      -o-transform: rotateY(-180deg);
-      transform: rotateY(-180deg);
-    }
-
-    .front, .back {
       -webkit-backface-visibility: hidden;
       -moz-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
       -o-backface-visibility: hidden;
       backface-visibility: hidden;
     }
 
-
-/*    .back, .card:hover {
-      -webkit-transform: rotateY(-180deg);
-    }
-
-    .back {
-      background: #0067ce;
-      width:100%;
-      height:100%;
-      position:absolute;
-      display: block;
-      -webkit-transform-style: preserve-3d;
-    }
-    .front, .back {
-        -webkit-backface-visibility: hidden;
-    }*/
   </style>
 </head>
 <body>
@@ -86,11 +68,11 @@
 <div class="ground">
   <div class="wrapper">
     <div class="card">
-      <div class="front">
-        <h1>Zip</h1>
+      <div class="front side">
+        <h1>L</h1>
       </div>
-      <div class="back">
-        <h1>Zoom</h1>
+      <div class="back side">
+        <h1>O</h1>
       </div>
     </div>
   </div>
