@@ -99,20 +99,6 @@ Until further notice, we need to use browser prefixes
     -o-animation
     animation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Ruby file join
 _5/18/14_
 
