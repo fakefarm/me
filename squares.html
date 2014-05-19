@@ -16,10 +16,11 @@
       width: 20px;
       height: 20px;
       background: #66ffcc;
+      margin-bottom: 30px;
 
       -webkit-animation-duration: 3s;
       -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.275, 1.465);
-      -webkit-animation-iteration-count: 1;
+      -webkit-animation-iteration-count: 2;
 
       /*
       -webkit-animation-direction: ;
@@ -52,7 +53,7 @@
       -webkit-animation-timing-function: ease-in-out;
       -webkit-animation-iteration-count: 1;
       -webkit-animation-delay: 1s;
-      -webkit-animation-fill-mode: both; /* 'both allows for starting at 0, and ending on other side'*/
+      -webkit-animation-fill-mode: forwards; /* 'both allows for starting at 0, and ending on other side'*/
     }
 
     @-webkit-keyframes move-left-right {
@@ -65,9 +66,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <h2>Basic movement</h2>
     <div class="square"></div>
-    <h2>Move to and from</h2>
     <div class="square-2"></div>
   </div>
 </body>

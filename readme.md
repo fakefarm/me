@@ -1,4 +1,9 @@
-# Notes
+## Demos
+### CSS 3 Animations
+
+- [fire](http://woodall.github.io/notes/fire.html)
+- [flipper](http://woodall.github.io/notes/flipper.html)
+- [moving squares](http://woodall.github.io/notes/squares.html)
 
 ## CSS 2D Transforms
 _5/19/14_
