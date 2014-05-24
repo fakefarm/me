@@ -3,36 +3,288 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <title>Notes by woodall</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <header>
-      <div class="container">
-        <h1>Notes</h1>
-        <h2></h2>
+        <header>
+          <h1>Notes</h1>
+          <h2></h2>
+        </header>
 
-        <section id="downloads">
-          <a href="https://github.com/woodall/notes/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/woodall/notes/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/woodall/notes" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/woodall/notes/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/woodall/notes/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/woodall/notes" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h2>
+<a name="demos" class="anchor" href="#demos"><span class="octicon octicon-link"></span></a>Demos</h2>
+
+<h3>
+<a name="css-3-animations" class="anchor" href="#css-3-animations"><span class="octicon octicon-link"></span></a>CSS 3 Animations</h3>
+
+<ul>
+<li><a href="http://woodall.github.io/notes/fire.html">fire</a></li>
+<li><a href="http://woodall.github.io/notes/flipper.html">flipper</a></li>
+<li><a href="http://woodall.github.io/notes/squares.html">moving squares</a></li>
+</ul><h2>
+<a name="css-2d-transforms" class="anchor" href="#css-2d-transforms"><span class="octicon octicon-link"></span></a>CSS 2D Transforms</h2>
+
+<p><em>5/19/14</em>
+The <code>transform</code> property has 4 different main functions.</p>
+
+<h3>
+<a name="the-4-function" class="anchor" href="#the-4-function"><span class="octicon octicon-link"></span></a>The 4 function</h3>
+
+<h4>
+<a name="translate" class="anchor" href="#translate"><span class="octicon octicon-link"></span></a>Translate</h4>
+
+<p>Translate moves the object</p>
+
+<ul>
+<li>
+<code>translateX(10px)</code> moves the item right 10px</li>
+<li>
+<code>translateY(10px)</code> moves the item up 10px</li>
+<li>
+<code>translate(10px, 10px)</code> is shorthand for both</li>
+</ul><h4>
+<a name="scale" class="anchor" href="#scale"><span class="octicon octicon-link"></span></a>Scale</h4>
+
+<p>Increases the size of the object. </p>
+
+<ul>
+<li>
+<code>ScaleX(.5)</code> will shrink the image 50% on the X axis</li>
+<li>
+<code>ScaleY(2)</code> grows the image 200% on Y axis</li>
+<li>
+<code>Scale(3)</code> will grow image on both, by 300%</li>
+</ul><h4>
+<a name="rotate" class="anchor" href="#rotate"><span class="octicon octicon-link"></span></a>Rotate</h4>
+
+<p>Rotates image</p>
+
+<ul>
+<li>
+<code>rotate(150deg)</code> from 0 to 360deg
+<strong>Note the unit is deg</strong>
+</li>
+</ul><h4>
+<a name="skewxy" class="anchor" href="#skewxy"><span class="octicon octicon-link"></span></a>SkewX/Y</h4>
+
+<ul>
+<li>
+<code>skewX(-10deg)</code> can be positive, or negative values</li>
+<li>
+<code>skewY(30deg)</code>
+<strong>Note the unit is deg</strong>
+</li>
+</ul><h3>
+<a name="transform-origin" class="anchor" href="#transform-origin"><span class="octicon octicon-link"></span></a>transform-origin</h3>
+
+<p>Transform is the center by default, but you can move it to other locations of the object including;</p>
+
+<ul>
+<li>bottom left</li>
+<li>bottom right</li>
+<li>top left</li>
+<li>top right</li>
+</ul><p><em>Example</em></p>
+
+<pre><code>    transform-origin: bottom left;
+</code></pre>
+
+<h2>
+<a name="css-animations" class="anchor" href="#css-animations"><span class="octicon octicon-link"></span></a>CSS Animations</h2>
+
+<p><em>5/19/14</em></p>
+
+<p>CSS Animations are a combination of 2 main parts; Keyframes and animation properties.</p>
+
+<h3>
+<a name="keyframes" class="anchor" href="#keyframes"><span class="octicon octicon-link"></span></a>Keyframes</h3>
+
+<p>Keyframes have a name <em>('ride' in the following example)</em> in order to be used by the animation property. Keyframes specify the specifics of an animation. (The <code>from</code> and <code>to</code>).</p>
+
+<p><em>Example</em></p>
+
+<pre><code> @keyframes ride {
+  from { transform: translateX(0px); }
+  to   { transform: translateX(450px); }
+}
+</code></pre>
+
+<p>Anything can be there including</p>
+
+<ul>
+<li>transforms</li>
+<li>background colors</li>
+<li>translates</li>
+</ul><h3>
+<a name="animation" class="anchor" href="#animation"><span class="octicon octicon-link"></span></a>Animation</h3>
+
+<p>The Animation property manages the specific execution of the keyframe property. Answering questions like</p>
+
+<ul>
+<li>when to start?</li>
+<li>how long to animate?</li>
+<li>what happens when over?</li>
+<li>how many times should it animate?</li>
+</ul><p><em>Example</em></p>
+
+<pre><code>.square {
+  animation-name: ride;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+</code></pre>
+
+<h4>
+<a name="list-of-animation-properties" class="anchor" href="#list-of-animation-properties"><span class="octicon octicon-link"></span></a>List of animation properties</h4>
+
+<p><strong>animation-name</strong>  Specifies the name of the keyframe you want to bind to the selector
+<strong>animation-duration</strong>  Specifies how many seconds or milliseconds an animation takes to complete
+<strong>animation-timing-function</strong>   Specifies the speed curve of the animation
+<strong>animation-delay</strong> Specifies a delay before the animation will start
+<strong>animation-iteration-count</strong>   Specifies how many times an animation should be played
+<strong>animation-direction</strong> Specifies whether or not the animation should play in reverse on alternate cycles
+<strong>animation-fill-mode</strong> Specifies what values are applied by the animation outside the time it is executing
+<strong>animation-play-state</strong>    Specifies whether the animation is running or paused</p>
+
+<h3>
+<a name="prefixes" class="anchor" href="#prefixes"><span class="octicon octicon-link"></span></a>Prefixes</h3>
+
+<p>Until further notice, we need to use browser prefixes</p>
+
+<pre><code>-webkit-animation
+-moz-animation
+-o-animation
+animation
+</code></pre>
+
+<h2>
+<a name="ruby-file-join" class="anchor" href="#ruby-file-join"><span class="octicon octicon-link"></span></a>Ruby file join</h2>
+
+<p><em>5/18/14</em></p>
+
+<pre><code>$LOAD_PATH &lt;&lt; File.join(File.dirname(__FILE__), "..", "app", "controllers")
+require "quotes_controller"
+</code></pre>
+
+<p><code>$LOAD_PATH</code> shows all the paths that are loaded into current environment.
+We're pushing the file</p>
+
+<p><code>File.join()</code> is used to mash files together.</p>
+
+<p><code>File.dirname</code> tells current directory of script being run.</p>
+
+<p>We are starting with the load path (<code>$LOAD_PATH</code>) and adding something to it with <code>&lt;&lt; File.join</code>. We start with current location <code>File.dirname(__FILE__)</code> and navigate there with known, absolute paths (<code>'..', 'app', 'controllers'</code>). Once our load path has a new path on it, we can require the files inside the added directory with <code>require 'quotes_controller'</code>.</p>
+
+<h2>
+<a name="user-interface" class="anchor" href="#user-interface"><span class="octicon octicon-link"></span></a>user interface</h2>
+
+<p><em>5/17/14</em></p>
+
+<ul>
+<li>lists</li>
+<li>grids</li>
+<li>hero images</li>
+<li>headlines</li>
+<li>buttons</li>
+<li>sections</li>
+<li>content</li>
+<li>backgrounds</li>
+<li>navigation</li>
+</ul><h2>
+<a name="user-experience" class="anchor" href="#user-experience"><span class="octicon octicon-link"></span></a>user experience</h2>
+
+<p><em>5/17/14</em></p>
+
+<ul>
+<li>loading</li>
+<li>scrolling</li>
+<li>navigating</li>
+<li>showing</li>
+<li>hiding</li>
+<li>active state</li>
+<li>inactive state</li>
+<li>tabbing</li>
+<li>alerting</li>
+</ul><h2>
+<a name="types-of-learning" class="anchor" href="#types-of-learning"><span class="octicon octicon-link"></span></a>types of learning</h2>
+
+<p><em>5/17/14</em></p>
+
+<h3>
+<a name="informative" class="anchor" href="#informative"><span class="octicon octicon-link"></span></a>informative</h3>
+
+<p>learning to get a broad understanding. Learning to keep sharp, but doesn't have a direct application</p>
+
+<h3>
+<a name="solution" class="anchor" href="#solution"><span class="octicon octicon-link"></span></a>solution</h3>
+
+<p>working on task and encounter a problem. In finding a solution, you leanr something new in the process.</p>
+
+<h3>
+<a name="practice" class="anchor" href="#practice"><span class="octicon octicon-link"></span></a>practice</h3>
+
+<p>simply applying existing knowledge will permit me to get better, more creative, and learn a new approach</p>
+
+<h3>
+<a name="exploration" class="anchor" href="#exploration"><span class="octicon octicon-link"></span></a>exploration</h3>
+
+<p>knowing how something works, and trying to find a new way to apply current knowledge</p>
+
+<h3>
+<a name="application" class="anchor" href="#application"><span class="octicon octicon-link"></span></a>application</h3>
+
+<p>taking what i've learned up to this point and applying it.</p>
+
+<h2>
+<a name="css-animations-1" class="anchor" href="#css-animations-1"><span class="octicon octicon-link"></span></a>CSS Animations</h2>
+
+<p><em>5/16/14</em></p>
+
+<p>Q - how do I add an argument to a coffee class? <code>#coffee</code></p>
+
+<p><a href="animations.html">view demo</a></p>
+
+<h3>
+<a name="animation-fill-mode" class="anchor" href="#animation-fill-mode"><span class="octicon octicon-link"></span></a>animation fill mode</h3>
+
+<ul>
+<li>none</li>
+<li>forwards
+#### fill mode
+<img src="images/fill-mode.png" alt="">
+</li>
+</ul>
+        </section>
+
+        <footer>
+          Notes is maintained by <a href="https://github.com/woodall">woodall</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
       </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h1>
-      </section>
     </div>
-
-    
   </body>
 </html>
