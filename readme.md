@@ -1,4 +1,49 @@
 ## Demos
+
+## Running Postgres locally
+I'm going to try to run PG locally.
+
+`1.` downloaded [Postgres.app](http://postgresapp.com/)
+
+`2.` Could not start on port 5432
+
+ran `ps aux | grep postgres` and killed the other version I started maunally.
+
+`3.` added to my Path file
+
+    export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+
+At this point, typing `psql` would reply with;
+psql: FATAL: database “davewoodall” does not exist
+
+`4.` typing `createdb`
+
+`5.` Setup my database.yml file accordingly
+
+    default: &default
+      adapter: postgresql
+      pool: 5
+      timeout: 5000
+
+    development:
+     adapter: postgresql
+     encoding: unicode
+     database: marabit_development
+     pool: 5
+     host: localhost
+
+    test:
+      <<: *default
+      database: db/test.postgresql
+
+    production:
+      <<: *default
+      database: db/production.postgresql
+
+`6.` Deleted .bundle/gems and ran `bundle install`
+
+Seems to work after all that!
+
 ### CSS 3 Animations
 
 - [fire](http://woodall.github.io/notes/fire.html)
