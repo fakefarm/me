@@ -5,6 +5,22 @@
 - [flipper](http://woodall.github.io/notes/flipper.html)
 - [moving squares](http://woodall.github.io/notes/squares.html)
 
+## css animation fill-mode vs direction;
+
+Fill mode is the property to determine where the animation ends. 
+
+     -webkit-animation-fill-mode:forwards;
+
+Direction has to do with with way the keyframes will move;
+
+    -webkit-animation-direction: back;
+
+
+## Animation Shorthand
+_5/20/14_
+
+    animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
 ## CSS 2D Transforms
 _5/19/14_
 The `transform` property has 4 different main functions.
