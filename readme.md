@@ -1,5 +1,12 @@
 ## Demos
 
+## cURL
+Curl is a command line tool to view requests, including headers.
+
+Example 
+
+    curl -i http://marabit.herokuapp.com
+
 ## Running Postgres locally
 I'm going to try to run PG locally.
 
