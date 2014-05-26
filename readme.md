@@ -1,5 +1,13 @@
 ## Demos
 
+## Rebuild a gem command
+
+    gem build [name]; gem install [name-version].gem 
+
+example;
+
+    gem build rulers; gem install rulers-0.0.1.gem
+
 ## cURL
 Curl is a command line tool to view requests, including headers.
 
