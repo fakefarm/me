@@ -1,5 +1,10 @@
 ## Demos
 
+## Split pane in TMUX
+
+- tmux
+- ctrl A, |
+
 ## Rebuild a gem command
 
     gem build [name]; gem install [name-version].gem 
