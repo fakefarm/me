@@ -1,0 +1,7 @@
+// stylebot chrome plugin
+// Removes all the noise and unnessary selling me of the thingz while I try to save for other things.
+
+.sponsored, .w2sView, .module-credit-score, .credit-score, .AlertsView, .GoalsView, #movers-shakers-sponsored-link, #module-reminders, .advice-teaser, .sponsored, #module-investments, #module-accounts, .CashFlowView, #logo-o2, .MainFooterView,.localnav-type,#sort-loan,#sort-investment,#localnav-type,#localnav-acounts {
+    display: none ;
+}
+
