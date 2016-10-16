@@ -1,0 +1,394 @@
+page:
+  title: Grammar
+  subtitle: Words I want my Boys to know.
+collections:
+  -
+    title: All my notes
+    caption: ""
+    date: 2014-12-15
+    entries:
+      -
+        title: Wisdom
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Loyalty
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Service
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Integrity
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Patience
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Procrastination
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Excellence
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Study
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Thinking
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Feeling
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Listening
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Prayer
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Kindness
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Diligence
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Love
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Persistence
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Courage
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Sharing
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Responsibility
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Saving
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Giving
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Investing
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Friendly
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Perseverance
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Obedience
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title: Respect
+        body: ''
+        tag: Character
+        url: ''
+        date: 2015-01-11
+      -
+        title:  cookies
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: sessions
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: client
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: server
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: authorization
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: authentication
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: security
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: http
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: protocol
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: IP
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: ajax
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: languages
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: services
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: testing
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: continuous integration
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: browser
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: local storage
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: caching
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: framework
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: database
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: ram
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: ruby
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: rails
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: javascript
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: java
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: karma
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: templates
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: background jobs
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: directives
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: jasmine
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: UML
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: OOP
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: Refactoring
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: jquery
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: angular
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: HTML
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: CSS
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+      -
+        title: underscore
+        body: ''
+        tag: Computer
+        url: ''
+        date: 2015-01-10
+

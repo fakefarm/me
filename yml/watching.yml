@@ -1,0 +1,151 @@
+page:
+  title: Watching
+  subtitle: "On the rare occasions I am not parenting, reading, or sleeping."
+collections:
+  -
+    title: Movies
+    caption: 'My favorites'
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'The Grand Budapest Hotel'
+        video: <iframe width="740" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: wes anderson
+        date: 2015-01-01
+        classes: big
+        caption: 'The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.'
+        social:
+          name: youTube
+          url: <iframe width="560" height="415" src="//www.youtube.com/embed/2bTbW70umbQ?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
+    title: Code
+    caption: 'Technical Jargon and Cats.'
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'Rails Conf 2013 The Magic Tricks of Testing by Sandi Metz'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/URSWYvyc42M?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: code
+        date: 2015-01-10
+        caption: "Tests are supposed to save us money. How is it, then, that many times they become millstones around our necks, gradually morphing into fragile, breakable things that raise the cost of change? We write too many tests and we test the wrong kinds of things. This talk strips away the veil and offers simple, practical guidelines for choosing what to test and how to test it. Finding the right testing balance isn't magic, it's a magic trick; come and learn the secret of writing stable tests that protect your application at the lowest possible cost."
+      -
+        url: ''
+        title: 'The Short and Happy Lives of TCP and HTTP Requests'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/4tBCDOgtWCg?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: code
+        date: 2014-09-19
+        caption: "As Rails developers we depend on the network. But if you're new to web development, it's probably a mystery. That's a problem. Knowing how the network works is critical for fixing certain types of bugs and for diagnosing performance issues.<br> In this talk, we'll follow the lives of a TCP and an HTTP request, marvel as they pass through your browse, OS, router, web server and app serve. Finally, we'll discuss how this knowledge is used to fix common bugs and increase app performance."
+      -
+        url: ''
+        title: 'GoRuCo 2014 - How to Debug Anything by James Golick'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/VV7b7fs4VI8?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: code
+        date: 2014-09-19
+        caption: "Does your code work? Probably not. The libraries you're using probably don't work either. If you're lucky, the OS does, but even then you'll probably find something wrong if you look hard enough."
+  -
+    title: Business
+    caption: 'How people work.'
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'Conference Submissions and Presentations made more effective with 10 quick tips'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/fJz4JJIchaY?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2015-01-14
+        classes: big
+        caption: "Have you eyed that latest cool conference, thinking, 'I'd sure like to go there. Darn, I'd even like to present there! But what would I talk about? How would I write the proposal? How would I deliver the talk with excellence?'"
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+      -
+        url: ''
+        title: 'Google design sprints'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-12-19
+        classes: big
+        caption: '175 designers and researchers from the Ads and Commerce UX team got together for a week and participated in 23 parallel design sprints. In this video, team leads discuss how design sprints can help you rapidly iterate on ideas, at scale. #GoogleDesignMinutes'
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/137XnWlUTKY?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
+    title: Beer talk
+    caption: I'll probably bring these up next time we're sippin on IPA's.
+    date: ''
+    entries:
+      -
+        url: ''
+        title: "The Alberino Analysis - Earth's Earliest Ages: Episode 1"
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/hnI0S8Xf7pw?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: ''
+        date: 2015-01-05
+        classes: big
+        caption: "Timothy Alberino analyzes the book Earth's Earliest Ages by George H. Pember, and explains the 'Gap Theory'."
+      -
+        url: ''
+        title: 'Deep Underground Military Bases'
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/jF86-hl7DlY?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: 'Government Conspiracy'
+        date: 2014-12-19
+        classes: big
+        caption: "Timothy Alberino analyzes Deep Underground Military Bases, and the amazing testimony of Phil Schneider."
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/jF86-hl7DlY?rel=0" frameborder="0" allowfullscreen></iframe>
+      -
+        url: ''
+        title: 'The 10th Commandment'
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: collaboration
+        date: 2014-12-19
+        classes: big
+        caption: "There is only one Commandment that prohibits a thought, and it is this: 'Do not covet.' Why does the Bible, which is preoccupied with behavior, legislate a thought? Because to covet, to want what belongs to someone else, is the root of the preceding four commandments and often leads to evil. Before someone murders, steals, lies, or commits adultery, the desire to take what is rightly someone else's usually comes first."
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/Dq2TsDbylUg?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
+    title: music & videos
+    caption: "Creative Juices flowin'"
+    date: ''
+    entries:
+      -
+        url: ''
+        title: 'DJ SHADOW'
+        video: <iframe width="560" height="415" src="//www.youtube.com/embed/BuCTxhSAi7s?rel=0" frameborder="0" allowfullscreen></iframe>
+        tag: ''
+        date: 2014-12-18
+        classes: big
+        caption: ''
+        social:
+          name: youTube
+          url: <iframe width="560" height="415" src="//www.youtube.com/embed/BuCTxhSAi7s?rel=0" frameborder="0" allowfullscreen></iframe>
+  -
+    title: parenting
+    caption: "When I'm not coding, I'm usually with these guys..."
+    date: ''
+    entries:
+      -
+        url: ''
+        title: ''
+        video: <iframe width="560" height="615" src="//www.youtube.com/embed/EIGhT6fBXWg" frameborder="0" allowfullscreen></iframe>
+        tag: ''
+        date: 08-12-2014
+        classes: big
+        caption: ''
+        social:
+          name: youTube
+          url: <iframe width="560" height="615" src="//www.youtube.com/embed/EIGhT6fBXWg" frameborder="0" allowfullscreen></iframe>
+      -
+        url: ''
+        title: ''
+        video: <iframe width="560" height="315" src="//www.youtube.com/embed/Vk5ZhnY0ykg" frameborder="0" allowfullscreen></iframe>
+        tag: ''
+        date: 08-12-2014
+        classes: big
+        caption: ''
+        social:
+          name: youTube
+          url: <iframe width="560" height="315" src="//www.youtube.com/embed/Vk5ZhnY0ykg" frameborder="0" allowfullscreen></iframe>

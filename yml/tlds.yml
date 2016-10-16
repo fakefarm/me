@@ -1,0 +1,2958 @@
+list:
+  -
+    date: 12/17/2013
+    tld: ACADEMY
+    color: AliceBlue
+    hex:  "#F0F8FF"
+    emoji: ":aerial_tramway:"
+    name:  "&#58;aerial_tramway&#58;"
+  -
+    date: 5/7/2014
+    tld: ACCOUNTANTS
+    color: AntiqueWhite
+    hex:  "#FAEBD7"
+    emoji: ":airplane:"
+    name:  "&#58;airplane&#58;"
+  -
+    date: 6/26/2014
+    tld: ACTIVE
+    color: Aqua
+    hex:  "#00FFFF"
+    emoji: ":alarm_clock:"
+    name:  "&#58;alarm_clock&#58;"
+  -
+    date: 2/26/2014
+    tld: ACTOR
+    color: Aquamarine
+    hex:  "#7FFFD4"
+    emoji: ":ambulance:"
+    name:  "&#58;ambulance&#58;"
+  -
+    date: 1/14/2014
+    tld: AGENCY
+    color: Azure
+    hex:  "#F0FFFF"
+    emoji: ":anchor:"
+    name:  "&#58;anchor&#58;"
+  -
+    date: 4/30/2014
+    tld: AIRFORCE
+    color: Beige
+    hex:  "#F5F5DC"
+    emoji: ":angel:"
+    name:  "&#58;angel&#58;"
+  -
+    date: 3/31/2014
+    tld: ARCHI
+    color: Bisque
+    hex:  "#FFE4C4"
+    emoji: ":ant:"
+    name:  "&#58;ant&#58;"
+  -
+    date: 6/4/2014
+    tld: ARMY
+    color: Black
+    hex:  "#000000"
+    emoji: ":apple:"
+    name:  "&#58;apple&#58;"
+  -
+    date: 4/11/2014
+    tld: ASSOCIATES
+    color: BlanchedAlmond
+    hex:  "#FFEBCD"
+    emoji: ":art:"
+    name:  "&#58;art&#58;"
+  -
+    date: 5/31/2014
+    tld: ATTORNEY
+    color: Blue
+    hex:  "#0000FF"
+    emoji: ":articulated_lorry:"
+    name:  "&#58;articulated_lorry&#58;"
+  -
+    date: 7/18/2014
+    tld: AUCTION
+    color: BlueViolet
+    hex:  "#8A2BE2"
+    emoji: ":baby_bottle:"
+    name:  "&#58;baby_bottle&#58;"
+  -
+    date: 5/15/2014
+    tld: AUDIO
+    color: Brown
+    hex:  "#A52A2A"
+    emoji: ":baby_chick:"
+    name:  "&#58;baby_chick&#58;"
+  -
+    date: 5/22/2014
+    tld: AUTOS
+    color: BurlyWood
+    hex:  "#DEB887"
+    emoji: ":baby:"
+    name:  "&#58;baby&#58;"
+  -
+    date: 3/19/2014
+    tld: AXA
+    color: CadetBlue
+    hex:  "#5F9EA0"
+    emoji: ":balloon:"
+    name:  "&#58;balloon&#58;"
+  -
+    date: 2/27/2014
+    tld: BAR
+    color: Chartreuse
+    hex:  "#7FFF00"
+    emoji: ":bamboo:"
+    name:  "&#58;bamboo&#58;"
+  -
+    date: 1/23/2014
+    tld: BARGAINS
+    color: Chocolate
+    hex:  "#D2691E"
+    emoji: ":banana:"
+    name:  "&#58;banana&#58;"
+  -
+    date: 5/3/2014
+    tld: BAYERN
+    color: Coral
+    hex:  "#FF7F50"
+    emoji: ":bank:"
+    name:  "&#58;bank&#58;"
+  -
+    date: 5/15/2014
+    tld: BEER
+    color: CornflowerBlue
+    hex:  "#6495ED"
+    emoji: ":barber:"
+    name:  "&#58;barber&#58;"
+  -
+    date: 1/8/2014
+    tld: BERLIN
+    color: Cornsilk
+    hex:  "#FFF8DC"
+    emoji: ":baseball:"
+    name:  "&#58;baseball&#58;"
+  -
+    date: 2/27/2014
+    tld: BEST
+    color: Crimson
+    hex:  "#DC143C"
+    emoji: ":basketball:"
+    name:  "&#58;basketball&#58;"
+  -
+    date: 3/2/2014
+    tld: BID
+    color: Cyan
+    hex:  "#00FFFF"
+    emoji: ":battery:"
+    name:  "&#58;battery&#58;"
+  -
+    date: 11/14/2013
+    tld: BIKE
+    color: DarkBlue
+    hex:  "#00008B"
+    emoji: ":bear:"
+    name:  "&#58;bear&#58;"
+  -
+    date: 6/2/2014
+    tld: BIO
+    color: DarkCyan
+    hex:  "#008B8B"
+    emoji: ":beer:"
+    name:  "&#58;beer&#58;"
+  -
+    date: 3/27/2014
+    tld: BLACK
+    color: DarkGoldenRod
+    hex:  "#B8860B"
+    emoji: ":beers:"
+    name:  "&#58;beers&#58;"
+  -
+    date: 4/23/2014
+    tld: BLACKFRIDAY
+    color: DarkGray
+    hex:  "#A9A9A9"
+    emoji: ":beetle:"
+    name:  "&#58;beetle&#58;"
+  -
+    date: 2/5/2014
+    tld: BLUE
+    color: DarkGreen
+    hex:  "#006400"
+    emoji: ":beginner:"
+    name:  "&#58;beginner&#58;"
+  -
+    date: 6/21/2014
+    tld: BMW
+    color: DarkKhaki
+    hex:  "#BDB76B"
+    emoji: ":bell:"
+    name:  "&#58;bell&#58;"
+  -
+    date: 8/14/2014
+    tld: BNPPARIBAS
+    color: DarkMagenta
+    hex:  "#8B008B"
+    emoji: ":bento:"
+    name:  "&#58;bento&#58;"
+  -
+    date: 8/30/2014
+    tld: BOO
+    color: DarkOliveGreen
+    hex:  "#556B2F"
+    emoji: ":bicyclist:"
+    name:  "&#58;bicyclist&#58;"
+  -
+    date: 1/23/2014
+    tld: BOUTIQUE
+    color: DarkOrange
+    hex:  "#FF8C00"
+    emoji: ":bike:"
+    name:  "&#58;bike&#58;"
+  -
+    date: 6/18/2014
+    tld: brussels
+    color: DarkOrchid
+    hex:  "#9932CC"
+    emoji: ":bikini:"
+    name:  "&#58;bikini&#58;"
+  -
+    date: 9/23/2014
+    tld: BUDAPEST
+    color: DarkRed
+    hex:  "#8B0000"
+    emoji: ":bird:"
+    name:  "&#58;bird&#58;"
+  -
+    date: 1/18/2014
+    tld: BUILD
+    color: DarkSalmon
+    hex:  "#E9967A"
+    emoji: ":birthday:"
+    name:  "&#58;birthday&#58;"
+  -
+    date: 12/28/2013
+    tld: BUILDERS
+    color: DarkSeaGreen
+    hex:  "#8FBC8F"
+    emoji: ":black_joker:"
+    name:  "&#58;black_joker&#58;"
+  -
+    date: 8/22/2014
+    tld: BUSINESS
+    color: DarkSlateBlue
+    hex:  "#483D8B"
+    emoji: ":black_nib:"
+    name:  "&#58;black_nib&#58;"
+  -
+    date: 12/18/2013
+    tld: BUZZ
+    color: DarkSlateGray
+    hex:  "#2F4F4F"
+    emoji: ":blossom:"
+    name:  "&#58;blossom&#58;"
+  -
+    date: 6/17/2014
+    tld: BZH
+    color: DarkTurquoise
+    hex:  "#00CED1"
+    emoji: ":blowfish:"
+    name:  "&#58;blowfish&#58;"
+  -
+    date: 12/17/2013
+    tld: CAB
+    color: DarkViolet
+    hex:  "#9400D3"
+    emoji: ":blue_book:"
+    name:  "&#58;blue_book&#58;"
+  -
+    date: 9/15/2014
+    tld: CAL
+    color: DeepPink
+    hex:  "#FF1493"
+    emoji: ":blue_car:"
+    name:  "&#58;blue_car&#58;"
+  -
+    date: 11/6/2013
+    tld: CAMERA
+    color: DeepSkyBlue
+    hex:  "#00BFFF"
+    emoji: ":boar:"
+    name:  "&#58;boar&#58;"
+  -
+    date: 12/17/2013
+    tld: CAMP
+    color: DimGray
+    hex:  "#696969"
+    emoji: ":boat:"
+    name:  "&#58;boat&#58;"
+  -
+    date: 7/3/2014
+    tld: cancerresearch
+    color: DodgerBlue
+    hex:  "#1E90FF"
+    emoji: ":book:"
+    name:  "&#58;book&#58;"
+  -
+    date: 6/19/2014
+    tld: CAPETOWN
+    color: FireBrick
+    hex:  "#B22222"
+    emoji: ":books:"
+    name:  "&#58;books&#58;"
+  -
+    date: 4/11/2014
+    tld: CAPITAL
+    color: FloralWhite
+    hex:  "#FFFAF0"
+    emoji: ":boot:"
+    name:  "&#58;boot&#58;"
+  -
+    date: 8/14/2014
+    tld: CARAVAN
+    color: ForestGreen
+    hex:  "#228B22"
+    emoji: ":bouquet:"
+    name:  "&#58;bouquet&#58;"
+  -
+    date: 2/11/2014
+    tld: CARDS
+    color: Fuchsia
+    hex:  "#FF00FF"
+    emoji: ":bow:"
+    name:  "&#58;bow&#58;"
+  -
+    date: 4/23/2014
+    tld: CARE
+    color: Gainsboro
+    hex:  "#DCDCDC"
+    emoji: ":bowling:"
+    name:  "&#58;bowling&#58;"
+  -
+    date: 4/11/2014
+    tld: CAREER
+    color: GhostWhite
+    hex:  "#F8F8FF"
+    emoji: ":boy:"
+    name:  "&#58;boy&#58;"
+  -
+    date: 12/17/2013
+    tld: CAREERS
+    color: Gold
+    hex:  "#FFD700"
+    emoji: ":bread:"
+    name:  "&#58;bread&#58;"
+  -
+    date: 9/23/2014
+    tld: CASA
+    color: GoldenRod
+    hex:  "#DAA520"
+    emoji: ":bride_with_veil:"
+    name:  "&#58;bride_with_veil&#58;"
+  -
+    date: 4/23/2014
+    tld: CASH
+    color: Gray
+    hex:  "#808080"
+    emoji: ":bridge_at_night:"
+    name:  "&#58;bridge_at_night&#58;"
+
+  -
+    date: 2/4/2014
+    tld: CATERING
+    color: Green
+    hex:  "#008000"
+    emoji: ":briefcase:"
+    name:  "&#58;briefcase&#58;"
+
+  -
+    date: 12/17/2013
+    tld: CENTER
+    color: GreenYellow
+    hex:  "#ADFF2F"
+    emoji: ":bug:"
+    name:  "&#58;bug&#58;"
+
+  -
+    date: 12/28/2013
+    tld: CEO
+    color: HoneyDew
+    hex:  "#F0FFF0"
+    emoji: ":bulb:"
+    name:  "&#58;bulb&#58;"
+
+  -
+    date: 8/16/2014
+    tld: CERN
+    color: HotPink
+    hex:  "#FF69B4"
+    emoji: ":bullettrain_front:"
+    name:  "&#58;bullettrain_front&#58;"
+
+  -
+    date: 9/15/2014
+    tld: CHANNEL
+    color: IndianRe
+    hex:  "#CD5C5C"
+    emoji: ":bullettrain_side:"
+    name:  "&#58;bullettrain_side&#58;"
+
+  -
+    date: 1/14/2014
+    tld: CHEAP
+    color: Indig
+    hex:  "#4B0082"
+    emoji: ":bus"
+    name:  "&#58;bus&#58;"
+
+  -
+    date: 2/26/2014
+    tld: CHRISTMAS
+    color: Ivory
+    hex:  "#FFFFF0"
+    emoji: ":busstop:"
+    name:  "&#58;busstop&#58;"
+
+  -
+    date: 9/15/2014
+    tld: CHROME
+    color: Khaki
+    hex:  "#F0E68C"
+    emoji: ":bust_in_silhouette:"
+    name:  "&#58;bust_in_silhouette&#58;"
+
+  -
+    date: 5/15/2014
+    tld: CHURCH
+    color: Lavender
+    hex:  "#E6E6FA"
+    emoji: ":busts_in_silhouette:"
+    name:  "&#58;busts_in_silhouette&#58;"
+
+  -
+    date: 4/29/2014
+    tld: CITIC
+    color: LavenderBlush
+    hex:  "#FFF0F5"
+    emoji: ":cactus:"
+    name:  "&#58;cactus&#58;"
+
+  -
+    date: 7/10/2014
+    tld: CITY
+    color: LawnGreen
+    hex:  "#7CFC00"
+    emoji: ":cake:"
+    name:  "&#58;cake&#58;"
+
+  -
+    date: 5/7/2014
+    tld: CLAIMS
+    color: LemonChiffon
+    hex:  "#FFFACD"
+    emoji: ":calendar:"
+    name:  "&#58;calendar&#58;"
+
+  -
+    date: 2/4/2014
+    tld: CLEANING
+    color: LightBlue
+    hex:  "#ADD8E6"
+    emoji: ":calling:"
+    name:  "&#58;calling&#58;"
+
+  -
+    date: 8/16/2014
+    tld: CLICK
+    color: LightCoral
+    hex:  "#F08080"
+    emoji: ":camel:"
+    name:  "&#58;camel&#58;"
+
+  -
+    date: 4/23/2014
+    tld: CLINIC
+    color: LightCyan
+    hex:  "#E0FFFF"
+    emoji: ":camera:"
+    name:  "&#58;camera&#58;"
+
+  -
+    date: 11/6/2013
+    tld: CLOTHING
+    color: LightGoldenRodYellow
+    hex:  "#FAFAD2"
+    emoji: ":candy:"
+    name:  "&#58;candy&#58;"
+
+  -
+    date: 1/18/2014
+    tld: CLUB
+    color: LightGray
+    hex:  "#D3D3D3"
+    emoji: ":car:"
+    name:  "&#58;car&#58;"
+
+  -
+    date: 12/28/2013
+    tld: CODES
+    color: LightGreen
+    hex:  "#90EE90"
+    emoji: ":card_index:"
+    name:  "&#58;card_index&#58;"
+
+  -
+    date: 12/28/2013
+    tld: COFFEE
+    color: LightPink
+    hex:  "#FFB6C1"
+    emoji: ":carousel_horse:"
+    name:  "&#58;carousel_horse&#58;"
+
+  -
+    date: 4/10/2014
+    tld: COLLEGE
+    color: LightSalmon
+    hex:  "#FFA07A"
+    emoji: ":cat:"
+    name:  "&#58;cat&#58;"
+
+  -
+    date: 3/19/2014
+    tld: COLOGNE
+    color: LightSeaGreen
+    hex:  "#20B2AA"
+    emoji: ":cat2:"
+    name:  "&#58;cat2&#58;"
+
+  -
+    date: 1/27/2014
+    tld: COMMUNITY
+    color: LightSkyBlue
+    hex:  "#87CEFA"
+    emoji: ":cd:"
+    name:  "&#58;cd&#58;"
+
+  -
+    date: 12/17/2013
+    tld: COMPANY
+    color: LightSlateGray
+    hex:  "#778899"
+    emoji: ":checkered_flag:"
+    name:  "&#58;checkered_flag&#58;"
+
+  -
+    date: 12/17/2013
+    tld: COMPUTER
+    color: LightSteelBlue
+    hex:  "#B0C4DE"
+    emoji: ":cherries:"
+    name:  "&#58;cherries&#58;"
+
+  -
+    date: 2/11/2014
+    tld: CONDOS
+    color: LightYellow
+    hex:  "#FFFFE0"
+    emoji: ":cherry_blossom:"
+    name:  "&#58;cherry_blossom&#58;"
+
+  -
+    date: 11/14/2013
+    tld: CONSTRUCTION
+    color: Lime
+    hex:  "#00FF00"
+    emoji: ":chestnut:"
+    name:  "&#58;chestnut&#58;"
+
+  -
+    date: 4/1/2014
+    tld: CONSULTING
+    color: LimeGreen
+    hex:  "#32CD32"
+    emoji: ":chicken:"
+    name:  "&#58;chicken&#58;"
+
+  -
+    date: 11/14/2013
+    tld: CONTRACTORS
+    color: Linen
+    hex:  "#FAF0E6"
+    emoji: ":chocolate_bar:"
+    name:  "&#58;chocolate_bar&#58;"
+
+  -
+    date: 3/31/2014
+    tld: COOKING
+    color: Magenta
+    hex:  "#FF00FF"
+    emoji: ":christmas_tree:"
+    name:  "&#58;christmas_tree&#58;"
+
+  -
+    date: 1/23/2014
+    tld: COOL
+    color: Maroon
+    hex:  "#800000"
+    emoji: ":church:"
+    name:  "&#58;church&#58;"
+
+  -
+    date: 3/31/2014
+    tld: COUNTRY
+    color: MediumAquaMarine
+    hex:  "#66CDAA"
+    emoji: ":circus_tent:"
+    name:  "&#58;circus_tent&#58;"
+
+  -
+    date: 5/7/2014
+    tld: CREDIT
+    color: MediumBlue
+    hex:  "#0000CD"
+    emoji: ":city_sunrise:"
+    name:  "&#58;city_sunrise&#58;"
+
+  -
+    date: 4/29/2014
+    tld: CREDITCARD
+    color: MediumOrchid
+    hex:  "#BA55D3"
+    emoji: ":city_sunset:"
+    name:  "&#58;city_sunset&#58;"
+
+  -
+    date: 2/4/2014
+    tld: CRUISES
+    color: MediumPurple
+    hex:  "#9370DB"
+    emoji: ":clapper:"
+    name:  "&#58;clapper&#58;"
+
+  -
+    date: 7/3/2014
+    tld: cuisinella
+    color: MediumSeaGreen
+    hex:  "#3CB371"
+    emoji: ":clipboard:"
+    name:  "&#58;clipboard&#58;"
+
+  -
+    date: 8/8/2014
+    tld: CYMRU
+    color: MediumSlateBlue
+    hex:  "#7B68EE"
+    emoji: ":closed_book:"
+    name:  "&#58;closed_book&#58;"
+
+  -
+    date: 8/30/2014
+    tld: DAD
+    color: MediumSpringGreen
+    hex:  "#00FA9A"
+    emoji: ":closed_lock_with_key:"
+    name:  "&#58;closed_lock_with_key&#58;"
+
+  -
+    date: 1/14/2014
+    tld: DANCE
+    color: MediumTurquoise
+    hex:  "#48D1CC"
+    emoji: ":closed_umbrella:"
+    name:  "&#58;closed_umbrella&#58;"
+
+  -
+    date: 1/27/2014
+    tld: DATING
+    color: MediumVioletRed
+    hex:  "#C71585"
+    emoji: ":cloud:"
+    name:  "&#58;cloud&#58;"
+
+  -
+    date: 8/30/2014
+    tld: DAY
+    color: MidnightBlue
+    hex:  "#191970"
+    emoji: ":clubs:"
+    name:  "&#58;clubs&#58;"
+
+  -
+    date: 7/10/2014
+    tld: DEALS
+    color: MintCream
+    hex:  "#F5FFFA"
+    emoji: ":cocktail:"
+    name:  "&#58;cocktail&#58;"
+
+  -
+    date: 5/30/2014
+    tld: DEGREE
+    color: MistyRose
+    hex:  "#FFE4E1"
+    emoji: ":coffee:"
+    name:  "&#58;coffee&#58;"
+
+  -
+    date: 1/14/2014
+    tld: DEMOCRAT
+    color: Moccasin
+    hex:  "#FFE4B5"
+    emoji: ":computer:"
+    name:  "&#58;computer&#58;"
+
+  -
+    date: 4/23/2014
+    tld: DENTAL
+    color: NavajoWhite
+    hex:  "#FFDEAD"
+    emoji: ":confetti_ball:"
+    name:  "&#58;confetti_ball&#58;"
+
+  -
+    date: 5/31/2014
+    tld: DENTIST
+    color: Navy
+    hex:  "#000080"
+    emoji: ":construction:"
+    name:  "&#58;construction&#58;"
+
+  -
+    date: 4/10/2014
+    tld: DESI
+    color: OldLace
+    hex:  "#FDF5E6"
+    emoji: ":convenience_store:"
+    name:  "&#58;convenience_store&#58;"
+
+  -
+    date: 11/19/2013
+    tld: DIAMONDS
+    color: Olive
+    hex:  "#808000"
+    emoji: ":cookie:"
+    name:  "&#58;cookie&#58;"
+
+  -
+    date: 8/16/2014
+    tld: DIET
+    color: OliveDrab
+    hex:  "#6B8E23"
+    emoji: ":cop:"
+    name:  "&#58;cop&#58;"
+
+  -
+    date: 5/7/2014
+    tld: DIGITAL
+    color: Orange
+    hex:  "#FFA500"
+    emoji: ":corn:"
+    name:  "&#58;corn&#58;"
+
+  -
+    date: 7/2/2014
+    tld: DIRECT
+    color: OrangeRed
+    hex:  "#FF4500"
+    emoji: ":couple_with_heart:"
+    name:  "&#58;couple_with_heart&#58;"
+
+  -
+    date: 11/19/2013
+    tld: DIRECTORY
+    color: Orchid
+    hex:  "#DA70D6"
+    emoji: ":couple:"
+    name:  "&#58;couple&#58;"
+
+  -
+    date: 4/23/2014
+    tld: DISCOUNT
+    color: PaleGoldenRod
+    hex:  "#EEE8AA"
+    emoji: ":couplekiss:"
+    name:  "&#58;couplekiss&#58;"
+
+  -
+    date: 3/11/2014
+    tld: DNP
+    color: PaleGreen
+    hex:  "#98FB98"
+    emoji: ":cow:"
+    name:  "&#58;cow&#58;"
+
+  -
+    date: 12/17/2013
+    tld: DOMAINS
+    color: PaleTurquoise
+    hex:  "#AFEEEE"
+    emoji: ":cow2:"
+    name:  "&#58;cow2&#58;"
+
+  -
+    date: 6/19/2014
+    tld: DURBAN
+    color: PaleVioletRed
+    hex:  "#DB7093"
+    emoji: ":crocodile:"
+    name:  "&#58;crocodile&#58;"
+
+  -
+    date: 8/30/2014
+    tld: EAT
+    color: PapayaWhip
+    hex:  "#FFEFD5"
+    emoji: ":crossed_flags:"
+    name:  "&#58;crossed_flags&#58;"
+
+  -
+    date: 12/28/2013
+    tld: EDUCATION
+    color: PeachPuff
+    hex:  "#FFDAB9"
+    emoji: ":crown:"
+    name:  "&#58;crown&#58;"
+
+  -
+    date: 1/2/2014
+    tld: EMAIL
+    color: Peru
+    hex:  "#CD853F"
+    emoji: ":crying_cat_face:"
+    name:  "&#58;crying_cat_face&#58;"
+
+  -
+    date: 6/4/2014
+    tld: ENGINEER
+    color: Pink
+    hex:  "#FFC0CB"
+    emoji: ":crystal_ball:"
+    name:  "&#58;crystal_ball&#58;"
+
+  -
+    date: 4/11/2014
+    tld: ENGINEERING
+    color: Plum
+    hex:  "#DDA0DD"
+    emoji: ":curry:"
+    name:  "&#58;curry&#58;"
+
+  -
+    date: 11/19/2013
+    tld: ENTERPRISES
+    color: PowderBlue
+    hex:  "#B0E0E6"
+    emoji: ":custard:"
+    name:  "&#58;custard&#58;"
+
+  -
+    date: 11/6/2013
+    tld: EQUIPMENT
+    color: Purple
+    hex:  "#800080"
+    emoji: ":cyclone:"
+    name:  "&#58;cyclone&#58;"
+
+  -
+    date: 8/29/2014
+    tld: ESQ
+    color: Red
+    hex:  "#FF0000"
+    emoji: ":dancer:"
+    name:  "&#58;dancer&#58;"
+
+  -
+    date: 11/14/2013
+    tld: ESTATE
+    color: RosyBrown
+    hex:  "#BC8F8F"
+    emoji: ":dancers:"
+    name:  "&#58;dancers&#58;"
+
+  -
+    date: 4/11/2014
+    tld: EUS
+    color: RoyalBlue
+    hex:  "#4169E1"
+    emoji: ":dango:"
+    name:  "&#58;dango&#58;"
+
+  -
+    date: 2/4/2014
+    tld: EVENTS
+    color: SaddleBrown
+    hex:  "#8B4513"
+    emoji: ":dart:"
+    name:  "&#58;dart&#58;"
+
+  -
+    date: 4/23/2014
+    tld: EXCHANGE
+    color: Salmon
+    hex:  "#FA8072"
+    emoji: ":dash:"
+    name:  "&#58;dash&#58;"
+
+  -
+    date: 1/23/2014
+    tld: EXPERT
+    color: SandyBrown
+    hex:  "#F4A460"
+    emoji: ":date:"
+    name:  "&#58;date&#58;"
+
+  -
+    date: 2/4/2014
+    tld: EXPOSED
+    color: SeaGreen
+    hex:  "#2E8B57"
+    emoji: ":deciduous_tree:"
+    name:  "&#58;deciduous_tree&#58;"
+
+  -
+    date: 4/23/2014
+    tld: FAIL
+    color: SeaShell
+    hex:  "#FFF5EE"
+    emoji: ":department_store:"
+    name:  "&#58;department_store&#58;"
+
+  -
+    date: 12/28/2013
+    tld: FARM
+    color: Sienna
+    hex:  "#A0522D"
+    emoji: ":diamonds:"
+    name:  "&#58;diamonds&#58;"
+
+  -
+    date: 4/10/2014
+    tld: FEEDBACK
+    color: Silver
+    hex:  "#C0C0C0"
+    emoji: ":dog:"
+    name:  "&#58;dog&#58;"
+
+  -
+    date: 4/29/2014
+    tld: FINANCE
+    color: SkyBlue
+    hex:  "#87CEEB"
+    emoji: ":dog2:"
+    name:  "&#58;dog2&#58;"
+
+  -
+    date: 4/23/2014
+    tld: FINANCIAL
+    color: SlateBlue
+    hex:  "#6A5ACD"
+    emoji: ":dollar:"
+    name:  "&#58;dollar&#58;"
+
+  -
+    date: 2/21/2014
+    tld: FISH
+    color: SlateGray
+    hex:  "#708090"
+    emoji: ":dolls:"
+    name:  "&#58;dolls&#58;"
+
+  -
+    date: 3/31/2014
+    tld: FISHING
+    color: Snow
+    hex:  "#FFFAFA"
+    emoji: ":dolphin:"
+    name:  "&#58;dolphin&#58;"
+
+  -
+    date: 4/23/2014
+    tld: FITNESS
+    color: SpringGreen
+    hex:  "#00FF7F"
+    emoji: ":door:"
+    name:  "&#58;door&#58;"
+
+  -
+    date: 2/4/2014
+    tld: FLIGHTS
+    color: SteelBlue
+    hex:  "#4682B4"
+    emoji: ":doughnut:"
+    name:  "&#58;doughnut&#58;"
+
+  -
+    date: 12/28/2013
+    tld: FLORIST
+    color: Tan
+    hex:  "#D2B48C"
+    emoji: ":dragon_face:"
+    name:  "&#58;dragon_face&#58;"
+
+  -
+    date: 9/15/2014
+    tld: FLY
+    color: Teal
+    hex:  "#008080"
+    emoji: ":dragon:"
+    name:  "&#58;dragon&#58;"
+
+  -
+    date: 4/19/2014
+    tld: FOO
+    color: Thistle
+    hex:  "#D8BFD8"
+    emoji: ":dress:"
+    name:  "&#58;dress&#58;"
+
+  -
+    date: 2/11/2014
+    tld: FOUNDATION
+    color: Tomato
+    hex:  "#FF6347"
+    emoji: ":dromedary_camel:"
+    name:  "&#58;dromedary_camel&#58;"
+
+  -
+    date: 8/30/2014
+    tld: FRL
+    color: Turquoise
+    hex:  "#40E0D0"
+    emoji: ":droplet:"
+    name:  "&#58;droplet&#58;"
+
+  -
+    date: 4/19/2014
+    tld: FROGANS
+    color: Violet
+    hex:  "#EE82EE"
+    emoji: ":ear_of_rice:"
+    name:  "&#58;ear_of_rice&#58;"
+
+  -
+    date: 4/23/2014
+    tld: FUND
+    color: Wheat
+    hex:  "#F5DEB3"
+    emoji: ":ear:"
+    name:  "&#58;ear&#58;"
+
+  -
+    date: 4/23/2014
+    tld: FURNITURE
+    color: White
+    hex:  "#FFFFFF"
+    emoji: ":earth_africa:"
+    name:  "&#58;earth_africa&#58;"
+
+  -
+    date: 2/11/2014
+    tld: FUTBOL
+    color: WhiteSmoke
+    hex:  "#F5F5F5"
+    emoji: ":earth_americas:"
+    name:  "&#58;earth_americas&#58;"
+
+  -
+    date: 4/11/2014
+    tld: GAL
+    color: Yellow
+    hex:  "#FFFF00"
+    emoji: ":earth_asia:"
+    name:  "&#58;earth_asia&#58;"
+
+  -
+    date: 11/14/2013
+    tld: GALLERY
+    color: YellowGreen
+    hex:  "#9ACD32"
+    emoji: ":egg:"
+    name:  "&#58;egg&#58;"
+
+  -
+    date: 8/27/2014
+    tld: GBIZ
+    color: AliceBlue
+    hex:  "#F0F8FF"
+    emoji: ":eggplant:"
+    name:  "&#58;eggplant&#58;"
+
+  -
+    date: 7/13/2014
+    tld: GENT
+    color: AntiqueWhite
+    hex:  "#FAEBD7"
+    emoji: ":electric_plug:"
+    name:  "&#58;electric_plug&#58;"
+
+  -
+    date: 1/18/2014
+    tld: GIFT
+    color: Aqua
+    hex:  "#00FFFF"
+    emoji: ":elephant:"
+    name:  "&#58;elephant&#58;"
+
+  -
+    date: 8/8/2014
+    tld: GIFTS
+    color: Aquamarine
+    hex:  "#7FFFD4"
+    emoji: ":email:"
+    name:  "&#58;email&#58;"
+
+  -
+    date: 6/4/2014
+    tld: GIVES
+    color: Azure
+    hex:  "#F0F8FF"
+    emoji: ":envelope:"
+    name:  "&#58;envelope&#58;"
+
+  -
+    date: 12/28/2013
+    tld: GLASS
+    color: Beige
+    hex:  "#FAEBD7"
+    emoji: ":euro:"
+    name:  "&#58;euro&#58;"
+
+  -
+    date: 9/15/2014
+    tld: GLE
+    color: Bisque
+    hex:  "#00FFFF"
+    emoji: ":european_castle:"
+    name:  "&#58;european_castle&#58;"
+
+  -
+    date: 6/6/2014
+    tld: GLOBAL
+    color: Black
+    hex:  "#7FFFD4"
+    emoji: ":european_post_office:"
+    name:  "&#58;european_post_office&#58;"
+
+  -
+    date: 5/3/2014
+    tld: GLOBO
+    color: BlanchedAlmond
+    hex:  "#F0FFFF"
+    emoji: ":evergreen_tree:"
+    name:  "&#58;evergreen_tree&#58;"
+
+  -
+    date: 8/27/2014
+    tld: GMAIL
+    color: Blue
+    hex:  "#F5F5DC"
+    emoji: ":eyeglasses:"
+    name:  "&#58;eyeglasses&#58;"
+
+  -
+    date: 5/3/2014
+    tld: GMO
+    color: BlueViolet
+    hex:  "#FFE4C4"
+    emoji: ":eyes:"
+    name:  "&#58;eyes&#58;"
+
+  -
+    date: 9/5/2014
+    tld: GMX
+    color: Brown
+    hex:  "#000000"
+    emoji: ":factory:"
+    name:  "&#58;factory&#58;"
+
+  -
+    date: 4/4/2014
+    tld: GOP
+    color: BurlyWood
+    hex:  "#FFEBCD"
+    emoji: ":fallen_leaf:"
+    name:  "&#58;fallen_leaf&#58;"
+
+  -
+    date: 11/14/2013
+    tld: GRAPHICS
+    color: CadetBlue
+    hex:  "#0000FF"
+    emoji: ":family:"
+    name:  "&#58;family&#58;"
+
+  -
+    date: 4/23/2014
+    tld: GRATIS
+    color: Chartreuse
+    hex:  "#8A2BE2"
+    emoji: ":feelsgood:"
+    name:  "&#58;feelsgood&#58;"
+
+  -
+    date: 6/19/2014
+    tld: GREEN
+    color: Chocolate
+    hex:  "#A52A2A"
+    emoji: ":feet:"
+    name:  "&#58;feet&#58;"
+
+  -
+    date: 4/11/2014
+    tld: GRIPE
+    color: Coral
+    hex:  "#DEB887"
+    emoji: ":ferris_wheel:"
+    name:  "&#58;ferris_wheel&#58;"
+
+  -
+    date: 5/15/2014
+    tld: GUIDE
+    color: CornflowerBlue
+    hex:  "#5F9EA0"
+    emoji: ":file_folder:"
+    name:  "&#58;file_folder&#58;"
+
+  -
+    date: 1/18/2014
+    tld: GUITARS
+    color: Cornsilk
+    hex:  "#7FFF00"
+    emoji: ":finnadie:"
+    name:  "&#58;finnadie&#58;"
+
+  -
+    date: 11/6/2013
+    tld: GURU
+    color: Crimson
+    hex:  "#D2691E"
+    emoji: ":fire_engine:"
+    name:  "&#58;fire_engine&#58;"
+
+  -
+    date: 6/4/2014
+    tld: HAMBURG
+    color: Cyan
+    hex:  "#FF7F50"
+    emoji: ":fire:"
+    name:  "&#58;fire&#58;"
+
+  -
+    date: 3/31/2014
+    tld: HAUS
+    color: DarkBlue
+    hex:  "#6495ED"
+    emoji: ":fireworks:"
+    name:  "&#58;fireworks&#58;"
+
+  -
+    date: 7/30/2014
+    tld: HEALTHCARE
+    color: DarkCyan
+    hex:  "#FFF8DC"
+    emoji: ":first_quarter_moon_with_face:"
+    name:  "&#58;first_quarter_moon_with_face&#58;"
+
+  -
+    date: 8/16/2014
+    tld: HELP
+    color: DarkGoldenRod
+    hex:  "#DC143C"
+    emoji: ":first_quarter_moon:"
+    name:  "&#58;first_quarter_moon&#58;"
+
+  -
+    date: 8/29/2014
+    tld: HERE
+    color: DarkGray
+    hex:  "#00FFFF"
+    emoji: ":fish_cake:"
+    name:  "&#58;fish_cake&#58;"
+
+  -
+    date: 5/15/2014
+    tld: HIPHOP
+    color: DarkGreen
+    hex:  "#00008B"
+    emoji: ":fish:"
+    name:  "&#58;fish&#58;"
+
+  -
+    date: 5/31/2014
+    tld: HIV
+    color: DarkKhaki
+    hex:  "#008B8B"
+    emoji: ":fishing_pole_and_fish:"
+    name:  "&#58;fishing_pole_and_fish&#58;"
+
+  -
+    date: 11/6/2013
+    tld: HOLDINGS
+    color: DarkMagenta
+    hex:  "#B8860B"
+    emoji: ":flags:"
+    name:  "&#58;flags&#58;"
+
+  -
+    date: 12/28/2013
+    tld: HOLIDAY
+    color: DarkOliveGreen
+    hex:  "#A9A9A9"
+    emoji: ":flashlight:"
+    name:  "&#58;flashlight&#58;"
+
+  -
+    date: 5/22/2014
+    tld: HOMES
+    color: DarkOrange
+    hex:  "#006400"
+    emoji: ":floppy_disk:"
+    name:  "&#58;floppy_disk&#58;"
+
+  -
+    date: 3/31/2014
+    tld: HORSE
+    color: DarkOrchid
+    hex:  "#BDB76B"
+    emoji: ":flower_playing_cards:"
+    name:  "&#58;flower_playing_cards&#58;"
+
+  -
+    date: 5/31/2014
+    tld: HOST
+    color: DarkRed
+    hex:  "#8B008B"
+    emoji: ":foggy:"
+    name:  "&#58;foggy&#58;"
+
+  -
+    date: 8/16/2014
+    tld: HOSTING
+    color: DarkSalmon
+    hex:  "#556B2F"
+    emoji: ":football:"
+    name:  "&#58;football&#58;"
+
+  -
+    date: 12/28/2013
+    tld: HOUSE
+    color: DarkSeaGreen
+    hex:  "#FF8C00"
+    emoji: ":fork_and_knife:"
+    name:  "&#58;fork_and_knife&#58;"
+
+  -
+    date: 8/16/2014
+    tld: HOW
+    color: DarkSlateBlue
+    hex:  "#9932CC"
+    emoji: ":fountain:"
+    name:  "&#58;fountain&#58;"
+
+  -
+    date: 8/27/2014
+    tld: IMMO
+    color: DarkSlateGray
+    hex:  "#8B0000"
+    emoji: ":four_leaf_clover:"
+    name:  "&#58;four_leaf_clover&#58;"
+
+  -
+    date: 1/2/2014
+    tld: IMMOBILIEN
+    color: DarkTurquoise
+    hex:  "#E9967A"
+    emoji: ":fried_shrimp:"
+    name:  "&#58;fried_shrimp&#58;"
+
+  -
+    date: 2/21/2014
+    tld: INDUSTRIES
+    color: DarkViolet
+    hex:  "#8FBC8F"
+    emoji: ":fries:"
+    name:  "&#58;fries&#58;"
+
+  -
+    date: 8/30/2014
+    tld: ING
+    color: DeepPink
+    hex:  "#483D8B"
+    emoji: ":frog:"
+    name:  "&#58;frog&#58;"
+
+  -
+    date: 3/11/2014
+    tld: INK
+    color: DeepSkyBlue
+    hex:  "#2F4F4F"
+    emoji: ":fu:"
+    name:  "&#58;fu&#58;"
+
+  -
+    date: 12/28/2013
+    tld: INSTITUTE
+    color: DimGray
+    hex:  "#00CED1"
+    emoji: ":fuelpump:"
+    name:  "&#58;fuelpump&#58;"
+
+  -
+    date: 4/29/2014
+    tld: INSURE
+    color: DodgerBlue
+    hex:  "#9400D3"
+    emoji: ":full_moon_with_face:"
+    name:  "&#58;full_moon_with_face&#58;"
+
+  -
+    date: 12/28/2013
+    tld: INTERNATIONAL
+    color: FireBrick
+    hex:  "#FF1493"
+    emoji: ":full_moon:"
+    name:  "&#58;full_moon&#58;"
+
+  -
+    date: 4/23/2014
+    tld: INVESTMENTS
+    color: FloralWhite
+    hex:  "#00BFFF"
+    emoji: ":game_die:"
+    name:  "&#58;game_die&#58;"
+
+  -
+    date: 3/15/2014
+    tld: JETZT
+    color: ForestGreen
+    hex:  "#696969"
+    emoji: ":gem:"
+    name:  "&#58;gem&#58;"
+
+  -
+    date: 6/19/2014
+    tld: JOBURG
+    color: Fuchsia
+    hex:  "#1E90FF"
+    emoji: ":ghost:"
+    name:  "&#58;ghost&#58;"
+
+  -
+    date: 5/15/2014
+    tld: JUEGOS
+    color: Gainsboro
+    hex:  "#B22222"
+    emoji: ":gift_heart:"
+    name:  "&#58;gift_heart&#58;"
+
+  -
+    date: 12/28/2013
+    tld: KAUFEN
+    color: GhostWhite
+    hex:  "#FFFAF0"
+    emoji: ":gift:"
+    name:  "&#58;gift&#58;"
+
+  -
+    date: 1/23/2014
+    tld: KIM
+    color: Gold
+    hex:  "#228B22"
+    emoji: ":girl:"
+    name:  "&#58;girl&#58;"
+
+  -
+    date: 11/19/2013
+    tld: KITCHEN
+    color: GoldenRod
+    hex:  "#FF00FF"
+    emoji: ":globe_with_meridians:"
+    name:  "&#58;globe_with_meridians&#58;"
+
+  -
+    date: 1/3/2014
+    tld: KIWI
+    color: Gray
+    hex:  "#DCDCDC"
+    emoji: ":goat:"
+    name:  "&#58;goat&#58;"
+
+  -
+    date: 3/5/2014
+    tld: KOELN
+    color: Green
+    hex:  "#F8F8FF"
+    emoji: ":goberserk:"
+    name:  "&#58;goberserk&#58;"
+
+  -
+    date: 7/18/2014
+    tld: KRD
+    color: GreenYellow
+    hex:  "#FFD700"
+    emoji: ":golf:"
+    name:  "&#58;golf&#58;"
+
+  -
+    date: 2/27/2014
+    tld: KRED
+    color: HoneyDew
+    hex:  "#DAA520"
+    emoji: ":grapes:"
+    name:  "&#58;grapes&#58;"
+
+  -
+    date: 7/18/2014
+    tld: LACAIXA
+    color: HotPink
+    hex:  "#808080"
+    emoji: ":green_apple:"
+    name:  "&#58;green_apple&#58;"
+
+  -
+    date: 11/14/2013
+    tld: LAND
+    color: IndianRe
+    hex:  "#008000"
+    emoji: ":green_book"
+    name:  "&#58;green_book&#58;"
+
+  -
+    date: 5/31/2014
+    tld: LAWYER
+    color: Indig
+    hex:  "#ADFF2F"
+    emoji: ":guardsman"
+    name:  "&#58;guardsman&#58;"
+
+  -
+    date: 4/11/2014
+    tld: LEASE
+    color: Ivory
+    hex:  "#F0FFF0"
+    emoji: ":guitar:"
+    name:  "&#58;guitar&#58;"
+
+  -
+    date: 7/18/2014
+    tld: LGBT
+    color: Khaki
+    hex:  "#FF69B4"
+    emoji: ":gun:"
+    name:  "&#58;gun&#58;"
+
+  -
+    date: 5/15/2014
+    tld: LIFE
+    color: Lavender
+    hex:  "#CD5C5C"
+    emoji: ":haircut:"
+    name:  "&#58;haircut&#58;"
+
+  -
+    date: 11/6/2013
+    tld: LIGHTING
+    color: LavenderBlush
+    hex:  "#4B0082"
+    emoji: ":hamburger:"
+    name:  "&#58;hamburger&#58;"
+
+  -
+    date: 4/23/2014
+    tld: LIMITED
+    color: LawnGreen
+    hex:  "#FFFFF0"
+    emoji: ":hammer:"
+    name:  "&#58;hammer&#58;"
+
+  -
+    date: 12/17/2013
+    tld: LIMO
+    color: LemonChiffon
+    hex:  "#F0E68C"
+    emoji: ":hamster:"
+    name:  "&#58;hamster&#58;"
+
+  -
+    date: 1/18/2014
+    tld: LINK
+    color: LightBlue
+    hex:  "#E6E6FA"
+    emoji: ":hand:"
+    name:  "&#58;hand&#58;"
+
+  -
+    date: 5/15/2014
+    tld: LOANS
+    color: LightCoral
+    hex:  "#FFF0F5"
+    emoji: ":handbag:"
+    name:  "&#58;handbag&#58;"
+
+  -
+    date: 3/22/2014
+    tld: LONDON
+    color: LightCyan
+    hex:  "#7CFC00"
+    emoji: ":hankey:"
+    name:  "&#58;hankey&#58;"
+
+  -
+    date: 6/19/2014
+    tld: LOTTO
+    color: LightGoldenRodYellow
+    hex:  "#FFFACD"
+    emoji: ":hatched_chick:"
+    name:  "&#58;hatched_chick&#58;"
+
+  -
+    date: 8/16/2014
+    tld: LTDA
+    color: LightGray
+    hex:  "#ADD8E6"
+    emoji: ":hatching_chick:"
+    name:  "&#58;hatching_chick&#58;"
+
+  -
+    date: 5/15/2014
+    tld: LUXE
+    color: LightGreen
+    hex:  "#F08080"
+    emoji: ":headphones:"
+    name:  "&#58;headphones&#58;"
+
+  -
+    date: 1/18/2014
+    tld: LUXURY
+    color: LightPink
+    hex:  "#E0FFFF"
+    emoji: ":heart_eyes_cat:"
+    name:  "&#58;heart_eyes_cat&#58;"
+
+  -
+    date: 2/11/2014
+    tld: MAISON
+    color: LightSalmon
+    hex:  "#FAFAD2"
+    emoji: ":hearts:"
+    name:  "&#58;hearts&#58;"
+
+  -
+    date: 12/17/2013
+    tld: MANAGEMENT
+    color: LightSeaGreen
+    hex:  "#D3D3D3"
+    emoji: ":helicopter:"
+    name:  "&#58;helicopter&#58;"
+
+  -
+    date: 2/16/2014
+    tld: MANGO
+    color: LightSkyBlue
+    hex:  "#90EE90"
+    emoji: ":herb:"
+    name:  "&#58;herb&#58;"
+
+  -
+    date: 5/31/2014
+    tld: MARKET
+    color: LightSlateGray
+    hex:  "#FFB6C1"
+    emoji: ":hibiscus:"
+    name:  "&#58;hibiscus&#58;"
+
+  -
+    date: 1/14/2014
+    tld: MARKETING
+    color: LightSteelBlue
+    hex:  "#FFA07A"
+    emoji: ":high_heel:"
+    name:  "&#58;high_heel&#58;"
+
+  -
+    date: 4/11/2014
+    tld: MEDIA
+    color: LightYellow
+    hex:  "#20B2AA"
+    emoji: ":hocho:"
+    name:  "&#58;hocho&#58;"
+
+  -
+    date: 3/27/2014
+    tld: MEET
+    color: Lime
+    hex:  "#87CEFA"
+    emoji: ":honey_pot:"
+    name:  "&#58;honey_pot&#58;"
+
+  -
+    date: 7/10/2014
+    tld: MELBOURNE
+    color: LimeGreen
+    hex:  "#778899"
+    emoji: ":honeybee:"
+    name:  "&#58;honeybee&#58;"
+
+  -
+    date: 8/30/2014
+    tld: MEME
+    color: Linen
+    hex:  "#B0C4DE"
+    emoji: ":horse_racing:"
+    name:  "&#58;horse_racing&#58;"
+
+  -
+    date: 11/30/2013
+    tld: MENU
+    color: Magenta
+    hex:  "#FFFFE0"
+    emoji: ":horse:"
+    name:  "&#58;horse&#58;"
+
+  -
+    date: 3/31/2014
+    tld: MIAMI
+    color: Maroon
+    hex:  "#00FF00"
+    emoji: ":hospital:"
+    name:  "&#58;hospital&#58;"
+
+  -
+    date: 6/24/2014
+    tld: MINI
+    color: MediumAquaMarine
+    hex:  "#32CD32"
+    emoji: ":hotel:"
+    name:  "&#58;hotel&#58;"
+
+  -
+    date: 1/14/2014
+    tld: MODA
+    color: MediumBlue
+    hex:  "#FAF0E6"
+    emoji: ":hotsprings:"
+    name:  "&#58;hotsprings&#58;"
+
+  -
+    date: 3/31/2014
+    tld: MOE
+    color: MediumOrchid
+    hex:  "#FF00FF"
+    emoji: ":hourglass_flowing_sand:"
+    name:  "&#58;hourglass_flowing_sand&#58;"
+
+  -
+    date: 1/18/2014
+    tld: MONASH
+    color: MediumPurple
+    hex:  "#800000"
+    emoji: ":hourglass:"
+    name:  "&#58;hourglass&#58;"
+
+  -
+    date: 5/31/2014
+    tld: MORTGAGE
+    color: MediumSeaGreen
+    hex:  "#66CDAA"
+    emoji: ":house_with_garden:"
+    name:  "&#58;house_with_garden&#58;"
+
+  -
+    date: 4/24/2014
+    tld: MOSCOW
+    color: MediumSlateBlue
+    hex:  "#0000CD"
+    emoji: ":house:"
+    name:  "&#58;house&#58;"
+
+  -
+    date: 5/22/2014
+    tld: MOTORCYCLES
+    color: MediumSpringGreen
+    hex:  "#BA55D3"
+    emoji: ":hurtrealbad:"
+    name:  "&#58;hurtrealbad&#58;"
+
+  -
+    date: 8/30/2014
+    tld: MOV
+    color: MediumTurquoise
+    hex:  "#9370DB"
+    emoji: ":ice_cream:"
+    name:  "&#58;ice_cream&#58;"
+
+  -
+    date: 1/29/2014
+    tld: NAGOYA
+    color: MediumVioletRed
+    hex:  "#3CB371"
+    emoji: ":icecream:"
+    name:  "&#58;icecream&#58;"
+
+  -
+    date: 6/4/2014
+    tld: NAVY
+    color: MidnightBlue
+    hex:  "#7B68EE"
+    emoji: ":inbox_tray:"
+    name:  "&#58;inbox_tray&#58;"
+
+  -
+    date: 8/22/2014
+    tld: NETWORK
+    color: MintCream
+    hex:  "#00FA9A"
+    emoji: ":incoming_envelope:"
+    name:  "&#58;incoming_envelope&#58;"
+
+  -
+    date: 2/19/2014
+    tld: NEUSTAR
+    color: MistyRose
+    hex:  "#48D1CC"
+    emoji: ":information_desk_person:"
+    name:  "&#58;information_desk_person&#58;"
+
+  -
+    date: 8/30/2014
+    tld: NEW
+    color: Moccasin
+    hex:  "#C71585"
+    emoji: ":iphone:"
+    name:  "&#58;iphone&#58;"
+
+  -
+    date: 9/15/2014
+    tld: NEXUS
+    color: NavajoWhite
+    hex:  "#191970"
+    emoji: ":izakaya_lantern:"
+    name:  "&#58;izakaya_lantern&#58;"
+
+  -
+    date: 7/18/2014
+    tld: NGO
+    color: Navy
+    hex:  "#F5FFFA"
+    emoji: ":jack_o_lantern:"
+    name:  "&#58;jack_o_lantern&#58;"
+
+  -
+    date: 6/4/2014
+    tld: NHK
+    color: OldLace
+    hex:  "#FFE4E1"
+    emoji: ":japan:"
+    name:  "&#58;japan&#58;"
+
+  -
+    date: 12/28/2013
+    tld: NINJA
+    color: Olive
+    hex:  "#FFE4B5"
+    emoji: ":japanese_castle:"
+    name:  "&#58;japanese_castle&#58;"
+
+  -
+    date: 7/18/2014
+    tld: NRA
+    color: OliveDrab
+    hex:  "#FFDEAD"
+    emoji: ":japanese_goblin:"
+    name:  "&#58;japanese_goblin&#58;"
+
+  -
+    date: 7/11/2014
+    tld: NRW
+    color: Orange
+    hex:  "#000080"
+    emoji: ":japanese_ogre:"
+    name:  "&#58;japanese_ogre&#58;"
+
+  -
+    date: 3/20/2014
+    tld: NYC
+    color: OrangeRed
+    hex:  "#FDF5E6"
+    emoji: ":jeans:"
+    name:  "&#58;jeans&#58;"
+
+  -
+    date: 3/2/2014
+    tld: OKINAWA
+    color: Orchid
+    hex:  "#808000"
+    emoji: ":joy_cat:"
+    name:  "&#58;joy_cat&#58;"
+
+  -
+    date: 7/28/2014
+    tld: ONG
+    color: PaleGoldenRod
+    hex:  "#6B8E23"
+    emoji: ":key:"
+    name:  "&#58;key&#58;"
+
+  -
+    date: 12/28/2013
+    tld: ONL
+    color: PaleGreen
+    hex:  "#FFA500"
+    emoji: ":kimono:"
+    name:  "&#58;kimono&#58;"
+
+  -
+    date: 8/16/2014
+    tld: OOO
+    color: PaleTurquoise
+    hex:  "#FF4500"
+    emoji: ":kiss:"
+    name:  "&#58;kiss&#58;"
+
+  -
+    date: 6/13/2014
+    tld: ORGANIC
+    color: PaleVioletRed
+    hex:  "#DA70D6"
+    emoji: ":kissing_cat:"
+    name:  "&#58;kissing_cat&#58;"
+
+  -
+    date: 8/27/2014
+    tld: OTSUKA
+    color: PapayaWhip
+    hex:  "#EEE8AA"
+    emoji: ":koala:"
+    name:  "&#58;koala&#58;"
+
+  -
+    date: 6/19/2014
+    tld: OVH
+    color: PeachPuff
+    hex:  "#98FB98"
+    emoji: ":last_quarter_moon_with_face:"
+    name:  "&#58;last_quarter_moon_with_face&#58;"
+
+  -
+    date: 4/19/2014
+    tld: PARIS
+    color: Peru
+    hex:  "#AFEEEE"
+    emoji: ":last_quarter_moon:"
+    name:  "&#58;last_quarter_moon&#58;"
+
+  -
+    date: 2/4/2014
+    tld: PARTNERS
+    color: Pink
+    hex:  "#DB7093"
+    emoji: ":leaves:"
+    name:  "&#58;leaves&#58;"
+
+  -
+    date: 2/11/2014
+    tld: PARTS
+    color: Plum
+    hex:  "#FFEFD5"
+    emoji: ":ledger:"
+    name:  "&#58;ledger&#58;"
+
+  -
+    date: 9/5/2014
+    tld: PHARMACY
+    color: PowderBlue
+    hex:  "#FFDAB9"
+    emoji: ":lemon:"
+    name:  "&#58;lemon&#58;"
+
+  -
+    date: 1/18/2014
+    tld: PHOTO
+    color: Purple
+    hex:  "#CD853F"
+    emoji: ":leopard:"
+    name:  "&#58;leopard&#58;"
+
+  -
+    date: 11/19/2013
+    tld: PHOTOGRAPHY
+    color: Red
+    hex:  "#FFC0CB"
+    emoji: ":light_rail:"
+    name:  "&#58;light_rail&#58;"
+
+  -
+    date: 12/17/2013
+    tld: PHOTOS
+    color: RosyBrown
+    hex:  "#DDA0DD"
+    emoji: ":lips:"
+    name:  "&#58;lips&#58;"
+
+  -
+    date: 6/19/2014
+    tld: PHYSIO
+    color: RoyalBlue
+    hex:  "#B0E0E6"
+    emoji: ":lipstick:"
+    name:  "&#58;lipstick&#58;"
+
+  -
+    date: 1/18/2014
+    tld: PICS
+    color: SaddleBrown
+    hex:  "#800080"
+    emoji: ":lock_with_ink_pen:"
+    name:  "&#58;lock_with_ink_pen&#58;"
+
+  -
+    date: 4/11/2014
+    tld: PICTURES
+    color: Salmon
+    hex:  "#FF0000"
+    emoji: ":lock:"
+    name:  "&#58;lock&#58;"
+
+  -
+    date: 1/18/2014
+    tld: PINK
+    color: SandyBrown
+    hex:  "#BC8F8F"
+    emoji: ":lollipop:"
+    name:  "&#58;lollipop&#58;"
+
+  -
+    date: 8/27/2014
+    tld: PIZZA
+    color: SeaGreen
+    hex:  "#4169E1"
+    emoji: ":loop:"
+    name:  "&#58;loop&#58;"
+
+  -
+    date: 7/2/2014
+    tld: PLACE
+    color: SeaShell
+    hex:  "#8B4513"
+    emoji: ":loudspeaker:"
+    name:  "&#58;loudspeaker&#58;"
+
+  -
+    date: 11/14/2013
+    tld: PLUMBING
+    color: Sienna
+    hex:  "#FA8072"
+    emoji: ":love_hotel:"
+    name:  "&#58;love_hotel&#58;"
+
+  -
+    date: 7/18/2014
+    tld: PRAXI
+    color: Silver
+    hex:  "#F4A460"
+    emoji: ":love_letter:"
+    name:  "&#58;love_letter&#58;"
+
+  -
+    date: 5/31/2014
+    tld: PRESS
+    color: SkyBlue
+    hex:  "#2E8B57"
+    emoji: ":low_brightness:"
+    name:  "&#58;low_brightness&#58;"
+
+  -
+    date: 8/29/2014
+    tld: PROD
+    color: SlateBlue
+    hex:  "#FFF5EE"
+    emoji: ":mag_right:"
+    name:  "&#58;mag_right&#58;"
+
+  -
+    date: 2/11/2014
+    tld: PRODUCTIONS
+    color: SlateGray
+    hex:  "#A0522D"
+    emoji: ":mag:"
+    name:  "&#58;mag&#58;"
+
+  -
+    date: 9/15/2014
+    tld: PROF
+    color: Snow
+    hex:  "#C0C0C0"
+    emoji: ":mahjong:"
+    name:  "&#58;mahjong&#58;"
+
+  -
+    date: 2/4/2014
+    tld: PROPERTIES
+    color: SpringGreen
+    hex:  "#87CEEB"
+    emoji: ":man_with_gua_pi_mao:"
+    name:  "&#58;man_with_gua_pi_mao&#58;"
+
+  -
+    date: 8/16/2014
+    tld: PROPERTY
+    color: SteelBlue
+    hex:  "#6A5ACD"
+    emoji: ":man_with_turban:"
+    name:  "&#58;man_with_turban&#58;"
+
+  -
+    date: 2/26/2014
+    tld: PUB
+    color: Tan
+    hex:  "#708090"
+    emoji: ":man:"
+    name:  "&#58;man&#58;"
+
+  -
+    date: 2/12/2014
+    tld: QPON
+    color: Teal
+    hex:  "#FFFAFA"
+    emoji: ":mans_shoe:"
+    name:  "&#58;mans_shoe&#58;"
+
+  -
+    date: 4/16/2014
+    tld: QUEBEC
+    color: Thistle
+    hex:  "#00FF7F"
+    emoji: ":maple_leaf:"
+    name:  "&#58;maple_leaf&#58;"
+
+  -
+    date: 7/30/2014
+    tld: REALTOR
+    color: Tomato
+    hex:  "#4682B4"
+    emoji: ":massage:"
+    name:  "&#58;massage&#58;"
+
+  -
+    date: 12/17/2013
+    tld: RECIPES
+    color: Turquoise
+    hex:  "#D2B48C"
+    emoji: ":meat_on_bone:"
+    name:  "&#58;meat_on_bone&#58;"
+
+  -
+    date: 1/18/2014
+    tld: RED
+    color: Violet
+    hex:  "#008080"
+    emoji: ":mega:"
+    name:  "&#58;mega&#58;"
+
+  -
+    date: 6/4/2014
+    tld: REHAB
+    color: Wheat
+    hex:  "#D8BFD8"
+    emoji: ":melon:"
+    name:  "&#58;melon&#58;"
+
+  -
+    date: 5/22/2014
+    tld: REISE
+    color: White
+    hex:  "#FF6347"
+    emoji: ":memo:"
+    name:  "&#58;memo&#58;"
+
+  -
+    date: 4/11/2014
+    tld: REISEN
+    color: WhiteSmoke
+    hex:  "#40E0D0"
+    emoji: ":metal:"
+    name:  "&#58;metal&#58;"
+
+  -
+    date: 3/27/2014
+    tld: REN
+    color: Yellow
+    hex:  "#EE82EE"
+    emoji: ":microphone:"
+    name:  "&#58;microphone&#58;"
+
+  -
+    date: 2/4/2014
+    tld: RENTALS
+    color: YellowGreen
+    hex:  "#F5DEB3"
+    emoji: ":microscope:"
+    name:  "&#58;microscope&#58;"
+
+  -
+    date: 12/28/2013
+    tld: REPAIR
+    color: AliceBlue
+    hex:  "#FFFFFF"
+    emoji: ":milky_way:"
+    name:  "&#58;milky_way&#58;"
+
+  -
+    date: 2/4/2014
+    tld: REPORT
+    color: AntiqueWhite
+    hex:  "#F5F5F5"
+    emoji: ":minibus:"
+    name:  "&#58;minibus&#58;"
+
+  -
+    date: 6/4/2014
+    tld: REPUBLICAN
+    color: Aqua
+    hex:  "#FFFF00"
+    emoji: ":minidisc:"
+    name:  "&#58;minidisc&#58;"
+
+  -
+    date: 4/2/2014
+    tld: REST
+    color: Aquamarine
+    hex:  "#9ACD32"
+    emoji: ":money_with_wings:"
+    name:  "&#58;money_with_wings&#58;"
+
+  -
+    date: 8/8/2014
+    tld: RESTAURANT
+    color: Azure
+    hex:  "#F0F8FF"
+    emoji: ":moneybag:"
+    name:  "&#58;moneybag&#58;"
+
+  -
+    date: 2/11/2014
+    tld: REVIEWS
+    color: Beige
+    hex:  "#FAEBD7"
+    emoji: ":monkey_face:"
+    name:  "&#58;monkey_face&#58;"
+
+  -
+    date: 1/18/2014
+    tld: RICH
+    color: Bisque
+    hex:  "#00FFFF"
+    emoji: ":monkey:"
+    name:  "&#58;monkey&#58;"
+
+  -
+    date: 5/22/2014
+    tld: RIO
+    color: Black
+    hex:  "#7FFFD4"
+    emoji: ":monorail:"
+    name:  "&#58;monorail&#58;"
+
+  -
+    date: 4/10/2014
+    tld: ROCKS
+    color: BlanchedAlmond
+    hex:  "#F0F8FF"
+    emoji: ":moon:"
+    name:  "&#58;moon&#58;"
+
+  -
+    date: 3/31/2014
+    tld: RODEO
+    color: Blue
+    hex:  "#FAEBD7"
+    emoji: ":mortar_board:"
+    name:  "&#58;mortar_board&#58;"
+
+  -
+    date: 8/30/2014
+    tld: RSVP
+    color: BlueViolet
+    hex:  "#00FFFF"
+    emoji: ":mount_fuji:"
+    name:  "&#58;mount_fuji&#58;"
+
+  -
+    date: 12/10/2013
+    tld: RUHR
+    color: Brown
+    hex:  "#7FFFD4"
+    emoji: ":mountain_bicyclist:"
+    name:  "&#58;mountain_bicyclist&#58;"
+
+  -
+    date: 4/3/2014
+    tld: RYUKYU
+    color: BurlyWood
+    hex:  "#F0FFFF"
+    emoji: ":mountain_cableway:"
+    name:  "&#58;mountain_cableway&#58;"
+
+  -
+    date: 4/2/2014
+    tld: SAARLAND
+    color: CadetBlue
+    hex:  "#F5F5DC"
+    emoji: ":mountain_railway:"
+    name:  "&#58;mountain_railway&#58;"
+
+  -
+    date: 8/8/2014
+    tld: SARL
+    color: Chartreuse
+    hex:  "#FFE4C4"
+    emoji: ":mouse:"
+    name:  "&#58;mouse&#58;"
+
+  -
+    date: 8/14/2014
+    tld: SCA
+    color: Chocolate
+    hex:  "#000000"
+    emoji: ":mouse2:"
+    name:  "&#58;mouse2&#58;"
+
+  -
+    date: 7/11/2014
+    tld: SCB
+    color: Coral
+    hex:  "#FFEBCD"
+    emoji: ":movie_camera:"
+    name:  "&#58;movie_camera&#58;"
+
+  -
+    date: 7/3/2014
+    tld: schmidt
+    color: CornflowerBlue
+    hex:  "#0000FF"
+    emoji: ":moyai:"
+    name:  "&#58;moyai&#58;"
+
+  -
+    date: 4/19/2014
+    tld: SCHULE
+    color: Cornsilk
+    hex:  "#8A2BE2"
+    emoji: ":muscle:"
+    name:  "&#58;muscle&#58;"
+
+  -
+    date: 6/13/2014
+    tld: SCOT
+    color: Crimson
+    hex:  "#A52A2A"
+    emoji: ":mushroom:"
+    name:  "&#58;mushroom&#58;"
+
+  -
+    date: 4/11/2014
+    tld: SERVICES
+    color: Cyan
+    hex:  "#DEB887"
+    emoji: ":musical_keyboard:"
+    name:  "&#58;musical_keyboard&#58;"
+
+  -
+    date: 11/14/2013
+    tld: SEXY
+    color: DarkBlue
+    hex:  "#5F9EA0"
+    emoji: ":musical_note:"
+    name:  "&#58;musical_note&#58;"
+
+  -
+    date: 1/18/2014
+    tld: SHIKSHA
+    color: DarkCyan
+    hex:  "#7FFF00"
+    emoji: ":musical_score:"
+    name:  "&#58;musical_score&#58;"
+
+  -
+    date: 12/17/2013
+    tld: SHOES
+    color: DarkGoldenRod
+    hex:  "#D2691E"
+    emoji: ":mute:"
+    name:  "&#58;mute&#58;"
+
+  -
+    date: 11/6/2013
+    tld: SINGLES
+    color: DarkGray
+    hex:  "#FF7F50"
+    emoji: ":nail_care:"
+    name:  "&#58;nail_care&#58;"
+
+  -
+    date: 1/14/2014
+    tld: SOCIAL
+    color: DarkGreen
+    hex:  "#6495ED"
+    emoji: ":name_badge:"
+    name:  "&#58;name_badge&#58;"
+
+  -
+    date: 5/31/2014
+    tld: SOFTWARE
+    color: DarkKhaki
+    hex:  "#FFF8DC"
+    emoji: ":necktie:"
+    name:  "&#58;necktie&#58;"
+
+  -
+    date: 3/25/2014
+    tld: SOHU
+    color: DarkMagenta
+    hex:  "#DC143C"
+    emoji: ":new_moon_with_face:"
+    name:  "&#58;new_moon_with_face&#58;"
+
+  -
+    date: 12/28/2013
+    tld: SOLAR
+    color: DarkOliveGreen
+    hex:  "#00FFFF"
+    emoji: ":new_moon:"
+    name:  "&#58;new_moon&#58;"
+
+  -
+    date: 12/28/2013
+    tld: SOLUTIONS
+    color: DarkOrange
+    hex:  "#00008B"
+    emoji: ":newspaper:"
+    name:  "&#58;newspaper&#58;"
+
+  -
+    date: 4/19/2014
+    tld: SOY
+    color: DarkOrchid
+    hex:  "#008B8B"
+    emoji: ":no_bell:"
+    name:  "&#58;no_bell&#58;"
+
+  -
+    date: 5/30/2014
+    tld: SPACE
+    color: DarkRed
+    hex:  "#B8860B"
+    emoji: ":no_good:"
+    name:  "&#58;no_good&#58;"
+
+  -
+    date: 7/18/2014
+    tld: SPIEGEL
+    color: DarkSalmon
+    hex:  "#A9A9A9"
+    emoji: ":nose:"
+    name:  "&#58;nose&#58;"
+
+  -
+    date: 2/25/2014
+    tld: SUPPLIES
+    color: DarkSeaGreen
+    hex:  "#006400"
+    emoji: ":notebook_with_decorative_cover:"
+    name:  "&#58;notebook_with_decorative_cover&#58;"
+
+  -
+    date: 2/21/2014
+    tld: SUPPLY
+    color: DarkSlateBlue
+    hex:  "#BDB76B"
+    emoji: ":notebook:"
+    name:  "&#58;notebook&#58;"
+
+  -
+    date: 12/18/2013
+    tld: SUPPORT
+    color: DarkSlateGray
+    hex:  "#8B008B"
+    emoji: ":notes:"
+    name:  "&#58;notes&#58;"
+
+  -
+    date: 6/18/2014
+    tld: surf
+    color: DarkTurquoise
+    hex:  "#556B2F"
+    emoji: ":nut_and_bolt:"
+    name:  "&#58;nut_and_bolt&#58;"
+
+  -
+    date: 4/23/2014
+    tld: SURGERY
+    color: DarkViolet
+    hex:  "#FF8C00"
+    emoji: ":ocean:"
+    name:  "&#58;ocean&#58;"
+
+  -
+    date: 7/2/2014
+    tld: SUZUKI
+    color: DeepPink
+    hex:  "#9932CC"
+    emoji: ":octocat:"
+    name:  "&#58;octocat&#58;"
+
+  -
+    date: 12/17/2013
+    tld: SYSTEMS
+    color: DeepSkyBlue
+    hex:  "#8B0000"
+    emoji: ":octopus:"
+    name:  "&#58;octopus&#58;"
+
+  -
+    date: 8/7/2014
+    tld: TATAR
+    color: DimGray
+    hex:  "#E9967A"
+    emoji: ":oden:"
+    name:  "&#58;oden&#58;"
+
+  -
+    date: 11/14/2013
+    tld: TATTOO
+    color: DodgerBlue
+    hex:  "#8FBC8F"
+    emoji: ":office:"
+    name:  "&#58;office&#58;"
+
+  -
+    date: 4/23/2014
+    tld: TAX
+    color: FireBrick
+    hex:  "#483D8B"
+    emoji: ":ok_hand:"
+    name:  "&#58;ok_hand&#58;"
+
+  -
+    date: 11/14/2013
+    tld: TECHNOLOGY
+    color: FloralWhite
+    hex:  "#2F4F4F"
+    emoji: ":ok_woman:"
+    name:  "&#58;ok_woman&#58;"
+
+  -
+    date: 1/23/2014
+    tld: TIENDA
+    color: ForestGreen
+    hex:  "#00CED1"
+    emoji: ":older_man:"
+    name:  "&#58;older_man&#58;"
+
+  -
+    date: 11/19/2013
+    tld: TIPS
+    color: Fuchsia
+    hex:  "#9400D3"
+    emoji: ":older_woman:"
+    name:  "&#58;older_woman&#58;"
+
+  -
+    date: 6/4/2014
+    tld: TIROL
+    color: Gainsboro
+    hex:  "#FF1493"
+    emoji: ":oncoming_automobile:"
+    name:  "&#58;oncoming_automobile&#58;"
+
+  -
+    date: 11/19/2013
+    tld: TODAY
+    color: GhostWhite
+    hex:  "#00BFFF"
+    emoji: ":oncoming_bus:"
+    name:  "&#58;oncoming_bus&#58;"
+
+  -
+    date: 1/29/2014
+    tld: TOKYO
+    color: Gold
+    hex:  "#696969"
+    emoji: ":oncoming_police_car:"
+    name:  "&#58;oncoming_police_car&#58;"
+
+  -
+    date: 1/23/2014
+    tld: TOOLS
+    color: GoldenRod
+    hex:  "#1E90FF"
+    emoji: ":oncoming_taxi:"
+    name:  "&#58;oncoming_taxi&#58;"
+
+  -
+    date: 8/3/2014
+    tld: TOP
+    color: Gray
+    hex:  "#B22222"
+    emoji: ":open_file_folder:"
+    name:  "&#58;open_file_folder&#58;"
+
+  -
+    date: 4/11/2014
+    tld: TOWN
+    color: Green
+    hex:  "#FFFAF0"
+    emoji: ":orange_book:"
+    name:  "&#58;orange_book&#58;"
+
+  -
+    date: 4/11/2014
+    tld: TOYS
+    color: GreenYellow
+    hex:  "#228B22"
+    emoji: ":outbox_tray:"
+    name:  "&#58;outbox_tray&#58;"
+
+  -
+    date: 3/19/2014
+    tld: TRADE
+    color: HoneyDew
+    hex:  "#FF00FF"
+    emoji: ":ox:"
+    name:  "&#58;ox&#58;"
+
+  -
+    date: 12/28/2013
+    tld: TRAINING
+    color: HotPink
+    hex:  "#DCDCDC"
+    emoji: ":page_facing_up:"
+    name:  "&#58;page_facing_up&#58;"
+
+  -
+    date: 4/11/2014
+    tld: UNIVERSITY
+    color: IndianRe
+    hex:  "#F8F8FF"
+    emoji: ":page_with_curl"
+    name:  "&#58;page_with_curl&#58;"
+
+  -
+    date: 11/30/2013
+    tld: UNO
+    color: Indig
+    hex:  "#FFD700"
+    emoji: ":pager"
+    name:  "&#58;pager&#58;"
+
+  -
+    date: 8/16/2014
+    tld: UOL
+    color: Ivory
+    hex:  "#DAA520"
+    emoji: ":palm_tree:"
+    name:  "&#58;palm_tree&#58;"
+
+  -
+    date: 2/21/2014
+    tld: VACATIONS
+    color: Khaki
+    hex:  "#808080"
+    emoji: ":panda_face:"
+    name:  "&#58;panda_face&#58;"
+
+  -
+    date: 3/31/2014
+    tld: VEGAS
+    color: Lavender
+    hex:  "#008000"
+    emoji: ":paperclip:"
+    name:  "&#58;paperclip&#58;"
+
+  -
+    date: 11/6/2013
+    tld: VENTURES
+    color: LavenderBlush
+    hex:  "#ADFF2F"
+    emoji: ":partly_sunny:"
+    name:  "&#58;partly_sunny&#58;"
+
+  -
+    date: 5/22/2014
+    tld: VERSICHERUNG
+    color: LawnGreen
+    hex:  "#F0FFF0"
+    emoji: ":paw_prints:"
+    name:  "&#58;paw_prints&#58;"
+
+  -
+    date: 5/31/2014
+    tld: VET
+    color: LemonChiffon
+    hex:  "#FF69B4"
+    emoji: ":peach:"
+    name:  "&#58;peach&#58;"
+
+  -
+    date: 12/17/2013
+    tld: VIAJES
+    color: LightBlue
+    hex:  "#CD5C5C"
+    emoji: ":pear:"
+    name:  "&#58;pear&#58;"
+
+  -
+    date: 2/11/2014
+    tld: VILLAS
+    color: LightCoral
+    hex:  "#4B0082"
+    emoji: ":pencil:"
+    name:  "&#58;pencil&#58;"
+
+  -
+    date: 2/11/2014
+    tld: VISION
+    color: LightCyan
+    hex:  "#FFFFF0"
+    emoji: ":pencil2:"
+    name:  "&#58;pencil2&#58;"
+
+  -
+    date: 6/18/2014
+    tld: vlaanderen
+    color: LightGoldenRodYellow
+    hex:  "#F0E68C"
+    emoji: ":penguin:"
+    name:  "&#58;penguin&#58;"
+
+  -
+    date: 3/31/2014
+    tld: VODKA
+    color: LightGray
+    hex:  "#E6E6FA"
+    emoji: ":performing_arts:"
+    name:  "&#58;performing_arts&#58;"
+
+  -
+    date: 3/2/2014
+    tld: VOTE
+    color: LightGreen
+    hex:  "#FFF0F5"
+    emoji: ":person_frowning:"
+    name:  "&#58;person_frowning&#58;"
+
+  -
+    date: 1/29/2014
+    tld: VOTING
+    color: LightPink
+    hex:  "#7CFC00"
+    emoji: ":person_with_blond_hair:"
+    name:  "&#58;person_with_blond_hair&#58;"
+
+  -
+    date: 3/2/2014
+    tld: VOTO
+    color: LightSalmon
+    hex:  "#FFFACD"
+    emoji: ":person_with_pouting_face:"
+    name:  "&#58;person_with_pouting_face&#58;"
+
+  -
+    date: 11/6/2013
+    tld: VOYAGE
+    color: LightSeaGreen
+    hex:  "#ADD8E6"
+    emoji: ":phone:"
+    name:  "&#58;phone&#58;"
+
+  -
+    date: 8/7/2014
+    tld: WALES
+    color: LightSkyBlue
+    hex:  "#F08080"
+    emoji: ":pig_nose:"
+    name:  "&#58;pig_nose&#58;"
+
+  -
+    date: 1/3/2014
+    tld: WANG
+    color: LightSlateGray
+    hex:  "#E0FFFF"
+    emoji: ":pig:"
+    name:  "&#58;pig&#58;"
+
+  -
+    date: 1/23/2014
+    tld: WATCH
+    color: LightSteelBlue
+    hex:  "#FAFAD2"
+    emoji: ":pig2:"
+    name:  "&#58;pig2&#58;"
+
+  -
+    date: 3/19/2014
+    tld: WEBCAM
+    color: LightYellow
+    hex:  "#D3D3D3"
+    emoji: ":pill:"
+    name:  "&#58;pill&#58;"
+
+  -
+    date: 5/30/2014
+    tld: WEBSITE
+    color: Lime
+    hex:  "#90EE90"
+    emoji: ":pineapple:"
+    name:  "&#58;pineapple&#58;"
+
+  -
+    date: 1/23/2014
+    tld: WED
+    color: LimeGreen
+    hex:  "#FFB6C1"
+    emoji: ":pizza:"
+    name:  "&#58;pizza&#58;"
+
+  -
+    date: 7/18/2014
+    tld: WHOSWHO
+    color: Linen
+    hex:  "#FFA07A"
+    emoji: ":police_car:"
+    name:  "&#58;police_car&#58;"
+
+  -
+    date: 1/3/2014
+    tld: WIEN
+    color: Magenta
+    hex:  "#20B2AA"
+    emoji: ":poodle:"
+    name:  "&#58;poodle&#58;"
+
+  -
+    date: 2/19/2014
+    tld: WIKI
+    color: Maroon
+    hex:  "#87CEFA"
+    emoji: ":poop:"
+    name:  "&#58;poop&#58;"
+
+  -
+    date: 7/28/2014
+    tld: WILLIAMHILL
+    color: MediumAquaMarine
+    hex:  "#778899"
+    emoji: ":post_office:"
+    name:  "&#58;post_office&#58;"
+
+  -
+    date: 9/10/2014
+    tld: WME
+    color: MediumBlue
+    hex:  "#B0C4DE"
+    emoji: ":postal_horn:"
+    name:  "&#58;postal_horn&#58;"
+
+  -
+    date: 9/23/2014
+    tld: WORK
+    color: MediumOrchid
+    hex:  "#FFFFE0"
+    emoji: ":postbox:"
+    name:  "&#58;postbox&#58;"
+
+  -
+    date: 1/23/2014
+    tld: WORKS
+    color: MediumPurple
+    hex:  "#00FF00"
+    emoji: ":pouch:"
+    name:  "&#58;pouch&#58;"
+
+  -
+    date: 9/19/2014
+    tld: WORLD
+    color: MediumSeaGreen
+    hex:  "#32CD32"
+    emoji: ":poultry_leg:"
+    name:  "&#58;poultry_leg&#58;"
+
+  -
+    date: 9/19/2014
+    tld: WORLD
+    color: MediumSlateBlue
+    hex:  "#FAF0E6"
+    emoji: ":pound:"
+    name:  "&#58;pound&#58;"
+
+  -
+    date: 4/29/2014
+    tld: WTC
+    color: MediumSpringGreen
+    hex:  "#FF00FF"
+    emoji: ":pouting_cat:"
+    name:  "&#58;pouting_cat&#58;"
+
+  -
+    date: 4/23/2014
+    tld: WTF
+    color: MediumTurquoise
+    hex:  "#800000"
+    emoji: ":princess:"
+    name:  "&#58;princess&#58;"
+
+  -
+    date: 2/19/2014
+    tld: XYZ
+    color: MediumVioletRed
+    hex:  "#66CDAA"
+    emoji: ":purse:"
+    name:  "&#58;purse&#58;"
+
+  -
+    date: 5/22/2014
+    tld: YACHTS
+    color: MidnightBlue
+    hex:  "#0000CD"
+    emoji: ":pushpin:"
+    name:  "&#58;pushpin&#58;"
+
+  -
+    date: 7/18/2014
+    tld: YANDEX
+    color: MintCream
+    hex:  "#BA55D3"
+    emoji: ":rabbit:"
+    name:  "&#58;rabbit&#58;"
+
+  -
+    date: 4/3/2014
+    tld: YOKOHAMA
+    color: MistyRose
+    hex:  "#9370DB"
+    emoji: ":rabbit2:"
+    name:  "&#58;rabbit2&#58;"
+
+  -
+    date: 8/29/2014
+    tld: YOUTUBE
+    color: Moccasin
+    hex:  "#3CB371"
+    emoji: ":racehorse:"
+    name:  "&#58;racehorse&#58;"
+
+  -
+    date: 9/15/2014
+    tld: ZIP
+    color: NavajoWhite
+    hex:  "#7B68EE"
+    emoji: ":radio:"
+    name:  "&#58;radio&#58;"
+
+  -
+    date: 1/14/2014
+    tld: ZONE
+    color: Navy
+    hex:  "#00FA9A"
+    emoji: ":railway_car:"
+    name:  "&#58;railway_car&#58;"

@@ -1,0 +1,9 @@
+# match the content to the unit name
+
+welcome_title: underscore.scss
+
+rounded_background_dark: I've been learning HTML and CSS for the past 6 years. I've read many books and messed around with things like angular and rails. I've started to take some pointers from those and SMACSS, BEM, and other resources to handle two things;
+
+list_summary: "<ul> <li>responsive web</li> <li>consistent, reusable styles</li> <li>cross browser friendly</li> <li>managing heirarchy & overrides</li> <li>remembering to use established styles</li> <li>easy to change the entire site</li> <li>managing state, alarms, and other animations</li> <li>managing animations</li></ul>"
+
+welcome_btn: View Dynamic Content
