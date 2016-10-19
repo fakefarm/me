@@ -1,6 +1,8 @@
-# Text Editor
+# Tools of the trade
 
-A text editor is the very tool that transfers your fingers to keyboard to text to words to code to ideas. If you are writing a document then you want an editor that will help you with spell check, bold, bullets, and autosave. But when text is the putty you work with to craft then you need some more powerful features. There comes a point in every developers career when they reach a crossroads. Are they going to be develoeper or are they simply passing through before they get promoted. Vim is for developers who plan to stick around.
+My first exposure to text editors was Word. I used Word to write papers in college. The only goals were to bold, bullet, and print with page numbers. During college one of my Summer jobs was working on a construction crew. I stumbled into the job because my next door neighbor had a crew. Every day I was tasked with bringing out the tools for us to work on our job. As a software developer it is actually very similar. You need to be able to carry tools along your career. At first, your code is not that sophisticated so the tools do not need to be either. Also, since you are new to the field you are happy with starting over with each new job. Something like a new mac book with a new copy of a text editor like Sublime. But now that I'm well into my 4th job and 4th laptop I've seen that my tools, preferences are becoming burdensome to start from scratch every time. The solution is to learn how to carry tools from site to site (pun!) without a big hassle. The goal is to know how your tools and how to carry them.
+
+As such, I'm writing this out to explain what tools are needed and why. Tools will help you get your job done quicker and easier than without. So as such, there should be some pain when you are without your tools - because you know what it's like to work with tools.
 
 ## main tools;
 
@@ -13,6 +15,10 @@ A text editor is the very tool that transfers your fingers to keyboard to text t
 - homesick
 - application management
 - homebrew to install apps (from andy holeman)
+
+## Text Editor
+
+A text editor is the very tool that transfers your fingers to keyboard to text to words to code to ideas. If you are writing a document then you want an editor that will help you with spell check, bold, bullets, and autosave. But when text is the putty you work with to craft then you need some more powerful features. There comes a point in every developers career when they reach a crossroads. Are they going to be develoeper or are they simply passing through before they get promoted. Vim is for developers who plan to stick around.
 
 The following list are activities that professional programmers do on a daily basis. Not every develoer uses these, but this list is [matt]() dot files and he is as passionate as they come about keeping these things in check.
 
