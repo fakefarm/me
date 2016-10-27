@@ -1,2 +1,7 @@
 - make sure you have admin.
-- ruby management
+- ruby management (rbenv)
+
+
+## Checklist
+
+
