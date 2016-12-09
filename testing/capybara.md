@@ -161,4 +161,8 @@ Capybara comes with [actions](http://www.rubydoc.info/github/jnicklas/capybara/m
 
 
 
-
+## Practice
+1. create a rails repo
+2. install the gems
+3. write some tests that help build the page
+4. build the page with generators
