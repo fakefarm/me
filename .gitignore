@@ -1,5 +1,6 @@
 .DS_Store
 trash.*
+email_*
 today.*
 test.*
 temp.*
