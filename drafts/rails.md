@@ -32,7 +32,12 @@ end
 5. the response we receive is formatted as `json` since it's over the wire, so we need to parse it back into a ruby `hash`. Pass the `sybolize_name:` flag so that the keys become sybols
 
 6. test that the data we created is also the data that is in the response to demonstrate we took a full lap.
-[]()
+
+## generate controller without tests
+
+`rails g controller new —no-test-framework`
+
+adding `—no-test-framework` will prevent the generator from creating view and controller specs. We are going to focus on feature and model specs. 
 
 
 Rails 4 Zombie Outlaws notes
@@ -227,3 +232,10 @@ Can use either procs or blocks
 ## ActiveModel::Model
 
 `include ActiveModel::Model` to be able to have your PORO's act like `ActiveRecord` objects without being attached to `ActiveRecord`. _Nice!_
+
+##  Rails progress updates (12/14/16)
+- overrode the STI to use `type`
+- pre-populated a migration
+- rolled back the migration with `step=1` flag
+- figured out some more ransack and how to break it open. It helped me see how to present a _hack_ that helped derive the solution, which was to pre-populate the db. 
+- [logger.info](http://guides.rubyonrails.org/debugging_rails_applications.html#console)
