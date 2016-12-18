@@ -1,0 +1,7 @@
+Patience
+
+I started learning to code for myself. Thinking I was going to build my own startup. Thankfully, I had a conversation with another code academy person who helped me get the right perspective. That learning to code would be such a time consuming concept that I should focus on it for a while. That was 2012 and I had hoped it would take 3 - 5 years to learn to code. I'm about 4.5 years since then and feel that I'm only now beginning to get it at the level I hoped. 
+
+Which means, I feel like I need to apply my skills to some small side projects rather than a big app. Things that can help me practice nuances. Some of those might be utilities, gems, or contributing to open source. All in all, I need some experience.
+
+However, there are still some concepts I'm only now starting to grasp. I want to flush out my own understanding of things in sort of an academic way. In that sense, I feel like it's my senior year. Who knows, maybe I'll always feel like this - but I am ready to finish up my book and video studies yet I still see that I'm learning some key fundamentals just now. Like AJAX! or SQL. These are not concepts to be ignored. They are fundamental. I am on no race or deadline other than the ones I set for myself.
