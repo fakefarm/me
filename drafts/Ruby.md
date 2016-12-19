@@ -23,3 +23,10 @@ What are they and why should I care?
 What is puma and why?
 
 
+## Varios topics
+- blocks, procs, lambas
+- Structs
+- `define_method`
+- `alias_method`
+- `send` method
+- 
