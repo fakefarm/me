@@ -1,0 +1,22 @@
+# JQuery Notes
+
+The languages of the Web are HTML, CSS, and JavaScript. Each one doing it's special thing. JavaScript has such a massive surface area to cover that it struggles doing everything well. 
+
+JQuery came onto the scene when browsers were not as similar as they are now. And it provided a familiar syntax to do some things that native JavaScript had difficulty doing. When I was first introduced to JQuery I didn't know the difference between it and JavaScript. In some ways JQuery helped people skip over learning hard parts of JavaScript. But in other ways it prevented from other JavaScript framework extractions. 
+
+I put JQuery on hold and focused on native JavaScript since that was the purest language used by the web. Only after studying that do I now see the many benefits and gains that JQuery offer that are worth using.
+
+## Jquery does 6 things really well
+
+JQuery does these 6 things really well and you are only making things difficult on yourself if you writing these things with native JS.
+
+1. Access Elements in the DOM.
+2. Modify the appearance of a webpage
+3. Alter the content of a document
+4. Respond to a user's interaction
+5. Animate changes being made to a document
+6. Retrieve information from a server without refreshing the page
+7. Simplify common JS tasks
+
+JQuery made itself userfriendly by leaning on the other frontend language CSS. The syntax of CSS selectors is the way JQuery selects elements.
+

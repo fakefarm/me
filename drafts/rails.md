@@ -239,3 +239,14 @@ Can use either procs or blocks
 - rolled back the migration with `step=1` flag
 - figured out some more ransack and how to break it open. It helped me see how to present a _hack_ that helped derive the solution, which was to pre-populate the db. 
 - [logger.info](http://guides.rubyonrails.org/debugging_rails_applications.html#console)
+
+
+## #pluck method
+A performance optimization technique is to use pluck for situations when you want to avoid the memory consumption of generating unnecessary ActiveRecord Objects. 
+
+## Filtering sensitive data
+
+To filter sensetive data from logs the same way passwords are filtered, simply append the items in `config/application.rb` like so;
+
+		config.filter_parameters = [:password, :ssn]
+

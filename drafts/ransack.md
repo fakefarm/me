@@ -33,3 +33,10 @@ The combination of these two ideas will return a `ransack` object. Then, you mus
 
   # or use `to_a.uniq` to remove duplicates (can also be done in the view):
   @people = @q.result.includes(:articles).page(params[:page]).to_a.uniq
+  
+## Query Params
+
+Query params, as defined as using the `&` and `?` characters in a uri, like so;
+
+`fakefarm.com/posts?page=1&keywords=coding` are used for filtering, searching, and pagination. Query params are not used for different resources, like `#show` page.
+
