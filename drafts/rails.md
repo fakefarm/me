@@ -226,8 +226,6 @@ Can use either procs or blocks
 
     default_scope, -> { where(completed: false) }
     default_scope, { where(completed: false) }
-    
-
 
 ## ActiveModel::Model
 
@@ -249,4 +247,7 @@ A performance optimization technique is to use pluck for situations when you wan
 To filter sensetive data from logs the same way passwords are filtered, simply append the items in `config/application.rb` like so;
 
 		config.filter_parameters = [:password, :ssn]
+
+## abstract! method
+When dealing with inheritance in Rails you can notify other developers from calling methods by placing the `abstract!` up top of the file. It is used to indicate that a parent class's methods should not be used directly.
 

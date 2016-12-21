@@ -20,3 +20,6 @@ you test with assertions which can take a different points of view about your te
 When testing for a `raise` you need to wrap assert in parens and the test needs to be in a block.
 
     assert_raise(RuntimeError) { z.zombify }
+
+## Testing updates
+when testing that an attribute has been updated, be aware that in some situations you will need to use `#reload` to make sure the change occurred b/n the setup version and the version changed in the test.
