@@ -50,3 +50,4 @@ Credentials must be provided using the `Authorization` header which is the combi
 
 Rails supports basic authentication out of the box. It does so by providing a method `authenticat_or_request_with_basic` which reads and decodes username and password from `Authorization` header like so;
 
+
