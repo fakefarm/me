@@ -169,3 +169,7 @@ gives all matches throughout project in a quick list and add this plus
 ### working with rails
 
 ### customizing plugins
+
+### HTTP
+Postman - helps you see things
+CURL - from commandline
