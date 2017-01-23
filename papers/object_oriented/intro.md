@@ -1,0 +1,6 @@
+# Intro
+
+Object Oriented (OO) code is a way of thinking about code. It is one of three main approaches. The other two being functional and procedural. My focus is not to compare the three but simply acknowledge that object oriented code is not the only way to write code. 
+I didn’t pick OO but it picked me. I was a business minded individual who subscribed to INC magazine. In it, there was a write up about Project Management software comparisons. I sampled each software mentioned and ultimately picked Basecamp. The rest is history. Okay, for those who might not know the connection, although I doubt anyone reading this far would not know. Basecamp was the first site build using Ruby on Rails. Ruby on Rails led me to Ruby. Ruby is Object Oriented. As such, I became a Ruby Developer. 
+
+I have been learning Ruby and Rails since 2008. I didn’t realize that OO is a state of mind until probably a year ago. As a way to solidify my understanding I’ve decided to write about it. At a minimum, I hope the exercise of articulating my understanding of the subject matter will help it sync in.
