@@ -1,0 +1,2 @@
+## Hello, it’s your sub-conscious calling
+Which leads me to my moment of clarity. My sub-conscious routines have been cruise control. But now I am at a place where I can recognize that my new, big idea is to establish some new systems. Those systems are the habits and environments that help me do the things I value. As far as values go, they have started to spring to life after a year and a half of wondering what’s next. So let me start with what I value in context of my definition of a balanced life

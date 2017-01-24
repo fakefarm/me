@@ -1,0 +1,5 @@
+## Aimless
+
+But to move toward the current moment. I realized that my systems had been torn down for a variety of reasons and that my subconscious was still trying to live inside some phantom systems. I noticed that I have piles of projects and wondering why I’m not cutting through them as much as I want to. I had lost focus. So I’ve been doing the next thing, spending my time on the one dollar activities. My version of one dollar activity is that I do something without follow through or evidence of time. For example, I’d read a book and them move on. But I know full well, that if that book is worth reading, then it’s worth being influenced by it. Which means, I want to take notes, review those notes, and possibly write a public summary - even if just for my own absorption of the material. But don’t let me fool you - I’ve had my fair share of Netflix bingeing on reruns. I’m a sucker for Scrubs and Frasier.
+
+I’ve also been writing without thought of to who, what, or why. It has been my release in a time of extreme solitude. But I don’t want those thoughts to stall either. I want to write for a purpose. For my sons. To my sons.

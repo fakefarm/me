@@ -1,0 +1,2 @@
+## Balance your cats
+Systems without the _why_ don’t really last. I need to know why I’m investing into what I am. About 10 years ago I established my life’s categories. There are three: Personal, Relational, Responsibilities. Each of those deserves it’s own big idea. To stick with the analogy, of money, it’s more that I have a budget of three items that as much as I would give all my money to one category, I really have to budget for three. That is the tension of aspiring for a balanced life. (I may write about those things later)

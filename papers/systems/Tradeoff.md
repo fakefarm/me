@@ -1,0 +1,3 @@
+## Tradeoff
+
+I would rather have 1, one thousand dollar item than 1,000 one dollar items. Same goes with how I want to spend my time. I want to put all things in order so that I can accomplish one big thing at a time. The speed and needs of life prevent this one big thing from happening naturally. As such, I have to work hard to craft my life in a way to focus on big things. The other challenge is that life is not simply made up of one thing. So, my big thing is really per category.  

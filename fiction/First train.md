@@ -1,0 +1,2 @@
+## First train
+The first train headed North is nice and easy and you don't have to work. It's called the fun train. There are a lot of people on the fun train. Those people tell their friends to pick the fun train. The fun train is loud, full of food, friends, and fun. As such, people forget that it doesn't go to town. They figure that a train wouldn't really drive off a cliff. Plus there are lots of people on this train.
