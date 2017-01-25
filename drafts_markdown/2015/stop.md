@@ -1,0 +1,10 @@
+# stop
+once i started to realize that i was not going to get fired from Living Social I had some mental margin. The first thing that came to me wsa that my daughter had died. but then, i attached that to a larger trend. I had not had a chance to process all that had gone on in the years leading up to that.
+
+I'm a programmer in Boulder. What in teh world. We were living in Denver with a vision to an MBA. But I lost my goal, my company, my brother in law, my house, i was unemployed for 9 months, and lost my daughter. What was all this happeneing.
+
+it was at this time the Lord started to reframe my story. The story of my parents and and my career was a perfect situation to create a soil for me to begin to craft my inner identity for temporary gains. I started to realize that my motivations were deeper than just providing and making ends meet. I was not interested in a car, I was interested in a BMW. I was not interested in living in Boulder, I wanted to live in a bigger house that I owned.
+
+I started to realize that I wanted things in a way to provide more than the necessary things. I started to see how much of my drive was to have such accomplishments that other people would see, admire, respect, honor, and worship me. I saw how all this striving was a way for me to be King.
+
+Just as Olivia was being formed in Danae's womb, so we are being formed for our Second birth.  These adventures of highs and lows helped me see that I have a heart issue that needs to be addressed.

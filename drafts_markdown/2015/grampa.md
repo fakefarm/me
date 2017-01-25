@@ -1,0 +1,10 @@
+# Grampa
+Grampa was in the insurance business. He worked for MetLife and was good at what he did. As top sales agent over 30,000 sales agents the company moved him and his family to London to start a branch for the company out there. Grampa was able to retire around his 40th birthday. He got saved and became an evangelist like you wouldn’t believe. I still have his script down 20 years later.
+
+“Tell me Tom, if A bomb were to drop here in the next 5 minutes and we were all killed, do you know where you’d spend eternity? If I could tell you, would you like to know?” I couldn’t have a friend in the same room for more than 5 minutes without Grampa asking my friend that question. It got to be so embarrassing and predictable, I wouldn’t bring friends over if my grandparents were over.
+
+Years later, I came to understand that he was an alcoholic and the corporate life he lived must have been pretty scandalous. When my grandfather got saved, he decided that business not going to be something he was going to teach his son. When I first heard about this, I suppose I thought it noble that he would only look on eternal things.
+
+My grandfather had a lot of fringe issues that he talked about to anyone any everyone. They were things like using only the KJV bible. Or the purpose of water baptism. Paul was the apostle to the gentiles. They were things that at some point or another each of my siblings and cousins would pay him enough attention because we loved him and wanted to know for ourselves if he was crazy. I suppose there is about 20% of what he said that I take away as being relevant.
+
+All in all we had a friendly and gentle relationship from my view. If I put up with his script about Paul and other dogmatic views, I would be rewarded with a handshake containing a 'secret' $20 bill.

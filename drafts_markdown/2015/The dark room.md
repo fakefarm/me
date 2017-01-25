@@ -1,0 +1,10 @@
+# The dark room
+
+## Hidden in the negative is the positive we long for
+The doctors have yet to provide additional information. They came in yesterday to reiterate how they see Olivia not surviving, or best living in near vegetable state. Over coffee I shared some of what I was thinking with Sarah and she told me to post it.
+Mike Wells tells a story of the time he went to receive his wedding pictures. His photographer told him that, to develop the photos, they needed to enter a dark room. Wells then intertwines the story with life. He said the name of the dark room is 'Faith'. The first image he saw in there was negative. When he saw it, he wanted to throw it away. The photographer said 'hidden in the negative is the positive we long for'.
+Before Wells could keep the positive image the photographer said there is one more step. You need to dip the positive in a vat of acid to 'set' it. Mike wondered where the acid comes from, to which the photographer replied 'it will come'.
+As I heard that story, I was disappointed to think that there's another trial looming before receiving the positive completely. The pre-acid positive for me was discovering how to hear the Holy Spirit's voice. (I wrote about it as three parts of you) Olivia has set and sealed those truths in me. So, good news is it doesn't take very much acid to set a positive. :-)
+The positives that are birthed from a negative experience are with you the rest of your life so that you get to bring what you learned with you into the next trial.
+We are entering the dark room again and we are staring at a negative. But this time we're doing it having seen how the Lord transforms negatives. It's as if faith is not even the right word for how we're encountering all this. It feels kind of like watching a favorite movie the second time and picking up details missed the first time. The Lord is alive and well and shows himself to those who seek him.
+p.author "I love those who love Me; And those who diligently seek Me will find Me."
