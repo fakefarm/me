@@ -1,8 +1,8 @@
-# ActiveJob
+# Background Jobs with Rails
+
+## ActiveJob
 
 Notes from [Active Job Basics](http://guides.rubyonrails.org/active_job_basics.html)
-
-## First pass
 
 background jobs keep your app snappy by performing non-ui tasks in another process, using a background service like Delayed_job.
 
@@ -22,7 +22,7 @@ Jobs have some callbacks to help handle additional necessary actions that may co
 GlobalID is a way to use objects inside Jobs
 
 
-## creating a job
+### creating a job
 
 Active Job provides a Rails generator to create jobs.
 `bin/rails generate job guests_cleanup --queue urgent`
@@ -41,7 +41,7 @@ class GuestsCleanupJob < ApplicationJob
 end
 ```
 
-##  enqueuing it.
+###  enqueuing it.
 
 
 ## Questions
@@ -52,3 +52,11 @@ end
 - how is a queue setup to be used?
 MyJob.set(queue: :another_queue).perform_later(record)
 - where / how does namespace help? (staging.low_priority)
+
+## Delayed Job
+
+Notes From [Delayed Job's README](https://github.com/collectiveidea/delayed_job)
+
+### Questions
+- since we're using ActiveJob, how much of DelayedJob do I interact with?
+- 
