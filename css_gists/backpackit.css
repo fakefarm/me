@@ -27,7 +27,7 @@ textarea#note_body {
     background: #666;
     color: wheat;
     height: 95%;
-    width: 710px;
+    width: 1020px;
 }
 
 #new_note, .note.form.edit {
@@ -396,7 +396,7 @@ div.widget_content div.nubbin, div.widget_content div.nubbin * {
     margin-bottom: 100px;
 }
 
-span.pipe_separated_links {
+#page_header span.pipe_separated_links {
     display: none;
 }
 
@@ -409,10 +409,12 @@ p.instruction {
 }
 
 span.tags_hidden a {
-    font-size: 15px !important;
+    font-size: 15px ;
 }
 
 .widget_bar_links {
     color: white;
     font-size: 0;
 }
+
+/* experimental */
