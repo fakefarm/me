@@ -1,31 +1,14 @@
+#launchbar, .note th, a[href="/newsroom"], #widget_bar, div#page_header, #email_a_copy_link a span, div.utility_bar_section.email_to_page, div.utility_bar_section.history, #Footer div, #Logo, #email_a_copy_link {
+    display: none;
+}
+
 div.hover_container {
     font-family: Helvetica;
     font-weight: 100;
     font-size: 120%;
 }
 
-body.page #Main p {
-    font-size: 18px;
-}
-
-.warn, .danger, .success {
-    color: white;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 4px;
-}
-
-.warn {
-    background: orange;
-}
-
-.danger {
-    background: #ff6666;
-}
-
-.success {
-    background: seagreen;
-}
+/* _note */
 
 h2.note_title {
     color: #1f5281;
@@ -36,17 +19,6 @@ div.list_title h2 {
     text-align: right;
 }
 
-.page.content a {
-    transition: all 300ms;
-    text-decoration: none;
-    border-bottom: 1px solid #aaa;
-    padding-bottom: 2px;
-}
-
-.page.content a:hover {
-    background: #eee;
-}
-
 textarea#note_body {
     font-family: courier;
     font-size: 18px;
@@ -55,8 +27,7 @@ textarea#note_body {
     background: #666;
     color: wheat;
     height: 95%;
-    width: 710px
-;
+    width: 710px;
 }
 
 #new_note, .note.form.edit {
@@ -65,12 +36,7 @@ textarea#note_body {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100
-;
-}
-
-.note th {
-    display: none;
+    z-index: 100;
 }
 
 input#note_title {
@@ -101,4 +67,303 @@ input.button {
     border-radius: 5px;
     padding: 6px;
     border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* _page */
+
+div#page_tags {
+    padding: 25px;
+}
+
+.page.content a {
+    transition: all 300ms;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 2px;
+}
+
+body.page #Main p {
+    font-size: 18px;
+}
+
+body.page #Main div.widget div.separator h2 {
+    background: none;
+}
+
+.page.content a:hover {
+    background: #eee;
+}
+
+ul#account_links li a {
+    color: #90b153;
+    text-decoration: none;
+}
+
+div.utility_bar_section.pipe_separated_links {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* _global header */
+
+.global_header {
+    transition: all 120ms;
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: -20px;
+    z-index: 500;
+}
+
+.global_header:hover {
+    opacity: 1;
+    margin-top: 0px;
+}
+
+/* _sidebar */
+
+div#Sidebar {
+    transition: all 250ms;
+    opacity: 0;
+    position: fixed;
+    top: 40px;
+    right: -20;
+    bottom: 0;
+    margin-left: 20px;
+    background: white;
+    box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+    padding: 20px
+;
+}
+
+div#Sidebar:hover {
+    opacity: 1;
+    margin-left: 0px;
+    right: 0;
+}
+
+div.separator {
+    text-align: left;
+    background: #eee;
+    width: 1190px;
+}
+
+.bookmark {
+    width: 53%;
+    float: left;
+}
+
+a[href="/pages"] {
+    width: 29%;
+    float: right;
+}
+
+.pagesnav {
+    overflow: auto;
+}
+
+#utility_bar {
+    opacity: 0;
+}
+
+#utility_bar:hover {
+    opacity: 1;
+}
+
+/* list to hover edit closer to right */
+
+div.list div.nubbin div.wrapper {
+    position: relative;
+    right: -620px;
+    background: white;
+    z-index: 1000;
+}
+
+/* todo item */
+
+.item .content {
+    padding: 5px;
+}
+
+.item .controls {
+    opacity: 0;
+    margin-top: 5px;
+}
+
+.item:hover .controls {
+    opacity: 1;
+}
+
+.item .content:hover {
+    background: #fffec3 ;
+}
+
+input[type=checkbox] {
+    transform: scale(1.25);
+    padding: 10px;
+}
+
+a.commentable_icon.hover_target {
+    left: -60px ;
+    top: 0;
+    text-decoration: none;
+    border: none;
+}
+
+input#item_content {
+    background: #eee;
+    width: 1300px;
+    border: none;
+    padding: 40px;
+    font-size: 48px;
+    color: #444;
+    font-family: courier;
+    position: relative;
+    left: -290px;
+    top: 5px;
+}
+
+/* todo titles */
+
+.title-go, .title-calm, .title-imp {
+    display: block ;
+    margin-left: -59px;
+    margin-top: -20px;
+    width: 680px;
+    padding: 6px;
+}
+
+.title-go {
+    background: #26c140 ;
+    color: #676744
+;
+}
+
+.title-calm {
+    background: #c1c0c0 ;
+    color: #484843
+;
+}
+
+.title-imp {
+    background: #ce5858 ;
+    color: yellow
+;
+}
+
+/* link button styles */
+
+.warn, .danger, .success {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.warn {
+    background: orange;
+}
+
+.danger {
+    background: #ff6666;
+}
+
+.success {
+    background: seagreen;
+}
+
+/* separators */
+
+.separator h2 span {
+    font-size: 73px;
+    font-weight: 100;
+    color: #aaa;
+    margin-bottom: 200px;
+}
+
+.separator {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+div.page_header h1 {
+    display: none;
+}
+
+div.page_header {
+    background-color: #ffffff;
+}
+
+div.commentable {
+    border-style: none;
+}
+
+div.content p highlightable {
+    font-size: 55px;
+    font-family: Helvetica;
+    color: #919191;
+}
+
+a.existing_comments_icon.hover_target {
+    border: none
+;
+}
+
+.commentable .fix_width {
+    width: 1000px;
+    text-align: left;
+}
+
+div#Container {
+    width: 1426px;
+}
+
+td#main_column {
+    width: 803px;
+}
+
+div#Main {
+    width: 956px;
+}
+
+.commentable_back_link {
+    width: 1171px;
+}
+
+div#Main div.comment p {
+    font-size: 32px;
+}
+
+.commentable div.utility_bar {
+    display: none;
+}
+
+p.blank_slate {
+    display: none;
+}
+
+
+.list.edit {
+    position: relative;
+    right: -300px;
+
+}
+
+
+span.inline_background .buttons {
+    position: relative;
+    top: 60px;
+    z-index: 1000;
+}
+
+.inline_background input#list_name {
+    position: relative;
+    right: -265px;
+    border: none;
+    background: #eee;
+    padding: 20px;
+    font-size: 24px;
+    font-family: courier;
+    color: #aaa;
 }
