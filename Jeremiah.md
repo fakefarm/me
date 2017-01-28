@@ -77,3 +77,33 @@ Who say to a tree, ‘You are my father,’ And to a stone, ‘You gave me birth
 
 - 35
 Yet you said, ‘I am innocent; Surely His anger is turned away from me.’ Behold, I will enter into judgement with you Because you say, ‘I have not sinned.’
+
+## Chapter 3
+
+- 8
+“And I saw that for all the adulteries of faithless Israel, I had sent her away and given her a writ of divorce, yet her treacherous sister Judah did not fear; but she went and was a harlot also.
+
+- 12
+“Go and proclaim these words toward the north and say, ‘Return, faithless Israel,’ declares YHVH; ‘I will not look upon you in anger. For I am gracious,’ declares YHVH; ‘I will not be angry forever.
+
+- 13
+‘Only acknowledge your iniquity, That you have transgressed against YHVH Elohim And have scattered your favors to the strangers under every green tree, And you have not obeyed My voice,’ declares YHVH.
+
+- 18
+“In those days the house of Judah will walk with the house of Israel, and they will come together from the land of the north to the land that I gave your fathers as an inheritance.
+
+- 19
+“Then I said, ‘How I would set you among My sons And give you a pleasant land, The most beautiful inheritance of the nations!’ And I said, ‘You shall call Me, My Father,
+And not turn away from following Me.’
+
+- 20
+“Surely, as a woman treacherously departs from her lover, So you have dealt treacherously with Me, O house of Israel,” declares YHVH.
+
+- 22
+“Return, O faithless sons, I will heal your faithlessness.” “Behold, we come to You; For You are YHVH Elohim.
+
+- 23
+“Surely, the hills are a deception, A tumult on the mountains. Surely in YHVH Elohim Is the salvation of Israel.
+
+- 25
+“Let us lie down in our shame, and let our humiliation cover us; for we have sinned against YHVH Elohim, we and our fathers, from our youth even to this day. And we have not obeyed the voice of YHVH Elohim.”
