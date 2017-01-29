@@ -1,0 +1,4 @@
+
+
+## Fact 1
+Fact 1: we’re all going to die. What happens when we die? If you accept the biblical explanation, then one aspect is there is judgement waiting. A tab. I want to clear my tab on this side to prevent that one from being a dark day. This subject is one that I think Christians have more difficulty discussing than non-christians. Because as I’ve alluded to, I don’t know how much I agree with my old theology that says there’s a magic sinners prayer which invokes a fire insurance and you are scotch free once you die and can therefor live life as you please. (pause. this subject is for another time.)
