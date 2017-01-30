@@ -423,10 +423,37 @@ div.widget_bar span.sharing_link a {
     text-align: right;
 }
 
+
 div#page_title h1 {
-    font-family: courier !important;
-    font-size: 80px !important;
+    font-family: courier ;
+    font-size: 80px ;
     color: #03A9F4;
     font-weight: 100;
     border-bottom: 4px solid #eee;
+}
+
+.wrapper {
+  transition: all 300ms ease-in-out;
+}
+
+.menu {
+    font-size: 24px;
+    border: 1px solid orange;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.guts {
+    transition: all 500ms ease-in-out;
+height: 0px;
+opacity: 0;
+}
+
+.wrapper:hover > .guts {
+    transition: all 500ms ease-in-out;
+    height: 500px;
+    opacity: 1;
 }
