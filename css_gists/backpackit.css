@@ -422,3 +422,11 @@ div.widget_bar span.sharing_link a {
     display: block;
     text-align: right;
 }
+
+div#page_title h1 {
+    font-family: courier !important;
+    font-size: 80px !important;
+    color: #03A9F4;
+    font-weight: 100;
+    border-bottom: 4px solid #eee;
+}
