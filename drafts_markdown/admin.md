@@ -1,7 +1,9 @@
-# admin
+# Admin
 
-There's two types of admin work. Admin for other people and Admin for yourself. 
+Value is be crafted. Be it digital or physical. Be it text, template, or talk. There is no escaping the meticulous nature of creation. I used to be so focused on turning all my activities into an assembly line. Ultimate efficiency was my goal. I think I want to focus on being effective for a little while. I want to to develop the mentality to tolerate or even appreciate the  minutia and mundane aspects of how I'm productive. For example, editing my writing. I enjoy writing. I do not enjoy editing because I don't like looking back or deleting words I _already_ wrote.
 
-Admin for other people is things like taxes, forms, compliance, meetings, etc. Things you do because someone is requesting it of you.
+Discovering ways to improve the things that I'm not good at is a big win. I've since come back to IA Writer and it's helped me move from handwriting back to typing. It's also helping me edit.
 
-Admin for yourself is things like cleaning your bedroom, making your bed, or tidying up your files. It's not fun and nobody will tell you to do it. But it's best to keep things in order rather than let them pile up and become overwhelmed. Working on a laptop is easy not to truly see the mess that data can create. 
+Next, I need to figure out how to move IAWriter to Blogger. That is my new, next step. That is my online version. Which is what prompted this thought. How am I going to keep my .md files synced with my .html files? That feels really tedious! But the path I'm going is to do both in their own environment. I suppose the cost is that my two files have the potential of being out of sync. What that means is I just need to do a good job of not letting that happen.
+
+As part of this exercise, I think I will just submit that once a post is converted to it's HTML partner, then there is no more syncing. My admin chores will be to either update from the browser or let them be out of sync. I should be less concerend about my text.
