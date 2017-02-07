@@ -3,19 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Customizing Atom</h1>
-    <span>Just realized that Atom has the Developer Tools installed for the editor. Nice! VIEW > DEVELOPER > Toggle Developer Tools</span>
-    <img src="https://1.bp.blogspot.com/-P-TOXcaTib4/WIoc39v765I/AAAAAAAABIo/PIzVnNy9-CYlsTj2CmdYC6_bODraSF_bwCLcB/s1600/Screen%2BShot%2B2017-01-26%2Bat%2B10.59.03%2BAM.png" alt="">
-    <img src="https://cloud.githubusercontent.com/assets/378023/7099339/2d8b9d62-e02b-11e4-90f1-2f3338dfbf43.png" alt="">
 
 
 
-    <img src="https://1.bp.blogspot.com/-P-TOXcaTib4/WIoc39v765I/AAAAAAAABIo/PIzVnNy9-CYlsTj2CmdYC6_bODraSF_bwCLcB/s1600/Screen%2BShot%2B2017-01-26%2Bat%2B10.59.03%2BAM.png" alt="">
-    <span>Then, if you <i>SHIFT + CMD + P</i> click styles and find <b>Application: Open your Stylesheet</b>. That will provde you with access to <i>styles.less</i>. I don't know much about <b>less</b> but it seems to be okay.</span>
-<span>Just discovered that Atom has the Developer tools. That's pretty cool. Then, you open styles.less</span>
-  </body>
+      <style media="screen">
+        .bg-1 { background: #ed7372; }
+        .bg-2 { background: #d4f36e; }
+        .bg-3 { background: #023833; }
+        .bg-4 { background: #d4f36e; }
+        .bg-5 { background: #847f37; }
+        .text-1 { color: #023833; }
+        .text-2 { color: #d4f36e; }
+        .text-3 { color: #d4f36e; }
+        .text-4 { color: #ed7372; }
+        .text-5 { color: #c0ed2a; }
+      </style>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.media-title').on('click', function(e) {
+            e.preventDefault();
+            $(this).next().slideToggle();
+          });
+        });
+      </script>
 </html>
 
 <style media="screen">
