@@ -50,7 +50,7 @@
   text-align: justify;
 }
 
-.headline {
+.headline, .tagline {
   font-family: 'Unna', serif;
   text-transform: uppercase;
   color: #eee;
