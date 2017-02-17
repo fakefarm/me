@@ -2,29 +2,12 @@
   background-image: linear-gradient(0deg, #fffce0, #FFFFFF);
   background-repeat: no-repeat;
 }
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-@media (min-width: 1000px) {
-  .wrapper {
-    width: 50em;
-  }
-}
-
-.h1,
-.h2,
-.p {
-  font-weight: 100;
-  padding: 0;
-  margin: 0;
-}
 
 .h1, .h2, .h3 {
   font-family: 'Unna', serif;
   margin: 48px 0 18px;
 }
+
 
 .headline {
   font-family: 'Unna', serif;
@@ -63,7 +46,8 @@
 
 .h3 {
   text-align: right;
-
+  color: rgb(109, 109, 110);
+  font-size: 24px;
 }
 
 .p, li {
