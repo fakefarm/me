@@ -1,3 +1,8 @@
+PATH
+  remote: ../linkSaver
+  specs:
+    linkSaver (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,8 +15,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  linkSaver!
   nokogiri
   rake
 
 BUNDLED WITH
-   1.14.3
+   1.14.4
