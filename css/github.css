@@ -1,85 +1,24 @@
-div.header.header-dark.header-logged-in.true {
-    background-color: #ffffff;
+.header {
+    background-image: linear-gradient(-90deg, #EEFCA6, #A6FCEE);
+    padding: 2px 0;
+}
+
+.header a {
+    color: #4179b1;
+}
+
+.header input {
+    background: white;
+}
+
+.header-search-scope {
+    border: none;
+}
+
+div.github-jobs-promotion {
     display: none;
 }
 
-a.header-nav-link {
-    color: #646fb3;
-    background-color: #ffffff;
-}
-
-div.news.column.two-thirds {
-    display: none;
-}
-
-div.github-jobs-promotion p {
-    display: none;
-}
-
-a.jobs-logo.text-small {
-    display: none;
-}
-
-div.boxed-group.js-repo-filter {
-    display: none;
-}
-
-#your_repos {
-    display: block;
-}
-
-a.mini-repo-list-item.css-truncate {
-    width: 600px;
-    font-size: 34px;
-    border-style: none;
-}
-
-button.btn-link.repo-filter.text-small.text-gray.js-repo-filter-tab {
-    display: none;
-}
-
-div.filter-repos.filter-bar {
-    border-style: none;
-    background-color: #ffffff;
-}
-
-div.boxed-group-inner {
-    border-style: none;
-}
-
-svg.octicon.octicon-repo.repo-icon {
-    display: none;
-}
-
-svg.octicon.octicon-repo-forked.repo-icon {
-    display: none;
-}
-
-div.site-footer {
-    display: none;
-}
-
-div.boxed-group.flush.repos.user-repos.js-repo-filter h3 {
-    display: none;
-}
-
-input.form-control.input-sm.input-block.js-filterable-field {
-    margin: 30px;
-    padding: 30px;
-    width: 500px;
-    font-size: 50px;
-}
-
-a.btn.btn-sm.btn-primary {
-    position: relative;
-    left: 360px;
-    top: 130px;
-}
-
-div.header.gist-header.header-logged-in {
-    display: none;
-}
-
-div.header {
+div.js-pinned-repos-reorder-container {
     display: none;
 }
