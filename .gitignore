@@ -9,4 +9,5 @@ ignore.*
 email/*
 work/*
 private/*
+_private/*
 .bundle/*
