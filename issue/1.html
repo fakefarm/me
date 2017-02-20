@@ -7,15 +7,45 @@
     <meta name="author" content="Dave Woodall">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issue 1</title>
+    <style media="screen">
+      body {
+        font-family: georgia;
+        background: rgb(233, 255, 254);
+        color: rgb(58, 74, 73);
+        padding: 0;
+        margin: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      ul,
+      li { padding: 0; margin: 0; }
+
+      h1 { font-size: 64px; }
+      h2 { font-size: 48px; }
+      p, li { font-size: 36px; }
+
+      .headline {
+        float: right;
+        text-align: right;
+        padding-right: 30px;
+      }
+
+      section {
+        padding-left: 30px;
+        margin-top: 30px;
+      }
+
+    </style>
   </head>
   <body>
     <header class='headline'>
-      <h1 class='h1 headline'>Collector's Edition</h1>
+      <h1 class='h1'>Volume II</h1>
       <h2 class='issue-no'>Issue 1.</h2>
       <section class='publish-dates'>
-        <h3 class='phase'>Current phase: Content</h3>
-        <h3 class='date'>Launch: February 18th, 2017</h3>
-        <h3 class='date'> March 18th (30 days)</h3>
+        <h3 class='date'>February 18th, 2017</h3>
       </section>
     </header>
     <section class='rewrites'>
@@ -24,6 +54,15 @@
         <li>underschool</li>
         <li>httparty</li>
       </ul>
+      <article class="summary goals">
+        <h3>Underschool</h3>
+        <h4>Goals</h4>
+        <ul>
+          <li>Complete all the specs</li>
+          <li>Submit a call for proposal</li>
+          <li>Write a blog post about this process</li>
+        </ul>
+      </article>
     </section>
     <section class='bible'>
       <h2>Bible</h2>
@@ -80,41 +119,6 @@
     </section>
     <section class='Videos'>
       <h2>Videos of interest</h2>
-    </section>
-    <section class='letter'>
-      <article class="article editor">
-        <h2>Letter from the editor</h2>
-          <p class='p'>
-            Welcome to Issue 1 of my magazine!
-          </p>
-
-          <p class='p'>
-            A magazine is not just a fancy term for a blog. A typical blog adheres to the same layout and design with every post. A magazine changes layout and design to fit the content. I’m starting a magazine to practice _Progressive Enhancement_ and help me focus on the things that important to me.
-          </p>
-
-          <p class='p'>
-            Progressive Enhancement is a fancy way of saying that content should drive design. As a web developer, I need a place to practice Progressive Enhancement. My hope is that the content I’ve written is the easiest to design around since I wrote it.
-          </p>
-
-          <p class='p'>
-            The second reason I want to start a magazine is because the majority of my free time is seeking to grow as a person. As a result, I am discovering new things on a daily basis. Those ‘things’ are little bits and pieces that help me toward bigger goals. A magazine documents where I’ve come from and where I’m headed.
-          </p>
-
-          <p class='p'>
-            Publishing a magazine will also help me from getting distracted. I can be guilty of favoring the shiny new idea over the older, better one that I should really be focusing on. I would prefer to ship one idea than have 5 half-baked ideas with nothing to show for. Sticking to a deliverable will keep me accountable to the things that are most important to me.
-          </p>
-
-          <p class='p'>
-            Of course, this is only the first issue. What am I saying, there is no issue yet, just this optimistic editorial piece about my forthcoming successful magazine.
-          </p>
-
-          <p class='p'>
-            Thanks for reading,
-          </p>
-          <p class='p'>
-            Dave
-          </p>
-      </article>
     </section>
     <footer>
       <div class="last-updated">Dave was here 02-20-2017 11:48am</div>
