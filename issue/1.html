@@ -6,6 +6,8 @@
     <meta name="keywords" content="HTML,CSS,JavaScript, Progressive Enhancement, Theology, Code, Learning, Growth, Inspiration ">
     <meta name="author" content="Dave Woodall">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <title>Issue 1</title>
     <style media="screen">
       body {
@@ -19,13 +21,18 @@
       h1,
       h2,
       h3,
+      h4,
       p,
       ul,
-      li { padding: 0; margin: 0; }
+      li {
+        padding: 0; margin: 0;
+        font-weight: 100;
+      }
 
-      h1 { font-size: 64px; }
-      h2 { font-size: 48px; }
-      p, li { font-size: 36px; }
+      .main { margin-left: 60px; }
+      .summary {
+        margin-top: 30px;
+      }
 
       .headline {
         float: right;
@@ -37,7 +44,6 @@
         padding-left: 30px;
         margin-top: 30px;
       }
-
     </style>
   </head>
   <body>
@@ -48,12 +54,9 @@
         <h3 class='date'>February 18th, 2017</h3>
       </section>
     </header>
+    <main class='main'>
     <section class='rewrites'>
       <h2>Rewrites</h2>
-      <ul>
-        <li>underschool</li>
-        <li>httparty</li>
-      </ul>
       <article class="summary goals">
         <h3>Underschool</h3>
         <h4>Goals</h4>
@@ -63,11 +66,26 @@
           <li>Write a blog post about this process</li>
         </ul>
       </article>
+      <article class="summary goals">
+        <h3>Httparty</h3>
+        <h4>Goals</h4>
+        <ul>
+          <li>Complete all the specs</li>
+          <li>Write a blog post about this process</li>
+        </ul>
+      </article>
     </section>
     <section class='bible'>
       <h2>Bible</h2>
+      <article class="summary goals">
+        <h3>Listening to Genesis</h3>
+        <h4>Goals</h4>
+        <ul>
+          <li>I'd like to have a few news </li>
+          <li>Write a blog post about this process</li>
+        </ul>
+      </article>
       <ul>
-        <li>Listening to Genesis</li>
         <li>Memorizing Psalm 119</li>
         <li>Reading Tobit</li>
         <li>Copying Jeremiah</li>
@@ -78,8 +96,13 @@
       <ul>
         <li>leaveList</li>
         <li>Fake Farm</li>
-        <li>dave.woodalls.me</li>
         <li>Issue 1</li>
+      </ul>
+    </section>
+    <section class='data'>
+      <h2>Data</h2>
+      <ul>
+        <li>dave.woodalls.me</li>
       </ul>
     </section>
     <section class='posts'>
@@ -120,8 +143,13 @@
     <section class='Videos'>
       <h2>Videos of interest</h2>
     </section>
+    </main>
     <footer>
-      <div class="last-updated">Dave was here 02-20-2017 11:48am</div>
+      <div class="last-updated">Dave was here
+
+        02-21-2017 08:56am
+
+      </div>
     </footer>
   </body>
 </html>
