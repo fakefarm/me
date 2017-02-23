@@ -1,0 +1,56 @@
+.page {
+  background-image: linear-gradient(0deg, #fffce0, #FFFFFF);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .page {
+    width: 50em;
+    margin: 0 auto;
+  }
+  .h1 {
+    font-size: 120px;
+    border-left: 30px solid #077561;
+    margin-bottom: 60px;
+  }
+}
+
+.h1, .h2, .h3 {
+  font-family: 'Unna', serif;
+  margin: 48px 0 18px;
+}
+
+
+.headline {
+  font-family: 'Unna', serif;
+  text-transform: uppercase;
+  color: #eee;
+  letter-spacing: 5px;
+  transform: skew(-12deg);
+  background: #dfb758;
+  padding-left: 18px;
+  text-align: center;
+}
+
+.p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  line-height: 52px;
+  color: #333333;
+  padding: 0 30px;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.ps {
+  background: white;
+  padding: 30px;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.ps .p {
+  font-size: 24px;
+  line-height: 32px;
+}
