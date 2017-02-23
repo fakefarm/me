@@ -1,13 +1,20 @@
+wishlist:
+  ☐ dateTime posted when pages are last updated
+  ☐ 
+
+posts:
+  ☐ mobile styling on First Issue
+
 admin:
-☐ update meta tags
+  ☐ update meta tags
 
 code:
-☐ figure out index automation solution
-☐ convert markdown to html boilerplate
+  ☐ figure out index automation solution
+  ☐ convert markdown to html boilerplate
 
 content:
-☐ bring in dropbox text to this repo
-☐ bring in backpack text
+  ☐ bring in dropbox text to this repo
+  ☐ bring in backpack text
 
 magazine:
   ☐ genesis
@@ -17,4 +24,3 @@ magazine:
   ☐ animores
   ☐ feather
   ☐ time to draw
-  ☐ 
