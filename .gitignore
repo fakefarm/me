@@ -8,4 +8,10 @@ tmp.*
 ignore.*
 email/*
 work/*
+.bundle/*
+
+private*
+private.md
 private/*
+_private/*
+content/markdown/private/*
