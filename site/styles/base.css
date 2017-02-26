@@ -4,13 +4,13 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 @media (min-width: 1000px) {
   .wrapper {
-    width: 50em;
+    width: 60em;
   }
 }
 
