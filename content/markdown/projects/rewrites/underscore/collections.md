@@ -1,6 +1,6 @@
 # Collections
 
-Underscore has 25 functions related collections. I clustered them into four categories based on the type of return value. I label them; Collection, mutations, booleans, and calculations
+Underscore has 25 functions related collections. I clustered them into four categories based on their return value. I label them; Collection, mutations, booleans, and calculations
 
 ## Collection
 These are the functions that return a collection which include; 
@@ -21,7 +21,6 @@ Pluck
 GroupBy
 CountBy
 ToArray
-
 
 ## Booleans
 These functions return `true` or `false` given the condition in which to check the collection
