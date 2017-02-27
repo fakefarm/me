@@ -1,4 +1,4 @@
-# Security
+# OWASP Top 10 2013
 
 # SQL Injection
 A vulnerability where untrusted input from the web application is accepted as database input which can alter the intent of the original query. This can happen everywhere _untrusted input_ may be accepted into a SQL query but can also affect other back end systems (LDAP, OS, etc.)
@@ -221,3 +221,85 @@ This decision is typically made by the business.
 It would be best to ensure that your final threat model and mitigation strategy matches up with the final code. The verification phrase ensures that teams verify the entire threat model to ensure all threats are considered. The diagram should match the final code. 
 
 #### Validate
+items to validate include
+- quality of threats
+- qualities of mitigation
+- dependencies
+- assumptions
+
+## Cryptography Defenses
+
+Strong crypto mostly has to do with storing sensitive data, algorithms, and protecing keys. 
+
+### Data
+If possible don't store data that is considered _sensitive_. If you do store it, it should never be stored in plain-text and instead should be encrypted. When storing encrypted data using one-way hashes, add salt to prevent automated attacks.
+
+### Algirithms
+Don't develop your own encryption algorithms. Instead use cryptographically strong APIs provided by the programming language. Understand which algorithms have known weaknesses.
+
+### Key Management
+Use cryptographically strong random number generators to create private keys. Avoid pseudo-random or weak generators as they may not be sufficient for encryption. Key management often means thinking about policies for key creation, rotation, destruction and controlling access to keys. 
+
+## Transport Layer Security (SSL / TLS)
+To protect confidentiality on the Internet you will need TLS or some know this as SSL and HTTPS. Web traffic by default is unencrpyted and open for anyone to intercept and log. 
+
+This is acceptable in situations when data is public or low sensitivity, but if you have a high confidentiality requirement, say safeguarding a user's password, you will want to implement encryption on the network layer to protect confidentiality. 
+
+## Hashing with Salts
+Salting a hash means adding random data data to the message so that it does not always produce same output.
+
+## Summary 
+
+Don't store sensitive information if you don't have to because doing cryptography is difficult. But if you must store date, remember to use strong crypto algorighmms (SHA 256) that are proven and tested. Key management is a process that is not always easy, so ensure you have documentation to securely protect and manage your keys.
+
+#  Missing functional level access control
+
+Sometimes known as 'force browsing' or failure to restrict access. It is a common vulnerability where URLs or links, are not adequately protected when they are browsed directly. [Just in time: Facebook restores New Year’s messaging service after plugging privacy loophole](https://thenextweb.com/facebook/2012/12/31/just-in-time-facebook-restores-new-years-messaging-service-after-plugging-privacy-loophole/#!zayAT)
+
+The best defense is good auth management which usually rquires using code to restrict access to internal application pages. 
+
+Most frameworks have the ability to define roles or auth (Pundit) but applying it to the framework requires significant advanced planning of roles and responsibilities.
+
+## Defenses
+### Page level authorization
+the goal is to check access level of the user. However, the problem with page-level access control is that if a user has access to the page, they potentially have access to all its functions as well. (CRUD) when they should only be allowed to READ. You cannot assume page level authorization is enough.
+
+### Programmed Authorization
+It's easy to check whether a user has logged in, but often more granularity is required where only certain users should have authorization to read or even modify data. Typically what you need to do is design controls within your application to perform complete mediation and use programmed application logic to control authorization. It requires sound architecture as many pages can be involved. 
+
+# Cross-site Request Forgery (CSRF)
+An attack where the user's active session is used against them which often goes undetected by the server or user. The best defense is to implement anti-CSRF tokens on sensitive operatoins within the website such as sensitive forms or transactions. Although not as transparent, asking a user to re-auth on sensitive data is another form of defense.
+
+Attackers are able to get a user to perform an action without knowing it. To the server, everything looks as if the user wanted to do it.
+
+## Anti-cerf tokens
+## Re-authetication on sensitive requests
+
+# Using components with known vulnerabilities
+
+How secure are these libraries? 
+Do they have any known vulnerabilities?
+
+Without regularly reviewing what libraries are in use, or even keeping track, the code you rely on could forgotten about. 
+
+[heartbleed](http://heartbleed.com/)
+
+## Buffer Overflow
+Takes advantage of software weakness in memory management.
+
+## Catalogue external dependencies
+Cataloging external dependencies is the main ay to get a better hold of what kinds of libraries and dependencies are in your code. Try to approve libraries. 
+
+## Data Execution Protection
+
+# Unvalidated redirects and forwards
+
+Users trust your site, so if you have open redirects then hackers will take advantage of such links against your users. Since the defense is relatively simple and avoidable - it is suggested to perform redirects server side. If redirects must be used, consider employing a whitelist of acceptable domains to ensure users don't get sent off-site.
+
+If the redirect is not properly validated, an attacker can use this link against you. They will take the link, add their own malicious site to the URL and send this link out to other users. Chancers are that users make actually click on the link because it looks like it's coming from your server since it's bouncing off your web application. When a user clicks this malicious redirect, they will be taken to an evil site that in some cases can even be made to look very similar to yours in order to trick users.
+
+Example
+
+[Covert Redirect security vulnerability found in OAuth and OpenID](http://securityaffairs.co/wordpress/24585/intelligence/covert-redirect-oauth-openid.html)
+
+The solution is simple. Don't allow redirect parameters to be specificed. 
