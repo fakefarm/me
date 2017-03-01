@@ -1,0 +1,76 @@
+EVENT APART 2016. 
+
+# DAY 1
+I had a chance to talk with Jeremy Kieth. Being around all these creative people has inspired me to kickstart my blog. Yet again. But this time I am going to do it around the focus of my career. I am going to write a blog as part of my own career development. I have been converging on three big subjects and doing what I can to know how a single person can comprehend the three overlapping circles of Art, Business, and Code. I have spent time in all three of those circles at some extent so I feel at least authentic enough. I would hope to teach my developer readers something about design. My code readers something about business. And my Design readers something about code. That is my goal at least.
+
+It's not yet a question of if people will read my blog. It's more of looking at myself and deciding if I want to be someone who blogs. Because it is as much a time commitment for me as it is for a reader. The question is what do I want to write about. Because writing means reading, researching, learning, and articulating the subject matter. I find myself interested in three main topics - the law, the web, and raising children.
+
+# DAY 2
+Day 2 of event apart. It has me doing some thinking. It's as if attending this conference is the entrance to my senior year of code school. I am on a particular path and this path is my own. 
+
+I'm sitting on the 7th floor of Disney's Contemporary Resort. I've half way through Day two of my first Event Apart. I am inspired to return to my roots of design, branding, and marketing. Activities that I put off in order to focus on learning how to code. 
+
+
+# Event Emotions
+
+I wasn't sure if I was going to appreciate the conference as much as I have.
+
+It has been awesome to meet Jeremy Keith, Jen Simmons, Laura Hogan, Brad Frost, Jeffrey Zeldman, Rachael, and Chris Coyer. All of these people are big influencers of how I think about the web. 
+
+# Big take aways
+
+- SVG
+- time to start blogging
+- Branding is a wholistic, big picture task
+- atomic css
+- animation
+
+
+BACKGROUND
+I went to college for advertising and graphic design. I applied my skills to t-shirt and print marketing. The year was 2000 and the dot-com bubble had just burst. I was having some moderate success with my t-shirts and that was holding my attention. 
+
+My first exposure to any tinkering inside a website was peeking behind the generated code of my first blogger. That was around 2005. Like many people, I found platform publishing - myspace, blogger, and facebook very attractive. However, I found most of my writing to be on Backpack, which I still use today.
+
+Eclectic career
+my t-shirt experience helped me land some work in the music industry. at first, i was touring with bands and helping them sell their merchandise. I think that the connection was 'Dave, you like making t-shirts, want to sell mine?' I suppose my initiative is what stood out to them. So I ended up moving from selling t-shirts for bands, to selling t-shirts _too_ bands. 
+
+the company i worked for was a small shop so they didn't have much money. i was looking for ways too 
+
+CURRENT FEELINGS
+
+I feel like it's time to start blogging again. I'm guilty of saying that statement one more time. But attending #aneventapartorlando has inspired me to pick it back up. for a couple reasons which I'll describe. 
+
+The first is, I've been coding professionally for four years now. I have successfully moved past the super green stage and I now have a pretty good idea of how things work in the space I am interested in. But that does not mean I feel a sense of arrival. More so, that I feel like I will not sound like a complete moron to blog about some things. But I even hesitate to use the word blog. Blog feels very singular in purpose. I want to do more than blog. If I think about it, what I want is to publish an informal thesis of the things I've learned and also begin blogging in real time the direction I want to head. 
+
+If I were to continue my academic analogy, I feel like I'm a Junior. I smile as I write that because that's the very title I have been fighting to escape. I really mean that I feel like I'm in the 3rd year of a four year education process. And as such, I'm being tasked to begin writing midway through my educational experience. First, so I can help the Freshman and Sophomores. And secondly, the things I'm hoping to be learning moving forward will be interesting enough, or at least personally valuable enough for me to reference in the future. It's as if I can find four reasons to start up again. Personal, Practice, Promotional, and Professional. 
+
+Personally, I want to document what I've been learning. As I mentioned earlier that I want to do more than a blog. I want to publish a thesis. First, let's define thesis; 
+
+a long essay on a particular subject involving personal research, written by a candidate for a college degree.
+
+First, what I disagree with in that definition - I already have 2 college degrees that I'm still paying for so I don't not plan to arrive at a third. Even if I was willing to pay for another degree, the path that I'm on is not found in any college plan. 
+
+So what I really like is that it's a collection of content that is personal research that is long. The beauty of my subject is that it's the web so even though I'm writing, it will not all simply be copy. It will also be html, css, javascript, and hopefully some SVG.
+
+In order to get my undergrad degree I needed to take the required general electives. I think the last 3 years of my career have solidified those fundamentals. Not to say that I don't need more education of those subjects but more so I've at least done the 101 of the major curriculum. Now it's time to apply those fundamentals.
+
+This task will not be a small feat. But I need something to work on right now.
+
+I've had a very elective career and I'll write more about that later. But to summarize, I'd say I was a graphic designer turned entrepreneur turned coder. Each one has helped the former. But as such, the combination and path to code has been driven by something that may or not be common among developers. What What got me into writing code was that I wanted the ability to create a transaction. In one way you might think that means I want to simply make money. But money has never really been my goal. What I like about building a business is that it can be measured by systems and a score card known as cash. On Meyers Briggs I register as an INTJ whose tagline is "There's always room for improvement". I love to learn, grow, and get better. The scientist in me wants to tinker and build a sustainable system. I am so grateful that I've found code. There is an infinite amount of content to learn! I genuninely love that my job is to learn. Sure, there are pain points but those just remind me that I don't know enough and keep me learning. I love applying knowledge to a problem and solving it quickly. 
+
+And, as much as I love code, I still have a past as design and entrepenurship. Everyone lives off incentive. For some, writing code is a job. I cannot maintain a healthy emotional state of working just for money. I need a higher purpose. And since 2008, I've sought to build my own basecamp. Or more specifically, a SAAS product. That is the holy grail of my educational pursuit. I can't shake it. It's what keeps me wanting to do well at my day job. But it also ties together these other two major aspects of my past; design and business. Which leads me to my these and the purpose of this site. 
+
+THESIS
+How to build a web based SAAS from scratch.
+
+I will attempt to answer this question on this site. The key main areas are Art Business Code. The ABC's of SAAS. Those three terms have many synonmys that could be used but the contrast is distinct enough to know of the creative, financial, and engineering processes that are required for a business to effectively run. 
+
+
+## Practice
+I can start practicing these concepts as I have been studying them.
+- promotion
+- personal
+
+I am able to document things for my own sake
+- professional
+

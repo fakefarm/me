@@ -1,0 +1,20 @@
+require 'csv'
+require 'pp'
+
+task :import do
+  File.open('./names.csv', 'r') do |file|
+    CSV.parse(file.read) do |row|
+      pp row
+    end
+  end
+end
+
+task :export # moves content from import
+
+## NOTES
+# on ea i add li
+# save to names.html
+
+
+task :do_all_the_things # macro like db:migrate
+# uses :import, :export, :decorate
