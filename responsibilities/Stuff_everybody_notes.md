@@ -280,3 +280,53 @@ your job is never worth your health.
 Don’t struggle by yourself there’s no bonus points. They develop  weird habits and libraries. 
 
 You’re going to be asking questions constantly because that’s how you level up. So you want to dilute the questions as much as you possibly can so that you don’t get annoyed.
+
+# links from talk
+
+More Weight Doesn't Mean More Wait | Filament Group, Inc., Boston, MA
+https://www.filamentgroup.com/lab/weight-wait.html
+
+Carousel Usability: Designing an Effective UI for Websites with Too Much Overload
+https://www.nngroup.com/articles/designing-effective-carousels/
+
+Beware Horizontal Scrolling and Mimicking Swipe on Desktop
+https://www.nngroup.com/articles/horizontal-scrolling/
+
+Nielsen Norman Group: UX Training, Consulting, & Research
+https://www.nngroup.com/
+
+Screen Readers: Eight Frequently Asked Questions | Practical Ecommerce
+http://www.practicalecommerce.com/articles/2114-Screen-Readers-Eight-Frequently-Asked-Questions
+
+Usability Guidelines for Accessible Web Design: a Report by NN/g
+https://www.nngroup.com/reports/usability-guidelines-accessible-web-design/
+
+Ma.gnolia Suffers Major Data Loss, Site Taken Offline | WIRED
+https://www.wired.com/2009/01/magnolia-suffer/
+
+What bookmarking sites should a former Ma.gnolia junkie turn to? - magnolia bookmarks social | Ask MetaFilter
+http://ask.metafilter.com/113818/What-bookmarking-sites-should-a-former-Magnolia-junkie-turn-to
+
+Hacker Puts Hosting Service Code Spaces Out of Business | Threatpost | The first stop for security news
+https://threatpost.com/hacker-puts-hosting-service-code-spaces-out-of-business/106761/
+
+Murder in the Amazon cloud | InfoWorld
+http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html
+
+Catastrophe in the cloud: What the AWS hacks mean for cloud providers
+http://www.information-age.com/catastrophe-cloud-what-aws-hacks-mean-cloud-providers-123458406/
+
+Code Spaces goes titsup FOREVER after attacker NUKES its Amazon-hosted data • The Register
+https://www.theregister.co.uk/2014/06/18/code_spaces_destroyed/
+
+Getting Started - Let's Encrypt - Free SSL/TLS Certificates
+https://letsencrypt.org/getting-started/
+
+Regex Cheat Sheet
+http://www.rexegg.com/regex-quickstart.html
+
+Amazon.com: Mastering Regular Expressions (8601400035191): Jeffrey E. F. Friedl: Books
+https://www.amazon.com/dp/0596528124?tag=onamazon-20
+
+An Unconventional Guide for Getting a Software Engineering Job — Julia H Grace
+http://www.juliahgrace.com/blog/2015/4/9/an-unconventional-guide-for-getting-a-software-engineering-job
