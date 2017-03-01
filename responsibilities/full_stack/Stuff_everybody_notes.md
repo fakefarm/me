@@ -1,6 +1,6 @@
 # Stuff_everybody_notes
 
-Notes from talk, [stuff everybody knows]() from Sebdo about agreed upon practices in web development. I wasn’t able to follow his slides that well so these notes need some work. 
+Notes from talk, [stuff everybody knows](https://www.youtube.com/watch?v=JIJZnF_L5KI&t=1s) from Laurie Voss about agreed upon practices in web development. I wasn’t able to follow his slides that well so these notes need some work. 
 
 1. Dunning Kruger
 
