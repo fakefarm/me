@@ -3,3 +3,38 @@ thesis: having a deadline means I’m committed to something which means I’m i
 
 Today is the first day I’m trying to stick to my magazine. I’m noticing that 
 
+## Day N
+
+Working on my first issue. I’m realizing I jumped too soon to markup. Markup is easy once content is established, but it’s difficult to do it and content simultaneously. 
+
+## Personal
+### genesis
+### psalm 119
+### Deuteronomy
+### tobit
+### jeremiah
+
+## Relational
+### parents
+### sons
+- facetimes
+- letters
+- prayers
+
+## Responsibilities
+
+### code
+- rewrite underscore
+
+### data
+- data management as _plogging_
+
+### learning
+- full stack
+- security
+- pry
+- testing GOOS
+
+### reading
+- adaptive web design
+- goos
