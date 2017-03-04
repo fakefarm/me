@@ -20,3 +20,10 @@ I no longer blindly accept nasa or the anti-physic properties of a spinning glob
 
 ## Water
 The first living creatures were sea creatures. Was there a 1st sea creature or where they all made in tandem? Notice that evolution also starts with water but has no explanation where water came from. Some giant fire cracker made water? Please.
+
+## Simple sign as significant sign
+Abraham’s servant asks God for a basic action (Watering of Camels) to be a sign of who Isaac’s wife will be
+
+## Did the angel really not know?
+The Angel asks Lot if He has anyone else in the city; sons, sons-in-law. Did the angel’s really not know? Or is this an insight into the our gracious relationship with the unseen?
+

@@ -6,4 +6,5 @@ I’ve started to notice that the book flows but is also choppy. I am curious ho
 
 I suspect Moses wrote it by compiling a variety of sources. 
 
+The mystery of authorship is one excuse people use why they don’t read the bible. Still, no matter who wrote the book - it has the ability to impact my soul. These stories are more than entertaining.
 
