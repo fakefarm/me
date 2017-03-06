@@ -14,3 +14,5 @@ Chris's role at the company was more of a low-level generalist. He explained to 
 [FHS]
 
 It was all I knew and I figured we were at the ground floor. When Chris saw this, he said "Oh I see what you're trying to do. Let's look at it differently. Let's start below FHS. Let's start at the electricity." :boom: As I came to discover, Chris has worked in every relevant level of computer programming from volts to binary to assembly to compilers to C to Interpeters to Ruby. These are my notes as I learn the pathway.
+
+This is an attempt to go from electrical volts to Rails in one stack. There are many different stacks and this book does not propose to explain them all. This is the stack that I currently live in so it's the only one I can speak to. 
