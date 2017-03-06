@@ -1,0 +1,2 @@
+# Intermediate languages
+Languages that compile to an intermediate langauges. Virtual machines run the byte code. JIT languages that compile to byte code, which is JVM (CLR mirosoft's run time) Compile to byte code, they are languages that have a virtual machine that compiles to an intermediate language that the vm can run. They are very performant. You can get C and C++ level performance with them. Core Engine is in Java. Writing it in C. 
