@@ -459,3 +459,24 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+/* _dw additions
+   ========================================================================== */
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  /*For ratio 16:9. 75% if ratio is 4:3*/
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
