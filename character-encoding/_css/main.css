@@ -1,0 +1,23 @@
+/*
+  keep media queries near their component.
+*/
+
+/*
+  mobile first...
+*/
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+.wrapper {
+  width: 40em;
+  margin: 0 auto;
+}
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
