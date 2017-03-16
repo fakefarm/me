@@ -9,19 +9,19 @@
     <meta name="description" content="Everything begins with the creator" />
     <meta name="keywords" content="dave woodall boulder coder wwwoodall fake farm leavelist fakefarm" />
     <meta name="author" content="dave woodall wwwoodall" />
-    <link rel="stylesheet" href="./character-encoding/_css/normalize.css">
-    <link rel="stylesheet" href="./character-encoding/_css/main.css">
+    <link rel="stylesheet" href="character-encoding/_css/normalize.css">
+    <link rel="stylesheet" href="character-encoding/_css/main.css">
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>Character Encoding</h1>
       </header>
-      <article class="intro">
+      <article class="article intro">
         <h2>As fun as it sounds. Try learning it!</h2>
         <p>I'm working on a bug ticket that has to do with encoding errors that are loosely related to <b>RFC822</b> and <b>RFC2047</b>. Those two terms introduced me to IETF, which then in turn got me interested in TCP/IP, which then brought me back to the specifics of the RFC's, which is encoding. All of which is new territory for me. I think it's safe to say that any passionate web developer will find these subjects of interest since they are the foundation of our work. As such, I'm keeping some notes of what I'm learning;</p>
       </article>
-      <article class="buzz-words">
+      <article class="article buzz-words">
         <ul>
           <li>ASCII</li>
           <li>UTF-8</li>
@@ -41,16 +41,97 @@
         <p>Unicode is a character set. UTF-8 is encoding.</p>
       </article>
       <article class="article ietf">
+        <header>
+          <h1>IETF</h1>
+        </header>
+
+        <section>
+          <h2>What Is the IETF?</h2>
+          <blockquote cite="http://ietf.org/tao.html">
+            The IETF is a loosely self-organized group of people who contribute to the engineering and evolution of Internet technologies. It is the principal body engaged in the development of new Internet standard specifications. The IETF is unusual in that it exists as a collection of happenings, but is not a corporation and has no board of directors, no members, and no dues; see [BCP95], "A Mission Statement for the IETF", for more detail.
+          </blockquote>
+        </section>
+        <section>
+          <h2>IETF Resources</h2>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2047">RFC 2047 - MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc822">RFC 822 - STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2231">RFC 2231 - MIME Parameter Value and Encoded Word Extensions: Character Sets, Languages, and Continuations</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc8033">RFC 8033 - Proportional Integral Controller Enhanced (PIE): A Lightweight Control Scheme to Address the] Bufferbloat Problem</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2184">RFC 2184 - MIME Parameter Value and Encoded Word Extensions: Character Sets, Languages, and Continuations</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.ietf.org/newcomers.html">Getting Started in the IETF</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.youtube.com/watch?v=ADQmECtl0L4&list=PLC86T-6ZTP5hXPJ-n4mwJbZ0BHaNlhTMA&index=2">IETF Purpose &amp; Scope - YouTube</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.ietf.org/blog/">IETF Blog</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/rfc/rfc3935.txt">ietf.org/rfc/rfc3935.txt</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/tao.html">The Tao of IETF: A Novice's Guide to the Internet Engineering Task Force</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/newcomers.html">Getting Started in the IETF</a>
+          </aside>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       </article>
+      <article class="article rfc-822">
+        <header>
+          <h1>RFC 822</h1>
+        </header>
+
+        Notes from [rfc 822](https://tools.ietf.org/html/rfc822)
+
+        <section>
+          <h2>Overview </h2>
+          <p>This standard specifies a syntax for text messages that are sent  among computer users, within the framework of "electronic mail".</p>
+
+          <p>In this context, messages are viewed as having an envelope and contents. The envelope contains whatever information is needed to accomplish transmission and delivery. The contents compose the object to be delivered to the recipient.</p>
+        </section>
+        <section>
+          <h2>Focus is the message format, not the 'envelope'</h2>
+          <p>This standard applies only to the format and some of the semantics of message contents. It contains no specification of the information in the envelope.</p>
+        </section>
+      </article>
+      <footer>
+      <h2>Resources</h2>
+
+      </footer>
     </div>
     <footer class='footer-1'>
     </footer>
-    <div class='scripts'>      
-      <script src="./character-encoding/_js/vendor/jquery.min.js"></script>
-      <script src="./character-encoding/_js/vendor/underscore.min.js"></script>
-      <script src="./character-encoding/_js/vendor/backbone.min.js"></script>
-      <script src="./character-encoding/_js/main.js"></script>
+    <div class='scripts'>
+      <script src="character-encoding/_js/vendor/jquery.min.js"></script>
+      <script src="character-encoding/_js/vendor/underscore.min.js"></script>
+      <script src="character-encoding/_js/vendor/backbone.min.js"></script>
+      <script src="character-encoding/_js/main.js"></script>
       <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
