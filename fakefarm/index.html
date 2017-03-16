@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app='fakeFarmApp'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fake Farm | pet projects by Dave Woodall</title>
+    <meta name="description" content="">
+    <meta name="author" content="Dave Woodall" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Slab:400,100,700,300|Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/typography.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="js/app/service.posts.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <section id='landing' class='landing'>
+      <div class='text'>
+        <p class='welcome-text'>welcome to</p>
+        <h1>fake farm</h1>
+      </div>
+    </section>
+    <section class='content'>
+      <nav class='fixed-nav'>
+        <div class="nav-links">
+          <a href="#">about</a>
+          <a href="#">suggest a pet project</a>
+          <a href="https://github.com/woodall/fakefarm/issues/2">questions / comments</a>
+        </div>
+        <div class="nav-content" id='nav-content'>
+          <div id='about'>
+            <h3>About</h3>
+            <p>There are many nuances to the basics. This site is a collection of such concepts by focusing on them one at a time.</p>
+          </div>
+          <div id='suggest'>
+            <h3>Suggest a Pet</h3>
+            <p>Have an idea for a new pet project? Great! Simply submit a comment and I'll probably add it to the list.</p>
+            <a href="https://github.com/woodall/fakefarm/issues/1"></a>
+          </div>
+          <div id='submit'>
+            <h3>Submit a Pet</h3>
+            <p>Want to submit a Pet? Great! Fork the project and create a PR and we can compare</p>
+          </div>
+          <div id='comment'>
+            <h3>Have a question or comment?</h3>
+            <p>Feel free to submit a comment or question here.</p>
+            <a href="https://github.com/woodall/fakefarm/issues/2"></a>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <img class='fly' src="img/fly.svg" alt="octo">
+        <h1>fake farm</h1>
+        <p>pet projects by <a href="http://www.wwwoodall.com" title="">Dave Woodall</a></p>
+        <ul>
+          <li><a ui-sref="card-view">Card View</a></li>
+          <li><a ui-sref="list-view">List View</a></li>
+        </ul>
+      </header>
+      <section class='articles'>
+        <div ui-view></div>
+      </section> <!-- articles -->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-52536027-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

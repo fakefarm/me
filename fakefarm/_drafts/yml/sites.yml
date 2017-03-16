@@ -1,0 +1,68 @@
+page:
+  title: sites
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+collections:
+  -
+    title: Wells visits Oscar
+    caption: "Danae started volunteering at Oscar's school and Wells gets to tag along. Oscar was excited to show Wells the ropes."
+    date: 2014-12-15
+    entries:
+      -
+        title: "danae.woodalls.me"
+        sub-title: ''
+        tag: ''
+        url: 'http://danae.woodalls.me'
+        body: 'A site for my wife.'
+        state: ''
+      -
+        title: 'Goalies'
+        sub-title: ''
+        tag: ''
+        url: 'http://www.goali.es'
+        body: 'Reconcile your time.'
+        state: ''
+      -
+        title: 'Lettucebooks'
+        sub-title: ''
+        tag: ''
+        url: 'http://www.lettucebooks.com'
+        body: 'Manage communication between bookkeepers and business owners'
+        state: ''
+      -
+        title: 'Afterburners'
+        sub-title: ''
+        tag: ''
+        url: 'http://www.afterburners.mx'
+        body: 'Every playlist has a story.'
+        state: ''
+      -
+        title: 'Destroy all Tasks'
+        sub-title: ''
+        tag: ''
+        url: 'http://www.destroyalltasks.com'
+        body: 'A todo app that lets you snooze tasks'
+        state: ''
+      -
+        title: 'blog'
+        sub-title: ''
+        tag: ''
+        url: 'http://dave.woodalls.me'
+        body: 'My first rails blog'
+        state: ''
+      -
+        title: 'hire Me'
+        sub-title: ''
+        tag: ''
+        url: 'http://www.hireDave.me'
+        body: 'My freelance site'
+        state: ''
+      -
+        title: 'Monkey CRUD'
+        sub-title: ''
+        tag: ''
+        url: 'http://monkeytasks.herokuapp.com/'
+        body: 'My first CRUD'
+        state: ''
+
+
+

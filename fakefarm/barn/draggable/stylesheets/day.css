@@ -1,0 +1,48 @@
+.week {
+  overflow: hidden;
+  padding: 1em 0;
+}
+.day {
+  width: 10%;
+  padding: 0.5em 1em;
+  border-right: 1px dashed #b3b3b3;
+  float: left;
+}
+
+.day:last-child {
+  border-right: none;
+}
+
+.event-box {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  background: rgba(82,185,255,0.5);
+}
+.event-box .title,
+.event-box .hours,
+.event-box .category {
+  color: #666666;
+  margin: 0;
+  padding: 0;
+}
+
+.event-box .title {
+  float: left;
+}
+
+.handle{
+  color: #7f7f7f;
+  font-size: 0.9em;
+  margin-top: -0.5em;
+  text-align: right;
+  padding-right: 0.5em;
+  cursor: crosshair;
+}
+
+.controls {
+  display: none;
+}
+
+.event-box:hover .controls {
+  display: block;
+}

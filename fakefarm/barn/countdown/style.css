@@ -1,0 +1,29 @@
+body {
+  background: #e4e4e4;
+  font-size: 15em;
+  font-family: 'Lucida Grande';
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.clock {
+  font-size: 13em;
+}
+
+input[type=text],
+input[type=button] {
+  padding: 0.5em;
+  width: 5em;
+  font-size: 3em;
+  border: none;
+}
+
+input[type=button]:hover{
+  background: red;
+}
+
+.math-total{
+}

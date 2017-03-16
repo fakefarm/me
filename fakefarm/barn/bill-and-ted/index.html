@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="bandt">
+  <head>
+    <script data-require="angular.js@*" data-semver="1.3.0-rc2" src="https://code.angularjs.org/1.3.0-rc.2/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+    <style>
+      .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%;
+      }
+      .temp li { list-style: none; font-family: sans-serif; }
+      .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+      .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+    </style>
+    <nav class='temp'>
+      <ul>
+        <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+      </ul>
+    </nav>
+    <!-- end of deliberate hack. -->
+    <div class="container">
+      <game></game>
+      <score></score>
+      <winner></winner>
+    </div>
+    <script src="app.js"></script>
+    <script src="controllers.js"></script>
+    <script src="directives.js"></script>
+  </body>
+</html>

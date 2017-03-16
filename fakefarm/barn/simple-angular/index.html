@@ -1,0 +1,31 @@
+<html ng-app='bio'>
+<head>
+  <title>Bio</title>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="directives.js"></script>
+  <script type="text/javascript" src="controllers.js"></script>
+  <script type="text/javascript" src="services.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+    <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+      <style>
+        .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%; font-size: 15px;}
+        .temp li { float: left; list-style: none; font-family: sans-serif; }
+        .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+        .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+      </style>
+      <nav class='temp'>
+        <ul>
+          <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+        </ul>
+      </nav>
+      <!-- end of deliberate hack. -->
+    <main-nav></main-nav>
+    <ng-view></ng-view>
+  </body>
+</html>
+
+

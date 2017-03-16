@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>An exercise in 3d transforms</title>
+  <style type="text/css">
+    body {
+      background: #ff6666;
+      font-family: arial;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 5em;
+    }
+    h1 {
+      margin-top: 0.3em;
+    }
+
+    .front {
+      background: #ff6666;
+      border: 2px dashed #d15252;
+      color: #d15252;
+     }
+
+    .back {
+      background: #d15252;
+      color: #ff6666;
+    }
+
+    .wrapper {
+      width: 300px;
+      height: 300px;
+      margin: 2em auto;
+      position: relative;
+      background: #af4545;
+      box-shadow: inset 0px 0px 2px 1px #712c2c;
+      -webkit-perspective: 800px;
+      cursor: pointer;
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      -webkit-transition: -webkit-transform 0.85s;
+      -moz-transition: -moz-transform 0.85s;
+      transition: transform 0.85s;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: -moz-preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover {
+      -webkit-transform: rotateY(360deg);
+      -moz-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+    }
+
+    .back {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+
+    .side {
+      width:100%;
+      height:100%;
+      position:absolute;
+      display: block;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+    <style>
+      .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%; font-size: 15px;}
+      .temp li { list-style: none; font-family: sans-serif; }
+      .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+      .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+    </style>
+    <nav class='temp'>
+      <ul>
+        <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+      </ul>
+    </nav>
+    <!-- end of deliberate hack. -->
+<div class="ground">
+  <div class="wrapper">
+    <div class="card">
+      <div class="front side">
+        <h1>L</h1>
+      </div>
+      <div class="back side">
+        <h1>O</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

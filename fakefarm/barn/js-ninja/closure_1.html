@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>timers</title>
+</head>
+<body>
+  <h1>Using a closure</h1>
+  <div id='box' style='background: #66FFFF; top: 100px; width: 100px; height: 100px; position: absolute;'>box 1</div>
+  <script type='text/javascript'>
+    function animateIt(elementId) {
+      var elem = document.getElementById(elementId);
+      var tick = 0;
+
+      var timer = setInterval(function(){
+        if(tick < 100) {
+          elem.style.left = tick + 'px';
+          tick++;
+        }
+        else {
+          clearInterval(timer);
+        }
+      }, 20)
+    }
+    animateIt('box');
+  </script>
+</body>
+</html>

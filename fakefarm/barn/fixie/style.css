@@ -1,0 +1,112 @@
+body {
+  background: #dad7c7;
+  margin: 0;
+  padding: 0;
+  font-family: 'lucida grande';
+  color: #aba99c;
+  text-align: center;
+}
+
+.grid {
+  overflow: auto;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+/* Mobile first */
+@media (max-width: 460px) {
+  .grid { width: 98%; }
+  .box {
+    width: 96%;
+    height: 25%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background: white;
+  }
+}
+
+/* tablets */
+@media (min-width: 461px) and (max-width: 920px) {
+
+  .grid {
+    width: 96%;
+    border: 1px solid white;
+  }
+
+  .box {
+    width: calc(94%/2);
+    height: 25%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background: white;
+  }
+  .box:nth-child(1),
+  .box:nth-child(3),
+  .box:nth-child(5),
+  .box:nth-child(7),
+  .box:nth-child(9),
+  .box:nth-child(11) {
+    margin-left: 2%;
+  }
+}
+
+/* desktop */
+
+@media (min-width: 921px) {
+
+  .grid {
+    width: 80%;
+    max-width: 960px;
+    border: 1px solid #ddffe9;
+  }
+
+  .box {
+    width: calc(92%/3);
+    height: 20%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background: white;
+  }
+
+  .box:nth-child(1),
+  .box:nth-child(4),
+  .box:nth-child(7),
+  .box:nth-child(10),
+  .box:nth-child(13),
+  .box:nth-child(16) {
+    margin-left: 2%;
+  }
+}
+
+/* temporary styling
+you can delete anything below.
+*/
+
+.box { border-radius: 5px; }
+
+.box:nth-child(1),
+.box:nth-child(7){
+  background: #ff6666;
+}
+.box:nth-child(2),
+.box:nth-child(8){
+  background: #ffc581;
+}
+.box:nth-child(3),
+.box:nth-child(9){
+  background: #ffed54;
+}
+.box:nth-child(4),
+.box:nth-child(10){
+  background: #62ca75;
+}
+.box:nth-child(5),
+.box:nth-child(11){
+  background: #56dbff;
+}
+.box:nth-child(6),
+.box:nth-child(12){
+  background: #a58abb;
+}

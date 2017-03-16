@@ -1,0 +1,14 @@
+<h1>Welcome to my Angular site.</h1>
+<h2>Please fill out your name so we don't have to act like strangers.</h2>
+<div>
+  <form ng-submit="submit()">
+    <input type='text' name='name' ng-model='user.name'>
+    <h1 ng-show='user.name'>Hello, {{ user.name }}!</h1>
+    <input type='submit' value='share name'>
+  </form>
+    <div ng-show='user.button'>
+      <span>That was unecessary.</span>
+      <a ng-click='hideLip()'>(hide lippy response.)</a>
+    </div>
+
+</div>

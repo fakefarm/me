@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>timers</title>
+</head>
+<body>
+  <h1>Central Timers</h1>
+  <div id='box' style="position: absolute;">Hello!</div>
+
+  <script type='text/javascript'>
+
+    var timers = {
+      timerID: 0,
+      timers: [],
+
+      add: function(fn) {
+        this.timers.push(fn);
+      },
+
+      start: function() {
+        if (this.timerID) return;
+        (function runNext() {
+          if (timers.timers.length > 0) {
+            for (var i = 0; i < timers.timers.length; i++) {
+              if (timers.timers[i]() === false) {
+                timers.timers.splice(i,1);
+                i--;
+              }
+            }
+            timers.timerID = setTimeout(runNext, 0);
+          }
+        })();
+      },
+
+      stop: function() {
+        clearTimeout(this.timerID);
+        this.timerID = 0;
+      }
+    };
+
+    var box = document.getElementById("box"), x = 0, y = 20;
+
+    box.style.background = 'red';
+    box.style.width = '200px';
+
+    timers.add(function() {
+      box.style.left = x + 'px';
+      if(++x > 50) return false;
+    });
+
+    timers.add(function() {
+      box.style.top = y + 'px';
+      y += 2;
+      if (y > 120) return false;
+    });
+
+    timers.start();
+  </script>
+</body>
+</html>

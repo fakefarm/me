@@ -1,0 +1,248 @@
+<html>
+<head>
+  <title>fire</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic|Oswald:400,300' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+  body {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    -webkit-animation: breath 3s linear infinite alternate;
+    -moz-animation: breath 3s linear infinite alternate;
+    animation: breath 3s linear infinite alternate;
+  }
+
+  .container {
+    width: 40%;
+    padding: 2em;
+  }
+  .fire {
+    font-size: 3em;
+    text-align: right;
+    float: left;
+    width: 50%;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    -webkit-animation: breath-text, fire-text;
+    -moz-animation: breath-text, fire-text;
+    animation: breath-text, fire-text;
+
+    -webkit-animation-duration: 2s, .5s;
+    -moz-animation-duration: 2s, .5s;
+    animation-duration: 2s, .5s;
+
+    -webkit-animation-iteration-count: infinite, 1;
+    -moz-animation-iteration-count: infinite, 1;
+    animation-iteration-count: infinite, 1;
+
+    -webkit-animation-direction: alternate, normal;
+    -moz-animation-direction: alternate, normal;
+    animation-direction: alternate, normal;
+
+    -webkit-animation-delay: 2s, 1.5s;
+    -moz-animation-delay: 2s, 1.5s;
+    animation-delay: 2s, 1.5s;
+
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+
+  }
+  p {
+    -webkit-animation: slide-text .25s ease 3s 1 both;
+    -moz-animation: slide-text .25s ease 3s 1 both;
+    animation: slide-text .25s ease 3s 1 both;
+  }
+  a { color: #65bfd2; }
+
+  .footnote {
+    font-weight: 400;
+    color: white;
+    border-top: 2px solid rgba(0,0,0,0.6);
+    width: 100%;
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 35px;
+    background: rgba(0,0,0,0.5);
+    height: 100px;
+    position: fixed;
+    -webkit-animation: moveup .5s ease 1s 1 both;
+    -moz-animation: moveup .5s ease 1s 1 both;
+    animation: moveup .5s ease 1s 1 both;
+  }
+
+  @-webkit-keyframes breath {
+    0%   { background-color: #ffff66; }
+    20%  { background-color: #edf0c5; }
+    50%  { background-color: #e5c465; }
+    70%  { background-color: #e17052; }
+    100% { background-color: #edd05f; }
+  }
+
+
+  @-webkit-keyframes breath-text {
+    0%    { color: #f0da3b; }
+    20%   { color: #ffff75; }
+    80%   { color: #edf0c5; }
+    90%   { color: #bebea4; }
+    100%  { color: #ffff66; }
+  }
+
+  @-webkit-keyframes moveup {
+    from {
+      opacity: 0;
+      bottom: -135px;
+    }
+    to  {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+  @-webkit-keyframes slide-text {
+    from {
+      opacity: 0;
+      padding-right: 90px;
+    }
+    to   {
+      opacity: 1;
+      padding-right: 120px;
+    }
+  }
+  @-webkit-keyframes fire-text {
+    from {
+      opacity: 0;
+      padding-top: 20px;
+    }
+    to   {
+      opacity: 1;
+      padding-top: 0px;
+    }
+  }
+  @-moz-keyframes breath {
+    0%   { background-color: #ffff66; }
+    20%  { background-color: #edf0c5; }
+    50%  { background-color: #e5c465; }
+    70%  { background-color: #e17052; }
+    100% { background-color: #edd05f; }
+  }
+
+
+  @-moz-keyframes breath-text {
+    0%    { color: #f0da3b; }
+    20%   { color: #ffff75; }
+    80%   { color: #edf0c5; }
+    90%   { color: #bebea4; }
+    100%  { color: #ffff66; }
+  }
+
+  @-moz-keyframes moveup {
+    from {
+      opacity: 0;
+      bottom: -135px;
+    }
+    to  {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+  @-moz-keyframes slide-text {
+    from {
+      opacity: 0;
+      padding-right: 90px;
+    }
+    to   {
+      opacity: 1;
+      padding-right: 120px;
+    }
+  }
+  @-moz-keyframes fire-text {
+    from {
+      opacity: 0;
+      padding-top: 20px;
+    }
+    to   {
+      opacity: 1;
+      padding-top: 0px;
+    }
+  }
+  @keyframes breath {
+    0%   { background-color: #ffff66; }
+    20%  { background-color: #edf0c5; }
+    50%  { background-color: #e5c465; }
+    70%  { background-color: #e17052; }
+    100% { background-color: #edd05f; }
+  }
+
+
+  @keyframes breath-text {
+    0%    { color: #f0da3b; }
+    20%   { color: #ffff75; }
+    80%   { color: #edf0c5; }
+    90%   { color: #bebea4; }
+    100%  { color: #ffff66; }
+  }
+
+  @keyframes moveup {
+    from {
+      opacity: 0;
+      bottom: -135px;
+    }
+    to  {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+  @keyframes slide-text {
+    from {
+      opacity: 0;
+      padding-right: 90px;
+    }
+    to   {
+      opacity: 1;
+      padding-right: 120px;
+    }
+  }
+  @-moz-keyframes fire-text {
+    from {
+      opacity: 0;
+      padding-top: 20px;
+    }
+    to   {
+      opacity: 1;
+      padding-top: 0px;
+    }
+  }
+
+  </style>
+</head>
+<body>
+  <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+    <style>
+      .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%; font-size: 15px;}
+      .temp li { list-style: none; font-family: sans-serif; }
+      .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+      .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+    </style>
+    <nav class='temp'>
+      <ul>
+        <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+      </ul>
+    </nav>
+    <!-- end of deliberate hack. -->
+  <div class="container">
+    <div class="content">
+    </div>
+  </div>
+  <div class="footnote">
+    <div class='fire'>fire</div>
+    <p>
+      a CSS3 animation exercise by <a href="http://www.github.com/woodall" target="_blank">Dave Woodall</a>.
+    </p>
+  </div>
+</body>
+</html>

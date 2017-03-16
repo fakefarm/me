@@ -1,0 +1,18 @@
+body {
+  background: #EEE;
+  font-family: Monaco,"Lucida Console",monospace;
+}
+
+.description {
+  padding: 2em;
+  line-height: 20px;
+  color: #808080;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+.description cite {
+  font-size: 12px;
+}

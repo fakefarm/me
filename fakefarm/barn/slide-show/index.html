@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class='body'>
+  <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+    <style>
+      .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%; font-size: 15px;}
+      .temp li { list-style: none; font-family: sans-serif; }
+      .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+      .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+    </style>
+    <nav class='temp'>
+      <ul>
+        <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+      </ul>
+    </nav>
+    <!-- end of deliberate hack. -->
+  <div class="slideshow" id="slideshow">
+    <div class="view-pane">
+      <span class="slide-left" id="left"></span>
+      <span class="slide-right" id="right"></span>
+      <div id="slides">
+        <img class="" id="active" data-position="first" src="images/beach_tn.jpg" >
+        <img class="" src="images/dad_oscar_tn.jpg" >
+        <img class="" src="images/fire_tn.jpg" >
+        <img class="" src="images/grace_tn.jpg" >
+        <img class="" src="images/granny_tn.jpg" >
+        <img class="" data-position="last" src="images/listen_tn.jpg" >
+      </div>
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/actions.js"></script>
+  <script src="javascripts/slideshow.js"></script>
+  <script src="javascripts/init.js"></script>
+</body>
+</html>
+
+
+
+
+

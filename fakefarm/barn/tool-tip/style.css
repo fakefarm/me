@@ -1,0 +1,70 @@
+body {
+  background: #dad7c7;
+  font-size: 100%;
+}
+
+.wrapper {
+  margin: 5em 0 0 3em;
+  width: 20%;
+}
+
+.button {
+  background: white;
+  padding: 1em;
+  font-family: 'lucida grande';
+  font-size: 1.2em;
+  border-radius: 7px;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #c7c4b6;
+  border: 1px solid #c8c8c8;
+  transition-duration: 200ms;
+}
+
+.add:before {
+  content: "+";
+  background: #82c88f;
+  color: white;
+  border-radius: 20px;
+  padding: 0.2em 0.4em;
+  margin-right: 1em;
+  border: 1px solid #e4e4e4;
+}
+
+.goal-entry {
+  display: none;
+}
+
+.disabled {
+    background: #c5c3b5;
+}
+
+.disabled:hover {
+  cursor: default;
+}
+
+input[type='text'] {
+  margin-top: 2em;
+  border: none;
+  padding: 2em;
+  width: 100%;
+  font-size: 0.9em;
+  border-radius: 0.4em;
+  background: #e4e4e4;
+}
+
+.goal-input:focus + .tool-tip{
+  background: #acaa9e;
+  padding: 0.3em;
+  display: block;
+  margin: 0.5em 0;
+  color: #696861;
+}
+
+.tool-tip {
+  display: none;
+}
+

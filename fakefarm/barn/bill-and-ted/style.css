@@ -1,0 +1,54 @@
+/* Styles go here */
+
+.container {
+  margin-top: 4em;
+}
+
+.btns {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.btns div {
+  display: inline;
+}
+
+.btn {
+  background: #dad7c7;
+  padding: 0 1em;
+  font-size: 2em;
+}
+
+.x {
+  color: red;
+  text-decoration: underline;
+}
+
+.big-text {
+  font-size: 2em;
+}
+.btn:hover {
+  background: #aaa;
+  color: #eee;
+}
+.models {}
+
+.mod {
+  width: 40%;
+  display: inline-block;
+  border: 10px solid white;
+  box-shadow: 0px 0px 1px #aaa;
+}
+.mod img {
+  width: 100%;
+}
+
+.game {
+  width: 78%;
+  float: left;
+}
+.score {
+  width: 18%;
+  overflow: auto;
+  float: left;
+}

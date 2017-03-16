@@ -1,0 +1,51 @@
+/* family
+---------------------*/
+h1,
+h3 { font-family: 'Roboto Slab', serif; }
+
+h2 { font-family: 'Archivo Narrow', sans-serif; }
+
+
+p,
+a { font-family: 'Open Sans', sans-serif; }
+
+/* color
+---------------------*/
+h1,
+h2,
+h3,
+a {
+  color: #2A415D;
+}
+
+/* weights
+---------------------*/
+
+h3,
+a { font-weight: 300; }
+
+p { font-weight:  400; }
+
+
+/* style
+---------------------*/
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+
+/* margin & padding reset
+---------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

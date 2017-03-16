@@ -1,0 +1,61 @@
+body {
+  color: #4C4C4C;;
+  font-family: 'Raleway';
+}
+.container {
+  width: 400px;
+  margin: 5em auto;
+}
+.pad {
+  cursor: pointer;
+  width: 100%:;
+  padding: 0.01em;
+  text-align: center;
+  background: #FFCC66;
+  color: #D25C54;
+  border-bottom: 3px solid #BE974B;
+  border-radius: 8px;
+  font-size: 2.4em;
+}
+
+.pad:hover {
+  border-top: 3px solid #B49049;
+  background: #F5C76A;
+  border-bottom: none;
+}
+
+.box {
+  border: 1px solid #CCCCCC;
+  width: 100%:;
+  margin: 0.5em 0;
+  padding: 1em;
+  border-radius: 4px;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+a:hover {
+  background: #eee;
+}
+
+.active {
+  background: #6FDC9E;
+  transition: background 200ms ease-in-out;
+}
+
+.reset {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #CCCCCC;
+}
+.bottom-part {
+  background: yellow;
+  height: 300px;
+  width: 100%;
+}

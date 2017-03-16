@@ -1,0 +1,91 @@
+
+nav, .contents, .item-wrapper, .guts, .left-box, .right-box, .content-list, .content-guts, .name, .details {
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+}
+
+.nav-wrapper {
+  height: 65px;
+}
+
+ul, li { margin: 0; padding: 0;}
+li { list-style: none;}
+
+.logo-wrapper { float: left; }
+.contents { position: relative; }
+
+img { width: 100%; }
+.logo { width: 20%;}
+
+.item-wrapper {
+  float: left;
+  margin: 0 2em;
+}
+
+.item-title {
+  font-size: 3em;
+  padding: 0 15px 10px;
+  color: white;
+}
+
+.item-title:hover {
+  background: #408000;
+  border-radius: 3px;
+}
+
+.guts {
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 25px;
+}
+
+.item-wrapper:hover > .guts {
+  visibility: visible;
+  opacity: 1;
+ }
+
+.item-wrapper:hover > .item-title {
+  background: #408000;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.left-box {
+  float: left;
+  width: 15%;
+  margin-right: 15px;
+}
+
+.right-box {
+  float: left;
+  width: 73%;
+}
+
+.content-list {
+  position: relative;
+  width: 100%;
+}
+.content-guts {
+  overflow: auto;
+}
+
+.name {
+  float: left;
+}
+.details {
+  visibility: hidden;
+  opacity: 0;
+}
+.name:hover + .details {
+  visibility:visible;
+  opacity:1;
+  transition-delay:0s;
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}

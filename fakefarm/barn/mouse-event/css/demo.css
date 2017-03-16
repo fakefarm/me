@@ -1,0 +1,39 @@
+.header, .footer {
+  width: 100%;
+  height: 200px;
+  background: #FFCC66;
+}
+.row {
+  width: 100%;
+  height: 400px;
+}
+.middle, .content {
+  float: left;
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+}
+.middle {
+  background: #66FFCC;
+}
+.content {
+  background: #E6E6E6;
+  padding: 1em;
+  font-size: 3em;
+}
+
+.copy {
+  display:none;
+}
+
+.hide {
+ display:none;
+}
+.show {
+  display: block;
+}
+
+.log {
+  color: #B3B3B3;
+  font-size: 0.5em;
+}

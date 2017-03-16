@@ -1,0 +1,130 @@
+page:
+  title: questions
+  subtitle: looking.
+collections:
+  -
+    title: ''
+    caption: ''
+    date: 2014-12-15
+    entries:
+      -
+        title: 'What is $el and how does it work with templates?'
+        body: ''
+        tag: backbone
+        url: ''
+        date: 2015-06-26
+      -
+        title: 'what are the power features of git to know?'
+        body: ''
+        tag: git
+        url: ''
+        date: 2015-03-21
+      -
+        title: How do I test drive an API call?
+        body: "Building a little tool that makes calls to twitter and I'm trying to setup the test suite. "
+        tag: Testing
+        url: ''
+        date: 2015-02-16
+      -
+        title: How do I use postgres in my development environment?
+        body: ''
+        tag: Rails
+        url: ''
+        date: 2015-01-30
+      -
+        title: How do I incorporate SOLID into my code?
+        body: ""
+        tag: Code
+        url: ''
+        date: 2015-01-10
+      -
+        title: How does caching work?
+        body: ''
+        tag: browser
+        url: ''
+        date: 2015-01-08
+      -
+        title: "When and how should I use <code>Super</code>?"
+        body: ''
+        tag: Ruby
+        url: ''
+        date: 2015-01-02
+      -
+        title: "How can I learn about Headers?"
+        body: 'For example, what does the <code>X-</code> do?<br>And, how is the header content consumed?'
+        tag: HTTP
+        url: ''
+        date: 2015-01-02
+      -
+        title: "why are emoji's not working on middleman"
+        body: ''
+        tag: middleman
+        url: ''
+        date: 2015-01-02
+      -
+        title: "what do '=' and '@' do in directives?"
+        body: ''
+        tag: Angular
+        url: ''
+        date: 2015-01-01
+      -
+        title: "How, when, and where do I use BEGIN/RESCUE, including testing them?"
+        body: "Seems to use these when doing remote calls with 'out of process code' Helps architecture and long longs can send messages. Consider a background job."
+        tag: Ruby
+        url: ''
+        date: 2015-01-01
+      -
+        title: How do I have blog page move to top on a tag click?
+        body: ''
+        tag: jquery
+        url: ''
+        date: 2014-12-31
+      -
+        title: How do I rename a list of files?
+        body: ''
+        tag: bash
+        url: 'https://www.debian-administration.org/article/150/Easily_renaming_multiple_files.'
+        date: 2014-12-31
+      -
+        date: 2014-12-22
+        tag: life
+        title: "What is the Gap Theory all about?"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: Code
+        title: "How does one monitor the 99% of that app that's below the surface?"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: Code
+        title: "How to best learn test_unit"
+        url: ''
+        body: ""
+      -
+        date: 2014-12-02
+        tag: Code
+        title: 'What is nginx?'
+        url: ''
+        body: ""
+      # -
+      #   date: 2014-12-02
+      #   tag: Code
+      #   img: 'jots/creator.jpg'
+      #   title: "What is SysOps?"
+      #   url: ''
+      #   body: "what happense here?"
+      # -
+      #   date: 2014-12-02
+      #   tag: Code
+      #   title: "What is TechOps?"
+      #   url: ''
+      #   body: ""
+      # -
+      #   date: 2014-12-02
+      #   tag: Code
+      #   title: 'What are Cron jobs?'
+      #   url: ''
+      #   body: "Scheduled background jobs."

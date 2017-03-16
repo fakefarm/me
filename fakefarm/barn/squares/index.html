@@ -1,0 +1,138 @@
+<html>
+<head>
+  <title>Animations</title>
+  <style>
+    body {
+      background: #4c4c4c;
+    }
+    .wrapper {
+      margin: 5em auto;
+      width: 800px;
+    }
+
+    /* Example 1 */
+
+    .square {
+      width: 20px;
+      height: 20px;
+      background: #66ffcc;
+      margin-bottom: 30px;
+
+      -webkit-animation-duration: 3s;
+      -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.275, 1.465);
+      -webkit-animation-iteration-count: infinite;
+
+      -moz-animation-duration: 3s;
+      -moz-animation-timing-function: cubic-bezier(0.680, -0.550, 0.275, 1.465);
+      -moz-animation-iteration-count: infinite;
+
+      animation-duration: 3s;
+      animation-timing-function: cubic-bezier(0.680, -0.550, 0.275, 1.465);
+      animation-iteration-count: infinite;
+
+      /*
+      -webkit-animation-direction: ;
+      forward | backwards | alternate
+      (there and back, but needs to be at least 2 on iteration count)
+      */
+
+      -webkit-animation-direction: alternate;
+      -webkit-animation-delay: 1s;
+      -webkit-animation-name: ride; /* 'ride' is the name of the keyframs */
+      -webkit-animation-fill-mode: alternate; /* 'forward' keeps animation at the end*/
+
+      -moz-animation-direction: alternate;
+      -moz-animation-delay: 1s;
+      -moz-animation-name: ride; /* 'ride' is the name of the keyframs */
+      -moz-animation-fill-mode: alternate; /* 'forward' keeps animation at the end*/
+
+      animation-direction: alternate;
+      animation-delay: 1s;
+      animation-name: ride; /* 'ride' is the name of the keyframs */
+      animation-fill-mode: alternate; /* 'forward' keeps animation at the end*/
+    }
+
+    @-webkit-keyframes ride { /* set the name of the animation. */
+      from { -webkit-transform: translateX(0px);}  /* to and from are easiest ways to start*/
+      to   { -webkit-transform: translateX(450px);}
+    }
+
+    @-moz-keyframes ride { /* set the name of the animation. */
+      from { -moz-transform: translateX(0px);}  /* to and from are easiest ways to start*/
+      to   { -moz-transform: translateX(450px);}
+    }
+
+    @keyframes ride { /* set the name of the animation. */
+      from { transform: translateX(0px);}  /* to and from are easiest ways to start*/
+      to   { transform: translateX(450px);}
+    }
+
+    /* Example 2 */
+
+    .square-2 {
+      width: 20px;
+      height: 20px;
+      background: #ffff66;
+
+      -webkit-animation-name: move-left-right;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-fill-mode: both; /* 'both allows for starting at 0, and ending on other side'*/
+      -moz-animation-name: move-left-right;
+      -moz-animation-duration: 2s;
+      -moz-animation-timing-function: ease-in-out;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-direction: alternate;
+      -moz-animation-fill-mode: both; /* 'both allows for starting at 0, and ending on other side'*/
+      animation-name: move-left-right;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-fill-mode: both; /* 'both allows for starting at 0, and ending on other side'*/
+    }
+
+    @-webkit-keyframes move-left-right {
+      0%   { -webkit-transform: translateX(0px);} /* using % let you do multiple spots */
+      20%  { -webkit-transform: translateX(-10px);}
+      80%  { -webkit-transform: translateX(460px);}
+      100% { -webkit-transform: translateX(450px);}
+    }
+    @-moz-keyframes move-left-right {
+      0%   { -moz-transform: translateX(0px);} /* using % let you do multiple spots */
+      20%  { -moz-transform: translateX(-10px);}
+      80%  { -moz-transform: translateX(460px);}
+      100% { -moz-transform: translateX(450px);}
+    }
+
+    @keyframes move-left-right {
+      0%   { transform: translateX(0px);} /* using % let you do multiple spots */
+      20%  { transform: translateX(-10px);}
+      80%  { transform: translateX(460px);}
+      100% { transform: translateX(450px);}
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Yes, this is bad. It's a hack to add a nav across all my old files. I'll update and remove this soon. -->
+    <style>
+      .temp { background: #689F38; color: #FFC107; position: absolute; left: 0; top: 0; padding: 0.25em; width: 100%; font-size: 15px;}
+      .temp li { list-style: none; font-family: sans-serif; }
+      .temp a { color: white; text-decoration: none; border-bottom: 2px solid  #727272; padding: 0.25em; }
+      .temp a:hover { transition: all 100ms ease-in-out; border-bottom: none; background: #FFC107; color: #727272 ; }
+    </style>
+    <nav class='temp'>
+      <ul>
+        <li>back to <a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+      </ul>
+    </nav>
+    <!-- end of deliberate hack. -->
+  <div class="wrapper">
+    <div class="square"></div>
+    <div class="square-2"></div>
+  </div>
+</body>
+</html>

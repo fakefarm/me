@@ -1,0 +1,55 @@
+body {
+  background: #dad7c7;
+  background: url('images/wallpaper.jpg');
+  font-size: 100%;
+}
+
+.active { display: block; }
+img { display: none; }
+
+.slideshow {
+  margin: 5em auto;
+  position: relative;
+  background: white;
+  box-shadow: 0 0 3px #aaa;
+  width: 500px;
+  height: 500px;
+  padding: 3em;
+}
+
+.view-pane {
+  float: left;
+  height: 100%;
+  width: 500px;
+  overflow: hidden;
+}
+
+.view-pane img {
+  float: left;
+  width: 500px;
+}
+
+.slide-left {
+  width: 220px;
+  height: 500px;
+  display: block;
+  position: absolute;
+}
+
+.slide-right {
+  right: 48px;
+  width: 220px;
+  height: 500px;
+  display: block;
+  position: absolute;
+}
+
+.slide-left:hover,
+.slide-right:hover {
+  background: rgba(0,67,08,0.3);
+  -webkit-transition: all 90ms ease-in;
+  -moz-transition: all 90ms ease-in;
+  -ms-transition: all 90ms ease-in;
+  -o-transition: all 90ms ease-in;
+  transition: all 90ms ease-in;
+}

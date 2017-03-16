@@ -1,0 +1,12 @@
+<div class='todo-area'>
+  <h2>Add a todo list...</h2>
+  <input type='text' ng-model='task.new'>
+  <input type='button' value='add task' ng-click='addTask(task.new)'>
+  <ul>
+    <to-do></to-do>
+  </ul>
+
+  <ul>
+    <li ng-repeat='item in data'>{{ item.task }}</li>
+  </ul>
+</div>

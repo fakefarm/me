@@ -1,0 +1,7 @@
+<div class='score' ng-show="newGame()">
+  <div>scoreboard</div>
+  <div ng-show="billScore.points">bill: {{ billScore.points }}</div>
+  <div ng-show="tedScore.points">ted: {{ tedScore.points }}</div>
+  <div>Current Leader</div>
+  <img ng-src="images/{{leader()}}.png">
+</div>

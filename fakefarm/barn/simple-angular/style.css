@@ -1,0 +1,61 @@
+body {
+  background: #dad7c7;
+  width: 80%;
+  margin: 2em auto;
+  font-family: 'Lucida Grande', Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.todo-area ul { text-align: left; }
+.todo-area li { display: block; }
+
+li { display: inline-block; }
+li a { display: inline-block; }
+
+a {
+  color: #ba4949;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+a:hover{
+  color: #c1747d;
+}
+
+/* wife
+-----------------*/
+.wife-photos{
+  width: 25%;
+}
+.wife-is-my-hero {
+  width: 100%;
+}
+
+/* review */
+
+.box {
+  background: #ffcc66;
+  position: relative;
+  overflow: auto;
+}
+
+.clearfix { clear: both; }
+
+.square {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.one { background: #ffff66; }
+.two { background: #cc66ff;}
+.three { background: #66ccff;}
+.four { background: #004080; color: #ffff66;}
+.big { width: 80px; }
+.red { background: red; }

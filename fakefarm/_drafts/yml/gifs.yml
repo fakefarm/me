@@ -1,0 +1,432 @@
+page:
+  title: gifs
+  subtitle: "'all gifs' loads slow b/c of so much awesomeness"
+collections:
+  -
+    title: foo
+    date: 2014-12-13
+    entries:
+      -
+        title: boom
+        body: ''
+        tag: boom
+        url: http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/1213/funny-reverse-gif-swing-set.gif
+        video: ''
+        date: 2015-05-14
+        caption: ''
+      -
+        title: hmmm
+        body: ''
+        tag: hmmm
+        url: http://www.ufunk.net/wp-content/uploads/2012/11/Erdal-Inci-5.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.gifbin.com/bin/042012/1333652502_elephant_waves_goodbye.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://images3.wikia.nocookie.net/__cb20130123232761/nickfanon/images/4/45/Funny-gif-bears-waving-saying-goodbye.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.animateit.net/data/media/april2014/adios.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://www.reactiongifs.com/r/cya.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://media0.giphy.com/media/cYA2ClBxQZuiQ/200.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://oddstuffmagazine.com/wp-content/uploads/2011/10/o1ZL4.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://media.giphy.com/media/2t9sDPrlvFpdK/giphy.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://catstreamer.herokuapp.com/images/anigif_enhanced-buzz-3021-1323296390-36.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: goodbye
+        body: ''
+        tag: goodbye
+        url: http://i.imgur.com/cw773nD.gif
+        video: ''
+        date: 2015-02-27
+        caption: ''
+      -
+        title: welcome
+        body: ''
+        tag: 'welcome'
+        video: ''
+        caption: ''
+        url: http://i.imgur.com/l8Db3uk.gif
+        date: 2015-01-27
+      -
+        title: whoa
+        body: ''
+        tag: 'whoa'
+        video: ''
+        caption: ''
+        url: http://i.imgur.com/Rjpzo0g.gif
+        date: 2015-01-27
+      -
+        title: happy
+        body: ''
+        tag: 'happy'
+        video: ''
+        caption: ''
+        url: http://media4.giphy.com/media/mIZ9rPeMKefm0/giphy.gif
+        date: 2015-01-27
+      -
+        title: bam
+        body: ''
+        tag: 'bam'
+        video: ''
+        caption: ''
+        url: http://media.giphy.com/media/dWkTxGMlSPGda/giphy.gif
+        date: 2015-01-27
+      -
+        title: gulp
+        body: ''
+        tag: 'gulp'
+        video: ''
+        caption: ''
+        url: http://i.imgur.com/zRqRtAg.gif
+        date: 2015-01-27
+      -
+        title: high5
+        body: ''
+        video: ''
+        caption: ''
+        tag: high5
+        url: 'https://lh4.googleusercontent.com/9HldYIicp0EU0EaYs0EaUhPVyawndx9qYzVN4xJuBrfeXP5p-X6634E248XqkF4v8rhJ21ZRiorXD13vvc-bndElUAwc0d9Kwhec9cuDwj8h9E_QZJjiLsb4NmmfY1qVvA'
+        date: 2015-01-16
+      -
+        title: doah
+        body: ''
+        video: ''
+        caption: ''
+        tag: doah
+        url: https://lh3.googleusercontent.com/DoClqebyuyusNVEPbLqHFtlRkw1j803MpuORBYiT9kG7C3YxvUS56_THxrJ6T-Hnc0reaR_J2CjCNdy4H_gIR17tCRW1boQzY3QWVd36YkdKyrvzrNXfMTIl8Te4a219sQ
+        date: 2015-01-16
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/17.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: http://www.thisiscolossal.com/wp-content/uploads/2014/05/laurent-6.gif
+        video: ''
+        tag: yoinks
+        date: 2015-01-07
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/1.gif
+        video: ''
+        tag: hmmm
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/2.gif
+        video: ''
+        tag: whoa
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/13.gif
+        video: ''
+        tag: bam
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/4.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/14.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/6.gif
+        video: ''
+        tag: trance
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/7.gif
+        video: ''
+        tag: whoa
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/8.gif
+        video: ''
+        tag: trance
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/10.gif
+        video: ''
+        tag: amirite
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/11.gif
+        video: ''
+        tag: trance
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/12.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/15.gif
+        video: ''
+        tag: hmmm
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/16.gif
+        video: ''
+        tag: bam
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/17.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/18.gif
+        video: ''
+        tag: amirite
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/19.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/20.gif
+        video: ''
+        tag: whoa
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/21.gif
+        video: ''
+        tag: whoa
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/22.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/23.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/24.gif
+        video: ''
+        tag: hmmm
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/25.gif
+        video: ''
+        tag: nice
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/26.gif
+        video: ''
+        tag: bam
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/27.gif
+        video: ''
+        tag: fail
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/28.gif
+        video: ''
+        tag: amirite
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/29.gif
+        video: ''
+        tag: bam
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/30.gif
+        video: ''
+        tag: trance
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/31.gif
+        video: ''
+        tag: hmmm
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/32.gif
+        video: ''
+        tag: amirite
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: https://dl.dropboxusercontent.com/u/13563632/gifs/33.gif
+        video: ''
+        tag: happy
+        date: 2014-12-18
+        classes: big
+        caption: ''
+      -
+        url: http://i.imgur.com/wKN7qV2.gif
+        video: ''
+        tag: amirite
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://24.media.tumblr.com/tumblr_lepgaj0rfB1qfkue8o1_500.gif
+        video: ''
+        tag: whoa
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://i.imgur.com/88bgZso.jpg
+        video: ''
+        tag: bam
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://giant.gfycat.com/ExhaustedPleasantGermanspaniel.gif
+        video: ''
+        tag: nice
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://i.imgur.com/p49J3rc.gif
+        video: ''
+        tag: whoa
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://img.ffffound.com/static-data/assets/6/c8875a19f29f75a551b9ad4b4ae72bb776c02efd_m.gif
+        video: ''
+        date: 12-13-2014
+        classes: big
+        caption: ''
+        tag: trance
+      -
+        url: http://i.imgur.com/WXrFotS.gif
+        video: ''
+        tag: trance
+        date: 12-13-2014
+        classes: big
+        caption: ''
+      -
+        url: http://www.istpositiv.de/wp-content/uploads/2014/07/61.gif
+        video: ''
+        tag: trance
+        date: 12-13-2014
+        classes: big
+        caption: ''
+

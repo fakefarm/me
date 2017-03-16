@@ -1,0 +1,40 @@
+- double click to edit names
+- on return - update div with box content
+- hide input
+
+Eldar's Todo list for Dave:
+✔ update template to include edit elements @done (15-07-24 23:50)
+✔ add double-click event on text @done (15-07-24 23:50)
+  ✔ when fired @done (15-07-24 23:50)
+     ✔ hide text @done (15-07-24 23:50)
+     ✔ show edit input @done (15-07-24 23:50)
+✔ add blur event on edit input @done (15-07-24 23:51)
+  ✔ fire handle change procedure @done (15-07-24 23:51)
+✔ add a keypress event on  edit input @done (15-07-25 10:15)
+  ✔ on Enter @done (15-07-25 10:15)
+    ✔ fire handle change procedure @done (15-07-25 10:15)
+  ✔ on Esc @done (15-07-25 10:20)
+    ✔ fire handle change procedure @done (15-07-25 10:20)
+✔ write handle change procedure @done (15-07-25 10:20)
+  ✔ if there were actual changes @done (15-07-25 10:20)
+    ✔ update model @done (15-07-25 10:20)
+  ✔ hide edit input @done (15-07-25 10:20)
+  ✔ show text @done (15-07-25 10:20)
+✔ add on model update event @done (15-07-25 10:20)
+  ✔ rerender the text with the updated model @done (15-07-25 10:20)
+
+
+Dave's extra credit:
+ ✔ add a delete button on edit screen @done (15-07-25 10:41)
+ ✔ clicking delete will remove item. @done (15-07-25 10:41)
+ ☐ add a delete mode and have delete on all items
+ ☐ undo button deleted items
+
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ In our case, an AppView will handle the creation of new todos and rendering of the @done (15-06-02 14:33)
+ ✔ Within a View, there are two types @done (15-05-29 15:03)
+ ✔ NEXT UP VALIDATION - search for; @done (15-05-28 18:28)
+  Backbone supports model validation through model.validate(), which allows checking the attribute values for a model prior to setting them. By default, validation occurs when the model is persisted using the save() method or when set() is called if {validate:true} is passed as an argument.
+

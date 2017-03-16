@@ -1,0 +1,39 @@
+.top, .middle, .bottom {
+  height: 500px;
+}
+
+.top, .bottom { background: #258834; }
+.middle {
+  background: #2B4AFF;
+  padding; 3em;
+}
+
+.middle p {
+  padding: 1em;
+}
+
+.position {
+  font-size:3em;
+  color: #BF3732;
+  font-weight: bold;
+  box-sizing: padding-box;
+  text-align: center;
+}
+
+.top-content {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2em;
+  background: rgba(234,83, 123, 0.5);
+  box-sizing: padding-box;
+  color: #66FFFF;
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}

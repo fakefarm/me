@@ -1,0 +1,44 @@
+page:
+  title: jots
+  subtitle: More than a tweet. Less than a Post. Sometimes a doodle.
+collections:
+  -
+    title: Jots
+    caption: "all of them"
+    date: 2014-12-15
+    entries:
+      -
+        img: 'https://d13yacurqjgara.cloudfront.net/users/137644/screenshots/1976525/bird4.gif'
+        date: 2015-03-15
+        title: 'Learning Animation'
+        body: "I finally figured out an animation workflow that is easy."
+      -
+        img: ''
+        date: 2014-12-10
+        title: 'If the love of money is the root of all evil, <br>Is the love of God the root of all good?'
+        body: ""
+      -
+        img: 'jots/creator.jpg'
+        date: 2014-12-10
+        title: 'Everything begins with the Creator'
+        body: "Look through a microscope or telescope and be filled with awe. <br>'Awe' is not an attribute of chaos but a word we ascribe to the work of a Designer."
+      -
+        img: 'jots/treasure.jpg'
+        title: "The darkness hides valuable treasure"
+        body: "People naturally avoid the painful and sad places of life. <br>But in those times, God shows Himself to those who seek for him."
+        date: 2014-12-02
+      -
+        img: 'jots/heart.png'
+        date: 2014-12-13
+        title: '11 years later'
+        body: "I am a better person because of the helpmate God gave me. <br>Danae, you are the love of my life. <br>Happy Anniversary!"
+      -
+        img: 'jots/terms.jpg'
+        date: 2014-12-10
+        title: 'God shows Himself on His terms, not ours.'
+        body: "People doubt God when He doesn't do what they want Him to. But what if that's the point? What if He shows Himself when we are ready to see things from His perpective?"
+      # -
+      #   img: 'jots/creator.jpg'
+      #   date: 2014-12-10
+      #   title: 'He promised to meet our needs.'
+      #   body: "Medical bills, school loans, daily expenses, and more. As you provided up through harder challenges, so too will face these challenges. You are leading and guiding us in the way we should go."

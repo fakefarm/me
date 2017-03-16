@@ -1,0 +1,48 @@
+
+.hidden { display: none; }
+.show { display: block; }
+.title:hover > .hover-info {
+  display: inline-block;
+}
+.title {
+  padding-bottom: 6px;
+}
+
+.title, .edit {
+  margin-top: 30px;
+}
+
+.hover-info {
+  display: none;
+  color: white;
+  font-size: 0.68em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/* collection */
+
+.delete-mode, .mass-delete {
+  background: #FF6666;
+  padding: 2em;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-bottom: 3px solid #C23C43;
+}
+
+.mass-delete {
+  display: none;
+  width: 20px;
+  padding: 0.25em;
+}
+.in-delete-mode .mass-delete {
+  display: block;
+}
+
+.delete-mode:hover {
+ border-bottom: none;
+ margin-top: 3px;
+}

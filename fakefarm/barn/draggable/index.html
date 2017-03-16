@@ -1,0 +1,124 @@
+<html>
+<head>
+  <title>Tortoise | Slow and steady wins the race.</title>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="stylesheet" href="stylesheets/modules.css">
+  <link rel="stylesheet" href="stylesheets/typography.css">
+  <link rel="stylesheet" href="stylesheets/day.css">
+  <link rel="stylesheet" href="stylesheets/header.css">
+  <link rel="stylesheet" href="stylesheets/activity_form.css">
+</head>
+<body>
+
+  <div class="l-container m-container">
+    <div class="m-wrapper l-wrapper">
+      <header>
+        <div class="logo-space">
+        </div>
+        <nav>
+          <a href="/">Back to the farm</a>
+          <!-- <a href="">Stats</a>
+          <a href="">About</a>
+          <a href="">Print</a> -->
+          <a href="http://www.hireDave.me" target="_blank">by Dave</a>
+        </nav>
+      </header>
+      <div id="new-button" class='new-button'>+</div>
+      <section class="new-activity">
+        <span>What's this?</span>
+        <form id="form" name="activity-form" action="">
+        <input autofocus id="activity-text" type="text" placeholder="Read poetry"><br>
+        <input type="radio" name="category" value="personal">Personal<br>
+        <input type="radio" name="category" value="relational">Relational<br>
+        <input type="radio" name="category" value="responsibility">Responsibility<br>
+        <select id="duration">
+          <option value="" disabled="disabled" selected="selected">How long?</option>
+          <option value="25">15 min</option>
+          <option value="50">30 min</option>
+          <option value="75">45 min</option>
+          <option value="100">1 hr</option>
+          <option value="200">2 hr</option>
+          <option value="300">3 hr</option>
+          <option value="400">4 hr</option>
+          <option value="500">5 hr</option>
+          <option value="800">8 hr</option>
+          <option value="1200">12 hr</option>
+          <option value="1600">16 hr</option>
+        </select>
+
+        <select id="frequency" name="act-len">
+          <option value="" disabled="disabled" selected="selected">How many times?</option>
+          <option value="1">Once a week.</option>
+          <option value="2">Twice a week.</option>
+          <option value="3">Three times.</option>
+          <option value="4">Four times.</option>
+          <option value="5">Five times.</option>
+          <option value="6">Six times.</option>
+          <option value="7">Seven times.</option>
+        </select><br>
+
+        <input type="Submit" value="Add to queue." id="submit-button">
+        </form>
+
+      </section>
+      <div class="m-content">
+        <section class="m-gutter" id="gutter"></section>
+        <section class="week">
+          <div class="day">
+            <h2>Monday</h2>
+            <h3 id="monday" data-day='events'></h3>
+            <p class="drag-helper">drag event here.</p>
+            <ul class="events test-event" id='test-drop' data-drop='area'>
+
+            </ul>
+          </div>
+          <div class="day">
+            <h2>Tuesday</h2>
+            <h3 id="tuesday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+          <div class="day">
+            <h2>Wednesday</h2>
+            <h3 id="wednesday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+          <div class="day">
+            <h2>Thursday</h2>
+            <h3 id="thursday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+          <div class="day">
+            <h2>Friday</h2>
+            <h3 id="friday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+          <div class="day">
+            <h2>Saturday</h2>
+            <h3 id="saturday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+          <div class="day">
+            <h2>Sunday</h2>
+            <h3 id="sunday" data-day='events'></h3>
+            <div class="events" data-drop='area'>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="javascripts/lib/jquery.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <script src="javascripts/activity.js"></script>
+  <script src="javascripts/agenda.js"></script>
+  <script src="javascripts/helpers.js"></script>
+  <script src="javascripts/init.js"></script>
+</body>
+</html>

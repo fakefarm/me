@@ -1,0 +1,10 @@
+
+
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ In our case, an AppView will handle the creation of new todos and rendering of the @done (15-06-02 14:33)
+ ✔ Within a View, there are two types @done (15-05-29 15:03)
+ ✔ NEXT UP VALIDATION - search for; @done (15-05-28 18:28)
+  Backbone supports model validation through model.validate(), which allows checking the attribute values for a model prior to setting them. By default, validation occurs when the model is persisted using the save() method or when set() is called if {validate:true} is passed as an argument.
+

@@ -1,0 +1,28 @@
+<article ng-repeat='post in posts'>
+  <div class="article-primary">
+    <div class="article-head">
+      <p class='article-tag' ng-repeat='tag in post.tags'>{{tag}}</p>
+      <p class='article-date'>{{post.date}}</p>
+      <h2 class='article-title'>{{post.title}}</h2>
+      <img ng-src="img/{{post.img}}" alt="">
+      <p class='article-tagline'>{{post.body}}</p>
+    </div>
+    <div class="article-actions">
+      <div class='article-links'>
+        <a href='{{post.demo}}'>view demo</a>
+        <a href='{{post.source}}'>view source</a>
+      </div>
+    </div>
+  </div>
+  <div class='more'>
+    <div class="topic">
+      <h4>Tools</h4>
+      <p>The tools I'm working with</p>
+      <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+      </ul>
+    </div>
+  </div>
+</article>
+<div class="clearfix"></div>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>fake farm | pet projects by Dave Woodall</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+    <meta name="author" content="Dave Woodall" />
+    <meta name="description" content="">
+		<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Slab:400,100,700,300|Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+		<link rel="stylesheet" type="text/css" href="css/defaults.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class='default-primary-color'>
+    <div class="wrapper">
+      <section id="about" class="about drawer-out accent-color" style="display:none;">
+        <div id='close-drawer' class='close-drawer text-primary-color'>x</div>
+        <img src="img/fly.svg" alt="">
+        <h2>Pet Title</h2>
+        <p>This is a project to practice things...</p>
+        <h2>about</h2>
+        <p class='about-copy'>
+        Fake farm is a collection of pet projects by<a href="http://www.wwwoodall.com" title="Dave Woodall">Dave Woodall</a>. They are just simple experiments to learn and practice various aspects of web development.
+        </p>
+        <ul>
+          <li>back to<a href="http://www.fakefarm.com" title="back to fake farm">fake farm</a></li>
+          <li>view source on<a href="http://www.github.com/barn/___ADD_IT_HERE___" title="back to fake farm">github</a></li>
+        </ul>
+      </section><!-- /section -->
+  		<div class="container with-drawer">
+
+        <div class="todo">
+          <div class="public">
+            <div class="task">
+              <h2>Buy milk</h2>
+            </div>
+            <div class="actions">
+              <div class="edit">
+                <input type='text' value='Buy milk'>
+                <a href="#" title="configure task">configure task</a>
+              </div>
+              <div class="primary" style='display: block;'>
+                <ul>
+                  <li style='display: inline-block;'><a href='#'>complete</a></li>
+                  <li style='display: inline-block;'><a href='#'>snooze</a></li>
+                </ul>
+              </div>
+            <div class="tags" style='display: block;'>
+              <ul>
+                <li style='display: inline-block;'><a href="#" title="">errand</a></li>
+                <li style='display: inline-block;'><a href="#" title="">groceries</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="private" style='display: block;'>
+            <div class="actions">
+              <div class="secondary">
+                <div class="detailActions">
+                  <ul>
+                    <li><a href='#'>edit</a></li>
+                    <li><a href='#'>add</a></li>
+                    <li>standup <a href='#'>blocked</a><a href='#'>in progress</a><a href='#'>complete</a></li>
+                    <li><a href='#'>trash</a></li>
+                  </ul>
+                </div>
+                <div class="add">
+                  <ul>
+                    <li><a href='#'>note (3)</a></li>
+                    <li><a href='#'>link (2)</a></li>
+                    <li><a href='#'>file (2)</a></li>
+                    <li><a href='#'>photo</a></li>
+                    <li><a href='#'>task</a></li>
+                    <li><a href='#'>time (3.4h)</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="controls">
+              <div class="edit">
+                <div class="configure">
+                  <h3>configure</h3>
+                  <small><a href="#" title="manage defaults">manage defaults</a></small>
+                  <form action="action_page.php">
+                    <fieldset class='booleans'>
+                      <label for="status">track time?</label>
+                      <input type="checkbox" name="status">
+                      <br>
+                      <label for="status">billable?</label>
+                      <input type="checkbox" name="status" checked>
+                      <br>
+                      <label for="standup">add to daily standup?</label>
+                      <input type="checkbox" name="standup">
+                      <br>
+                      <label for="sub-tasks">have sub-tasks?</label>
+                      <input type="checkbox" name="sub-tasks">
+                      <br>
+                      <label for="rewards">manage with rewards?</label>
+                      <input type="checkbox" name="rewards" checked>
+                      <br>
+                      <label for="quadrant">manage with quadrants?</label>
+                      <input type="checkbox" name="quadrant" checked>
+                      <br>
+                      <label for="categories">manage with categories?</label>
+                      <input type="checkbox" name="categories">
+                      <br>
+                      <label for="subtask">is this a subtask?</label>
+                      <input type="checkbox" name="subtask">
+                      <br>
+                    </fieldset>
+                  </form>
+                </div>
+                <h3>edit</h3>
+                <form action="action_page.php">
+                  <fieldset class='text'>
+                    <label for="title">title</label>
+                    <input type="text" name="title" value="Say Hello to the world!">
+                    <br>
+                    <label for="tags">tags</label>
+                    <input type="text" name="tags" value="setup, practice">
+                    <br>
+                  </fieldset>
+                  <br>
+                  <fieldset class='configurations'>
+                    <h3>Configurations</h3>
+                    <label for="parent">parent task</label>
+                    <select name="parent">
+                      <option value="foo">foo</option>
+                      <option value="bar">bar</option>
+                    </select>
+                    <label for="quadrant">Quadrant</label>
+                    <select name="quadrant">
+                      <option value="1">I (important / urgent)</option>
+                      <option value="2">II (important / non-urgent)</option>
+                      <option value="3">III (non-important / urgent)</option>
+                      <option value="4">IV (non-important / non-urgent)</option>
+                    </select>
+                    <br>
+                    <label for="category">category</label>
+                    <select name="category">
+                      <option value="errand">errand</option>
+                      <option value="phone call">phone call</option>
+                      <option value="computer">computer</option>
+                      <option value="custom one">custom one</option>
+                    </select>
+                    <br>
+                    <label for="parent">reward size</label>
+                    <select name="reward">
+                      <option value="small">small</option>
+                      <option value="medium">medium</option>
+                      <option value="large">large</option>
+                    </select>
+                    <br>
+                    <label>billable rate<input type="number" name="billable" value="billable"></label>
+                  </fieldset>
+                  <fieldset class='booleans'>
+                    <label for="status">status</label>
+                    <input type="checkbox" name="status">
+                    <br>
+                    <label for="public">public</label>
+                    <input type="checkbox" name="public">
+                    <br>
+                    <label for="pin">pin</label>
+                    <input type="checkbox" name="pin">
+                    <br>
+                    <label for="remind">remind</label>
+                    <input type="checkbox" name="remind">
+                    <br>
+                  </fieldset>
+                  <fieldset class='dates'>
+                    <label>due<input type="date" name="date" value="date"></label>
+                    <br>
+                    <label>snooze until<input type="date" name="date" value="date"></label>
+                  </fieldset>
+                  <input type="submit" value="Submit">
+                </form>
+                <div class="extra-content">
+                  <div class="note">
+                    <h3>Add a new note</h3>
+                    <form action="" method="" accept-charset="">
+                      <textarea name="note" placeholder='add a new note'></textarea>
+                      <input type='submit' value='add'>
+                    </form>
+                  </div>
+                  <div class="url">
+                    <h3>Add a new url</h3>
+                    <form action="" method="" accept-charset="">
+                      <input type='text' name="url" placeholder='add a new url'>
+                      <input type='submit' value='add'>
+                    </form>
+                  </div>
+                  <div class="time">
+                    <h3>Add a new time entry</h3>
+                    <form action="" method="" accept-charset="">
+                      <input type='number' name="time" placeholder='track time'>
+                      <input type='submit' value='add'>
+                    </form>
+                  </div>
+                  <div class="attachment">
+                    <h3>Add a new attachment</h3>
+                    <form action="" method="" accept-charset="">
+                      <label for="attachment">Add a new attachment</label>
+                      <input type='file'>
+                      <input type='submit' value='add'>
+                    </form>
+                  </div>
+                  <div class="sub-task">
+                    <h3>Add a new sub-task</h3>
+                    <form action="" method="" accept-charset="">
+                      <label for="sub-task">Add a new sub-task</label>
+                      <input type='text' name="url" placeholder='add a subtask'>
+                      <input type='submit' value='add'>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="views">
+                <h3>views</h3>
+                <ul>
+                  <li><a href='#'>zen timer</a></li>
+                  <li>tagged list: <a href='#'>setup</a>,<a href='#'>practice</a></li>
+                  <li><a href='#'>detailed task</a></li>
+                </ul>
+                <div class="standups">
+                  <h3>standups</h3>
+                  <ul>
+                    <li><a href='#'>2015-07-29</a></li>
+                    <li><a href='#'>2015-07-28</a></li>
+                    <li><a href='#'>2015-07-27</a></li>
+                    <li><a href='#'>2015-07-26</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="analytics">
+                <h3>analytics</h3>
+                <ul>
+                  <li>this is a simple task: false</li>
+                  <li><a href="#" title="parent task">parent task</a></li>
+                  <li>Due: 2015-08-29</li>
+                  <li>number of times shown: 10</li>
+                  <li>number of times snoozed: 9</li>
+                  <li>date created: 2015-05-23</li>
+                  <li>date completed: 2015-07-29</li>
+                  <li>tasks with similar title: 4</li>
+                  <li>frequency of use of terms in title: 5</li>
+                  <li>number of standups added to: 7</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+  		</div><!-- /container -->
+    </div><!-- /werapper -->
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/underscore.js"></script>
+    <script src="js/libs/backbone.js"></script>
+    <script src="js/libs/backbone_localstorage.js"></script>
+    <script src="js/libs/html5-3.6-respond-1.4.2.min.js"></script>
+    <script src="js/libs/plugins.js"></script>
+    <script src="js/fake_farm_defaults.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-52536027-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+	</body>
+</html>

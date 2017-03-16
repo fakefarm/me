@@ -1,0 +1,45 @@
+body {
+  font-family: 'Raleway';
+  padding-top: 4em;
+}
+h1 { margin: 0;}
+
+.inactive .close { display: none; }
+.inactive p { display: none;}
+
+.active   .close { display: block; }
+.active p { display: block;}
+p { color: white; }
+
+.box {
+  cursor: pointer;
+}
+.inactive:hover {
+  opacity: 0.5;
+}
+
+.active {
+  transition: all 300ms ease-in-out;
+  width: 80vw;
+  position: relative;
+  height: 80vh;
+  margin: 5vh auto 0;
+  padding: 1em;
+  background: #66CCFF;
+  display: block;
+  padding: 2em;
+  color: #0080FF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+
+.inactive {
+  transition: all 200ms ease-in-out;
+  border-bottom: 2px solid #008040;
+  color: #008040;
+  padding: 0.5em 0 0 0;
+  margin: 0.5em 0 0 0;
+  width: 200px;
+}
+
+

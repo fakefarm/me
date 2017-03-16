@@ -1,0 +1,11 @@
+.l-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.l-wrapper {
+  width: 80%;
+  min-width: 60em;
+  max-width: 96em;
+  margin: 0 auto;
+}

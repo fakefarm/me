@@ -1,0 +1,36 @@
+.new-button {
+  float: left;
+  font-size: 3em;
+  color: #0080ff;
+  cursor: pointer;
+}
+
+.new-activity {
+  display: none;
+  width: 20%;
+  float: left;
+  position: relative;
+  z-index: 10;
+}
+
+.open-drawer { display: block; }
+
+input {
+  border: none;
+  padding: 0.5em;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+select {
+  -webkit-appearance: none;
+  -mox-appearance: none;
+  border: none;
+  background: #e4e4e4;
+  padding: 0.2em 1.3em;
+  width: 198px;
+  height: 49px;
+  font-size: 1em;
+  margin: 0.5em 0 1em;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "fakefarm",
+  "version": "0.0.0",
+  "homepage": "https://github.com/woodall/fakefarm",
+  "authors": [
+    "Dave Woodall <dave@woodalls.me>"
+  ],
+  "description": "pet projects by dave woodall",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

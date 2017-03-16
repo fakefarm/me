@@ -1,0 +1,29 @@
+page:
+  -
+    title: Code
+    summary: Full stack Developer
+    body: "The term 'full stack' means I know how to code both the front and backend of a website. I love building systems that creating transactions through a browser."
+
+    collection:
+      -
+        image: '/images/bird.svg'
+        title: 'destroy all tasks'
+        body: 'Task app that had the ability to punt tasks for later.'
+      -
+        image: '/images/bird.svg'
+        title: 'destroy all tasks'
+        body: 'know what i mean?'
+  -
+    title: Art
+    summary: 'Graphic Design'
+    body: "I enjoy creating simple logos and silly doodles."
+    collection:
+      -
+        image: '/images/bird.svg'
+        title: 'destroy all tasks'
+        body: 'know what i mean?'
+      -
+        image: '/images/bird.svg'
+        title: 'destroy all tasks'
+        body: 'know what i mean?'
+

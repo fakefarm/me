@@ -1,0 +1,120 @@
+div.flex-module {
+    display: none;
+}
+
+div.Trends.module.trends {
+    display: none;
+}
+
+div.global-nav-inner {
+    display: none;
+}
+
+div.global-nav {
+    display: none;
+}
+
+div.dashboard.dashboard-left {
+    display: none;
+}
+
+div.WhoToFollow.is-visible {
+    display: none;
+}
+
+.promoted-tweet {
+    display: none;
+}
+
+div.ProfileCanopy-header.u-bgUserColor {
+    display: none;
+}
+
+div.ProfileCanopy.ProfileCanopy--withNav.ProfileCanopy--large {
+    display: none;
+}
+
+h1.ProfileHeaderCard-name {
+    display: none;
+}
+
+a.ProfileHeaderCard-screennameLink.u-linkComplex.js-nav {
+    display: none;
+}
+
+div.ProfileHeaderCard-joinDate {
+    display: none;
+}
+
+div.PhotoRail-mediaBox {
+    display: none;
+}
+
+li.ProfileHeading-toggleItem.u-textUserColor {
+    display: none;
+}
+
+ul.ProfileHeading-toggle {
+    display: none;
+}
+
+div.PhotoRail-heading {
+    display: none;
+}
+
+div.ProfileHeaderCard-location {
+    display: none;
+}
+
+div.ProfileCanopy.ProfileCanopy--withNav {
+    display: none;
+}
+
+p.ProfileHeaderCard-bio.u-dir {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+div.stream-item-header {
+    display: none;
+}
+
+a.twitter-hashtag {
+    display: none;
+}
+
+.SummaryCard-image {
+    display: none;
+}
+
+.AdaptiveMedia-photoContainer {
+    display: none;
+}
+
+.js-display-url {
+    display: none;
+}
+
+.tcu-imageContainer {
+    display: none;
+}
+
+.tco-ellipsis {
+    background-color: #3e76e6;
+}
+
+ul.ScrollBump-content {
+    display: none;
+}
+
+.TweetTextSize--26px {
+    color: #e82626;
+}
+
+a.twitter-atreply.pretty-link {
+    display: none;
+}
+
+li.js-stream-item.stream-item.js-no-dedup.has-scroll-bump.js-has-navigable-stream.stream-item.no-header-background-module.separated-module.js-no-dedup.has-scroll-bump.js-has-navigable-stream.stream-item.no-header-background-module.separated-module.ScrollBump.ScrollBump--recentlyFollowed {
+    display: none;
+}
