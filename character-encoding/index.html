@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dave Woodall</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Everything begins with the creator" />
+    <meta name="keywords" content="dave woodall boulder coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Character Encoding</h1>
+      </header>
+      <article class="article intro">
+        <h2>As fun as it sounds. Try learning it!</h2>
+        <p>I'm working on a bug ticket that has to do with encoding errors that are loosely related to <b>RFC822</b> and <b>RFC2047</b>. Those two terms introduced me to IETF, which then in turn got me interested in TCP/IP, which then brought me back to the specifics of the RFC's, which is encoding. All of which is new territory for me. I think it's safe to say that any passionate web developer will find these subjects of interest since they are the foundation of our work. As such, I'm keeping some notes of what I'm learning;</p>
+        <aside class="">
+          <h3>Popular Encodings</h3>
+          <p>There are many encodings but these seem to be the 4 most popular from my current research.</p>
+          <ul>
+            <li>UTF-8</li>
+            <li>ASCII</li>
+            <li>ISO 8859-1 (Latin 1)</li>
+            <li>Windows 1252 (Western European)</li>
+          </ul>
+        </aside>
+      </article>
+      <aside class="joel">
+        https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+        <article class="article joel">
+          <header>
+            <h1>The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</h1>
+            <h2>Excerpts from <a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">Joel on Software</a></h2>
+          </header>
+
+          <blockquote cite="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">
+            All that stuff about “plain text = ascii = characters are 8 bits” is not only wrong, it’s hopelessly wrong, and if you’re still programming that way, you’re not much better than a medical doctor who doesn’t believe in germs. Please do not write another line of code until you finish reading this article.
+          </blockquote>
+
+          <h2>Character sets.</h2>
+
+          <blockquote cite="http://">
+            The only characters that mattered were good old unaccented English letters, and we had a code for them called ASCII which was able to represent every character using a number between 32 and 127. Space was 32, the letter “A” was 65, etc. Codes below 32 were called unprintable and used for control characters, like 7 which made your computer beep.
+
+            And all was good, assuming you were an English speaker.
+
+            Because bytes have room for up to eight bits, lots of people got to thinking, “gosh, we can use the codes 128-255 for our own purposes.” The trouble was, lots of people had this idea at the same time, and they had their own ideas of what should go where in the space from 128 to 255.
+          </blockquote>
+
+          <aside class="aside pacman">
+            <header>
+            <h1>255</h1>
+            </header>
+            <p>I googled 'why is 255 the magic number' and discovered this;</p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/umYvFdU54Po?rel=0" frameborder="0" allowfullscreen></iframe>
+          </aside>
+
+          <aside class="aside bites">
+            <header>
+            <h1>bites and bits</h1>
+            </header>
+            <p>A single byte can hold 256 values, from 0 to 255. Since a byte equals 8 bits, this works particularly well on 8 bit machines.
+            </p>
+          </aside>
+
+          <blockquote cite="http://">
+            Eventually this OEM free-for-all got codified in the ANSI standard. In the ANSI standard, everybody agreed on what to do below 128, which was pretty much the same as ASCII, but there were lots of different ways to handle the characters from 128 and on up, depending on where you lived. These different systems were called code pages.
+          </blockquote>
+
+          <h2>Unicode</h2>
+          <blockquote cite="http://">
+            Unicode was a brave effort to create a single character set that included every reasonable writing system on the planet and some make-believe ones like Klingon, too. Every platonic letter in every alphabet is assigned a magic number by the Unicode consortium which is written like this: U+0639.  This magic number is called a code point. The U+ means “Unicode” and the numbers are hexadecimal. U+0639 is the Arabic letter Ain. The English letter A would be U+0041. You can find them all visiting the <a href="http://www.unicode.org/">Unicode web site</a>.
+          </blockquote>
+
+
+          <h2>UTF-8</h2>
+          <blockquote cite="http://">
+            Most people decided to ignore Unicode for several years and in the meantime things got worse. Thus was <a href="http://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt">invented</a> the brilliant concept of <a href="http://www.utf-8.com/">UTF-8</a>. UTF-8 was another system for storing your string of Unicode code points, those magic U+ numbers, in memory using 8 bit bytes.
+
+            In UTF-8, every code point from 0-127 is stored in a single byte. Only code points 128 and above are stored using 2, 3, in fact, up to 6 bytes.
+          </blockquote>
+
+          <h2>Encodings</h2>
+          <blockquote cite="http://">
+            So far I’ve told you three ways of encoding Unicode. The traditional store-it-in-two-byte methods are called UCS-2 (because it has two bytes) or UTF-16 (because it has 16 bits), and you still have to figure out if it’s high-endian UCS-2 or low-endian UCS-2. And there’s the popular new UTF-8 standard which has the nice property of also working respectably if you have the happy coincidence of English text and braindead programs that are completely unaware that there is anything other than ASCII.
+            <br><br>
+            There are actually a bunch of other ways of encoding Unicode. There’s something called UTF-7, which is a lot like UTF-8 but guarantees that the high bit will always be zero, so that if you have to pass Unicode through some kind of draconian police-state email system that thinks 7 bits are quite enough, thank you it can still squeeze through unscathed. There’s UCS-4, which stores each code point in 4 bytes, which has the nice property that every single code point can be stored in the same number of bytes, but, golly, even the Texans wouldn’t be so bold as to waste that much memory.
+            <br><br>
+            There are hundreds of traditional encodings which can only store some code points correctly and change all the other code points into question marks. Some popular encodings of English text are Windows-1252 (the Windows 9x standard for Western European languages) and ISO-8859-1, aka Latin-1 (also useful for any Western European language). But try to store Russian or Hebrew letters in these encodings and you get a bunch of question marks. UTF 7, 8, 16, and 32 all have the nice property of being able to store any code point correctly.
+          </blockquote>
+
+
+          <section>
+            <h2>The Single Most Important Fact About Encodings</h2>
+            <p>It does not make sense to have a string without knowing what encoding it uses. You can no longer stick your head in the sand and pretend that “plain” text is ASCII. There Ain’t No Such Thing As Plain Text.</p>
+
+            If you have a string, in memory, in a file, or in an email message, you have to know what encoding it is in or you cannot interpret it or display it to users correctly.
+
+            Almost every stupid “my website looks like gibberish” or “she can’t read my emails when I use accents” problem comes down to one naive programmer who didn’t understand the simple fact that if you don’t tell me whether a particular string is encoded using UTF-8 or ASCII or ISO 8859-1 (Latin 1) or Windows 1252 (Western European), you simply cannot display it correctly or even figure out where it ends. There are over a hundred encodings and above code point 127, all bets are off.
+
+            How do we preserve this information about what encoding a string uses? Well, there are standard ways to do this. For an email message, you are expected to have a string in the header of the form
+
+            Content-Type: text/plain; charset=”UTF-8″
+          </section>
+
+          <section>
+            <h2>Meta tag</h2>
+            <pre>
+            <code>
+              &lt;html&gt;
+              &lt;head&gt;
+                &lt;meta http-equiv=“Content-Type” content=“text/html; charset=utf-8”&gt;
+            </code>
+            </pre>
+            <p>
+            But that meta tag really has to be the very first thing in the &lt;head&gt; section because as soon as the web browser sees this tag it’s going to stop parsing the page and start over after reinterpreting the whole page using the encoding you specified.
+            </p>
+          </section>
+
+        </article>
+      </aside>
+      <article class="article buzz-words">
+        <ul>
+          <li>ASCII</li>
+          <li>UTF-8</li>
+          <li>UTF-16</li>
+          <li>MIME</li>
+          <li>RFC822</li>
+          <li>RFC2047</li>
+          <li>Base64</li>
+          <li>IETF</li>
+          <li>TCP/IP</li>
+          <li>Encoding</li>
+          <li>Decoding</li>
+        </ul>
+      </article>
+      <article class="article utf-8">
+        <h2>UTF-8</h2>
+        <p>Unicode is a character set. UTF-8 is encoding.</p>
+      </article>
+      <article class="article ietf">
+        <header>
+          <h1>IETF</h1>
+        </header>
+        <section>
+          <h2>What Is the IETF?</h2>
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/Fpuzl9lvOSM?rel=0" frameborder="0" allowfullscreen></iframe>
+          <blockquote cite="http://ietf.org/tao.html">
+            The IETF is a loosely self-organized group of people who contribute to the engineering and evolution of Internet technologies. It is the principal body engaged in the development of new Internet standard specifications. The IETF is unusual in that it exists as a collection of happenings, but is not a corporation and has no board of directors, no members, and no dues; see [BCP95], "A Mission Statement for the IETF", for more detail.
+          </blockquote>
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/qJ77qGjdnek?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PLC86T-6ZTP5hXPJ-n4mwJbZ0BHaNlhTMA" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section>
+          <h2>IETF Resources</h2>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2047">RFC 2047 - MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc822">RFC 822 - STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2231">RFC 2231 - MIME Parameter Value and Encoded Word Extensions: Character Sets, Languages, and Continuations</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc8033">RFC 8033 - Proportional Integral Controller Enhanced (PIE): A Lightweight Control Scheme to Address the] Bufferbloat Problem</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://tools.ietf.org/html/rfc2184">RFC 2184 - MIME Parameter Value and Encoded Word Extensions: Character Sets, Languages, and Continuations</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.ietf.org/newcomers.html">Getting Started in the IETF</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.youtube.com/watch?v=ADQmECtl0L4&list=PLC86T-6ZTP5hXPJ-n4mwJbZ0BHaNlhTMA&index=2">IETF Purpose &amp; Scope - YouTube</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="https://www.ietf.org/blog/">IETF Blog</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/rfc/rfc3935.txt">ietf.org/rfc/rfc3935.txt</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/tao.html">The Tao of IETF: A Novice's Guide to the Internet Engineering Task Force</a>
+          </aside>
+          <aside class='aside anchor'>
+            <a href="http://ietf.org/newcomers.html">Getting Started in the IETF</a>
+          </aside>
+        </section>
+      </article>
+      <article class="article rfc-822">
+        <header>
+          <h1>RFC 822</h1>
+        </header>
+
+        Notes from [rfc 822](https://tools.ietf.org/html/rfc822)
+
+        <section>
+          <h2>Overview </h2>
+          <p>This standard specifies a syntax for text messages that are sent  among computer users, within the framework of "electronic mail".</p>
+
+          <p>In this context, messages are viewed as having an envelope and contents. The envelope contains whatever information is needed to accomplish transmission and delivery. The contents compose the object to be delivered to the recipient.</p>
+        </section>
+        <section>
+          <h2>Focus is the message format, not the 'envelope'</h2>
+          <p>This standard applies only to the format and some of the semantics of message contents. It contains no specification of the information in the envelope.</p>
+        </section>
+      </article>
+      <footer>
+        <h2>Resources</h2>
+      </footer>
+    </div>
+    <footer class='footer-1'>
+    </footer>
+    <div class='scripts'>
+      <script src="js/vendor/jquery.min.js"></script>
+      <script src="js/vendor/underscore.min.js"></script>
+      <script src="js/vendor/backbone.min.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-40303853-1','auto');ga('send','pageview');
+      </script>
+    </div>
+  </body>
+</html>
