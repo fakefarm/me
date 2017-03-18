@@ -1,26 +1,90 @@
+body {
+  background: #ece7e5;
+  padding: 0;
+  margin: 0;
+}
+/* .silver-line */
 
 .silver-line {
-  margin-top: 1em;
+  background: #383636;
+  margin-top: -0.1em;
+  padding-top: 1em;
   font-size: 5em;
 }
 
 @media only screen and (min-width: 500px) {
   .silver-line {
-    margin-top: 2em;
+    padding-top: 2em;
     font-size: 10em;
   }
 }
 
 @media only screen and (min-width: 800px) {
   .silver-line {
-    margin-top: 2em;
+    padding-top: 2em;
     font-size: 12em;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .silver-line {
-    margin-top: 1.8em;
+    margin-top: -0.25em;
+    padding-top: 1.8em;
     font-size: 15em;
   }
 }
+
+/* .root  */
+
+.root {
+  font-family: georgia;
+}
+
+.root .h1 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.root .p {
+  line-height: 28px;
+}
+
+@media only screen and (min-width: 500px) {
+  .root {
+    padding-left: 5em;
+    padding-right: 3em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .root {
+    padding-left: 10em;
+    padding-right: 5em;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .root {
+    padding-left: 30em;
+    padding-right: 15em;
+  }
+}
+
+.header .p {
+  font-size: 1.25em;
+}
+
+
+.silver-line span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+
+.h { color: #31f777; }
+.e { color: #31f777; }
+.l1 { color: #e4ba80; }
+.l2 { color: #e4ba80; }
+.o { color: #6cdee6; }
+.dot { color: #6cdee6; }
