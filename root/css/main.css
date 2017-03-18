@@ -1,0 +1,26 @@
+
+.silver-line {
+  margin-top: 1em;
+  font-size: 5em;
+}
+
+@media only screen and (min-width: 500px) {
+  .silver-line {
+    margin-top: 2em;
+    font-size: 10em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .silver-line {
+    margin-top: 2em;
+    font-size: 12em;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .silver-line {
+    margin-top: 1.8em;
+    font-size: 15em;
+  }
+}
