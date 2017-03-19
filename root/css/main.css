@@ -139,7 +139,8 @@ body {
   }
 }
 
-.notes-image img:hover + .view-source {
+.notes-image img:hover + .view-source,
+.notes-image img:focus + .view-source {
   transition: all 250ms ease;
   opacity: 1;
   z-index: 10;
