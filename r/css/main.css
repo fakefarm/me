@@ -88,7 +88,7 @@ body {
   .notes-image {
     float: left;
     width: 300px;
-    height: 1500px;
+    height: 2000px;
   }
 }
 @media only screen and (min-width: 1300px) {
@@ -162,3 +162,34 @@ body {
 .l2 { color: #e4ba80; }
 .o { color: #6cdee6; }
 .dot { color: #6cdee6; }
+
+.bio {
+  width: 100%;
+}
+
+/* _dw wip make media */
+
+.col {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/* _end wip make media */
+
+.footer .bio img {
+  width: 100%;
+  transform: rotate(-4deg);
+  box-shadow: 1px 2px 2px  #666;
+}
+
+.footer .content {
+  float: right;
+  text-align: right;
+}
+
+
+
+/*.footer img {
+  width: 50%;
+}*/

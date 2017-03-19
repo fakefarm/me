@@ -64,6 +64,7 @@ how to grow?
 10. /w wall
 11. /_t template
 12. /me about-me
+13. /r root
 
 ### /verbos-url-pattern
 /books
