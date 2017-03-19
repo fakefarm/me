@@ -2,12 +2,20 @@ var Rectangle = Backbone.Model.extend({})
 
 var RectangleView = Backbone.View.extend({
   render: function() {
-    var data = this.model.get('tnt');
+    this.styleBox();
     this.$el.append(data);
     return this;
+  },
+
+  styleBox: function() {
+      
   }
 })
 
-var myRect = new Rectangle({ tnt: 'BOOOOOOOOOM'} );
+var myRect = new Rectangle({
+
+});
+
 var myView = new RectangleView({ model: myRect })
+
 $('#container').append(myView.render().el);
