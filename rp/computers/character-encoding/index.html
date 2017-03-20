@@ -31,6 +31,25 @@
           </ul>
         </aside>
       </article>
+      <article class="article what-is-encoding">
+        <h2 class="h2">What is a character encoding, and why should I care?</h2>
+        <a href="https://www.w3.org/International/questions/qa-what-is-encoding#why">source</a>
+        <p>If you use anything other than the most basic English text, people may not be able to read the content you create unless you say what character encoding you used.</p>
+        <p>Not only does lack of character encoding information spoil the readability of displayed text, but it may mean that your data cannot be found by a search engine, or reliably processed by machines in a number of other ways.</p>
+
+        <p>Characters that are needed for a specific purpose are grouped into a character set (also called a repertoire). (To refer to characters in an unambiguous way, each character is associated with a number, called a code point.)</p>
+
+        <p>The characters are stored in the computer as one or more bytes.</p>
+
+        <p>Basically, you can visualise this by assuming that all characters are stored in computers using a special code, like the ciphers used in espionage. A character encoding provides a key to unlock (ie. crack) the code. It is a set of mappings between the bytes in the computer and the characters in the character set. Without the key, the data looks like garbage.</p>
+
+        <p>So, when you input text using a keyboard or in some other way, the character encoding maps characters you choose to specific bytes in computer memory, and then to display the text it reads the bytes back into characters.</p>
+
+        <p>As a content author or developer, you should nowadays always choose the UTF-8 character encoding for your content or data. This Unicode encoding is a good choice because you can use a single character encoding to handle any character you are likely to need. This greatly simplifies things. Using Unicode throughout your system also removes the need to track and convert between various character encodings.</p>
+
+        <p>UTF-8 is the most widely used way to represent Unicode text in web pages, and you should always use UTF-8 when creating your web pages and databases. But, in principle, UTF-8 is only one of the possible ways of encoding Unicode characters.</p>
+
+      </article>
       <aside class="joel">
         https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
         <article class="article joel">
@@ -143,6 +162,10 @@
       <article class="article utf-8">
         <h2>UTF-8</h2>
         <p>Unicode is a character set. UTF-8 is encoding.</p>
+        <section class="wiki">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Utf8webgrowth.svg/700px-Utf8webgrowth.svg.png" alt="">
+          <a href="https://en.wikipedia.org/wiki/UTF-8">source</a>
+        </section>
       </article>
       <article class="article ietf">
         <header>
