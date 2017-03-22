@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dave Woodall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Notes on using the Pundit Gem" />
+    <meta name="keywords" content="dave woodall boulder coder wwwoodall fake farm leavelist fakefarm ruby rails pundit" />
+    <meta name="author" content="dave woodall wwwoodall" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+
+  <body>
+    <header class="header headline">
+      <h1>Pundit Gem</h1>
+      <p>Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.</p>
+
+    </header>
+    <section class="section links resources">
+      <a href="https://github.com/elabs/pundit/blob/master/README.md">repo readme</a>
+    </section>
+    <section class="section install">
+      <h2>Installation</h2>
+      <code>
+        <pre>gem "pundit"</pre>
+      </code>
+      <p>
+        Include Pundit in your application controller:
+      </p>
+
+      <code>
+        <pre>
+          class ApplicationController < ActionController::Base
+            include Pundit
+            protect_from_forgery
+          end
+        </pre>
+      </code>
+      <p>
+        Optionally, you can run the generator, which will set up an application policy with some useful defaults for you:
+      </p>
+      <code>
+        <pre>rails g pundit:install</pre>
+      </code>
+      <p>
+        After generating your application policy, restart the Rails server so that Rails can pick up any classes in the new app/policies/ directory.
+      </p>
+    </section>
+    <footer class='footer-1'>
+    </footer>
+    <div class="scripts">
+      <script src="./js/vendor/jquery.min.js"></script>
+      <script src="./js/vendor/underscore.min.js"></script>
+      <script src="./js/vendor/backbone.min.js"></script>
+      <script src="./js/main.js"></script>
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-40303853-1','auto');ga('send','pageview');
+      </script>
+    </div>
+  </body>
+</html>
