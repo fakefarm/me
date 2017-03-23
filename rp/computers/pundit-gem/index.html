@@ -11,13 +11,86 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
   </head>
-
   <body>
     <header class="header headline">
       <h1>Pundit Gem</h1>
       <p>Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.</p>
-
+      <p>Pundit strongly encourages you to model your application in such a way that the only context you need for authorization is a user object and a domain model that you want to check authorization for. </p>
     </header>
+    <section class="section overview">
+      <ul>
+        <li><h2>installation</h2></li>
+        <li>
+          <h2>policies</h2>
+          <p>Pundit makes the following assumptions about policy classes</p>
+          <ul>
+            <li>The class has the same name as some kind of model class, only suffixed with the word "Policy".</li>
+            <li>The first argument is a user. In your controller, Pundit will call the current_user method to retrieve what to send into this argument</li>
+            <li>The second argument is some kind of model object, whose authorization you want to check. This does not need to be an ActiveRecord or even an ActiveModel object, it can be anything really.</li>
+            <li>The class implements some kind of query method, in this case update?. Usually, this will map to the name of a particular controller action.</li>
+            <li>Inherit from the application policy created by the generator</li>
+            <li>In the generated <code>ApplicationPolicy</code>, the model object is called record.</li>
+          </ul>
+          <h3>Policy usecases</h3>
+          <p>Policies support a few ways of working. The most popular is when you have a model and an instance variable. But that is not required. You can also use Pundit without a backing model.</p>
+          <ul>
+            <li>Instance &amp; Model usecase</li>
+            <li>Non-instance &amp; Model usecase</li>
+            <li>Non-Model &amp; Non-instance usecase (Headless Policies)</li>
+          </ul>
+        </li>
+        <li>
+          <h2>pundit methods</h2>
+          <ul>
+            <li><code>#authorize</code></li>
+            <li>
+              <code>#policy</code>
+              <p>this method can be used in both the view and controller</p>
+              <p>This is especially useful for conditionally showing links or buttons in the view:</p>
+              <pre>
+                <code>
+                  <% if policy(@post).update? %>
+                    <%= link_to "Edit post", edit_post_path(@post) %>
+                  <% end %>
+                </code>
+              </pre>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>pundit classes</h2>
+          <ul>
+            <li>
+              <h3>ApplicationPolicy</h3>
+              <aside class="">
+                <h4>The generator</h4>
+                <p>Use the generator to create </p>
+                <code>rails g pundit:install</code>
+                <p>After generating your application policy, restart the Rails server so that Rails can pick up any classes in the new app/policies/ directory.</p>
+                <p>In the generated ApplicationPolicy, the model object is called <code>record</code>.</p>
+              </aside>
+            </li>
+          </ul>
+        </li>
+        <li><h2>headless policies</h2></li>
+        <li>
+          <h2>scopes</h2>
+          <p>Scopes are like active model scopes that will help query the proper content to be shown in the controller and view</p>
+          <h3>Methods</h3>
+          <ul>
+            <li>resolve</li>
+            <li>policy_scope</li>
+          </ul>
+        </li>
+        <li><h2>ensuring policies and scopes are used</h2></li>
+        <li><h2>generator</h2></li>
+        <li><h2>testing</h2></li>
+      </ul>
+      <h3>Moving Parts</h3>
+      <div class="image overview">
+        <img src="./img/pundit_slide_1.png" alt="">
+      </div>
+    </section>
     <section class="section links resources">
       <a href="https://github.com/elabs/pundit/blob/master/README.md">repo readme</a>
     </section>
