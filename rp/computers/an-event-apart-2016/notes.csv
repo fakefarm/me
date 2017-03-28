@@ -1,0 +1,31 @@
+jot,tag,speaker,date
+"we've been dealing with browser that have not been compliant for the whole time. WE need to just get used to it.",industry,jeffrey zeldman,2016-10-07
+http://www.24ways.org,url,jeffrey zeldman,2016-10-07
+I kept saying it but no one was listening (Jeffrey Zeldman),testimony,jeffrey zeldman,2016-10-07
+bootstrap is a prototype tool. Once you have it write then it's time to code by hand. Bootstrap is bloated and slows down the users experience,stance,jeffrey zeldman,2016-10-07
+adaptive web design - free online. buy 2nd edition,book,jeffrey zeldman,2016-10-07
+stick to commitments. A commitment is not easy to keep. Learn what a commitment is and only make commitments for things you will stick with even when it is uncomfortable.,boys,jeffrey zeldman,2016-10-07
+change your mind. give yourself permission to change your mind. that means don't simply tell people and think you have to agree with it because it will make another person feel bad. At the end of the day there are more fools than friends and you want to be able to back out of foolish situations,boys,jeffrey zeldman,2016-10-07
+what does 56k mean?,question,jeffrey zeldman,2016-10-07
+what are the important units to know for speed and size as it relates to web?,question,jeffrey zeldman,2016-10-07
+future friendly,term,jeffrey zeldman,2016-10-07
+frameworks are shortcuts that come at a cost,perspective,jeffrey zeldman,2016-10-07
+code for yourself,stance,jeffrey zeldman,2016-10-07
+test for yourself,stance,jeffrey zeldman,2016-10-07
+make the sites that are able to transcend the browser and device and screen size,stance,jeffrey zeldman,2016-10-07
+if you find yourself ready to compromise and do the easy thing in your work then think of it as if you're doing it for a family member like your ageing father. not some random person.,stance,jeffrey zeldman,2016-10-07
+blurring images,performance,jeffrey zeldman,2016-10-07
+limit http calls,performance,jeffrey zeldman,2016-10-07
+svg,performance,jeffrey zeldman,2016-10-07
+TODO - study what are the things for best practices (dos and donts),performance,jeffrey zeldman,2016-10-07
+designing for web standards 3rd edition,book,jeffrey zeldman,2016-10-07
+how should I view classes? not as greenbox col but...,question,jeffrey zeldman,2016-10-07
+your brand happens between devices,stance,jeffrey zeldman,2016-10-07
+love the craft not the paycheck,stance,jeffrey zeldman,2016-10-07
+"do your job for them. but do it your way. so make sure you have a way of doing things or you will not like this craft. If your craft does not have something the job doesn't want to do it because it's not profitable then you don't know your craft well enough. Do not code for money. Code because you love what you do. life is not about money. Get good at what you do and do the right thing - as pros do. Also, pros doing the right thing do so without adding bugs.",stance,jeffrey zeldman,2016-10-07
+"My stance into software has not been guided by a cs degree. I'm not sure what I was supposed to know or which cycles to hangout out. All I know is that I wanted to create a transaction online and that included things looking good for people to have the trust to something. I've been learning from Jeffrey Zeldman and Sandi Metz. Come to find out they don't really know one another.",blog,jeffrey zeldman,2016-10-07
+when you write markup do all you can to avoid thinking in terms of style. Think more in terms of sterile. The markup you write should describe it's purposeful use rather than it's specific content. for example you may want content to look like a paragraph but if the use is of greater importance make it an `h2`,stance,jeffrey zeldman,2016-10-07
+base interaction around user first,stance,jeffrey zeldman,2016-10-07
+style without purpose is noise,design,jeffrey zeldman,2016-10-07
+meaningless style is useless,design,jeffrey zeldman,2016-10-07
+design for the user not for yourself,design,jeffrey zeldman,2016-10-07
