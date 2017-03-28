@@ -1,0 +1,172 @@
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+/* ---- defaults
+-------------------------------------------------*/
+
+img { width: 100%; }
+
+
+/* ---- typography
+-------------------------------------------------*/
+
+.h1, .h2, .h3, .h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+.h1, .h1-alt {
+  font-weight: bold;
+}
+
+.inset {
+  padding-left: 20px;
+}
+
+.h1-alt {
+  background: rgb(41, 98, 119);
+  color: white;
+  padding: 12px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.h2 {
+  color: rgb(120, 198, 120);
+  font-size: 36px;
+}
+
+.h3 {
+  color: rgb(107, 22, 76);
+}
+
+.h3, .h4 {
+  font-size: 24px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.h4 {
+  color: #666;
+}
+
+.image .image-area{
+  width: 100%;
+}
+
+.blog {
+  padding: 0 18px;
+  border: 12px solid rgb(218, 200, 193);
+}
+
+.p {
+  font-family: 'lucida grande' san-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+li {
+  font-family: 'lucida grande' san-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* --- _header
+-------------------------------------------------------------------- */
+
+.header .h1 {
+  font-size: 72px;
+  color: rgb(41, 98, 119);
+}
+
+.header .image-area {
+  width: 100%;
+  max-width: 400px;
+}
+
+
+@media only screen and (min-width: 480px) {
+  .header .h1 {
+  }
+
+  .header .image-area {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .header .h1 {
+    font-size: 96px;
+  }
+
+  .header .image-area {
+    width: 70%;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header .h1 {
+      font-size: 84px;
+  }
+
+  .header img {
+    width: 80%;
+  }
+
+  .header .image-area {
+    width: 100%;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .header img {
+    width: 100%;
+  }
+
+  .header .h1 {
+    font-size: 96px;
+  }
+
+  .header .image-area {
+    margin-right: 30px;
+  }
+}
+
+
+/* --- intro
+-------------------------------------------------------------------- */
+
+.intro { overflow: auto; }
+
+@media only screen and (min-width: 480px) {
+  .intro {
+    /*background: red;*/
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    /*background: blue;*/
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .intro {
+    /*background: yellow;*/
+    margin-right: 30px;
+  }
+}
