@@ -27,3 +27,110 @@
 }
 
 @media only screen and (min-width: 1140px) { }
+
+.clear-mp {
+  margin: 0;
+  padding: 0;
+}
+ /*
+   _dw SL means Single Letter (-sl).
+   It is a span and action in each item.
+   the goal is to build this here,
+   then attach it with bb events like - bigger, smaller, spin, hide.
+   Technically, it's changing display to inline.
+ */
+
+ /*_dw Question
+   will I need to adjust letter spacing per mq?
+ */
+
+.h1-serif-sl {
+  font-family: "Georgia";
+  display: inline;
+  margin: 0;
+  letter-spacing: -3px;
+}
+.h1-headline-r {
+  font-size: 1em;
+  color: rgb(79, 64, 57);
+  font-weight: 100;
+}
+
+@media only screen and (min-width: 200px) {
+  .h1-headline-r {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .h1-headline-r {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .h1-headline-r {
+    font-size: 5em;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .h1-headline-r {
+    font-size: 6em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .h1-headline-r {
+    font-size: 8em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .h1-headline-r {
+    font-size: 10em;
+  }
+}
+
+.sl-black {
+ color: black !important;
+}
+
+
+/* _dw TODO move to template*/
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    /*
+    _dw TODO convert these to css
+      @include position(absolute, 0 null null 0);
+      @include size(100%);
+    */
+    position: absolute;
+    width: 50%;
+  }
+}
+
+/*
+_dw hack
+*/
+
+
+@media only screen and (min-width: 768px) {
+  .half-width-center {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  border: 15px solid orange;
+  padding: 30px;
+  overflow: auto;
+}
+
+.wrapper {
+  overflow: auto;
+}
