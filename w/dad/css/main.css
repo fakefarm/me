@@ -1,10 +1,29 @@
-/*img { width: 50%; }
-.h1 { color: red; }*/
 
-@media only screen and (min-width: 480px) { }
-@media only screen and (min-width: 768px) { }
-@media only screen and (min-width: 1140px) { }
+@media only screen and (min-width: 768px) {
+  .col {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+  }
 
-.col {
-  width: 50%;
+  .r-col {
+    /*background: red;*/
+  }
+
+  .l-col {
+    background: black;
+    color: white;
+    padding: 20px;
+  }
+
+  .TODO {
+    color: seagreen;
+    font-family: georgia;
+    font-style: italic;
+    font-weight: 100;
+  }
 }
+
+@media only screen and (min-width: 1140px) { }

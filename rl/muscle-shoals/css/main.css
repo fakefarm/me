@@ -1,0 +1,35 @@
+/*
+  keep media queries near their component.
+*/
+
+/*
+  mobile first...
+*/
+
+.chat img {
+  width: 100%;
+  max-width: 400px;
+  top: -380px;
+  position: relative;
+}
+
+.image-reveal {
+    height: 100px;
+    overflow: hidden;
+    border: 12px solid red;
+    width: 400px;
+    border-radius: 3px;
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
