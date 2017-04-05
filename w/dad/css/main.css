@@ -13,13 +13,20 @@
   }
 
   .l-col {
-    background: black;
-    color: white;
+    background: #2c1a1e;
+    color: #d6e7e3;
     padding: 20px;
   }
 
+  .l-col p {
+    font-family: times;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 100;
+  }
+
   .TODO {
-    color: seagreen;
+    color: orange;
     font-family: georgia;
     font-style: italic;
     font-weight: 100;
