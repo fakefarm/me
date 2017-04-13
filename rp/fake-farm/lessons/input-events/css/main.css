@@ -1,0 +1,33 @@
+@media only screen and (min-width: 480px) { }
+@media only screen and (min-width: 768px) { }
+@media only screen and (min-width: 1140px) { }
+
+.ie-wrapper {
+  background: rgb(136, 48, 252);
+}
+
+.ie-wrapper input[type=text] {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  background: #eee;
+}
+
+.flash, .large {
+  box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.flash {
+  background: red;
+  margin-top: 1em;
+}
+
+.large {
+  font-size: 4em;
+  background: red;
+}

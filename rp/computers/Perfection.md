@@ -1,0 +1,2 @@
+# Perfection
+one of the things that I'm drawn to with web development is I currently have a desire to make perfect software. I want to figure out the right way to do the full stack. I want to know how to keep software secure, fast, and responsive. It's a long journey and I like how much material it takes to learn this because I am doing nothing but waiting on God for what He wants to do with my life.

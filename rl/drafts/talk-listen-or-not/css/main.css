@@ -1,0 +1,77 @@
+/*
+  keep media queries near their component.
+*/
+
+/*
+  mobile first...
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.js-opt {
+  background: rgb(238, 233, 113);
+  padding: 20px;
+}
+
+.js-on {
+  display: none;
+}
+
+.js-benefits {
+  font-size: 15px;
+}
+
+.hero {
+  width: 100%;
+  padding: 20px;
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.square {
+  box-sizing: border-box;
+  height: 300px;
+  padding: 40px 20px 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'courier new', courier;
+  font-weight: 100;
+}
+
+.square:nth-child(1) {
+  background: rgb(30, 170, 77);
+  color: white;
+}
+.square:nth-child(2) {
+  background: rgb(186, 179, 13);
+}
+.square:nth-child(3) {
+  background: rgb(115, 207, 240);
+  color: yellow;
+}
+.square:nth-child(4) {
+  background: rgb(61, 50, 61);
+  color: red;
+}
+
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}

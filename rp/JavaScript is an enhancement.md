@@ -1,0 +1,11 @@
+# JavaScript is an enhancement
+- speed is a feature
+- spead is html & css
+- no images
+- just text
+- images and js and SPA come at conscent.
+- then, it also comes with ability to pay for content at $3. month.
+- content is about web development, life, non-ads paid magazine.
+- back-issues cost $3. issue
+- then, i can use a SPA for javascript, backbone is js, and can provide extra http calls.
+- THIS SITE USES JS for images, animation, and navigation.
