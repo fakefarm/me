@@ -1,0 +1,33 @@
+﻿Presentation outline
+====================
+
+1. Cover
+2. Roleplay setting
+3. Objective
+4. Data set reviewing
+5. Took initial review of descriptive statistics
+6. Is that statistically significant?
+7. Null and alternative
+8. response
+9. run multiple reg…
+9. attendence to costs – and it’s response
+atten to prof and it’s response
+4. there is evidence
+5. if profitibality is goal, focus on solo tours
+if attendence is goal, go with co-head.
+One scenario is to alternate to build the fan base with co-head and
+solo tour for profitability.
+--
+
+6. Summary of Analysis
+7. 2 Sample T – Comparison of the tour dates data
+8. Graphs
+9. Multiple linear Regression Data
+10. Total Sales to Attendance & Merch Sales graphs
+11. Simple linear Regression Data
+12. Attendance to Merch Sales visuals
+13. Attendance to Total Sales visuals
+14. ANOVA
+15. Sales from (W/ Co-head / W/o Co-head) graph
+
+4. Provide suggestions for ideal partner bands

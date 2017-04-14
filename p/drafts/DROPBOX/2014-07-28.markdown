@@ -1,0 +1,12 @@
+# Personal
+is it possible to tap out of professional pressure?
+problems are not my problem 
+would have been 6months old today
+
+# Work
+bundle clean #workflow
+use CMD in windows to 'ping' a site. (ping login.lsdev.co) #debugging
+df<> delete includes thing you type #vim
+dt <> deletes up to the thing you type #vim
+da<> deletes the wrapping parens #vim
+di<> deletes up to the wrapping parens #vim

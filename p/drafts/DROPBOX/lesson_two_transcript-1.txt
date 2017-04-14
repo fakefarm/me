@@ -1,0 +1,326 @@
+﻿Lesson two transcript
+=====================
+
+Anatomy of a Web Application
+
+Learning Rails, episode 2: Anatomy of a Web Application
+
+Welcome to the second episode of Learning Rails. I’m Michael
+Slater.
+
+And I’m Christopher Haupt.
+
+In our first episode, we explained what Ruby on Rails is, and why it
+is worth investing your time to learn. In this episode, we start to
+look at how a Ruby on Rails application works.
+
+Before we get into Rails, we need to explore Ruby and object oriented
+programming briefly. There’s a few key concepts that we use in
+the following section, and it’s important that you understand
+what we mean by them so you can follow the bigger story of how Ruby on
+Rails works.
+
+Some Key Programming Concepts
+
+In this section, let’s cover a very high-level primer of some
+the basic programming terminology we’ll be using: variables,
+objects, classes, and methods. If you are already familiar with these
+concepts, feel free to skip ahead.
+
+We will often need to store information in our programs. The container
+that holds this information is called a variable. A variable in Ruby
+is very flexible and doesn’t require you to either declare or
+define it before you use it or even specify what kind of data it will
+hold. Variables can represent simple data, such as numbers or strings
+of characters, or they can hold more complex information, such as
+lists of data (called Arrays in Ruby) or data composed of a collection
+of simpler types.
+
+As you learn about Ruby and Rails, you may hear the term
+“scope” in reference to variables or the objects they
+contain. We’ll skip the nuances now, but you should understand
+that variables have a lifetime within your program and may have
+limitations as to where they may be used.
+
+Variables have names you give them and both Ruby and Rails have a
+variety of naming requirements and conventions that you will grow
+familiar with overtime.
+
+Ruby is known as an Object Oriented language, and everything in a Ruby
+program is some kind of Object. OK, so what is an Object? An object is
+something that packages together simple or complex pieces of data
+along with any behaviors for working with that information. A number
+object, for instance, holds the numerical value data and includes
+behaviors such as addition, subtraction, and equality testing.
+
+Besides the built in Objects of Ruby, you can define your own objects
+that represent pretty much anything you can imagine. To do this, you
+create a Class. Classes are special objects that act as blueprints for
+Ruby to use when you request that it construct your objects in memory.
+Within a class, you specify the name of the object type you are
+creating, what data it will hold, and any messages it can receive to
+trigger its internal programs. These little programs in an object are
+called “methods”, or sometimes
+“functions”; and as we’ll see shortly, in the
+context of a Rails controller they are called actions.
+
+Ruby classes are organized in something like a family tree: you can
+define classes that inherit attributes or behavior from other classes,
+in a simple parent-child relationship. This enables you to organize
+your data in a hierarchy that starts with more general features at the
+top and more specific ones descended below. An example is a Person
+Class and an Employee class. The Employee class is a sub-class of
+(i.e., inherits from) the Person class, and it inherits attributes
+such as a Name that all people have. The Employee sub-class might add
+the idea of Employee ID Number, which Employees might have, but not
+all People.
+
+While you might not use inheritance right away for your own classes,
+it is used throughout Ruby and heavily in Rails. In many cases, you
+enjoy its benefits without needing to know how it works. Your model
+objects, for example, start life with a rich set of methods for
+finding and accessing information, which they inherit from an Active
+Record class.
+
+OK, we’ve defined, in a simple way, the terms Variable, Object,
+Class, and Method, so let’s jump back to how Rails works to
+process a request from a user.
+
+From URL to Server Response
+
+With this bit of programming terminology behind us, let’s
+review just what happens when a user views a web page. We tend to this
+of this as a simple action, but actually there’s a lot
+involved.
+
+First, the user enters a URL in their browser, or they could click on
+a link in another web page. The browser sends a request to the server
+specified in the URL (that’s everything before the first
+slash), asking for the page specified in the URL. The server returns
+the HTML page.
+
+For example, suppose the URL is www.BuildingWebApps.com/podcast.html.
+podcast.html is the name of a file on the server that contains the
+HTML code for the page. The server doesn’t do much processing;
+it simply returns the HTML to the browser. The browser reads the HTML,
+and when it sees references to other files, such as CSS stylesheets,
+images, and JavaScript files, it sends requests for those files too.
+
+With a typical PHP site, the process is only slightly different. The
+URL would end with podcast.php, which is as before the name of a file
+on the server. In this case, however, the file contains a mix of PHP
+programming language instructions and HTML code.
+
+The server now does more work; instead of simply sending this file to
+the browser, it executes the parts that are PHP code, sending to the
+browser the results of running this code, along with any regular HTML
+that was in the file. The PHP code might, for example, read from a
+database to get a list of podcast episodes, and then generate HTML
+code that would display that list.
+
+In both the HTML and PHP examples, there is a one-to-one
+correspondence between URLs requested by the browser and files stored
+on the server. The server just requests the files that have been asked
+for, and if they contain any program code, executes that code before
+sending the results to the browser.
+
+In a Ruby on Rails application, the flow is more involved. There
+typically would not be a file-type extension on the URL; it is simply
+www.buildingwebapps.com/podcast. The name podcast is not the name of a
+file at all, but the name of the request that the browser wants to
+make of the Ruby on Rails application.
+
+The server therefore has a more complex job to do. Instead of simply
+grabbing the file whose name corresponds to the request, the request
+is passed to the Rails routing code: the part of the Rails framework
+that processes incoming requests.
+
+There’s a file called routes.rb, which is part of every Rails
+application, that the Rails code executes to process each request. In
+this file, you can customize the routing to a great degree, or you can
+specify some simple, default routes that apply to most requests. But
+one way or another, when the routing code is done executing, Rails has
+chosen a controller to process the request, and an action to invoke in
+that controller.
+
+For example, if our podcast controller has an action called show, the
+URL www.buildingwebapps.com/podcasts/show would trigger that action.
+Typically there would be a database ID at the end of the URL (such as
+podcasts/show/17), this value is passed to the show action.
+
+Controllers
+
+Once a request has been routed to a particular action in a particular
+controller, it’s up to that controller to move things along.
+
+A controller is a Ruby program (almost everything in Rails is a Ruby
+program) that processes one type of related incoming request. For
+example, our podcast controller deals with everything that has to do
+with podcasts. The controller is divided internally into a number of
+methods that perform very specific tasks. Most controller methods are
+just a few lines of code. Best practice typically puts anything
+complicated in the model objects and presentation is handled in view
+objects.
+
+For example, the podcast controller has one method to display the
+podcast main page, with a listing of all the episodes. There’s
+another method to display the show notes for a particular episode, and
+another to display the transcript for an episode. There may be
+additional methods, which require an administrative log-in to be able
+to access, for uploading a new podcast or entering the text for a
+podcast’s title, description, notes, and transcript.
+
+Controller Actions
+
+Controller methods are usually called actions. An action is a method
+that can be invoked from a particular URL. Remember, everything starts
+when someone clicks on a link or enters a URL in their browser, and
+the URL is sent to the server. In response, Rails finds the
+corresponding action to execute.
+
+Controller have default actions to execute when an incoming URL omits
+a specific action. If an action called index is supplied, it is used.
+For instance, when a user browses to www.buildingwebapps.com/podcasts,
+the default action “index” in the podcast controller
+executes.
+
+The index action itself simply fetches the list of episodes from the
+database. That’s all it needs to do; as we’ll see
+shortly, the view takes care of the rest.
+
+If you’ve built a PHP application, you’re probably used
+code that directly sends a query to the database, and you had to write
+that query in SQL and fetch results a row at a time. In a Ruby on
+Rails application, model objects handle all communication with the
+database. The model is the abstract representation of your
+application’s data, independent of any particular way of
+viewing it.
+
+Every model object inherits a rich set of capabilities from Active
+Record, a library that is a key part of Rails, so your models come to
+life with a rich set of capabilities without your writing a single
+line of code. And when you do write code in your models, you can work
+at an abstract level, while Active Record takes care of all the
+details of working with the database.
+
+We’ll skip over the details of the language syntax for now, but
+in essence, the controller would include a statement like
+“podcasts equal podcast find all”. In this statement,
+the first word, podcasts, is a new variable that we’ve just
+created to hold the list of podcast objects. When we write
+“podcast find all”, we’re acting upon the podcast
+model (invoking a find method on the Podcast class, to be precise),
+and asking it to find all podcast objects. This find method is one
+example of the magic that model objects are born with, thanks to
+Active Record. You can even write statements like podcast find by
+episode 2, to find the podcast object whose episode number is 2.
+
+You don’t have to think about SQL, or how to access the
+database, because all of that is handled by the Rails framework code,
+with a little help from the podcast model file. You tell Active Record
+what you want to do to the model objects, and Active Record creates
+SQL statements to do it.
+
+The controller’s job is now done. Controller actions are often
+just a few lines of code. They make requests from the model, as needed
+to fulfill the request that just came in from the browser, and put the
+results into variables that the view uses to get data for the page.
+
+Rails Views
+
+What’s next? The view is invoked. The view is another file,
+separate from the controller and model files, that is specific to a
+single action in a single controller. In this case, Rails invokes for
+us the index view associated with the podcast controller. The view has
+access to the podcasts variable that the controller set, so it
+doesn’t need to talk to the database, or even to the model; it
+just works with data that has already been selected for it and stored
+in this variable.
+
+The view includes all the presentational aspects of the
+page—everything about how the page looks. The parts of the page
+that are common across all pages, such as the header and footer, are
+provided by a separate file, the layout, which Rails automatically
+invokes for us before it begins processing each view. So a view only
+needs to concern itself with things that are specific to a particular
+type of page.
+
+A view typically includes a mix of HTML and Ruby code, much like a PHP
+file includes a mix of HTML and PHP. But a typical PHP program, if
+built without a model-view-controller framework, puts into a single
+file not only all the view code but also aspects of the model and
+controller functions. In the Rails approach, you have many more files,
+each of which is responsible for a very specific part of the task of
+collecting information, formatting it, and rendering a web page.
+
+A typical Rails view includes the HTML-coded text that fills most of
+the page, and a small amount of Ruby code. In our podcast listing
+example, the Ruby code uses the podcast variable the controller
+provided to generate the list of podcasts.
+
+The view code iterates through the array of podcast objects stored in
+the podcasts variable. It reads each podcast object in turn, using the
+methods the podcast object provides to access each of its properties.
+For example, the podcast object provides a title method, which returns
+the name of the podcast; a description method, which returns a block
+of descriptive text; and other methods to provide links to the show
+notes, the transcript, and the audio file.
+
+More about Models
+
+Rails uses the ActiveRecord library to implement a technique called
+object-relational mapping. This allows you to think in terms of
+objects in your Rails program and let the underlying library deal with
+most of the complexity of storing and retrieving information from a
+Database. This is particularly nice as you don’t have to become
+an SQL expert and can stick to Ruby coding in most cases.
+
+When you are building your application, you can think in terms of the
+abstract concepts you want to model, like a Podcast object. Rails
+provides tools for easily translating your ideas into the storage
+mechanism of your database. These tools not only set-up the database
+structure for you, but also generate the Classes and their default
+behaviors that you’ll use when running your program.
+
+There are two basic steps to you will take time and time again. First,
+you will spell out the data you need for each of your Classes using a
+simple database neutral syntax in Ruby. These definitions sit inside
+of one or more files called migration files. Migrations are special
+programs that Rails uses to setup and maintain the database structure
+on your server. Second, you create model files, which are classes that
+derive behavior from ActiveRecord.
+
+Your model classes gain a lot of functionality due to their
+inheritance from Active Record classes. When Rails creates a model
+object on your application server from one of these classes, it knows
+to go out to the database server, scan the database’s
+structure, and automatically build the object that corresponds to the
+database table holding that information.
+
+The model layer in Rails deals with all of the communication issues
+between the application and database servers, so you don’t
+really have to worry about it, it just works. If, over time, you need
+more sophisticated data manipulation beyond Creating, Updating,
+Finding, or Deleting objects, you can dip in to lower level
+capabilities or write your own SQL.
+
+Model objects generally come in to existence while a controller action
+is running. This typically means that model objects come and go every
+time you visit a page. In our Podcast example, once the podcast index
+listing is rendered by the view, and the controller action finishes,
+the podcast objects disappear, and the memory they used is freed. The
+information is still in the database, of course.
+
+Wrap Up
+
+We’ve now see how, when an incoming request is processed by a
+Rails application, the server chooses a controller to invoke, and an
+action to execute within that controller. The action uses model
+objects to request information from the database, which the controller
+stores in a variable for the view to use to render the HTML page.
+
+We’ve completed our brief tour of how Ruby on Rails uses the
+Model-View-Controller pattern and we’ve taken a quick peek into
+how controllers, views, and the model system operate. Next episode
+we’ll dive deeper into views and see how the template system
+works.

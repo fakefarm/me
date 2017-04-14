@@ -1,0 +1,128 @@
+﻿Test 2 review
+=============
+
+Regression analysis
+
+Knowing when a regression analysis is appropriate
+Interpretation of a regression model
+Understanding of model building
+Ability to use a software package to run a regression analysis
+Use of automatic forward and backward selection procedures
+Understanding of residual analysis
+Understanding of outliers and high leverage points
+Understanding of association and causality
+
+----------------------------------------------------------------------
+
+Regression analysis
+
+Output variable
+aka – response variable
+aka – dependent variable
+aka – continuous
+
+Input variable
+aka – independent
+aka – y variable
+aka – continuous
+
+                       Single Linear Regression
+
+Two reasons for doing simple linear regression
+1 – see if evidence of relation b/n 2 variables
+2 – If there is a correlation / relationship between the two to use
+the model for prediction
+
+To determine if there is eveidnece of relationship – we do a
+hypothesis test
+we get p values
+null hyp says the slope parameter if zero.
+what we don’t want to expect
+Alternative hyp -
+
+  * <1% we have established an evidence there is an association
+    between two variables
+  * b/n 1 – 10% -
+  * >10% -
+
+                      multiple linear regression
+
+1 output variable
+many input varaible (2 or more)
+output variable is continuous
+input variable is continuous except we can have categorical input
+variable and make it binary and code it 0 or 1. aka dummy variable
+of all the variables we have, we need to figure out which subset of
+variable we need in our model
+
+We need to select a way to determine which variables to add like:
+- backwards elimination – start with all then take them out one by one
+until we stop
+- forward selection – start with nothing until we decide to stop
+- stepwise – combination of both
+The goal is to create a model where each of the variables has small p
+values
+
+When is a multiple linear regression not possible with mini-tab?
+because the input variables are two highly correlated and will take
+out one of the variables.
+
+Y = ß0 + ß1x1 + ß2x2 + ß3x3
+
+Increasing ß2 1 will increase Y will increase
+Decreaseing x2 will decrease Y by 2
+
+H1. R squared (rsq)
+How much of the variation of the output (Y) is explained input (X
+variable)
+
+Lowest value : 0
+highest value : 1
+
+Interpretation of the coefficient of rsq -
+If data is close to line – the R will be high
+If the data is far from line – rsq will be low
+
+Regression model – every model has a residual associated with it
+residual can be either postive or negative
+
+If we take Rsq and make square root – it is called correlation
+coefficient
+Lowest value : – 1
+highest value : 1
+Line going up is positive
+line going down is negative
+
+If data point is above the line – positive
+data point below the line – negative
+
+If resisidual is large compared to other means it’s a possible
+outlier.
+Tey have High leverage / very influential point / that can alter the
+line more so than inside the data points
+
+----------------------------------------------------------------------
+
+Knowing when a regression analysis is appropriate
+Interpretation of a regression model
+
+SImple linear regression – response
+“We have estaiblished an association between the two variables”
+
+If we have established an association b/n two variables doesn’t mean
+we have established a causal relationship
+
+If we have est an association -
+It could be because there is a causal relationship b/n the two
+variables
+There might be a causal relationship, but we just haven’t proved it.
+If there’s not a causal relationship; it’s because there is another
+variable involved (aka surrogate variable)
+
+Understanding of model building
+
+Ability to use a software package to run a regression analysis
+Use of automatic forward and backward selection procedures
+Understanding of residual analysis
+Understanding of outliers and high leverage points
+Understanding of association and causality

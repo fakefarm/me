@@ -1,0 +1,4 @@
+Pick your place in HTML
+Set the variable of Dom content
+Predict what to do with it
+Put a function for when it will happen

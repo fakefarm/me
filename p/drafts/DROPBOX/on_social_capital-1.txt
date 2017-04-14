@@ -1,0 +1,626 @@
+﻿On Social Capital
+=================
+
+FUKUYAMA ON SOCIAL CAPITAL
+http://www.imf.org/external/pubs/ft/seminar/1999/reforms/fukuyama.htm
+Social capital is important to the efficient functioning of modern
+economies, and is the sine qua non of stable liberal democracy. It
+constitutes the cultural component of modern societies, which in other
+respects have been organized since the Enlightenment on the basis of
+formal institutions, the rule of law, and rationality. Building social
+capital has typically been seen as a task for "second generation"
+economic reform; but unlike economic policies or even economic
+institutions, social capital cannot be so easily created or shaped by
+public policy. This paper will define social capital, explore its
+economic and political functions, as well as its origins, and make
+some suggestions for how it can be cultivated.
+
+I. What is Social Capital?
+While social capital has been given a number of different definitions,
+many of them refer to manifestations of social capital rather than to
+social capital itself. The definition I will use in this paper is:
+social capital is an instantiated informal norm that promotes
+cooperation between two or more individuals. The norms that constitute
+social capital can range from a norm of reciprocity between two
+friends, all the way up to complex and elaborately articulated
+doctrines like Christianity or Confucianism. They must be instantiated
+in an actual human relationship: the norm of reciprocity exists in
+potentia in my dealings with all people, but is actualized only in my
+dealings with my friends. By this definition, trust, networks, civil
+society, and the like which have been associated with social capital
+are all epiphenominal, arising as a result of social capital but not
+constituting social capital itself.
+Not just any set of instantiated norms constitutes social capital;
+they must lead to cooperation in groups and therefore are related to
+traditional virtues like honesty, the keeping of commitments, reliable
+performance of duties, reciprocity, and the like. A norm like the one
+described by Edward Banfield as characterizing southern Italy, which
+enjoins individuals to trust members of their immediate nuclear family
+but to take advantage of everyone else, is clearly not the basis of
+social capital outside the family.1
+James Coleman, who was responsible for bringing the term social
+capital into wider use in recent years, once argued that it was a
+public good and therefore would be underproduced by private agents
+interacting in markets.2 This is clearly wrong: since cooperation is
+necessary to virtually all individuals as a means of achieving their
+selfish ends, it stands to reason that they will produce it as a
+private good (see Section IV below). In Partha Dasgupta's phrase,
+social capital is a private good that is nonetheless pervaded by
+externalities, both positive and negative.3 An example of a positive
+externality is Puritanism's injunction, described by Max Weber, to
+treat all people morally, and not just members of the sib or family.4
+The potential for cooperation thus spreads beyond the immediate group
+of people sharing Puritan norms. Negative externalities abound, as
+well. Many groups achieve internal cohesion at the expense of
+outsiders, who can be treated with suspicion, hostility, or outright
+hatred. Both the Ku Klux Klan and the Mafia achieve cooperative ends
+on the basis of shared norms, and therefore have social capital, but
+they also produce abundant negative externalities for the larger
+society in which they are embedded.
+It is sometimes argued that social capital differs from other forms of
+capital because it leads to bad results like hate groups or inbred
+bureaucracies. This does not disqualify it as a form of capital;
+physical capital can take the form of assault rifles or tasteless
+entertainment, while human capital can be used to devise new ways of
+torturing people. Since societies have laws to prevent the production
+of many social "bads," we can presume that most legal forms of social
+capital are no less "goods" than the other forms of capital insofar as
+they help people achieve their aims.
+Perhaps the reason that that social capital seems less obviously a
+social good than physical or human capital is because it tends to
+produce more in the way of negative externalities than either of the
+other two forms. This is because group solidarity in human communities
+is often purchased at the price of hostility towards out-group
+members. There appears to be a natural human proclivity for dividing
+the world into friends and enemies that is the basis of all politics.5
+It is thus very important when measuring social capital to consider
+its true utility net of its externalities.
+Another way of approaching this question is through the concept of the
+"radius of trust."6 All groups embodying social capital have a certain
+radius of trust, that is, the circle of people among whom cooperative
+norms are operative. If a group's social capital produces positive
+externalities, the radius of trust can be larger than the group
+itself. It is also possible for the radius of trust to be smaller than
+the membership of the group, as in large organiza-tions that foster
+cooperative norms only among the group's leadership or permanent
+staff. A modern society may be thought of as a series of concentric
+and overlapping radii of trust (see Figure I). These can range from
+friends and cliques up through NGOs and religious groups.
+Virtually all forms of traditional culture-social groups like tribes,
+clans, village associations, religious sects, etc.-are based on shared
+norms and use these norms to achieve cooperative ends. The literature
+on development has not, as a general rule, found social capital in
+this form to be an asset; it is much more typically regarded as a
+liability. Economic modernization was seen as antithetical to
+traditional culture and social organizations, and would either wipe
+them away or else be itself blocked by forces of traditionalism. Why
+should this be so, if social capital is genuinely a form of capital?
+
+The reason, in my view, has to do with the fact that such groups have
+a narrow radius of trust. In-group solidarity reduces the ability of
+group members to cooperate with outsiders, and often imposes negative
+externalities on the latter. For example, in the Chinese parts of East
+Asia and much of Latin America, social capital resides largely in
+families and a rather narrow circle of personal friends.7 It is
+difficult for people to trust those outside of these narrow circles.
+Strangers fall into a different category than kin; a lower standard of
+moral behavior applies when one becomes, for example, a public
+officials. This provides cultural reinforcement for corruption: in
+such societies, one feels entitled to steal on behalf of one's family.
+Traditional social groups are also afflicted with an absence of what
+Mark Granovetter calls "weak ties,"8 that is, heterodox individuals at
+the periphery of the society's various social networks who are able to
+move between groups and thereby become bearers of new ideas and
+information. Traditional societies are often segmentary, that is, they
+are composed of a large number of identical, self-contained social
+units like villages or tribes. Modern societies, by contrast, consist
+of a large number of overlapping social groups that permit multiple
+memberships and identities. Traditional societies have fewer
+opportunities for weak ties among the segments that make it up, and
+therefore pass on information, innovation, and human resources less
+easily.
+
+II. What Functions Does Social Capital Play in a Free-Market Liberal
+Democracy?
+The economic function of social capital is to reduce the transaction
+costs associated with formal coordination mechanisms like contracts,
+hierarchies, bureaucratic rules, and the like. It is of course
+possible to achieve coordinated action among a group of people
+possessing no social capital, but this would presumably entail
+additional transaction costs of monitoring, negotiating, litigating,
+and enforcing formal agreements. No contract can possibly specify
+every contingency that may arise between the parties; most presuppose
+a certain amount of goodwill that prevents the parties from taking
+advantage of unforeseen loopholes. Contracts that do seek to try to
+specify all contingencies-like the job-control labor pacts negotiated
+in the auto industry that were as thick as telephone books-end up
+being very inflexible and costly to enforce.
+There was a period when social scientists assumed that modernization
+necessarily entailed the progressive replacement of informal
+coordination mechanisms with formal ones. There was presumably a
+period in human history in which formal law and organizations scarcely
+existed, and in which social capital was the only means of achieving
+coordinated action; Max Weber argued that, by contrast, rational
+bureaucracy constituted the essence of modernity.
+The fact of the matter is that coordination based on informal norms
+remains an important part of modern economies, and arguably becomes
+more important as the nature of economic activity becomes more complex
+and technologically sophisticated.9 Many complex services are very
+costly to monitor and are better controlled through internalized
+professional standards than through formal monitoring mechanisms. A
+highly educated software engineer often knows much more about his or
+her own productivity than his or her supervisor; procurement is often
+more efficient when left to the judgment of an experienced procurement
+officer, rather than being done "by the book" as in the case of a good
+deal of government procurement. A number of empirical studies suggest
+that high-tech R&D is often dependent on the informal exchange of
+intellectual property rights, simply because formal exchange would
+entail excessive transaction costs and slow down the speed of
+interchange.10
+Even in non-hi-tech environments, social capital often leads to
+greater efficiency than purely formal coordination techniques.
+Classical Taylorism, which organized workplaces in a highly
+centralized, bureaucratized manner, created many inefficiencies as
+decisions were delayed and information distorted while moving up and
+down hierarchical chains of command. In many manufacturing facilities,
+Taylorism has been replaced by much flatter management structures
+which in effect push responsibility down to the factory floor itself.
+Workers who are much closer to the sources of local knowledge are
+authorized to make decisions on their own, rather than referring them
+up a managerial hierarchy. This often leads to great gains in
+efficiency,11 but is totally dependent on the social capital of the
+workforce. If there is distrust between workers and managers, or
+widespread opportunism, then the delegation of authority required in a
+typical "lean" manufacturing system will lead to instant paralysis.
+This is in effect what happened to General Motors during the strikes
+of 1996 and 1998, when a single dissident local (angry, in the first
+instance, over the outsourcing of brake parts) was able to shut down
+the company's entire North American operations.12
+The political function of social capital in a modern democracy was
+best elucidated by Alexis de Tocqueville in Democracy in America, who
+used the phrase the "art of association" to describe Americans'
+propensity for civil association. According to Tocqueville, a modern
+democracy tends to wipe away most forms of social class or inherited
+status that bind people together in aristocratic societies. Men are
+left equally free, but weak in their equality since they are born with
+no conventional attachments. The vice of modern democracy is to
+promote excessive individualism, that is, a preoccupation with one's
+private life and family, and an unwillingness to engage in public
+affairs. Americans combated this tendency towards excessive
+individualism by their propensity for voluntary association, which led
+them to form groups both trivial and important for all aspects of
+their lives. This stood in sharp contrast to his native France, which
+was beset by a much more thoroughgoing individualism than the United
+States. As Tocqueville explained in The Old Regime and the French
+Revolution, on the eve of the Revolution "there were not ten Frenchmen
+who could come together for a common cause." It was only by coming
+together in civil associations that weak individuals became strong;
+the associations they formed could either participate directly in
+political life (as in the case of a political party or interest group)
+or could serve as "schools of citizenship" where individuals learned
+the habits of cooperation that would eventually carry over into public
+life.
+An abundant stock of social capital is presumably what produces a
+dense civil society, which in turn has been almost universally seen as
+a necessary condition for modern liberal democracy (in Ernest
+Gellner's phrase, "no civil society, no democracy").13 If a democracy
+is in fact liberal, it maintains a protected sphere of individual
+liberty where the state is constrained from interfering. If such a
+political system is not to degenerate into anarchy, the society that
+subsists in that protected sphere must be capable of organizing
+itself. Civil society serves to balance the power of the state and to
+protect individuals from the state's power.
+In the absence of civil society, the state often needs to step in to
+organize individuals who are incapable of organizing themselves. The
+result of excessive individualism is therefore not freedom, but rather
+the tyranny of what Tocqueville saw as a large and benevolent state
+that hovered over society and, like a father, saw to all of its needs.
+Low levels of social capital lead to a number of political
+dysfunctions, which have been extensively documented. Following
+Tocqueville's analysis of France, many observers have noted how
+administrative centralization has led to an excessively rigid and
+unresponsive political system, one that can be changed only through
+anti-systemic upsurges such as the évenements of 1968.14 Low
+levels of social capital have been linked to inefficient local
+government in southern Italy, as well as to the region's pervasive
+corruption.15 In many Latin American societies, a narrow radius of
+trust produces a two-tier moral system, with good behavior reserved
+for family and personal friends, and a decidedly lower standard of
+behavior in the public sphere. This serves as a cultural foundation
+for corruption, which is often regarded as a legitimate way of looking
+after one's family.
+It is of course also possible to have too much of a good thing. One
+person's civic engagement is another's rent-seeking; much of what
+constitutes civil society can be described as interest groups trying
+to divert public resources to their favored causes, whether sugar-beet
+farming, women's health care, or the protection of biodiversity. The
+public choice literature has analyzed the baleful consequences of
+rent-seeking for modern democracies at great length; Mancur Olson has
+argued that Britain's long-term economic decline was due to the
+long-term buildup of entrenched interest groups there.16 There is no
+guarantee that self-styled public interest NGOs actually represent
+real public interests. It is entirely possible that too active an NGO
+sector may represent an excessive politicization of public life, which
+can either distort public policy or lead to deadlock.17
+Despite the possibility that a society has have too much social
+capital, it is doubtless worse to have too little. For in addition to
+being a source of spontaneously-organized groups, social capital is
+vital to the proper functioning of formal public institutions. It is
+sometimes argued that it is more useful to compare societies in
+institutional rather than cultural terms. Chalmers Johnson, for
+example, argues that differences in Japanese and American economic
+policy is not culturally based, but simply the result of the fact that
+Japan had MITI and the United States did not.18 The implication is
+that were the US to create an equivalent of MITI in Washington, it
+would have similar consequences. But there are any number of reasons
+for thinking that different societies have different cultural
+capacities for institution-building. Japan's deployment of an economic
+planning agency with enormous power over credit allocation did not
+lead to the same levels of rent-seeking and outright corruption that
+comparable agencies have brought about in Latin America or Africa (or
+indeed the US, were it to follow Japan's example). This is testimony
+to a number of Japanese cultural characteristics: the respect given
+bureaucrats, their high level of training and professionalism, the
+general deference to authority in Japanese society, etc., and it
+suggests that some institutions cannot be readily transferred to other
+societies lacking social capital.
+
+III. How Do We Measure Social Capital?
+One of the greatest weaknesses of the social capital concept is the
+absence of consensus on how to measure it. At least two broad
+approaches have been taken: the first, to conduct a census of groups
+and group memberships in a given society, and the second, to use
+survey data on levels of trust and civic engagement. At the end of
+this section, I will suggest a third metric that may point to a
+measure of social capital within private firms. Robert Putnam has
+tried to measure social capital by counting groups in civil society,
+using a number n to track size of memberships in sports clubs, bowling
+leagues, literary societies, political clubs, and the like as they
+vary over time and across different geographical regions. There are,
+in fact, a large number of n's in any given society, n1..t. Hence the
+first measure for the total social capital (SC) in a society is the
+sum of the membership of all groups,
+(1) SC = n1..t.
+Both n and t are important measures of civil society. A small value
+for n may limit the kinds of ends a group can achieve; families, for
+example, are good at socializing children and running family
+restaurants, but not very good at exerting political influence or
+manufacturing semiconductors. The variable t itself constitutes a
+separate of measure of civil society; unfortunately, limitations in
+the data prohibit our knowing what t is for a given society, or how
+many missing or undercounted data elements there are between n1 and
+nt. A number of attempts have been made to produce censuses of groups
+and associations in the United States. One was done by the US
+Department of Commerce in 1949, which estimated that there were
+201,000 nonprofit voluntary trade and business organizations, women's
+groups, labor unions, civic service groups, luncheon clubs, and
+professional groups at all levels of American society.19 Lester
+Salamon estimates that by 1989 there were 1.14 million nonprofits in
+the US, indicating an overall rate of growth much higher than that of
+the population as a whole.20 The near-impossibility of producing a
+complete census that catalogues the whole range of informal networks
+and cliques in a modern society is suggested by the Yankee City study,
+which counted some 22,000 different groups in a community of 17,000
+people.21 Changing technology changes forms of association: how do we
+account for the proliferation of on-line discussion groups, chat
+rooms, and e-mail conversations that have exploded with the spread of
+personal computers in the 1990s?22
+N and t may also be inversely correlated (that is, the larger the
+average size of groups, the fewer there are); on the other hand,
+because individuals can hold overlapping memberships in multiple
+groups, they need not be.
+It is clear that each of these n1..t groups is characterized by a
+different level of internal cohesion and therefore collective action.
+Bowling leagues are not capable of storming beaches or lobbying
+Congress, so some qualitative coefficient must be added to provide
+some measure of cohesion. Let us call this coefficient c.
+Unfortunately, there is no accepted method for measuring the internal
+cohesiveness of groups; each one of the c coefficients would have to
+be determined subjectively by an outside observer who would note the
+types of activities the group could undertake and their difficulty,
+its cohesion under stressful circumstances, and other factors. Despite
+the subjective nature of its derivation, it is clear that c varies
+across groups and is a critical qualitative measure of social capital.
+Hence a society's total stock of social capital would be expressed as
+(2) SC = (cn)1..t.
+As noted above, social capital is more heavily pervaded by
+externalities than other forms of capital, so measurement of a
+nation's stock of social capital must take these externalities into
+account. The radius of trust can be thought of as a type of positive
+externality (which we will therefore designate as rp) because it is a
+benefit that accrues to the group independently of the collective
+action that the group formally seeks to achieve. For example, a sect
+that encourages its members to be honest and reliable will foster
+better business relationships when they deal with each other
+economically, in addition to the sect's religious objectives.
+For many groups, the radius of trust would extend to the whole group;
+this is true of most families, for example. The rp coefficient in this
+case is 1, and the total amount of social capital in the society would
+therefore be expressed as
+(3) SC = (rpcn)1..t.
+Certain groups, particularly larger ones, are characterized by
+internal hierarchy, a division of labor, status and functional
+distinctions, etc. While the group may be united around some common
+interest or passion, the degree to which individual members are
+capable of collective action on the basis of mutual trust depends on
+their relative position within the organization. Putnam rightly
+distinguishes between what he calls a "membership organization" like
+the American Association of Retired People (AARP), which, at more than
+33 million members, is second only to the Catholic Church in size.
+Such a group has a very large n-value, but most of its members simply
+contribute yearly dues, receive a newsletter, and would have little
+reason for cooperating with one another on any issue not related to
+pensions or health benefits. For such an organization, the rp
+coefficient may be very small, limited to (for example) those people
+who work full-time in its national headquarters (though even there,
+there are presumably many employees who are simply wage-earners and
+not part of the trust network).
+On the other hand, it is possible for a group to have an rp
+coefficient larger than 1. To take the earlier example of the
+religious sect that encourages honesty and reliability, if these
+traits are demanded of its members in their dealings not just with
+other members of the sect but generally in their dealings with other
+people, then there will be a positive spillover effect into the larger
+society. Again, Weber argued in effect that sectarian Puritans had an
+rp value greater than 1.
+The final factor affecting a society's supply of social capital
+concerns not the internal cohesiveness of groups, but rather the way
+in which they relate to outsiders. Strong moral bonds within a group
+in some cases may actually serve to decrease the degree to which
+members of that group are able to trust outsiders and work effectively
+with them. A highly disciplined, well-organized group sharing strong
+common values may be capable of highly coordinated collective action,
+and yet may nonetheless be a social liability. I earlier noted the
+fact that strongly familistic societies like China and
+central-southern Italy were characterized by an absence of a broader,
+generalized social trust outside the family. At best, this prevents
+the group from receiving beneficial influences from the outside
+environment; at worst, it may actively breed distrust, intolerance, or
+even hatred for and violence toward outsiders. Certain groups may be
+actively harmful to other parts of society-criminal organizations like
+the Mafia or the Crips and Bloods come to mind. A society made up of
+the Ku Klux Klan, the Nation of Islam, the Michigan Militia, and
+various self-regarding ethnic and racial organizations may score very
+high in terms of last three of the four variables given in expression
+(3), and each group may have an rp of 1, and yet overall it would be
+hard to say that such a society had a large stock of social capital.
+Group affiliation can therefore produce a negative externality which
+we can think of as the radius of distrust, or rn. The larger the rn
+value, the greater the liability that group represents to the
+surrounding society; hence the measure for a single group's social
+capital, rpcn, needs to be multiplied by the reciprocal of rn. (All rn
+values, we assume, must be 1 or greater.) The final value for a
+society's total stock of social capital would then be:
+(1.4) SC = ((1/rn)rpcn)1..t.
+To some extent, we could expect that c and rn might be positively
+correlated with one another. That is, internal cohesiveness is often
+based on strongly shared norms and values within a group: both the
+Marines and the Mormon Church are examples. But the very strength of
+those internal bonds creates something of a gulf between members of
+the group and those on the outside. Latitudinarian organizations like
+most contemporary mainline Protestant denominations in the United
+States, by contrast, easily coexist with other groups in the society,
+and yet are capable of a much lower level of collective action.
+Ideally, one would like to maximize the c and and minimize the rn
+values: such would be the case, for example, in a professional
+organization that socializes its members into the values of its
+particular profession, while not at the same time breeding distrust of
+other professions or being closed to influences from them.
+As this exercise indicates, producing anything like a believable
+census of a society's stock of social capital is a nearly impossible
+task, since it involves multiplying numbers that are either
+subjectively estimated or simply nonexistent. This leads us to the
+other source of data that has been used as a proxy for social capital,
+survey data on trust and civic engagement. There are a number of data
+sources that are useful here, such as the National Opinion Research
+Council's General Social Survey (for the US) and the University of
+Michigan's World Values Survey (for international data). Each of these
+surveys asks a series of question concerning trust in various
+political and social institutions, as well as others probing the
+respondents' level of participation in voluntary organizations. There
+are manifold problems with survey data, of course, beginning with the
+fact that responses will vary according to the way the question is
+phrased and who is asking it, to the absence of consistent data for
+many countries and many time periods. A general question such as
+"Generally speaking, would you say that most people can be trusted or
+that you can't be too careful in dealing with people?" (asked on both
+the General Social Survey and World Values Survey) won't give you very
+much precise information about the radius of trust among the
+respondents, or their relative propensities to cooperate with family,
+co-ethnics, co-religionists, complete strangers, and the like.
+A third possible way of measuring social capital in specific
+organizations may be to look at changes in market valuations of a
+company before and after takeover offers. The market capitalization of
+any company represents the sum of both tangible and intangible assets;
+among the latter is, presumably, the social capital embodied in the
+firm's workers and management. There is no accepted methodology for
+separating out the social capital component of the intangible assets,
+which include other things like brand names, good will, expectations
+of future market conditions, and the like. Firms being taken over by
+other firms, however, are usually bought at a premium to their
+pre-takeover price. In such a situation, we can assume that part of
+the premium being offered is a measure of the degree to which the new
+owners believe that they can manage the new firm better than the old
+owners, with all other factors like tangible assets, expectations
+about market conditions, etc. being held constant. In many cases, part
+of the premium being offered represents the cost savings that the new
+owners expect to achieve through realization of economies of scale and
+scope; one would have to deduct this from the actual premium to get a
+measure of the net value of the new management alone. This management
+premium is not a pure measure of social capital; it may consist partly
+of human capital rather than social capital. But social capital must
+constitute a significant part of the residual, since effective
+management is, after all, nothing more than efficient coordination of
+the firm's activities.23
+
+IV. Where Does Social Capital Come From?
+If we define social capital as instantiated, informal norms that
+produce cooperation, economists have a straightforward explanation of
+where it comes from: social capital arises spontaneously as a product
+of iterated Prisoners Dilemma (PD) games. A one-shot PD game does not
+lead to a cooperative outcome because defection constitutes a Nash
+equilibrium for both players; if the game is iterated, however, a
+simple strategy like tit-for-tat (playing cooperation for cooperation
+and defection for defection) leads both players to a cooperative
+outcome. In non-game theoretic turns, if individuals interact with
+each other repeatedly over time, they develop a stake in a reputation
+for honesty and reliability. Market interactions in a commercial
+society leads, as Adam Smith observed, to the development of bourgeois
+social virtues like honesty, industriousness, and prudence.24 A
+society composed entirely of Kant's "rational devils" will develop
+social capital over time, simply as a matter of the devils' long-term
+self-interest.
+Social capital is clearly spontaneously generated all the time through
+the playing of iterated PD games. Both Robert Ellickson25 and Elinor
+Ostrom26 have catalogued many empirical cases of cooperative norms
+arising as a result of repeated community interaction. The latter's
+database of instances in which communities have successfully dealt
+with common pool resource problems is particularly interesting because
+this class of problems constitutes an n-sided PD game which should
+theoretically be much harder to solve through iteration than a
+two-player game.
+The economists' approach to understanding how social capital is
+generated is ultimately very limited, however. The problem is that
+social capital more often than not is produced by hierarchical sources
+of authority, which lay down norms and expect obedience to them for
+totally a-rational reasons. The world's major religions like Buddhism,
+Hinduism, Christianity, or Islam, or large cultural systems like
+Confucianism, are examples. Not only do norms from such sources not
+come about through decentralized bargaining; they are transmitted from
+one generation to the next through a process of socialization that
+involves much more habit than reason. Path dependence-another word for
+tradition-means that norms that are clearly socially suboptimal can
+persist for very long periods of time.
+It is, of course, possible to try to give economic or rational
+explanations for religious and cultural phenomena, and thus to try to
+fit them into some larger theory of social behavior based on rational
+choice. There was for some time a school of "functionalist" sociology
+and anthropology that tried to find rational utilitarian reasons for
+the most bizarre social rules. The Hindu ban on eating cows was
+ascribed, for example, to the fact that cows were resources that had
+to be protected for other uses like plowing and dairy-farming.
+Similarly, one could try to explain the Protestant Reformation in
+terms of the economic conditions prevailing in central Europe in the
+sixteenth century that led people to respond to religious reformers
+like Luther, Calvin, and Melanchthon. But ultimately, these accounts
+prove to be unsatisfying because they are too reductionist; all such
+historical developments usually incorporate a substantial measure of
+chance, genius, accident, or creativity that cannot be explained in
+terms of prior conditions. Max Weber stood Marx on his head by arguing
+that the cultural "superstructure" actually produced the economic
+"substructure": it was the moral values inculcated by Puritanism, and
+particularly the fact that virtues like honesty and reciprocity now
+had to be practiced beyond the family, that made the modern capitalist
+world possible in the first place. In Weber's account, culture was the
+uncaused cause, the product of "charisma."
+Religion continues to be a factor in economic development. One of the
+most important and underrated cultural revolutions going on in the
+world today is the conversion of Catholics to Protestantism by
+(largely) American evangelicals and Mormons. This process, which has
+now been under empirical observation for nearly two generations, has
+produced social effects in the poor communities where it has occurred
+not unlike those ascribed to Puritanism by Weber: converts to
+Protestantism find their incomes, education levels, hygiene, and
+social networks expanding.27
+Apart from religion, shared historical experience can shape informal
+norms and produce social capital. Both Germany and Japan experienced
+considerable labor unrest and conflict between workers, managers, and
+the state in the 1920s and 30s. The Nazis and Japan's military rulers
+ultimately suppressed independent labor unions and replaced them with
+"yellow" ones. After their defeat in World War II, the democratic
+successor regimes opted for a much more consensual approach to
+management-labor relations that produced Germany's postwar
+Sozialmarktwirtschaft and Japan's lifetime employment system. Whatever
+their current dysfunctions, these institutions played a critical role
+in allowing the two societies to return to growth after the war, and
+constituted a form of social capital.
+
+V. How Can We Increase the Stock of Social Capital?
+The discussion of where social capital comes from should be
+informative to policymakers who want to increase the stock of social
+capital in a given country. States can both do some positive things to
+create social capital, and forebear from doing others that deplete a
+society's stock. We can make four observations.
+First, states do not have many obvious levers for creating many forms
+of social capital. Social capital is frequently a byproduct of
+religion, tradition, shared historical experience, and other factors
+that lie outside the control of any government. Public policy can be
+aware of already existing forms of social capital-for example, the
+social networks used to develop information for microlending-but it
+cannot duplicate the effect of religion as a source of shared values.
+Policymakers also need to be aware that social capital, particularly
+when associated with groups that have a narrow radius of trust-can
+produce negative externalities and be detrimental to the larger
+society.
+Second, the area where governments probably have the greatest direct
+ability to generate social capital is education. Educational
+institutions do not simply transmit human capital, they also pass on
+social capital in the form of social rules and norms. This is true not
+just in primary and secondary education, but in higher and
+professional education as well. Doctors learn not just medicine but
+the Hippocratic oath; one of the greatest safeguards against
+corruption is to give senior bureaucrats high-quality professional
+training and to create an esprit de corps among this elite.
+Third, states indirectly foster the creation of social capital by
+efficiently providing necessary public goods, particularly property
+rights and public safety. Diego Gambetta has shown that the Sicilian
+Mafia can be understood as a private protector of property rights in a
+part of Italy where the state has historically failed to perform this
+function.28 Something similar to this has sprung up in Russia during
+the 1990s. Private property rights protection is very inferior to the
+state-supplied version, since there is nothing to prevent these
+private providers from getting into a host of other illegal activities
+as well. There are also economies of scale in the deployment of
+coercive force used to enforce property rights. People cannot
+associate, volunteer, vote, or take care of one another if they have
+to fear for their lives when walking down the street. Given a stable
+and safe environment for public interaction and property rights, it is
+more likely that trust will arise spontaneously as a result of
+iterated interactions of rational individuals.
+Fourth, states can have a serious negative impact on social capital
+when they start to undertake activities that are better left to the
+private sector or to civil society. The ability to cooperate is based
+on habit and practice; if the state gets into the business of
+organizing everything, people will become dependent on it and lose
+their spontaneous ability to work with one another. France had a rich
+civil society at the end of the Middle Ages, but horizontal trust
+between individuals weakened as a result of a centralizing state that
+set Frenchmen at each other through a system of petty privileges and
+status distinctions. The same thing occurred in the former Soviet
+Union after the Bolshevik Revolution, where the Communist Party
+consciously sought to undermine all forms of horizontal association in
+favor of vertical ties between Party-State and individual. This has
+left post-Soviet society bereft of both trust and a durable civil
+society. There are, of course, good reasons why countries should
+restrict the size of their state sectors for economic reasons. On top
+of this, one can add a cultural motive of preserving a sphere for
+individual action and initiative in building civil associations.
+If we look beyond the role of the state, there remain at least two
+additional sources of social capital. The first is religion. General
+social science theories about the inevitability of secularization
+appear to apply primarily to Western Europe; there is little evidence
+that religion is losing its grip elsewhere, including the United
+States.29 Religiously-inspired cultural change remains a live option
+in many parts of the world; the Islamic world and Latin America have
+both seen the growth of new forms of religiosity in recent decades.
+Obviously, not all forms of religion are positive from the standpoint
+of social capital; sectarianism can breed intolerance, hatred, and
+violence. But religion has also historically been one of the most
+important sources of culture, and is likely to remain so in the
+future.
+The second source of social capital in developing countries is
+globalization. Globalization has been the bearer not just of capital
+but of ideas and culture as well. Everyone is well aware of the ways
+in which globalization injures indigenous cultures and threatens
+longstanding traditions. But it also leaves new ideas, habits, and
+practices in its wake, from accounting standards to management
+practices to NGO activities. It is not just investment bankers who can
+take advantage of the global communications and information
+revolution; activists of all sorts from environmentalists to labor
+organizers can now operate transnationally to a much greater extent
+than before.30 The issue, for most societies, is whether they are net
+losers or gainers from this process, that is, whether globalization
+breaks down traditional cultural communities without leaving anything
+positive in its wake, or rather, is an external shock that breaks
+apart dysfunctional traditionals and social groups and becomes the
+entering wedge for modernity.

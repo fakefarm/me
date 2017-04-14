@@ -20,46 +20,7 @@
   margin: 0;
   letter-spacing: -3px;
 }
-.h1-headline-r {
-  color: red;
-  font-size: 1em;
-}
-@media only screen and (min-width: 200px) {
-  .h1-headline-r {
-    color: orange;
-    font-size: 2.5em;
-  }
-}
-@media only screen and (min-width: 400px) {
-  .h1-headline-r {
-    color: yellow;
-    font-size: 3em;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .h1-headline-r {
-    color: green;
-    font-size: 5em;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .h1-headline-r {
-    color: blue;
-    font-size: 6em;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .h1-headline-r {
-    color: purple;
-    font-size: 8em;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .h1-headline-r {
-    color: seagreen;
-    font-size: 10em;
-  }
-}
+
 
 .sl-black {
  color: black !important;

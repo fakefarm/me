@@ -1,0 +1,61 @@
+﻿Secure Sign-Up/In/Out (Email from Rhagu)
+========================================
+
+1) Make a new app.
+First let's allow users to sign up securely.
+
+2) Make a user resource.
+If you still need practice with The Golden Seven, do it by hand;
+otherwise you can use shortcuts.
+
+Be sure to include a column to uniquely identify each user (using
+email is standard) and a column to store the encrypted password
+(bcrypt requires that it be called `password_digest'), along with any
+other columns you want.
+
+3) Activate the bcrypt gem.
+After you change the Gemfile, don't forget to...?
+
+4) In the new user form, make the necessary changes that bcrypt needs
+to work.
+What fields does a user need to fill out to securely sign up?
+
+5) Make the necessary changes in the user model file. Here are three
+things to do;
+a) make users have a secure password, (run a migration to add
+`password_digest' to model)
+b) make it so that we can mass assign the attributes that bcrypt needs
+to work,
+(don't add `password_digest', but add `password', and
+`password_confirmation')
+c) make sure you can't have two accounts with the same email address.
+(add validates_uniqueness_of :email)
+
+Users can now sign up securely!
+
+----------------------------------------------------------------------
+
+Next, let's allow them to sign in and out securely.
+
+1) Make a sessions controller with three methods: new, create,
+destroy.
+
+2) Make routes which trigger those three methods.
+Create should be POST; the others should be GET.
+
+3) Make the sessions#new method display a form for email and password.
+The form should post to the sessions#create method.
+
+4) Make the sessions#create method check the provided email/password
+combo. If correct, it should log them in and redirect to the user's
+show page. If incorrect, it should render new again.
+
+5) Make the destroy method clear out the cookie.
+It should redirect to the users index page.
+
+6) Show signin/signup links at the top of every page if there's no
+user signed in, or a signout link if there is.
+
+P.S. Here's Rhagu's solution. Please don't look at it until you've
+struggled with it yourself, collaborated with classmates, and are
+completely stuck.

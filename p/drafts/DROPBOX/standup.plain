@@ -1,0 +1,163 @@
+3-7-2016
+today: 
+- brown bag
+- ticket tuesday reviewing the CSR log
+- setting up local env to QA and write an integration test
+- 
+
+- prs
+- fixed an issue with 1761
+
+
+3-1
+- completed 2 prs
+- meeting with @fernando 
+- meetings
+
+today:
+- working on the setup instructions for one of them PR- 1743 
+
+meeting with @travis
+
+1pm - standup 
+
+2pm - jon daniel 
+      what did I want to talk with him about? [ check slack ] 
+      [ slack ] - routines on rails. (nice!)
+      - ask professional advice?
+
+
+
+
+
+
+
+
+[idea] what if open free from writing is supported? 
+meaning, we'll build out the most popular user behaviors into actual features.
+you just have to ...
+
+        [ desgin it ]
+        ... in 
+
+                words. 
+                what if it were animation made from moving text, saved in screen shots?
+                hmm... why is this an app thou?
+
+                
+                                        ------------------------------
+
+
+                                              BUTTON 
+                                              (amirite) \\
+
+                                              \\ no you're way offffffffffffffffff
+
+
+                                        ------------------------------
+
+
+
+[ like the video games we used to play ]
+
+are able to be designed in plain text all over again.
+
+
+                                                                                        b
+                                                                                        o
+                                                                                        o
+                                                                                        o oooooooo m.
+
+
+_-------------------___-__---_-
+
+
+                                                      this
+                                                      would
+                                                      be
+                                                      a
+                                                      new
+                                                      form
+                                                      of
+                                                      coding. 
+
+where we actually use the web to translate from the common computer user who doesn't know any code at all. but they have an email, facebook, and some other program that brings them to their computer. 
+
+                they can at least type 
+
+                it in. 
+
+and then i can convert that into an actual ruby on rails 5 application. with all the social stuff like users and comments and likes and facebooks and kick-knacks. we can build the platform that 'typists' imagine.
+
+so our app is a google docs like software that interacts more like sublime + 0.75vim - with the output for a web app to build, not a printer to print. (so, that means the app gives the typists certain tools to know how to type faster to explain their app idea. to them, it's more of like lite adobe illustrator or skinny sketch.
+
+            amirite
+
+
+                     )
+
+
+
+
+
+## weekly standup
+- monday off
+- CSR can review card linking transaction history
+- pair with dan to fix issues in ls-card_linking_service related to transaction history
+- Begin ramp up on helpsite UI changes
+
+
+
+
+2016-02-19, helpsite ramp up
+2016-02-19, masterpass with fernando
+2016-02-19, transactions with Dan
+
+2016-02-10, R+ transactions trying to finagle the ls-card_linking gem to work.
+
+2016-02-08, trying to get debounce to work but underscore is not found at that level for some reason so I am trying to debug that
+2016-02-08, reviewed my other outstanding tickets and keeping on them -
+
+2016-02-05, start on MC-4756 https://jira.livingsocial.net/browse/MC-4756
+2016-02-05, working on the error state of 4743 - trying to add a debounce function.
+2016-02-05, jon asked a 2nd pair of eyes on his ls forge project
+2016-02-05, yesterday paired with dmv & 1:1
+
+'get things running that i've never run before'
+
+2016-02-04, working on the error state of 4743 - trying to add a debounce function.
+
+2016-02-03, working on the error state of 4743
+
+2016-02-02, meeting with mark about csr
+2016-02-02, had ticket tuesday
+2016-02-02, getting started on mc-4743
+2016-02-02, request office supplies for staples
+
+2016-02-01, meeting with dmv,
+2016-02-01, meeting with travis,
+2016-02-01, meeting with tom copeland,
+2016-02-01, working on jira ticket,
+2016-02-01, http://code.livingsocial.net/dev/csr_tool/pull/347
+
+2016-01-29, review meeting, #meeting
+2016-01-29, this afternoon plan to work on jira stuff, #1517
+2016-01-29, product demo, #meeting
+
+2016-01-28, meeting with DMV to discuss CSR ticket priority and discuss next week we pair on refund hold work,
+2016-01-28, finish 1743 and pair with DMV after this,
+2016-01-28, setup jira,
+2016-01-28, email kim,
+
+2016-01-27, pair with Tim & Cloves, #mentoring
+2016-01-27, pair with Mo on Angular refactor,
+2016-01-27, pair with Jon Daniel, #mentoring
+2016-01-27, I didn't make the edits to masterpass so I can do it next,
+
+2016-01-26, DMV got back to me about masterpass and I'm making some changes, #1743
+2016-01-26, meeting with tyler montgomery to transition lightning talks back to him, #meeting
+2016-01-26, meeting with Travis to discuss this managing escalations, #meeting
+2016-01-26, working on related to JIRA tickets through Queue, #1517
+
+2016-01-25, return stuff to boluder,
+2016-01-25, work on masterpass (1743), #1743

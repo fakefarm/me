@@ -1,0 +1,3 @@
+By calling Object#method( ), you get the method itself as a Method object, which you can later execute with Method#call( ). A Method object is sim- ilar to a lambda, with an important difference: A lambda is evaluated in the scope it’s defined in (it’s a closure, remember?), while a Method is evaluated in the scope of its object. - pg 125??
+
+Don’t get confused! Instance variables of the class are different from instance variables of that class’s objects.”  - pg.130

@@ -1,0 +1,4 @@
+
+#JS - do not call your function arguments, arguments. That messes up the ability to check your arguments!
+Thinking of you are the center of the universe and trying to be king are both accurate assessments of yourself. However, they are flawed pursuits.
+I am not making or taking appointments until further notice

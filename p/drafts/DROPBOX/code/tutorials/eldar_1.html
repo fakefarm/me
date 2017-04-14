@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title></title>
+  <script filename='thing.js'>
+  define(['jQuery', 'underscore'], function($, Y) {
+    var n = 0;
+    return {
+      makeNoise: function(){
+        console.log(n);
+        n+=1;
+      }
+    };
+  });
+  </script>
+
+  <script filename='quack.js'>
+  define(['thing'], function(thing) {
+    thing.makeNoise();
+    thing.makeNoise();
+  });
+  </script>
+
+  <script>
+  (function(){
+  })();
+  </script>
+
+  <script name="things.js">
+  // node example
+  var n = 0;
+  module.exports = {
+    makeNoise: function(){
+      console.log(n);
+      n+=1;
+    }
+  };
+  </script>
+
+  <script name="quack.js">
+  // node example
+  var thing = require('thing');
+  thing.makeNoise();
+  </script>
+
+
+</head>
+<body>
+
+  <h1>Ways to manage js dependencies</h1>
+  <h2>1. Script Loaders</h2>
+  <h3>Example loading</h3>
+    <html>
+    <head>
+      <title></title>
+      <script src="require.js"></script>
+      <script src="app.js"></script>
+    </head>
+    <body>
+    </body>
+    </html>
+
+  <h3>Require.js</h3>
+  <h3>Browserify</h3>
+  <h2>Notes</h2>
+  <p>2015-02-26</p>
+  <p>Closures? How do you do them?</p>
+
+  <h3>Start by asking these questions?</h3>
+
+  <h3>Components I always start with</h3>
+
+  <h3>these guys solved a lot of wrapping everything in a closure function</h3>
+  <h4>Re</h4>
+  <p>dependency mgmt</p>
+  <p>script loaders</p>
+  <h3>Homework</h3>
+  <p>Make it real</p>
+  <p>which one makes resquest in network panel</p>
+  <p>require - play around it with not including thing on page but invoke quack</p>
+  <p>require - include everything on page and make sure it doesn't make more requrest</p>
+  <p>make quack two and have it not make a new 'thing' it uses the same file.</p>
+
+  <h2>2. manually</h2>
+  <p>
+    ex. rails using pipeline - appliaction.js
+    - everything concatenated into application.js
+    - define a global APP object
+    - individual controllers and actions, will add attributes/functions into APP object
+    - people controller's js
+      - app/assets/javascripts/people
+        -  people.js or init.js
+        -  APP.people.init = function(){};
+    - on document.ready - execute  APP."current_controller".common
+     && <current action>
+  </p>
+
+  var MC = MC || {};
+
+  $( document ).ready( function(){
+  var body = document.body,
+    controller = body.getAttribute( "data-controller" ),
+    action = body.getAttribute( "data-action" );
+  MC.common();
+  MC[controller]['init']();
+  MC[controller][action]();
+});
+
+
+</body>
+</html>

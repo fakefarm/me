@@ -1,0 +1,46 @@
+{
+  "args":
+  {
+    "by": "subword_ends",
+    "forward": true
+  },
+  "auto_complete": true,
+  "auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, text.haml",
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "command": "move",
+  "ensure_newline_at_eof_on_save": false,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".hg",
+    "CVS"
+  ],
+  "font_face": "M+ 1m regular",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 17.0,
+  "highlight_line": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 1,
+  "open_files_in_new_window": false,
+  "remember_open_files": false,
+  "save_on_focus_lost": true,
+  "scroll_past_end": true,
+  "show_tab_close_buttons": false,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Spacegray.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+  "word_wrap": true
+}

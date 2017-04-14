@@ -1,0 +1,11 @@
+# My passions
+- intimate marriage
+- interactive fathering
+- Spirit living
+- time management
+- systematic enterprise
+- code fluency
+- efficient home
+- effective body
+- transactional art
+- troubling questions

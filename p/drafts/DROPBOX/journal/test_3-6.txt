@@ -1,0 +1,168 @@
+﻿Test 3
+======
+
+Analysis of variance
+
+Knowing when an analysis of variance is appropriate
+
+what kind of data –
+what kind of problem – continuos variable with 3 or more treatments
+purpose – to see if there is evidence between the treatments
+
+*null hyp – all treatments are the same
+*altenative hyp – significan evidance they are different
+under alternative every treatment does not have to be the same. some
+could be same.
+
+ANOVA gives table – True
+
+ANOVA has a P value
+p < 1% reject the null / accept the alternative
+p > 10% accept null
+
+after getting table and p value > 10%,
+- accepting null hypotheses
+- The means could all be the same
+- do nothing more, it’s over.
+
+after getting table and p value > 10%,
+- accepting null hypotheses
+- The means could all be the same
+- doesn’t mean we’ve proved all means / variables are the same.
+
+after getting table and p value < 1%,
+- reject null hypotheses because all the same
+- review timeline table and draw line over similar variables –
+pairwise comparisons (aka – tukey pairwise)
+
+looking at conf intervals – giving each pairwise – ‘does this CI
+contain zero?" if YES, draw a line. if not, don’t draw a line.
+
+after getting table and p value > 10%,
+- accepting null hypotheses
+- if we did pairwise comparisons, we would find all CI would contain
+zero.
+
+Ability to perform basic experimental designs
+
+Ability to use a software package to run an analysis of variance
+
+Appropriate use of pairwise comparisons
+-
+
+                          1 way probability
+         Check: “Analysis of a proportion” on categrical data
+
+Taking one set of data
+
+number of success is your point estimate 560/3000 = 18.7%
+there will be a confidence interval and standard error (both on
+minitab)
+margin of error is based on standard error.
+
+                          2 way probability
+           step 1 – find difference b/n pm and pa (pm – pa)
+          step 2 – run basic stat > shoots out pvale and CI.
+
+binanry categorical variables (ex. surgical operations)
+input morning vs afternoon of surgical success rate
+Frequencey is number of it happens
+CI – of two probabilities
+
+calculate CI b/n 2 probabilties to see if they contain ZERO. if they
+do there is no evidence of difference.
+
+PM – 442/550 = 78% success
+
+PA – 388/560 = 71% success
+
+null hyp – PM equal PA
+null alt – PM not equal PA
+
+----------------------------------------------------------------------
+
+                      Categorical data analysis
+
+Ability to perform inferences on population proportions
+
+Goodness of fit tests
+
+cc eample
+N trials with x successes
+ratio – x success / N trials gives us a point estimate of probability.
+TRUE
+telling how accurate is – the standard error for point estimate.
+margin of errors are based on standard estimates.
+
+minitab will give us a CI for probability – true
+
+----------------------------------------------------------------------
+
+                          1 way cont. table
+
+example – certain number of accidents
+1 categorical variable with 3 or more levels.
+data is frequencies
+
+variable is ‘day of week’
+category – mon, tue, wed.
+
+ex]
+hyp null – probability they they are all equal.
+null alternative – they are not equal
+
+null – says these are the probabilities
+alternative says
+
+name of test to determine plausibility that prob are true – chi
+squared (“Kai”)
+Need more info on what is Chi squared
+
+         Chi squared test aka – goodness of fit test, pearson
+
+use with 1 or 2 way contingency
+to do hypothesis test is called chi squared test aka pearson goodness
+of fit test.
+tells us weather data is consistent with probablties we specified.
+what kind of p value that data is consistent – >10%
+p vaule <1 means that the probability is not consistent with our
+probabilities.
+
+                       2 way contingency table
+
+step 1 – chi test to test for independence. gives a pvalue
+step 2 – if pvalue <1% 1 it’s not independent, it’s complicated and
+reject null.
+pvalue > 10% it’s independent and it’s the ‘simple’ test.
+
+P value >10% accepting the null and you accept the null
+
+comparing two unknown probabilities. ex.] success for morning vs
+afternoon of surgeries.
+calculate a confidence interval for difference of the two probabilties
+p1 – p2 (or am – pm)
+looking at CI to see if the p value contain zero.
+
+if contains zero they could be the same.
+if doesn’t contain zero
+
+null hyp that they are the same
+alt hyp that they are not the same
+
+2 catigorical variables and each is simultansity classified by 2
+variables.
+which drug did you have and what was your reaction.
+
+hyp null – they are independent
+mean – they don’t depend on each other.
+prob of 1 categrical variable – doesn’t depened on which level
+“does matter which drug you take”
+
+hyp alternative – they are not independent
+“does matter which drug you take”
+
+simple explanation for data is NULL
+more complicated explanation is Alternative
+
+to do hypothesis test is called chi squared test aka pearson goodness
+of fit test.

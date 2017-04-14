@@ -1,0 +1,103 @@
+/*all white*/
+
+#launchbar {
+    display: none;
+}
+
+ul.tabs li a {
+    display: none;
+}
+
+div.global_header {
+    display: none;
+}
+
+div.search {
+    display: none;
+}
+
+#calendar_sidebar {
+    display: none;
+}
+
+#Footer {
+    display: none;
+}
+
+div.utility_bar_section.email_to_page {
+    display: none;
+}
+
+div.utility_bar_section.history {
+    display: none;
+}
+
+#Wrapper {
+    background: white;
+}
+
+div.page_header {
+    background: #ffc;
+}
+
+.add_flag {
+    background: white;
+}
+
+.add_flag::after {
+    content: "Add here...";
+    padding-left: 100px;
+    color: black;
+}
+
+.image_button::after {
+    content: "NEW PAGE";
+    font-family: georgia;
+    padding-left: 10px;
+    color: black;
+}
+
+button.image_button {
+    background: pink;
+}
+
+#BottomShadow {
+    background: white;
+}
+
+html {
+    background: white;
+}
+
+div.wrapper {
+    background: white;
+}
+
+a.icon img {
+    display: none;
+}
+
+p.feeds {
+    display: none;
+}
+
+div.utility_bar {
+    background: none;
+    display: none;
+}
+
+/*black backgroudn*/
+
+td.container_content_column {
+    background: white;
+}
+
+#Pages {
+    position: fixed;
+}
+
+.calendar div.inner {
+    height: 900px;
+    width: 130%;
+}
+

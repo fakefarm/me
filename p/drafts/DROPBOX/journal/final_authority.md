@@ -1,0 +1,3 @@
+## 1. The bible is not the Final Authority.
+The Scriptures are a truth, a perfect truth. Exactly how God wanted them preserved. Total wisdom. I belive they are perfect in all their errancies. I believe the scriptures testify to absolute and eternal truths. But scripture not THE Truth. Christ is THE Truth. I know this may sound crazy if this is the first you're hearing this. But God spoke to men before the printing press and He continues to speak through more than the written scripture. Scripture tells us that Christ dwells in our hearts. He doesn't dwell in the bible. The Word became flesh. There are no passages that say He posseses the paper.
+

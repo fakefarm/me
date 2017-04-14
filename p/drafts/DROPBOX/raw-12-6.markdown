@@ -1,0 +1,48 @@
+## Ruby
+
+Control, but don't minimize
+
+### Inheritance
+- Benefits are modular code and code reuse
+- Focus management
+- Entropy management
+
+### Polymorphism
+Applies to methods and objects
+
+### Encapsulation
+
+### Code Smells
+make sure you are not using class methods.
+Try to marry a self.method to a new instance.
+
+    class Foo
+      def self.bar
+        Foo.new('item')
+      end
+    end  
+
+## Computer Science
+1 process
+multi-cores
+threads are mini-processes
+
+
+## Testing
+
+Behavior Driven Development is testing an objects behavior, which is related to it's method passing.
+
+Test that methods successfully send and receive
+
+Test methods in a human friendly format, at different altitutes;
+- Acceptance - If the stakeholder can read, approve, accept
+- Integration - piece of systems working together at one time
+- Unit - individual methods
+
+BDD is
+- given
+- when 
+- then
+
+bdd is describing format of tests using 'describe', context, and strings
+

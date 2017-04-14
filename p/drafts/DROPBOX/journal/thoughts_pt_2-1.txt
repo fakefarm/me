@@ -1,0 +1,22 @@
+﻿Thoughts pt 2
+=============
+
+I don’t have to memorize HTML or CSS, I just need two good reference
+books to pull out the content I need. I have a good grasp on them now.
+
+I can use ROR to create static pages:
+RHTML in Views
+CSS in style sheets
+Question – How do I post that onto a public hosting? Do I just upload
+the the entire ruby file?
+
+Re: programming for a database, so far I feel that I have discovered
+the general basics of what is required for the project. Now it’s
+getting in and doing it.
+
+I am going to take a break on programming now while I start to focus
+on school and AMB3R’s establishment.
+
+I hope to be able to come back and build AMB3R’s database using ROR –
+but I reel that realistically I should consider working with a company
+that will build it for me.

@@ -1,0 +1,5 @@
+App
+Printer
+Address book connection
+Credit card processing
+Marketing plan

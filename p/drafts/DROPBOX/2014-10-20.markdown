@@ -1,0 +1,5 @@
+
+curl -v http://localhost:3106/toby/watson_reports/import/gremlin -F "set_id=1" -F "files_in_set=1" -F "watson_data=@watson_gremlin_sample.csv"
+quit
+why is it the people who think God is not real also think highly of themselves?
+is it possible to be an atheist without thinking highly of yourself?

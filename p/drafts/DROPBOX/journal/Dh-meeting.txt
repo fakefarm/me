@@ -1,0 +1,7 @@
+- Rubyconf recap
+- Soa
+- Personalization homework
+- Why with Tom?
+- Focus on blocking and tackling
+- Testing with unit test
+- Focusing on improving mocking 

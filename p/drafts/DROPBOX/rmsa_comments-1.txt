@@ -1,0 +1,71 @@
+﻿RMSA comments
+=============
+
+your experience with software development including a small software
+program and a narrative describing your understanding of the purpose
+of variables, constants, types of data, and flow control (repetitive
+loops and conditional branches) and anything you found interesting,
+challenging, or significant about the program… we are not
+expecting it to be a difficult program, we just want to know that you
+understand the basics
+
+My exposure to software development is through books and online
+tutorials. I have studied books on JavaScript and Ruby. I built a
+fruit generator that holds cost, quantity, and calculates the total
+cost of that item. The Fruit program was a big step for me to be able
+to do a lot of actives, with very little code.
+
+a description of the tools/languages you used to build the website and
+how you used each
+I built dave.woodalls.me, and www.amb3r.com using Adobe Fireworks,
+Coda, HTML5, and CSS3.
+
+your ethical values
+My ethical values are shaped by a biblical world view. Specificly this
+translates into a continual striving toward leadership, humility,
+integrity, honesty, and serving my fellow man. I believe everyone
+reaps what they sow, and my aspiration is to sow wisdom and wealth.
+
+your goals
+In list form;
+1. Spend 3 - 4 years completely immersed in web application software
+development to learn how to deploy and administer online applications.
+More specifically, I am interested in two environments - The rails
+ecosystem, and the iphone/ipad apps.
+2. Once acquired of the trade, I wish to have the flexibility to work
+from anywhere for a portion of the year. While solo-programming might
+not be as productive as pair-programming, I am drawn to the lifestyle
+of being able to travel to parts of the world with my family, and work
+at the same time.
+3. Build SAAS products. The motivation to become immersed is to
+develop businesses online that meet peoples daily needs. I have web
+app ideas, but I know they will become sharpened with added skill and
+experience.
+(These goals also describe my understanding of what it means to be a
+software craftsman and why you want to be one.)
+
+your evidence that you will be able to complete this intense immersion
+successfully (this may include, but not be limited to, personal
+references)
+I am confident I can complete the activities. As comparison, the past
+four years I maintained the following schedule;
+3:30 am - 5:30 am: study web, write business school essays, or study
+GMAT
+5:30am - 6:30am: exercise
+8am - 5pm: creative director for a $20M sportswear company, managing 9
+artists
+6pm - 8pm: class two nights a week.
+8pm - 11pm: work on side business www.AMB3R.com (same two nights a
+week)
+(The other three nights I would be home by 6pm to be with my family)
+Saturdays 6am - 1pm: Work on AMB3R
+Sunday: Day off.
+
+your views on learning and serving
+"Live like you will die tomorrow. Learn like you will live forever."
+That summarizes how I think about learning and why the web is such an
+appealing profession. That part of my requirement would be to maintain
+constant learning.
+Serving is one of the ways to see the visible and invisible world
+collide. There are many things to be learned and discovered about life
+when one carries an attitude and spirit of service and humility.

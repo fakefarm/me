@@ -1,0 +1,46 @@
+﻿Learning Log
+============
+
+Rails
+4/14
+- Taking VTC course
+- RubyGems – what is it?
+- ActiveRecord – what is it?
+- MacPorts – what is it?
+
+Ruby
+Dreamweaver
+4/14
+- Take Lynda Course
+
+CSS & Html
+4/14
+- Taking Lynda courses
+
+TextMate
+4/14 Need to find TextMate book in basement!
+
+MySQL
+4/14
+- Got Cocoa MySQL but having trouble connecting..
+– How can I connect?
+
+Hosting
+4/14
+What type do i Need?
+
+JavaScript
+4/14
+- Brush up on CSS, HTML, and Dreamweaver
+
+Ajax
+4/14
+- Need to learn JavaScript first
+
+PHP
+4/14
+- Do I need to learn this?
+
+Flash CS3
+4/14
+- should I learn for elements?

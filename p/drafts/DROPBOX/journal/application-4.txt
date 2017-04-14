@@ -1,0 +1,160 @@
+﻿Application
+===========
+
+Hungry Academy
+Engineering - Software Development | Washington, DC, United States
+
+Do you have what it takes to be an amazing developer? It’s time
+to find out.
+
+Whether you’re already a programmer or want to become one,
+we’re in search of people passionate about solving challenging
+engineering problems. If you have the heart and mind we’ll teach
+you the skills and techniques.
+
+In this unique program you’ll spend five months entrenched in
+the most intense, comprehensive, and challenging Ruby on Rails
+training ever offered. You’ll spend one third of your time
+learning in a classroom environment, one third working on team
+projects, and one third giving back to the community through education
+and open source contributions. We believe that the only way to become
+a great developer is through practice, so you will be writing code all
+day, every day.
+
+Our deal for you:
+We’ll pay you to come spend five months with us, learning the
+ins and outs of Ruby on Rails while mixing in related technologies and
+techniques — everything you need to be an excellent developer.
+Survive the five month Academy and you’ll join our top notch
+engineering team. (We are requiring an 18 month commitment
+post-Academy.)
+You will be immersed in a fun company culture, an incredible learning
+atmosphere, while surrounded by the best development team on the
+planet.
+You will push the limits working on large scale applications for one
+of the fastest growing companies in local commerce.
+If you’re smart and passionate about solving complex problems,
+we want you here! Are you hungry enough?
+
+Application Instructions:
+
+When you click through to the application page you’ll be asked
+for your contact information, resume, and cover letter. Instead of a
+standard cover letter, you will need to submit URLs for both parts 1
+and 2 below:
+
+Part 1 – Q&A
+
+Step 1: Select five of the following eight questions.
+
+1. Development is about dealing with constant frustration. Tell us about a
+project you’ve worked on that involved high frustration and what
+specific techniques you used to overcome the obstacles.
+
+2. What’s the most influential book you’ve read in the past
+two years? Why?
+
+- thank you economy - changing my view of the web to the next
+generation.
+- Instead of talking to everyone and no one at the same time, Using
+social media we can have a person 2 person ability.
+His comments
+- coming out of the customer service dark ages
+- phone radio television web
+-
+
+My views
+- Person device / devise person
+
+3. What’s your favorite learning technique/environment/style? When
+that’s not possible, what do you do?
+
+- nickname in college was ABD.
+- I was always rallying people around me to do something fun or
+productive.
+- I started 5 micro-clubs to help me learn
+- I read books
+- I love to learn and think
+- I love to build and tweak.
+- Primal leadership talks about how to re-invent yourself.
+
+- mentorship - Working with Mike Gehard.
+- books - Beginning ruby, rails tutorial, learn to program.
+- teaching others - I started NWNM to teach others.
+- I joined hacknite, the real nerds of Denver and I became one of the
+new leaders.
+- going to the session in january with Chad Fowler.
+
+4. You can buy “Learn to Program” books at the bookstore. Why
+bother with this program?
+
+- I want to join LivingSocial
+- programing is interactive
+- The internet is here to stay and I want to speak it's language
+without the use of a translator.
+- the interactive nature of co-working together.
+- being on the cutting edge of internet development.
+- I'm turning down an MBA from Kellogg to be able join this.
+
+5. What kinds of challenges really get you going? Why?
+
+- a team endeavor where we see an audacious goal and have a need to
+incorporate soft skills as well as hard lined efforts. (Goals,
+discussion, strategy.)
+
+6. Teams generally have managers and workers. Which role is more comfortable
+for you and why?
+
+- I got my start as a graphic designer, then worked as an art director
+for 2.5 years.
+- I preferred the art director, but i was a hands on director.
+- The value of the web is worth learning at the most technical level.
+
+7. What kind of people do you think will be in the program with you? Why?
+
+8. What’s something you do better than most people? How does it help
+you?
+
+- Use both sides of my brain.
+- While I was getting a Masters in Finance, I co-founded a company to
+be responsible for sales & marketing. Front of the house and back of
+the house activities. We've been in business 3 years and will do $750k
+in sales this year.
+- That didn't pay for itself so while I was in school I was offered a
+position as Creative Director at a 15M company. Using the left side of
+my brain.
+- See a big picture and break it down to next steps.
+- I call it ambidextrous thinking and something that has helped well
+to be able to switch between colors and shapes to figures and
+formulas.
+
+Step 2: Create a video of your responses for the five questions. For
+each response, tell us which question you’re answering, like
+“Question 5: I love to…”. In the video we need to see
+your face, hear your voice, and be able to understand your words.
+Beyond that, production value is not important. Keep the entire video
+under 8 minutes.
+
+Step 3: Upload the video to YouTube as an “Unlisted
+Video”
+(http://support.google.com/youtube/bin/answer.py?hl=en&answer=181547)
+and include the URL in your cover letter.
+
+Part 2 – Extended Response
+
+For Non-Developers
+If you’re not a developer, pick a complex topic from your area
+of expertise and explain it in 300 words or fewer. For example: the
+“Law of Diminishing Marginal Returns” from Economics,
+“How Cells Reproduce” from Biology, or “Why the
+US has an Electoral College” from politics/history. Write your
+essay using Markdown, post it as a public Gist
+(https://gist.github.com/), and provide us the URL in your cover
+letter.
+
+- How to be an art director
+- How to run a company
+
+NOTE: If we are unable to access your URLs we will be unable to
+consider your application. Double-check they work from a different
+computer!

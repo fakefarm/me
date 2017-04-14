@@ -1,0 +1,59 @@
+
+
+Impression events
+
+{"p13n_recommendation_event_id":11816902,"created_at":"2014-12-04 18:00:38","app":"deals","module":"deal_share_friends","items":[],"person_id":208240058,"module_url":"/email_shares/new?deal_id=1219386"}
+
+
+PS-206 - Handling cached partials that are tracked
+
+# Recommendations event - 1 - happens when cache is populated
+
+{"id":11,"created_at":"2014-12-04 19:19:03","items":[1,2,3,4,5,6,7,8,9, 10],"engine_requested":null,"engine_used":"friends_1","parameters":{"person_id":76819973,"city_id":null,"offer_id":null,"offer_type":null,"cohort":"friends_1"}}
+
+
+# Impression event N - happens when cached version is shown
+{"p13n_recommendation_event_id":11,"created_at":"2014-12-04 19:19:03","app":"deals","module":"deal_share_friends","items":[1,2,3],"person_id":76819973,"module_url":"/email_shares/new?deal_id=1268570"}
+
+End point hits...
+{"p13n_recommendation_event_id":11,"created_at":Time.now,"app":"deals","module":"deal_share_friends","items":[1,2,3],"person_id":76819973,"module_url":"/email_shares/new?deal_id=1268570"}
+
+Eventer - a lot of clicks with p13n_rec_id of 11
+
+
+
+## friends project
+* endpoint - /friends
+* confirm - params: { ?? }
+3. explian - cohort:
+Next step = request from info from DS
+
+
+# Eventer/
+recommendation_click, p13n_rec_id, index
+
+## DS new idea model (basket panda)
+0. hyp: deal & city pair basis - get back better deals
+1. where: post purchase rec.
+2. setup ab_test in vanity: group = ab_test(:pp_recs)
+
+if group == "control"
+  then show top-selling deals in that city (with RecommendationManger.get_recommendation_id(:deal_id => X, :city_id => Y))
+elsif group == "basket_panda"
+  then Recommendation.complementary(:deal_id => X, :city_id => Y)
+
+and hook up Eventer so we can track clicks
+and set refcodes so we can track purchases
+
+
+## My role
+0. - ds new model / stories written (with existing engines)
+I. - vanity (divide users into 2 or 3 groups)
+II.- implementation discussion (stratgey - same / bit different based business rules)
+  IIa - rec (toby related)
+  IIb - impressions (scribe related - log what was shown to user.)
+III. - eventer/refcode (output goal: [1,2,3,4])
+
+
+
+

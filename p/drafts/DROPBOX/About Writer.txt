@@ -1,0 +1,50 @@
+# Writer For iPad and iPhone
+
+- Keyboard extension with ← → and punctuation keys
+- Seamless sync between Mac, iPad and iPhone
+- iCloud and Dropbox integration
+- Custom typeface optimized for iPad and iPhone
+- Focus Mode keeps you focused on the current 3 lines (iPad)
+- Advanced file browser to organize your texts
+- Folder support (Drag’n’drop to create)
+
+## What’s New in 1.8
+
+- Enhanced look and feel
+- New iCloud engine and UI
+- New accessory keyboard*
+- Improved text editing
+- Improved file browser
+- Improved conflict resolution
+- Automatic encoding conversion
+- Scrolling improvements
+- Optimized landscape mode*
+
+*iPad only
+
+## Changes to iCloud Integration in 1.7
+
+Writer has changed how it interacts with iCloud to comply with Apple’s iCloud recommendations. You can change whether Writer uses iCloud in the “iA Writer” panel of Apple’s Settings.app:
+
+- If you change “Use iCloud” to ON, iCloud stores all your Writer documents and makes them available on all your devices. Any Writer documents stored on this device will be safely moved to iCloud. Any Writer documents already in iCloud will become available on this device.
+- If you change “Use iCloud” to OFF, Writer documents are stored on this device only. Your Writer documents in iCloud will remain untouched, but you will not be able to access them on this device, without changing the setting ON again.
+
+For more information, please read:
+http://support.iawriter.com/help/kb/ipad-iphone-questions/use-icloud
+
+## File support
+
+Writer uses plain text files, such as .txt and .md (but not .doc or .docx), in “UTF-8” encoding.
+
+## Writer For Mac
+
+A Mac OS X version is available too. Look for “iA Writer” in the Mac App Store.
+
+## Questions? Problems?
+
+- Visit www.iawriter.com for information on Writer
+- Visit support.iawriter.com for articles, support and discussion
+- Let us know what you think on Twitter @iAWriter
+
+We look forward to hearing from you!
+— Information Architects Inc.

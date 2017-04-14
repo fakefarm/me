@@ -1,0 +1,138 @@
+---
+layout: post
+title: "journey to becoming a developer"
+description: ""
+category:
+tags: []
+---
+
+#### 10/5/12
+
+# Journey to Developer
+
+I think there are three stages in becoming a software developer for people who not taking the Computer Science Degree route. There needs to be a tipping point between the three stages.
+
+1. Exploring interest.
+2. Building the foundation
+3. Improvements in efficiency and effectiveness.
+
+
+## Exploring interest
+
+### <em>From hobby to apprentice</em>
+
+For me, the interst came first in 2007 from a talk with Shawn matthews. We were passing ideas back and forth and he told me about a new language called Ruby, and Ruby on Rails. I had no idea what it was but I was curious. I learned about databases from reading a FileMaker Pro book. I found them interesting to be able to store data. I then took a detour for three years by getting a masters, starting AMB3R, and thinking that I should pursue an MBA.
+
+My only exposure before this time to programming was making the occasional PSD mockup for PHP developer, or looking unsuccessfully at the Blogger source code.
+
+So, in 2007 I picked "Learn to Program" plus an intro to HTML, CSS, & Rails books. I thumbed through them
+
+I had watched videos on and off and thought of programming as interesting but I didn't have the environment, community, or capacity to continue doing it.
+
+#### Mentality
+
+During this time, I was taking courses with the mindset of curiosity. Wondering if this was something I comprehended and even enjoyed. I was searching for assets that would enlighten me to what would give me clues about programming.
+
+While I was dabbling, I kept looking for the silver bullet hoping to find some kind of clue to a shortcut where I could learn to program without much effort. I was hoping to know the least possible. I held this mentality from 2007, until November 21, 2010. I know it was that exact date because I was in the delivery room waiting with Danae for the birth of Wells.
+
+Danae was in slow labor and while we waited I decided to do whatever it took to learn to program and stop looking for shortcuts. In that moment I decided I needed to start with the beginning by watching Essential Ruby.
+
+#### Getting serious
+
+I did what I do whenever I get seroius about something - I started a club. I formed "New World New Media" and tried to recruit my friends to learn to program with me. I told them that since the Internet is here to stay we might as well start to learn it. I grabbed any book and tutorial I could get my hands on.
+
+From November, 2010 - December, 2011 I tried to actively learn everything I could about web design and development. I would swing between frontend and backend lessons in order to grasp as much as I could about the web.
+
+Frontend came relatively easily and I enjoyed it. So I would do that until I got bored and then dive into Ruby and Rails. I could only take so much before I had to switch back to frontend.
+
+In December, 2011 I got my final rejection letter from Business School. I had been wait-listed to Kellogg, so I thought my reapplication would simply provide acceptance. When it didn't, I had no idea what to do and was advised by Mike Gehard to look into Hungry Academy.
+
+#### Code Academy
+
+In Jan, 2012 the house we rented had sold so we were mobile. That made for a turbulent time being homeless, but it also allowed for me to attend Code Academy in Chicago for three months. It was there in that environment surrounded by other beginners who were building things that I realized that I want to commit to the journey of being a software developer.
+
+It was entirely possible that in that place I could realize that programming was not for me. I could have completed my immersion with a definitive answer that I'm not cut out to be a programmer. But that wasn't the case. I learned that it is a long road and I have still have a lot to learn before even being productive.
+
+The idea that confirmed in me that I was excited was when I began to get comfortable with the journey, and that I don't need to be so linear or rush to learn. That this entire career is about learning and growing, both things that I love!
+
+## Building the foundation
+
+### <em>From Apprentice to Junior Developer</em>
+
+So, I decide that this is where I want to be, even if it's going to take a while to get there. After all, I would rather spend my time working toward a job I love, than remain in a job that I hate.
+
+Once I realized this is my career until further notice, I had to develop a learning agenda. Since my background is not Computer Science, I had to figure out what I was missing.
+
+The foundational stage has a beginning and an end. It is sort of an awareness of the craft, tools, history, and how to do your job.
+
+I haven't fully figured out how to outline my agenda, but my current mentality is that I have a collection of topics to learn. The cool part about being in this stage is that you are learning like crazy and you should give yourself permission to float between topics as your mind and interest take. I first had to get bearings around which topics were 'in bounds'. For me it's been the following;
+
+#### Topics
+
+##### Front End
+- Markup (HTML & HAML & Markdown)
+- Styling (CSS & SCSS)
+- Behavior (JavaScript, CoffeeScript, JQuery)
+
+
+##### Backend
+- Rails
+- Ruby
+
+##### Environment
+- Computer Science (Algorithms, )
+- Unix (Bash / zsh)
+- Sublime
+- Git / Github / Bitbucket
+- RegEx
+
+#### Learning Practices
+
+I'm striving to accomplish those tasks in four different environments
+
+#####  Building
+- Code Journal
+- Freelance Projects
+
+#####  Exercises
+- Videos
+- Reading
+- Blogging
+
+#####  Socials
+- Hacknights
+- Meetups
+
+
+## Improvements in efficiency and effectiveness
+### <em>From Junior to Senior Developer</em>
+I believe the foundation takes about 2000 hours to lay down. At least 1000 hours needs to be invested in building. Then, another 1000 to understand how it all works toward productive code.
+
+I have not completed my foundation, so I am writing this speculatively. But the advisors have suggested to invest at least a year.
+
+The mentality changes once you have the foundation. It becomes less about learning for understanding, to channel learning toward specific problem solving. A building, problem solving mentality is how programmers will operate for the rest of their careers. This is applying the knowledge to solve business problems.
+
+I am anxious to get there, but also trying to enjoy my self-guided learning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

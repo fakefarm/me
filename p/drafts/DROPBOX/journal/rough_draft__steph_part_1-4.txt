@@ -1,0 +1,224 @@
+﻿Rough Draft - Steph part 1
+==========================
+
+Non Current Liabilities of Discontinued Operations
+
+There is one division of the company that was sold, women’s
+intimate apparel, and is reported as discontinued operations for
+$348.7 million. VF does not show having any non-current liabilities
+from discontinued operations in 2007, but did report having $13,586 of
+non-current liabilities from discontinued operations in 2006.
+
+Net Income
+
+On the Income Statement (which shows the current year and two years
+back whereas the Balance Sheet only shows the current year and the
+previous year) The Net Income has grown from $506,702 in 2005, $533,
+516 in 2006, and $591,621 in 2007, which, is an 11% increase over the
+previous year. VF did mention that the Net Income did include the
+global intimate apparel business reported as a discontinued operation.
+This makes sense since over the past five years the total revenues
+from continuing operations, operating income from continuing
+operations, and income from continuing operations have all steadily
+increased over time. The two consolidated factors that influence the
+Net Income on the Income Statement are total revenues and total
+expenses.
+
+Of the five coalitions at VF, the two with the greatest total revenues
+are Jeanswear with $2,897 and Outdoor with $2,387. The Imagewear,
+Sportswear and Comtemporary Brand (which was acquired this year so it
+does not have figures from previous years) have a combined total of
+$1,814 in total revenues. It is a positive trend that the amount of
+total revenues have all steadily increased over the years with the
+exception of Sportswear which saw a decline from $686 to $684. (Sorry
+I didn’t mean to get into total revenues it just sort of flowed
+nicely here…maybe this is where we can include revenues and
+expenses from the income statement?)
+
+(Should we talk about Cost of Goods Sold here as well?)
+
+The Net Income affects the ROE (return on equity), the Net Income
+(income statement) divided by the Average stockholders’ equity
+(balance sheet). The ROE is “the principle summary measure of
+company performance” (Textbook, p. 4-4). We will further discuss
+ROE and what it means but wanted to demonstrate how to calculate the
+ROE using the Net Income.
+
+ROE = Net Income / Average Stockholders’ Equity = $591,621 /
+(($3,576,685 + $5,465,693) / 2) = .131
+
+Current Liabilities
+
+Total current liabilities increased from $1,014,848 in 2006 to
+$1,134,387 in 2007.
+Short Term borrowings increased about $43,000 from 2006 to 2007.
+• VF has a $1.0 billion senior domestic unsecured committed
+revolving bank credit agreement which expires in October 2012. Under
+the terms of this agreement VF’s ratio of consolidated
+indebtedness to consolidated capitalization must remain below 60% and
+if VF fails any terms of any covenant under this agreement the banks
+can terminate their obligation to lend and any of VF’s
+outstanding bank payments may become due and payable. This credit
+agreement is what caused the short-term borrowings to increase as
+substantially as it did from 2006 to 2007.
+Accounts Payable increased about $124,000 from 2006 to 2007
+Accrued liabilities increased about $95,000 from 2006 to 2007
+• Assessing the breakdown of accrued liabilities it is likely
+that the two liabilities that caused the difference between 2006 and
+2007 were “Other” with an increase in $50,000 and
+“Compensation” which grew from $109,371 in 2006 to
+$135,621 in 2007.
+• There was not much significance in the other accrued
+liabilities category to deem influence on the overall total of accrued
+liabilities.
+Current portion of long-term debt decreased from $68,876 to only
+$3,803
+Current liabilities of discontinued operations also dropped from
+$78,990 to $1,071
+
+Intangible Assets
+
+Intangible assets such as trademarks, patents, domain names, logos,
+designs, graphics, and intellectual property have a substantial value
+for VF (who monitor and enforce to the full appropriate legal extent).
+Licenses can be granted for other parties to manufacture and sell
+products using VF’s intellectual property. (Is royalties
+included in intangible assets?) Another intangible asset, royalties,
+generated a small portion of VF’s revenues (1.1% or 78
+million). The cause most likely to have caused such a significant
+increase in intangible assets is the result of five acquisitions in
+the past year: 7 For All Mankind, Lucy Activewear,
+Majestic Athletic, Inc. , Eagle Creek Inc. , and The
+North Face – China.
+
+The amount of intangible assets nearly doubled from $755,693 in 2006
+to $1,435,269 in 2007. Looking closer at the current figure, VF had
+about 1.0 billion in trademark intangible assets and approximately 0.5
+billion of intangible assets that are being amortized. The trademark
+intangible assets are not amortized but are tested annually for
+impairment. (If the carrying values of intangible assets ever exceed
+its fair value, then, it would be written down and an impairment cost
+is recognized.)
+
+When amortizing license agreements, the straight-line and accelerated
+methods are used; customer relationships use accelerated methods; and
+trademarks and other use the straight-line method.
+
+The combined total amount of Intangible Assets and Goodwill represent
+42% of VF’s total assets and 76% of Common Stockholder’
+Equity.
+
+Company Info
+
+V.F. Corporation (VF) is engaged in branded lifestyle apparel and
+related products. VF owns a portfolio of brands which are categorized
+into five coalitions that consist of Jeanswear, Outdoor, Imagewear,
+Sportswear and Contemporary Brands to help more accurately reflect the
+consumers’ specific activities and interests. The products are
+marketed to consumers shopping in specialty stores, upscale and
+traditional department stores, national chains and mass merchants.
+
+“If you want to really know the quality of a garment, you
+can’t just look at it on the rack. You need to turn it inside
+out. Examine its design. Check out the fabric and the fit. Tug on the
+seam to see how it is made – and what it is made of. The same
+is true of a company.”
+
+Contemporary Brands Coalition
+VF had five acquisitions in 2007 – 7 For All Mankind,
+Lucy Activewear, Majestic Athletic, Inc., Eagle
+Creek, and The North Face – China. Upon
+acquisition both 7 of Mankind and Lucy Activewear
+would create a new growth platform, the fifth and newest coalition,
+Contemporary Brands. VF did sell their women’s intimate apparel
+line, and is included it in the financials as a discontinued
+operation.
+
+Jeanswear Coalition
+This coalition consists of Jeanswear and related casual products. The
+larger brands consist of Lee and Wrangler. Jeanswear
+contributes 40% of the total revenue, the largest of all five
+coalitions.
+
+Outdoor Coalition
+A group of outdoor activity-based businesses, which is VF’s
+fastest growing business. The Outdoor coalition contributes 33% of
+VF’s total revenues. The largest Outdoor brand is The North
+Face which is sold globally. Recently VF reacquired the rights
+to market The North Face in China and Nepal. Other VF Outdoor
+brands are Vans, JanSport, Kippling, and
+Reef.
+
+Imagewear Coalition
+This coalition consists of an occupational apparel division.
+Approximately two-thirds of the sales are to industrial distributors
+that in turn supply work clothes to employees for on-the-job uniforms.
+These uniforms consist of slacks, pants, shirts, jackets, overalls,
+etc… The Imagewear coalition is now also responsible for
+decorated sports apparel under licenses grated by the MLB, NFL, NBA,
+NHL, ESPN, and many others.
+
+Sportswear Coalition
+The one principle lifestyle brand of Sportwear is the Nautica
+brand. It is currently marketed in department stores and specialty
+stores. Department stores have undergone significant consolidation,
+which has resulted in many store closings, thus negatively impacting
+Nautica. An up and coming Sportswear brand is John
+Varvatos.
+
+VF is comprised of 54,200 employees world wide, with 20,000 in the
+United States alone. The Board of Directors consists of 13 members and
+an Operating Committee with 12 members. The five different committees
+within the Operating Committee are: Audit Committee, Executive
+Committee, Finance Committee, Nominating and Governance Committee, and
+the Compensation Committee. Employee relations are considered to be
+good, which could have been one of the many factors driving such a
+strong performance throughout 2007.
+
+VF’s strong performance can also be attributed to its
+customers. Their products are primarily sold through specialty stores,
+department store, national chains and mass merchants. Some of their
+larger customers include Kohl’s, Macy’s, J.C. Penney,
+Sears, Target, and Wal-Mart. Sales to Wal-Mart, their largest
+customer, totaled 12% of Total Revues and the majority of those sales
+were in the Jeanswear Coalition. (Doesn’t discuss specific
+competitors)
+
+VF’s highlights reported in the 2007 financial statement:
+• Revenues, Income, Earnings per Share, and Cash provided by
+Operating Activities were each at record levels.
+• Formed a new coalition – Contemporary Brands –
+consisting of 7 For All Mankind and Lucy Activewear,
+but sold the women’s intimate apparel business for $348.7
+million in cash.
+• The quarterly dividend rate increased form $0.55 to $0.58 per
+share.
+
+VF’s Long-Term Financial Targets:
+• Revenue grown of 8% to 10% per year
+• Operating income of 15% of revenues
+• Earnings per share growth of 10% to 11% per year
+• Return on invested capital of 17%
+• Debt to capital of less than 40%
+• Dividend payout ratio of 40%
+
+VF’s Strategic Objectives:
+• Build more global, growing lifestyle brands
+• Expand our share with winning customers
+• Stretch brands to new geographies
+• Expand our direct-to-consumer business
+• Fuel the growth
+• Build new grown enablers
+
+(Do we need to add this here or do we have this incorporated in the
+rest of the project?)
+Finally is the basis of presentation (methods of calculations) for the
+financial statement. VF operates and reports using a fiscal year
+ending on December 31, 2007 of each year. Inventories recorded as
+having used the FIFO method. Their method for revenue recognition is
+recognized when:
+I. contract or arrangement of sale
+II. the sales price is fixed/determinable
+III. title and the risks of ownership have been transferred to the
+customer
+IV. collection of the receivable is reasonably assured.

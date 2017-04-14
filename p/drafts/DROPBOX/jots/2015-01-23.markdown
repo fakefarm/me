@@ -1,0 +1,36 @@
+
+# things to fix with jot
+don't save the word quit
+when you quit, send it back to the previous directory
+if i paste in a url, it formats it for link
+can each jot be written to my notes in both www and ls notes
+it would be cool that writing here transfers into blog
+quit
+## menu ideas
+use one letter prefixes to send to proper yaml file - q: questions, n: notes, l: link 
+quit
+### idea
+ARM screencasts
+quit
+kafka is an open source messaging queue
+## standup notes
+writing tests for save for later
+hooked up travel deals
+fixed some bugs with travel not removing
+fixed the buy button from saved_deals
+the tiles link to their deal on image and title
+quit
+l: https://frontendmasters.com/courses/js-fundamentals-to-functional/module-pattern/?utm_source=javascriptweekly&utm_medium=email
+### views
+I'm not trying to build a kingdom or be known for something
+
+While backpacking through Europe I heard the Lord whisper that He would teach me about Him through business. So, I naturally thought that meant success. Sales, titles, and a jesusfish on my BMW. My admirers would wonder how I could be so successful and I would then explain that it's because of God. 
+
+I'm in the middle of writing out this revelation;
+
+While backpacking through Europe I heard the Lord whisper that He would teach me about Him through business. So, I naturally thought that meant success. Sales, titles, and a jesusfish on my BMW 500. My admirers would wonder how I could be so successful and I would then explain that it's because of God. 
+
+On the contrary, Christ has revealed Himself to me through business failures, setbacks, debts, loss, and other negatives. Like Jonah, I cannot resist God’s will for me. Though I tried with hyper-driven determination I could not generate success. But only in hindsight can I agree that I would rather be tossed to and fro than continue in a direction that I now see as contrary to reality. Through this unexpected journey, I’ve discovered how badly I pursued the wrong things masked in seemingly holy pursuits. I wanted to be like God and be worshiped due to my accomplishments that I sought as a solution to my own value. 
+
+The Lord has used business to teach me what I'm not before I learn who God is. 
+

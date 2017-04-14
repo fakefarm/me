@@ -1,0 +1,20 @@
+- intro
+- body
+- conclusion
+- sponsors
+- comedian
+- giveaways
+- jobs
+- site
+- calendar
+- events
+- groups - beg, intermediate, advanced (sponsored)
+- google hangout with john resig
+- mission
+- values
+- projects
+- recommended books
+- resources
+- code and coffee
+- who's hiring
+- who is available

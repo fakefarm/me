@@ -1,0 +1,178 @@
+﻿Module 5
+========
+
+Social Capital Overview
+
+Trust, productive relationships, and common norms matter to the
+successful functioning of societies, organizations, and individuals.
+This forms the core notion behind the concept of "social capital."
+
+The dictionary defines "capital" as "wealth in any form employed in or
+available for the production of more wealth."
+We can distinguish several forms of capital:
+1) Physical capital -- physical tools or items that increase
+productivity (e.g. a computer)
+2) Human capital – the knowledge and skills the improve
+productivity (e.g. the knowledge resulting from an MBA curriculum)
+3) Financial capital – accumulated money that enhances
+opportunities (e.g. loans or savings to begin a new start-up business)
+4) Social capital – the stock of social trust, networks, norms,
+and generally the common interconnectedness that enable communities to
+deal more effectively with common problems and issues (e.g. a quick
+response of volunteers to assist victims of a flood disaster).
+
+                      Hobbes and Social Contract
+
+Facts of Nature
+1) Equality of Need
+2) Scarcity
+3) Equality of Power
+4) Limited Altruism
+
+Hobbes argues essentially that there are two alternatives: cooperation
+or competition. By competition here he means every individual is on
+his own.
+
+Interesting that we are taught the theory of evolution as fact and
+survival of the fittest, but then you tell us here that we should be
+cooperating instead of competing.
+
+Hobbes argues that a rational person would not choose competition if
+there were a better alternative. Indeed, rationality leads humans to a
+strategy of cooperation or social contract. We can avoid the
+consequences of competition and a state of nature (such as chaos and
+anarchy) by entering into a social contract. Self-interest and
+rationality, then, lead us to an agreed upon social contract.
+
+But you've just taught us since elementary school survival of the
+fittest, why should I consider another methodology?
+
+                   How to Invest in Social Capital
+
+Wrong for two reasons. First, social capital is under assault in most
+organizations today because of rising volatility and over reliance on
+virtuality. More simply put, social capital is under assault because
+building relationships in turbulent times is tough—and tougher
+still with many people working off-site or on their own. Second,
+social capital is under assault because few managers know how to
+invest in it. Knowing that healthy relationships help an organization
+thrive is one thing; making those relationships happen is quite
+another.
+
+Former U.S. Secretary of Labor Robert B. Reich has spoken of a simple
+test he relies on when visiting a company for the first time: "I call
+it the `pronoun test," he says. "I ask frontline workers a few general
+questions about the company. If the answers I get back describe the
+company in terms like `they' and `them,' then I know it's one kind of
+company. If the answers are put in terms like `we' or `us; then I know
+it's a different kind of company."
+
+Appendix B: Capital Offenses
+Companies thrive when they have dense social networks, high levels of
+trust, and norms of cooperation. But management theory and practice
+are full of ways to undercut them. Here are some of the biggest
+social-capital destroyers we've seen:
+Hoteling.
+
+Reengineering and Its Progeny. Reengineering, regardless of its
+original intent, evolved into a practice that valued efficient
+processes at any cost, and the idolatry of process efficiency is still
+with us.
+
+The Leader As Superstar.
+
+Hypocrisy. Hypocrisy is an obvious problem.
+
+           The Prisoner Dilemma - (confess if it's my idea)
+
+"You may confess or remain silent. If you confess and your accomplice
+remains silent, you will go free and you accomplice will serve 5
+years. Likewise, if your accomplice confesses and you remain silent,
+you will serve 5 years and your accomplice will go free. If you both
+confess, you will each get 3 years of time in prison. If you both
+remain silent, you will each have to serve 1 year."
+
+So, a few key points about prisoner dilemma problems are the
+following:
+1) Making minimalist assumptions about human beings (self-interest and
+rationality), a cooperative strategy is better for self-interest and
+personal benefit.
+2) The paradox is that is worse off doing what is thought to be in
+one's self-interest. The corollary is that one is better off doing
+what is not in one's perceived self-interest.
+3) Morality can be thought of these cooperative strategies or rules of
+social cooperation.
+
+          Soldier problem - (stay and fight or let him run)
+
+Consider the following situation: Two soldiers, Doris and Dan, are
+protecting two nearby strong posts in an attempt to hold up an enemy
+advance. If both remain at their posts, they have a fairly good chance
+of holding off the enemy until relief arrives, and so of both
+surviving. If they both run away, the enemy will break through
+immediately , and the chance of either of them surviving is markedly
+less.
+
+But if one stays at his post while the other runs away, the one who
+runs will have an even better chance of survival than each will have
+if both remain, while the one who stays will have an even worse chance
+than each will have if they both run.
+
+Assume that these facts are known to both soldiers, and each
+calculates in a thoroughly rational way with a view simply to each
+soldier's own survival. Assume no communication between the soldiers.
+Assume only that survival is the goal and that they are rational. Make
+no other assumptions and do not use any outside knowledge or
+information that you may have. Analyze the different options and
+determine the best course of action.
+
+                        Tragedy of the commons
+
+We are familiar with material commons - grazing lands, fisheries and
+forests. And we know that a system which incentivizes each farmer or
+fisherman to take more than their share leads to the collapse of the
+system for everybody. But we often forget that the economy is a
+commons. And what allows it to work is not something private, but
+something we all share. That thing we all have `in common' with each
+other is our faith in the system.
+
+The reason it's a Tragedy of the Commons is the players knew it, but
+they couldn't stop it. Each of them is acting rationally in their own
+best interests, and yet by doing so, they all fail together. No
+individual investor, developer, mortgage lender, or insurance agent is
+big enough to change the entire economic system, so everybody is
+incentivized to get what they can while the getting is good.
+
+this is what you get when man is left to live without God... Why are
+we surprised?
+
+                  The Prisoner's Dilemma in Business
+
+As a new employee, you may not be productive for me for a period of
+anywhere from a month to two years while you learn your trade. (The
+entry level salespeople my company hires out of college take almost
+two years before they begin repaying our investment in them, as they
+have a lot to learn about technology, the industry and sales
+techniques first.) If you leave after I train you but before you begin
+producing for me, you have a set of tools with which to go out and
+make money elsewhere and I have received the sucker's payoff.
+
+                      Revenge of the Freeloaders
+
+Such a readiness to retaliate, researchers said, reflected relatively
+lower levels of trust, civic cooperation and the rule of law as
+measured by social scientists in the World Values Survey, which
+periodically assesses basic values and beliefs in more than 80
+societies. In countries with democratic market economies, peer
+pressure goaded people to cooperate. Among authoritarian societies or
+those dominated more by ties of kinship, freeloaders instead lashed
+out at those who censured them, the researchers found.
+
+But social appearances and the good opinion of others do regulate our
+behavior. In the only other major cross-cultural study of this sort,
+Dr. Gintis and his colleagues several years ago examined 15 primitive
+societies of farmers, foragers, hunters and nomads in 12 countries,
+not unlike those in which humanity might have first evolved. The
+researchers found that these people all cared as much about fairness
+as the economic outcome of a trade. "They care about the ethical value
+of what they do," said Dr. Gintis.

@@ -1,0 +1,58 @@
+![](http://media.tumblr.com/f41ac350baacd74c083e99b6ff2eecee/tumblr_inline_mft4fgQnE01rp0scu.png)
+
+There are many different aspects to web development. The best way for me to understand it is to categorize them.
+Ideally, some more senior devs can help bring some additional clarity to all of this...
+
+
+## 1. The Big Picture
+**What is it that we are trying to build?**
+
+- Ecommerce
+- Blog
+- Social Network
+- Content Management System
+- Forum
+
+## 2. The Individual Components
+**The study of the individual parts. These are the necessary assets to make the watch tick.**
+
+- Browser
+- HTTP
+- Rack
+- Servers
+- Database
+
+## 3. The Specific Resources
+**Tools, languages, frameworks, and services that meet the need of the component, interaction, and development process**
+
+- Ruby
+- Mysql
+- Postgres
+- Rails
+- HTML
+- CSS
+- Text Editor
+- JavaScript
+- Heroku
+- JQuery
+- Photoshop
+- TypeKit
+- Google Fonts
+- Balsamiq
+- RSpec
+- 
+
+## 4. The Interaction of Separate parts
+**The study of how unrelated parts work in harmony**
+
+- Normalization
+- Coercion
+
+## 5. Composition
+**The mentality, discipline, and approach to crafting the entire a web app**
+These aspects are the evidence of experience and craftsmanship. 
+
+- Test Driven.
+- DRY
+- SOLID
+- Design Patterns

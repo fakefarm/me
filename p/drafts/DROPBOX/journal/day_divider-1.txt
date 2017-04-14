@@ -1,0 +1,43 @@
+﻿Day Divider
+===========
+
+Morning Activities 5am - 9am
+
+ 1. Ambassador for Christ Activities / Planning
+ 2. Servanthood prep and planning
+ 3. Husband activities
+ 4. Fatherhood prep activities
+ 5. Student studies
+ 6. Author study
+ 7. pres candidate studies
+
+Day Activities 9am - 5pm
+
+ 1. CEO in training
+ 2. Employee
+
+Evening Activities 5pm - 9pm
+
+ 1. Ambassador for Christ
+ 2. Servanthood
+ 3. Husband
+ 4. Father
+ 5. Brother / friend / uncle
+ 6. Student
+ 7. Recreation
+ 8. Artist
+ 9. Pres candidate
+
+Saturday / Sunday Activities 6am - 9pm
+
+ 1. Ambassador for Christ
+ 2. Servant
+ 3. Husband
+ 4. Father
+ 5. Bro / friend / Uncle
+ 6. Investor
+ 7. Student
+ 8. Recreation
+ 9. Artist
+10. Author
+11. Presidential Candidate

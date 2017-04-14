@@ -1,0 +1,110 @@
+## test
+
+Mock in RSpec
+
+    user_instance = mock('userclass')
+    User.stub(:find) { user_instance }
+
+whatever
+
+# Testing
+
+## Listen to the tests
+Testing should tell you the type of code you write. If you need to write 5 tests for one method, then that could indicate a code smell
+
+## Acceptance  Tests
+High level, testing the user interface
+Toolsets include capybara and cucumber
+
+Examples;
+
+    "As a user..."
+
+    "When I click on the link..."
+
+## Integration Tests
+Testing that all the pieces fit together. 
+An outside view of the project
+
+## Unit
+Ruby Class testing
+More low-level
+Tests one method at a time.
+
+Syntax
+
+    ".method"
+
+For Class
+
+    "#method"
+
+For Object
+
+## Difference in testing
+![](../images/screenshots/testing_house.png)
+
+## Test Ratio
+
+![](../images/screenshots/pyramid.png)
+
+## 2 styles of testing
+
+### Classicist 
+
+More of a black box type of testing. Asks if a method exists, but dosn't know what is inside.
+A ground up approach to testing, where all dependencies are already in place.
+
+### Mockist
+
+Tests the internals of a method. An outward in approach where mocks are necessary to test in iscolation. 
+
+Example
+
+    user_instance = mock('userclass')
+    User.stub(:find) { user_instance }
+
+Stub is RSpec DSL that makes a method and temporarily defined return value ('user_instance')
+
+#### 3 indicators of a mockist approach
+- mocks
+- stubs
+- should_receive (method)
+
+#### API's
+Mock api's to work on a local host and offline. 
+
+### Mocks
+Mocks give you clues what to test for next. 
+
+#### Types of Mocks
+dummy - innantimate object
+stub - canned response - told to reply - don't care what it receives
+mocks - makc assertions about the ...
+fake - combo of mocku and stub 
+spy - allows real behavior to watch what happens
+
+## Building a house from outside in;
+![](../images/screenshots/house.png)
+
+   
+
+In order to get the roof to stand, we mock out the 1st floor and basement.
+
+# RSPec Methods
+should_receive
+with
+any_instance
+
+
+## Testing 
+
+should_receive same as 'class should have a method'
+
+stubbing for the sake of stubbing is a problem
+
+### Testing for exceptions
+
+wrap the test in a lambda when you need the code to run without actually calling the exception.
+
+    -> { Model.find }.should raise_error(ArgumentError)

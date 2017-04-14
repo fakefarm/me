@@ -1,0 +1,3 @@
+
+Problem: what are the params that are passed in to saved_deals_controller#create?
+Task: Create a vouchered travel deal

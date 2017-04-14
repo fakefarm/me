@@ -1,0 +1,5 @@
+
+.call()'s first argument sets _this_ #javascript
+add 'open' command to open jot markdown file #feature
+fugitive #vim
+vineger #vim
