@@ -1,0 +1,11 @@
+## Words during the time
+- he prepared us for this moment.
+- he taught us how to hear his voice.
+- the sun is tame
+- i have no kingdom
+- the magic mirror
+- everyman for himself
+- he told me to open the door in my spirit and return there
+- This is the acid for what i taught you before. It proves that the previous revelation was real.
+- she can come home and play with me.
+- he told me don't look at Olivia, look at him.

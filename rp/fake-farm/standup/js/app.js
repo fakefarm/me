@@ -1,29 +1,4 @@
-
-// ------ /views/footer
-// --------------------------------------------------
-// Uncomment if you want the footer
-
-// $.ajax({
-//   url: "../views/footer/index.html",
-//   context: document.body
-// }).done(function(data) {
-//   $( '.footer-1' ).append( data );
-// });
-//
-// $.ajax({
-//   url: "../views/footer/css/main.css",
-//   context: document.body
-// }).done(function(data) {
-//   $("#footer-ss").append(data);
-// });
-
-
-// _dw - is this where require JS comes in???
-
-var Task = Backbone.Model.extend({
-
-});
-
+var Task = Backbone.Model.extend({});
 var Tasks = Backbone.Collection.extend({
   model: Task
 })
@@ -38,11 +13,13 @@ var Input = Backbone.View.extend({
       task.set(form[0].name, form[0].value);
       task.set(form[1].name, form[1].value);
       this.collection.add(task);
-      this.$el.append(task);
+      var taskView = new TasksView({model: task})
+      taskView.render();
+      debugger;
     }
   },
 
-  el: $("#app"),
+  el: $("#input"),
 
   template: _.template($("#input-template").html()),
 
@@ -52,8 +29,14 @@ var Input = Backbone.View.extend({
   }
 });
 
+var TasksView = Backbone.View.extend({
+  el: 'li',
+  render: function () {
+    this.$el.append(this.model)
+    $('#tasks').append(this.$el)
+  }
+})
+
 var myTasks = new Tasks();
-
-var input = new Input({collection: myTasks});
-
+var input = new Input({ collection: myTasks });
 input.render();

@@ -1,0 +1,6 @@
+It seems to me that ambitious Christians will talk as though the way to become more like Jesus is to study His life. That the problem is you just don't know Him well enough and if you only spent more time studying the gospels, and setting out time to find him, you would have a better chance of knowing who he is. As a result, you can improve your own playbook for how to follow him. Because the better you know him, the better you will be like him. And, we are taught that is our goal.
+
+I think the first approach is a way for us to experience God on our terms. That we say "Okay Lord, these are the ways I am comfortable getting to know you." And since this is me seeking you, then when I get tired or want a break, then I can just do my own thing. In this type of format, I am in charge of our relationship.
+
+But What if there is a playbook to know God better, but it's not the one you make. It's a playbook that God has designed specifically for you and He does not intend to tell you any of those plays before He runs them. Further, what if His playbook included experiencing things like humiliation, setback, failure, and even death of a loved one. Is that something you would want to embrace?
+

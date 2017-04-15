@@ -1,0 +1,5 @@
+# Did God forget about Himself?
+
+What if God is so big that He created us to hold His glory so He wouldn't forget about it or let it lay dormant? What if we are representatives of His own self? That we in our own unique existence are representing a piece of God to hold a voice for His nature. and He loves to hear from us b/c we are actually bringing a reminder to Him of Himself by being awake?
+As if God is infinitely bigger than even He can "manage" so He created other living beings to hold His power and remind Him of Himself. He doesn't like to archive, He wants to keep every part of Himself active and engaged.
+But here is the difference, we are not little gods. For God is the only one who holds that term b/c in the purest form God is the only one who is the source of Himself. We operate in glory based on God's pouring out and revealing it in and to us. Our position is more clearly stated as a high level of a royal family. Truly indescribable representation.
