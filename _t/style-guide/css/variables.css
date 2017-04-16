@@ -1,24 +1,32 @@
+/* Pridi: 200,300,400,500 */
+
+  @import url('https://fonts.googleapis.com/css?family=Pridi:300');
+
 :root {
 
-/* SPACES */
+/* FONTS */
 
-  --space-root:  1.00em;
-  --space-0:     0.00; --space-1:     0.25; --space-2:     0.50; --space-3:     0.75; --space-4:     1.00; --space-5:     1.25; --space-6:     1.50; --space-7:     1.75; --space-8:     2.00; --space-9:     2.25; --space-10:    2.50; --space-11:    2.75; --space-12:    3.00; --space-16:    4.00; --space-20:    5.00; --space-24:    6.00;
+  --serif: 'Pridi', 'Georgia', serif;
+
+/* TYPOGRAPHY */
+
+  --root-font-size: 1.00em;
+  --font-size-h1: calc(var(--size-10) * var(--root-font-size));
+  --font-size-h2: calc(var(--size-8) * var(--root-font-size));
+  --font-size-h3: calc(var(--size-6) * var(--root-font-size));
+  --font-size-h4: calc(var(--size-4) * var(--root-font-size));
+  --font-size-h5: calc(var(--size-3) * var(--root-font-size));
+  --font-size-h6: calc(var(--size-2) * var(--root-font-size));
 
 /* SIZES */
 
     --size-root:  1.00em;
     --size-0:     0.00; --size-1:     0.25; --size-2:     0.50; --size-3:     0.75; --size-4:     1.00; --size-5:     1.25; --size-6:     1.50; --size-7:     1.75; --size-8:     2.00; --size-9:     2.25; --size-10:    2.50; --size-11:    2.75; --size-12:    3.00; --size-16:    4.00; --size-20:    5.00; --size-24:    6.00;
 
-/* TYPOGRAPHY */
+/* SPACES */
 
-  --root-font-size: 1.50em;
-  --font-size-h1: calc(var(--size-8) * var(--root-font-size));
-  --font-size-h2: calc(var(--size-5) * var(--root-font-size));
-  --font-size-h3: calc(var(--size-4) * var(--root-font-size));
-  --font-size-h4: calc(var(--size-4) * var(--root-font-size));
-  --font-size-h5: calc(var(--size-4) * var(--root-font-size));
-  --font-size-h6: calc(var(--size-4) * var(--root-font-size));
+  --space-root:  1.00em;
+  --space-0:     0.00; --space-1:     0.25; --space-2:     0.50; --space-3:     0.75; --space-4:     1.00; --space-5:     1.25; --space-6:     1.50; --space-7:     1.75; --space-8:     2.00; --space-9:     2.25; --space-10:    2.50; --space-11:    2.75; --space-12:    3.00; --space-16:    4.00; --space-20:    5.00; --space-24:    6.00;
 
 /* COLORS */
 
