@@ -1,3 +1,10 @@
+/* FONTS */
+
+.serif {
+  font-family: var(--serif);
+  letter-spacing: 0px;  /* responsive */
+}
+
 /* global margin and padding */
 
 .h1,
@@ -6,6 +13,7 @@
 .h4,
 .h5,
 .h6 {
+  color: var(--gray);
   margin:  calc(var(--space-root) * var(--space-0)) 0;
   padding: calc(var(--space-root) * var(--space-0)) 0;
 }
