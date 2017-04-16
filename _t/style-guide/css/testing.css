@@ -1,0 +1,22 @@
+.layout { background: var(--red); }
+.layout > * { outline: 1px solid red; }
+.footer > * { outline: 1px solid red; }
+.floats > * { outline: 1px solid red; }
+
+@media only screen and (min-width: 200px) {
+  .layout { background: var(--orange); } }
+
+@media only screen and (min-width: 400px) {
+  .layout { background: var(--yellow); } }
+
+@media only screen and (min-width: 600px) {
+  .layout { background: var(--green); } }
+
+@media only screen and (min-width: 800px) {
+  .layout { background: var(--blue); } }
+
+@media only screen and (min-width: 1000px) {
+  .layout { background: var(--purple); } }
+
+@media only screen and (min-width: 1200px) {
+  .layout { background: var(--seagreen); } }
