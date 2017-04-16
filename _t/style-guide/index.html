@@ -8,7 +8,14 @@
     <meta name="description" content="Everything begins with the creator" />
     <meta name="keywords" content="dave woodall boulder coder wwwoodall fake farm leavelist fakefarm" />
     <meta name="author" content="dave woodall wwwoodall" />
+    <!--
+      Whoa.. look at all these HTTP calls!?
+      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
+      Each of these files is doing it's own responsibility and I want to manage them as such.
+      Plus, I am willing to bet that my personal, static site is fast enough.
+    -->
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/app.css">
     <style id='footer-ss'></style>

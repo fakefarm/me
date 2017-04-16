@@ -1,0 +1,43 @@
+:root {
+
+/* SPACES */
+
+  --space-root:  1.00em;
+  --space-0:     0.00; --space-1:     0.25; --space-2:     0.50; --space-3:     0.75; --space-4:     1.00; --space-5:     1.25; --space-6:     1.50; --space-7:     1.75; --space-8:     2.00; --space-9:     2.25; --space-10:    2.50; --space-11:    2.75; --space-12:    3.00; --space-16:    4.00; --space-20:    5.00; --space-24:    6.00;
+
+/* SIZES */
+
+    --size-root:  1.00em;
+    --size-0:     0.00; --size-1:     0.25; --size-2:     0.50; --size-3:     0.75; --size-4:     1.00; --size-5:     1.25; --size-6:     1.50; --size-7:     1.75; --size-8:     2.00; --size-9:     2.25; --size-10:    2.50; --size-11:    2.75; --size-12:    3.00; --size-16:    4.00; --size-20:    5.00; --size-24:    6.00;
+
+/* TYPOGRAPHY */
+
+  --root-font-size: 1.50em;
+  --font-size-h1: calc(var(--size-8) * var(--root-font-size));
+  --font-size-h2: calc(var(--size-5) * var(--root-font-size));
+  --font-size-h3: calc(var(--size-4) * var(--root-font-size));
+  --font-size-h4: calc(var(--size-4) * var(--root-font-size));
+  --font-size-h5: calc(var(--size-4) * var(--root-font-size));
+  --font-size-h6: calc(var(--size-4) * var(--root-font-size));
+
+/* COLORS */
+
+  --red:      rgb(240, 89, 102);
+  --orange:   rgb(240, 156, 68);
+  --yellow:   rgb(232, 203, 7);
+  --green:    rgb(61, 227, 129);
+  --seagreen: rgb(12, 177, 113);
+  --blue:     rgb(36, 208, 246);
+  --purple:   rgb(168, 70, 245);
+
+
+  /* todo - improve the naming of columns... */
+  --col-width: 100%;
+  --col-third: 0.333;
+  --col-half: 0.50;
+  --col-two-thirds: 0.666;
+
+  --col-base: 100%;
+  --col-1: 0.333;
+
+}
