@@ -13,15 +13,14 @@
 /*
   Responsive Typography.
   Before adjusting these, look at the variables and adjust them there first so that it hits all 7 breakpoints.
-
 */
 
-.h1 { font-size: calc(var(--size-2) * var(--font-size-h1)); }
-.h2 { font-size: calc(var(--size-2) * var(--font-size-h2)); }
-.h3 { font-size: calc(var(--size-2) * var(--font-size-h3)); }
-.h4 { font-size: calc(var(--size-2) * var(--font-size-h4)); }
-.h5 { font-size: calc(var(--size-2) * var(--font-size-h5)); }
-.h6 { font-size: calc(var(--size-2) * var(--font-size-h6)); }
+  .h1 { font-size: calc(var(--size-2) * var(--font-size-h1)); }
+  .h2 { font-size: calc(var(--size-2) * var(--font-size-h2)); }
+  .h3 { font-size: calc(var(--size-2) * var(--font-size-h3)); }
+  .h4 { font-size: calc(var(--size-2) * var(--font-size-h4)); }
+  .h5 { font-size: calc(var(--size-2) * var(--font-size-h5)); }
+  .h6 { font-size: calc(var(--size-2) * var(--font-size-h6)); }
 
 @media only screen and (min-width: 200px) {
   .h1 { font-size: calc(var(--size-4) * var(--font-size-h1)); }

@@ -31,13 +31,11 @@
   --purple:   rgb(168, 70, 245);
 
 
-  /* todo - improve the naming of columns... */
+/* todo - improve the naming of columns... */
   --col-width: 100%;
   --col-third: 0.333;
   --col-half: 0.50;
   --col-two-thirds: 0.666;
-
   --col-base: 100%;
   --col-1: 0.333;
-
 }

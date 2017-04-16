@@ -16,40 +16,34 @@
   box-sizing: border-box;
   margin:  calc(var(--space-root) * var(--space-0)) 0;
   padding: calc(var(--space-root) * var(--space-0)) 0;
-
 }
 
 .layout .section {
   box-sizing: border-box;
   margin:  calc(var(--space-root) * var(--space-0)) 0;
   padding: calc(var(--space-root) * var(--space-0)) 0;
-
 }
 
 .layout .article {
   box-sizing: border-box;
   margin:  calc(var(--space-root) * var(--space-0)) 0;
   padding: calc(var(--space-root) * var(--space-0)) 0;
-
 }
 
 .layout .aside {
   box-sizing: border-box;
   margin:  calc(var(--space-root) * var(--space-0)) 0;
-  padding: calc(var(--space-root) * var(--space-1)) 0;
-
+  padding: calc(var(--space-root) * var(--space-0)) 0;
 }
 
 .layout .footer {
   box-sizing: border-box;
-  margin:  calc(var(--space-root) * var(--space-1)) 0;
-  padding: calc(var(--space-root) * var(--space-1)) 0;
+  margin:  calc(var(--space-root) * var(--space-0)) 0;
+  padding: calc(var(--space-root) * var(--space-0)) 0
 }
 
 
 @media only screen and (min-width: 200px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-1)) 0;
     padding: calc(var(--space-root) * var(--space-1)) 0;
@@ -79,12 +73,9 @@
     margin:  calc(var(--space-root) * var(--space-1)) 0;
     padding: calc(var(--space-root) * var(--space-1)) 0;
   }
-
 }
 
 @media only screen and (min-width: 400px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-1)) 0;
     padding: calc(var(--space-root) * var(--space-1)) 0;
@@ -122,8 +113,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-2)) 0;
     padding: calc(var(--space-root) * var(--space-2)) 0;
@@ -165,8 +154,6 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-3)) 0;
     padding: calc(var(--space-root) * var(--space-3)) 0;
@@ -200,8 +187,6 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-4)) 0;
     padding: calc(var(--space-root) * var(--space-4)) 0;
@@ -235,8 +220,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .layout {}
-
   .layout .header {
     margin-bottom:  calc(var(--space-root) * var(--space-8)) 0;
     padding: calc(var(--space-root) * var(--space-8)) 0;
