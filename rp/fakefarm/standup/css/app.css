@@ -25,3 +25,12 @@
 .sl-black {
  color: black !important;
 }
+
+.h3 {
+  opacity: 0
+}
+.boom {
+  transform: all 300ms;
+  opacity: 1;
+  background: red;
+}

@@ -17,7 +17,13 @@
   <body>
     <h1 class="h1">Standup</h1>
     <section id="input"></section>
-    <section id="tasks"></section>
+    <section id="tasks">
+      <ul id='task-list'></ul>
+    </section>
+
+    <script type='text/backbone' id='list-item'>
+      <h3 class='h3 boom'>name: <%= task %> | ticket: <%= ticket %></h3>
+    </script>
 
     <script type='text/backbone' id='input-template'>
       <form id='form'>
