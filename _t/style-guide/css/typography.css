@@ -7,12 +7,8 @@
 
 /* global margin and padding */
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, .p,
+.p1, .p2, .p3, .p4 {
   color: var(--gray);
   margin:  calc(var(--space-root) * var(--space-0)) 0;
   padding: calc(var(--space-root) * var(--space-0)) 0;
@@ -29,6 +25,10 @@
   .h4 { font-size: calc(var(--size-2) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-2) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-2) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-2) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-2) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-2) * var(--font-size-p)); }
 
 @media only screen and (min-width: 200px) {
   .h1 { font-size: calc(var(--size-4) * var(--font-size-h1)); }
@@ -37,6 +37,10 @@
   .h4 { font-size: calc(var(--size-4) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-4) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-4) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-4) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-4) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-4) * var(--font-size-p)); }
 }
 
 @media only screen and (min-width: 400px) {
@@ -46,6 +50,10 @@
   .h4 { font-size: calc(var(--size-8) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-8) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-8) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-8) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-8) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-8) * var(--font-size-p)); }
 }
 
 @media only screen and (min-width: 600px) {
@@ -55,6 +63,10 @@
   .h4 { font-size: calc(var(--size-12) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-12) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-12) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-12) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-12) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-12) * var(--font-size-p)); }
 }
 
 @media only screen and (min-width: 800px) {
@@ -64,6 +76,10 @@
   .h4 { font-size: calc(var(--size-16) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-16) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-16) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-16) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-16) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-16) * var(--font-size-p)); }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -73,6 +89,10 @@
   .h4 { font-size: calc(var(--size-20) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-20) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-20) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-20) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-20) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-20) * var(--font-size-p)); }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -82,4 +102,8 @@
   .h4 { font-size: calc(var(--size-24) * var(--font-size-h4)); }
   .h5 { font-size: calc(var(--size-24) * var(--font-size-h5)); }
   .h6 { font-size: calc(var(--size-24) * var(--font-size-h6)); }
+  .p,
+  .p1 { font-size: calc(var(--size-24) * var(--font-size-p)); }
+  .p2 { font-size: calc(var(--size-24) * var(--font-size-p)); }
+  .p3 { font-size: calc(var(--size-24) * var(--font-size-p)); }
 }
