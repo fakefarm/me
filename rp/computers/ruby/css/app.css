@@ -1,0 +1,30 @@
+body {
+  background: var(--stone);
+  border: 10px solid var(--gray);
+  padding:  calc(var(--space-root) * var(--space-5));
+}
+
+
+@media only screen and (min-width: 200px) {
+  body { border: 10px solid var(--gray); }
+}
+
+@media only screen and (min-width: 400px) {
+  body { border: 20px solid var(--gray); }
+}
+
+@media only screen and (min-width: 600px) {
+  body { border: 25px solid var(--gray); }
+}
+
+@media only screen and (min-width: 800px) {
+  body { border: 30px solid var(--gray); }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  
+}
