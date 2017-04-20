@@ -27,7 +27,18 @@
 
   <body>
     <h1 class="h1">Ah Ha!</h1>
-    <section id="app"></section>
+    <nav>
+      <ul id='playlistsLinks'>
+      </ul>
+    </nav>
+    <section id="app" class='app'></section>
+
+
+    <script type='text/backbone' id='playlistTemplate'>
+      <section class="playlist">
+        <iframe src="https://embed.spotify.com/?uri=spotify%3Auser<%= uri %>" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </section>
+    </script>
     <footer class='footer-1'>
       <a href="" id="get-footer"></a>
     </footer>
