@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learning Backbone.JS in 2017</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learning Backbone.JS in 2017" />
+    <meta name="keywords" content="dave woodall backbone.js backbone 2017 web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall fakefarm" />
+    <!--
+      Whoa.. look at all these HTTP calls!?
+      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
+      Each of these files is doing it's own responsibility and I want to manage them as such.
+      Plus, I am willing to bet that my personal, static site is fast enough.
+    -->
+    <link rel="stylesheet" href="./css/testing.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/modules.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <style id='footer-ss'></style>
+  </head>
+
+  <body>
+    <h1 class="h1">Learning Backbone.JS in 2017</h1>
+    <section class="intro">
+      <h2 class="h3">About</h2>
+      <p class="p">Why would anyone want to learn Backbone when there are many newer, faster, cooler JS frameworks? Well, first off, Backbone is not a framework. Second, I am not learning this for money. I am learning Backbone because it is the next step in the progress to understand Web Development.</p>
+      <h3 class="h5">TIMTOWDI.js</h3>
+      <h4 class="h6">There is more than one way to do it.</h4>
+      <p class="p">TIMTOWDI does not mean that all <i>ways</i> are equal. I view Javascript as the Troll under the bridge to the Browser and if you want to work on browsers then you must know JS through and through.</p>
+      <h3 class="h5">KISS.js</h3>
+      <h4 class="h6">Keep it Simple, Silly</h4>
+      <p class="p">I am part of the hacker school genearation. I went to a 12 week bootcamp that attempted to teach me all there is to know. Since I was one of the first types of people to attend a bootcamp, it was short and full of holes. I left that place with nothing but the happy path. The happy path does not exist in the real world. You must venture into topics, layers, code, languages that were not discussed in Code Class. It is extremely difficult bordering on the state of impossibility to learn everything at the same time while trying to apply it. So now that I'm 5 years in and growing with facination about computers know that I am not worried about getting fired, I'm starting over and taking the scenic reoute.</p>
+      <p class="p">All of this preface should really go into a different blog, but it is the reason why I'm learning backbone in 2017. This is the time and year that I'm finally understanding why it was brought onto the scene.</p>
+      <h3 class="h5">From there to here.</h3>
+      <p class="p">To put it into context... I read the <a href="">Definitive guide to JavaScript</a>, twice. I read <a href="">JS the Good Parts</a>, twice. I read <a href="">JavaScript Patterns</a>, twice. I committed to learning ES2015.
+      <h3 class="h5">'JQuery is for lazy people.'</h3>
+      <p class="p">
+      I am embaressed to say that all my blog reading and surveying of what to learn led me to initially believe the above about JQuery. I was such a noob that I looked down on JQuery because I was using Angular and JQuery was old school. But now, I've come to realize what a moron I was and I have studied JQuery and see why it is an essential tool that I plan to keep as one of my non-negotiables. (That or Zepto) JQuery managed the DOM because JavaScript didn't realize that was a <i>thing</i>. The DOM needs a tool to query it and there is no better tool than JQuery or one that follows JQuery's lead.</p>
+      <h3 class="h5">Underscoring the importance of the right tool for the job</h3>
+      <p class="p">
+        JQuery's popularity has been in part of handling <i>all the things</i> needed to be done in the Browser. Query, Traversing, AJAX, Data, Events, and more. The are several downsides to handling all these tasks. For example, difficulty in testing and breaking SOLID Principals, which I am into. Specifically the big one, Single Responsibility.
+      </p>
+      <p class="p">
+        While JavaScript has many types of iterators, they fall short with other aspects of the language, like scope. Underscore provides a specific set of utility functions that are not avaialble in JQuery that solve some <i>warty</i> aspects of JavaScript. It is another hole that has been filled by a minial dependency. It also has a consistent API that can handle many of the uglier parts of writing JS code. After learning the JavaScript way first, I see the benefits that Underscore brings to the table and I wholeheartedly adopt the library as a personal dependency.
+      </p>
+      <h3 class="h5">Do not serve me</h3>
+      <p class="p">
+        Keeping things simple and focusing on the lessons at hand means keeping my mental workspace clean. JavaScript, or ECMASCRIPT 2015, or ES15 does not need to be interpreted. Meaning, it does not need a server. It does not need a build tool. It does not need anything to work in a modern browser. The same can be said about JQuery, Underscore, and Backbone.
+      </p>
+      <p class="p">Follow this logic and tell me what conclusion you would arrive if it is different. I want to learn about JavaScript on a Browser. I don't want to learn about servers, interpreters, build tools, or any other fancy tool to support JavaScript.</p>
+      <p class="p">I have already taken the time to learn JavaScript, JQuery, and Underscore. Those are the only three requirements for me to learn Backbone.</p>
+      <h3 class="h5">Start with simple tools and add complexity as see fit.</h3>
+      <p class="p">Backbone's official documentation touts itself as filling a need that JQuery and Underscore do not meet. Okay, what is it? The good news is it is a small library that can be read in a single sitting if you were that into pain. Backbone has only two dependencies JQuery and Underscore. Backbone does not need to be interpreted.</p>
+      <h3 class="h5">The Problems Backbone solves</h3>
+      <p class="p">If you got with me this far, hopefully you see that this rant is not a case for why Backbone is better than other JS frameworks. Backbone addresses real ES15 issues by adding the Saw to your Hammer and Drill.</p>
+
+      <h3 class="h5">The third side of the trilogy.</h3>
+      <p class="p">The benefit of coming into web development late is there are many mentors and resources based on real world problems. Now that I have a solid grasp of what roles JQuery and Underscore provide, I am able to look at the third part of the trilogy.</p>
+      <p class="p">Single Page Applicatoins (SPAs)seem to be the reason Backbone was written but my interest in Backbone is not synonymous with building one. Sticking with the right tool for the job, I wanted to understand what problem bakbone was solving. Well, it turns out that javascript heavy development ends up having many aspects of the 'page' interact with one another. That page interaction is an event driven process that updates data. Events can be fired by the server, browser, or user.</p>
+      <p class="p">Up to this point, all events were managed in line with the activity they were associated with which resulted in lots of tight coupling and code duplication.</p>
+      <p class="p">To make matters worse, the DOM began to have yet another responsibilty of housing important content, or state. The DOM was becoming stateful on a stateless platform.</p>
+      <p class="p">One of the ways I've heard people tout JS is that it treats <b>functions</b> as first class citizens. Well, Backbone does the same thing but with <b>events</b> and <b>data</b> which up to this point is tangled with the DOM and JQuery. Backbone addresses these pain points (that are not addressed by JS, JQuery, or Underscore) with a simple, set of vanilla JavaScript conventions that solve these issues.</p>
+      <h3 class="h5">Let me summarize</h3>
+      <p class="p">As knowledge workers, we need to have knowledge of both the problems we face and our solutions to provide. In software, solutions come in the form of understanding our domain. I have chosen to be a full stack web developer. As such, that means I want to know the Browser, which is inseprable from JavaScript. JavaScript has the unfortunate history of not being a well designed language. However, that does not negate the fact that it is responsible for dealing with the DOM, Events, Data, and Servers.</p>
+      <p class="p">I am taking the time to learn the web environment and all of it's responsibilities, challenges, and solutions so that I can truly master my craft.</p>
+    </section>
+    <section class="index">
+      <h2 class="h5">Enough Talk, show us the code.</h2>
+      <p class="p">Okay but one more thing. Up until recently I've been hacking on Backbone in one file and making some wins and lots of mistakes. I started deleting and starting over but I'm now realizing that I want to keep track of my progress beginning now. So, I'm going to start making little demos and stoping at whatever my best form of success. My thought is to have the demo and also make a few notes about what I learned and where I'm stuck.</p>
+      <nav>
+        <ul>
+          <li><a href="./demo/1">Moving Squares</a></li>
+        </ul>
+      </nav>
+    </section>
+    <footer class='footer-1'>
+      <a href="" id="get-footer"></a>
+    </footer>
+    <div class="scripts">
+      <script src="./js/vendor/jquery.min.js"></script>
+      <script src="./js/vendor/underscore.min.js"></script>
+      <script src="./js/vendor/backbone.min.js"></script>
+      <script src="./js/app.js"></script>
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-40303853-1','auto');ga('send','pageview');
+      </script>
+    </div>
+  </body>
+</html>

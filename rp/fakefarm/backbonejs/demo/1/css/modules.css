@@ -1,0 +1,49 @@
+/* CARD */
+
+.wrapper-card-simple-3 {
+  overflow: auto;
+  width: 100%:
+  margin: 0 auto;
+}
+
+.card-simple-3 {
+  border: 1px solid var(--gray);
+  float: left;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  padding: calc(var(--size-2) * var(--size-root))
+           calc(var(--size-6) * var(--size-root));
+  margin:  calc(var(--size-2) * var(--size-root))
+           calc(var(--size-2) * var(--size-root));
+}
+
+.card-simple-3 .h1 {
+  margin-bottom: calc(var(--size-2) * var(--size-root));
+}
+
+@media only screen and (min-width: 200px) {
+
+}
+
+@media only screen and (min-width: 400px) {
+  .card-simple-3 {
+    max-width: calc(var(--col-skinny) * var(--col-width));
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

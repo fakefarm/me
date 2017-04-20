@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Dave Woodall</title>
+    <title>Learning Backbone.JS in 2017 | Demo 1: Moving Squares</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Everything begins with the creator" />
-    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
-    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <meta name="description" content="I'm learning Learning Backbone.JS in 2017 because it is the third side of the JS trilogy." />
+    <meta name="keywords" content="dave woodall backbone.js backbone 2017 web developer coder wwwoodall fake farm jquery underscore fakefarm" />
+    <meta name="author" content="dave woodall fakefarm" />
     <!--
       Whoa.. look at all these HTTP calls!?
       It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
@@ -26,19 +26,20 @@
   </head>
 
   <body>
-    <h1 class="h1">Ah Ha!</h1>
+    <h1 class="h1">Learning Backbone.JS in 2017</h1>
     <nav>
       <ul id='playlistsLinks'>
       </ul>
     </nav>
     <section id="app" class='app'></section>
 
-
     <script type='text/backbone' id='playlistTemplate'>
       <section class="playlist">
+        <h1><%= name %></h1>
         <iframe src="https://embed.spotify.com/?uri=spotify%3Auser<%= uri %>" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
       </section>
     </script>
+
     <footer class='footer-1'>
       <a href="" id="get-footer"></a>
     </footer>
