@@ -4,3 +4,10 @@ after each meal. Better to over brush than to forget to brush.
 - learn to floss
 
 - wear deodorant that doesn't have aluminium
+
+
+Talk about your Body:
+- smell
+- clean
+- sweat
+- 
