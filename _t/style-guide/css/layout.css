@@ -12,15 +12,15 @@
 
 @media only screen and (min-width: 200px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-1)) 0;
-    padding: calc(var(--space-root) * var(--space-1)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 }
 
 @media only screen and (min-width: 400px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-1)) 0;
-    padding: calc(var(--space-root) * var(--space-1)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 
   .layout .article {
@@ -36,8 +36,8 @@
 
 @media only screen and (min-width: 600px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-2)) 0;
-    padding: calc(var(--space-root) * var(--space-2)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 
   .layout .footer {
@@ -52,21 +52,21 @@
 
 @media only screen and (min-width: 800px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-3)) 0;
-    padding: calc(var(--space-root) * var(--space-3)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-4)) 0;
-    padding: calc(var(--space-root) * var(--space-4)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-8)) 0;
-    padding: calc(var(--space-root) * var(--space-8)) 0;
+    margin:  calc(var(--space-root) * var(--space-0)) 0;
+    padding: calc(var(--space-root) * var(--space-0)) 0;
   }
 }
