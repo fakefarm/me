@@ -8,21 +8,21 @@
 
 .layout > * {
   box-sizing: border-box;
-  margin:  calc(var(--space-root) * var(--space-0)) 0;
-  padding: calc(var(--space-root) * var(--space-0)) 0;
+  margin:  calc(var(--space-root) * var(--space-2));
+  padding: calc(var(--space-root) * var(--space-2));
 }
 
 @media only screen and (min-width: 200px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 }
 
 @media only screen and (min-width: 400px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 
   .layout .article {
@@ -38,8 +38,8 @@
 
 @media only screen and (min-width: 600px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 
   .layout .footer {
@@ -54,27 +54,37 @@
 
 @media only screen and (min-width: 800px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .layout > * {
-    margin:  calc(var(--space-root) * var(--space-0)) 0;
-    padding: calc(var(--space-root) * var(--space-0)) 0;
+    margin:  calc(var(--space-root) * var(--space-2));
+    padding: calc(var(--space-root) * var(--space-2));
   }
 }
 
 
 .l-col {
   float: left;
-  width: 50%;
+  width: 48%;
+}
+
+.headline {
+  background: var(--gray);
+  padding: calc(var(--space-root) * var(--space-12));
+}
+
+.headline-font {
+  color: white;
+  font-weight: 100;
 }
