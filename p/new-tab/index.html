@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New tab</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A way for me to keep my focus when opening a new tab in my browser." />
+    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <!--
+      Whoa.. look at all these HTTP calls!?
+      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
+      Each of these files is doing it's own responsibility and I want to manage them as such.
+      Plus, I am willing to bet that my personal, static site is fast enough.
+    -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/modules.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <style id='footer-ss'></style>
+  </head>
+
+  <body class='layout'>
+    <section class="section l-col">
+      <h2 class="h1">Breaktime?</h2>
+      <p class="p">Take 30m to do one of these...</p>
+      <h3 class="h2">exercise</h3>
+      <ul>
+        <li class='p'>25 lbs weights</li>
+        <li class='p'>pushups / situps</li>
+        <li class='p'>leg bends</li>
+        <li class='p'>30m run</li>
+      </ul>
+      <h3 class="h2">clean</h3>
+      <ul>
+        <li class='p'>papers</li>
+        <li class='p'>storage</li>
+        <li class='p'>leg bends</li>
+      </ul>
+      <h3 class="h2">read</h3>
+      <ul>
+        <li class='p'>ruby</li>
+        <li class='p'>newsletters</li>
+        <li class='p'>ipad books</li>
+      </ul>
+      <h3 class="h2">watch</h3>
+      <ul>
+        <li class='p'>go rails</li>
+        <li class='p'>pluralsight</li>
+        <li class='p'>programming backlog</li>
+      </ul>
+    </section>
+    <section class="warning section l-col">
+      <h2 class="h1 warning avoid">avoid</h2>
+      <ul>
+        <li class='p'>email</li>
+        <li class='p'>twitter</li>
+        <li class='p'>no news is good news</li>
+        <li class='p'>drudge, zero hedge</li>
+        <li class='p'>coin info / finance</li>
+      </ul>
+    </section>
+    <section class="section l-col">
+      <h2 class="h1">goals</h2>
+      <ul>
+        <li class='p'>Memorize Ps. 119</li>
+        <li class='p'>Organize papers into folders</li>
+        <li class='p'>Fakefarm empire</li>
+      </ul>
+    </section>
+    <div class="scripts">
+      <script src="./js/vendor/jquery.min.js"></script>
+      <script src="./js/vendor/underscore.min.js"></script>
+      <script src="./js/vendor/backbone.min.js"></script>
+      <script src="./js/app.js"></script>
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-40303853-1','auto');ga('send','pageview');
+      </script>
+    </div>
+  </body>
+</html>
