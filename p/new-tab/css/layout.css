@@ -81,10 +81,12 @@
 
 .headline {
   background: var(--gray);
-  padding: calc(var(--space-root) * var(--space-12));
+  padding: calc(var(--space-root) * var(--space-24));
 }
 
 .headline-font {
   color: white;
+  line-height: 120px;
+  text-align: center;
   font-weight: 100;
 }
