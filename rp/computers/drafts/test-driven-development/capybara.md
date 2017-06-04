@@ -159,6 +159,16 @@ In this scenario, it’d probably be smarter to leave the h2 tag out and just lo
 ## matchers and nodes
 Capybara comes with [actions](http://www.rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Actions) to navigate and find content as well as matchers for test cases.
 
+## expectations
+
+seems that capybara supports the following expectation syntax
+
+    expect(page).to have_selector('table tr')
+    expect(page).to have_selector(:xpath, './/table/tr')
+    
+    expect(page).to have_xpath('.//table/tr')
+    expect(page).to have_css('table tr.foo')
+    expect(page).to have_content('foo')
 
 
 ## Practice
