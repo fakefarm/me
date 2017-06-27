@@ -7,7 +7,35 @@ var AppView = Backbone.View.extend({
   }
 });
 
+
+
+
+
+
+
+
+
+
 var InputModel = Backbone.Model.extend({});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var InputView = Backbone.View.extend({
   template: _.template($("#input").html()),
@@ -25,6 +53,20 @@ var InputView = Backbone.View.extend({
   }
 })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var OutputView = Backbone.View.extend({
   template: _.template($("#content").html()),
   render: function () {
@@ -32,6 +74,20 @@ var OutputView = Backbone.View.extend({
     this.$el.html(content);
   }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
