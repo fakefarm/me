@@ -1,0 +1,20 @@
+[
+  {
+    "chapter": "1",
+    "title": "beginning",
+    "summary": "this is the beginning of lots of things",
+    "tags": [
+      "creation",
+      "popular"
+    ]
+  },
+  {
+    "chapter": "2",
+    "title": "two lovers",
+    "summary": "Adam and Eve created in the perfect Garden",
+    "tags": [
+      "adam",
+      "eve"
+    ]
+  }
+]
