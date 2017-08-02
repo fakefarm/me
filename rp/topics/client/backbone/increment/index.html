@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Oscar</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Everything begins with the creator" />
+    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <!--
+      Whoa.. look at all these HTTP calls!?
+      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
+      Each of these files is doing it's own responsibility and I want to manage them as such.
+      Plus, I am willing to bet that my personal, static site is fast enough.
+    -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/modules.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <style id='footer-ss'></style>
+  </head>
+  <body class='layout'>
+    <div id="app" class='app'></div>
+    
+    <script type='text/template' id="increment">
+      <div class='increment'>
+        <a href='' class="h3 plus btn">+</a>
+        <!-- _dw put minimum at 15m error notice -->
+        <span class='time-wrapper'>
+          <span class='h3 time' id='time'><%= count %></span>
+          <span class='h3 count'>min</span>
+        </span>
+        <a href='' class="h3 minus btn">-</a>
+        <div class="errors">time must be at least <%= minimum %>m</div>
+      </div>
+    </script>
+    
+    <div class="scripts">
+      <script src="./js/vendor/jquery.min.js"></script>
+      <script src="./js/vendor/underscore.min.js"></script>
+      <script src="./js/vendor/backbone.min.js"></script>
+      <script src="./js/app.js"></script>
+  </body>
+</html>
