@@ -18,9 +18,8 @@ what do I know about tests so far?
 ## Testing environment
 - guard
 
-
 ## testing mentality
-recognize there will be a lot of little things to maintain and fix while doing this full stack of coding. for example, the environment in which you start adding your content might be broken, confusing, or not setup to test as you know how. 
+recognize there will be a lot of little things to maintain and fix while doing this full stack of coding. for example, the environment in which you start adding your content might be broken, confusing, or not setup to test as you know how.
 
 Know that to add a feature means to;
 - understand the feature requested
