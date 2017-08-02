@@ -1,0 +1,48 @@
+body {
+  background: rgb(191, 247, 255);
+}
+
+.app {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.errors {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(191, 247, 255);
+  width: 1em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+a.plus:hover {
+  color: #9cc6a2;
+  border: 1px solid #9cc6a2;
+}
+
+a:hover {
+  background: #f2efef;
+}
+
+a.minus:hover {
+  color: rgb(187, 98, 60);
+  border: 1px solid rgb(187, 98, 60);
+}
+
+.increment {
+  border: 1px solid #e4e4e4;
+  display: inline-block;
+  border-radius: 5px;
+  background: white;
+  padding: 1em;
+}
+
+.time-wrapper {
+  display: inline-block;
+}
