@@ -1,9 +1,9 @@
-.square {
-  height: 200px;
-  width: 200px;
-  background: var(--red);
+body {
+  background: #e4e4e4;
 }
 
-.post__content {
-  display: none;
+.chapter {
+  background: white;
+  padding: 1em;
+  margin: 1em;
 }

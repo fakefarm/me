@@ -1,7 +1,14 @@
 var Chapter = Backbone.Model.extend({});
 
 var Chapters = Backbone.Collection.extend({
-   model: Chapter
+   model: Chapter,
+   populate: function() {
+     var chapters = this.models;
+     _.each(chapters, function (chapter) {
+       var chapterView = new ChapterView({model: chapter});
+       chapterView.render();
+     });
+   }
 });
 
 var ChapterView = Backbone.View.extend({
@@ -16,16 +23,7 @@ var ChapterView = Backbone.View.extend({
 $(document).ready(function () {
   var summary = $.get('./js/summary.json')
   .done(function (data) {
-    _.each(data, function (d) {
-      var chap = d;
-      options = {
-        chapter: chap['chapter'],
-        title: chap['title'],
-        summary: chap['summary'],
-      }
-      var chptr = new Chapter(options);
-      var chapterView = new ChapterView({model: chptr});
-      chapterView.render();
-    });
+    var chapters = new Chapters(data);
+    chapters.populate();
   });
 })
