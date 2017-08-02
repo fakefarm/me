@@ -1,4 +1,7 @@
-# reading list
+# testing reading list
 
-## testing
 [test double wiki](https://github.com/testdouble/contributing-tests/wiki)
+
+[minitest cookbook]
+
+[everyday rails]

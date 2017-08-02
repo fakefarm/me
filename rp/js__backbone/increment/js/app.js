@@ -14,6 +14,7 @@ var Time = Backbone.Model.extend({
 });
 
 var Increment = Backbone.View.extend({
+  
   template: _.template($("#increment").html()),
   
   el: $('#app'),
@@ -22,7 +23,7 @@ var Increment = Backbone.View.extend({
     'click .plus':  'grow',
     'click .minus': 'shrink'
   },
-  
+
   grow: function (e) {
     e.preventDefault();
     e.stopPropagation();
@@ -31,6 +32,7 @@ var Increment = Backbone.View.extend({
     var update  = +current + +growth
     this.model.set('count', update, { validate: true })
     this.render();
+    $('.time').slideUp();
   },
   
   shrink: function (e) {
@@ -38,9 +40,17 @@ var Increment = Backbone.View.extend({
     e.stopPropagation();
     var current = this.model.get('count');
     var growth  = this.model.get('growth');
-    var update  = +current - +growth;
-    this.model.set('count', update, { validate: true });
-    this.render();
+    
+    if (current <= growth) {
+      var update = this.model.get('minimum');
+      this.model.set('count', update);
+      this.render();
+      $('.errors').css('color', 'red');
+    } else {
+      var update  = +current - +growth;
+      this.model.set('count', update);
+      this.render();
+    }
   },
   
   render: function () {
