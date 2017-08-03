@@ -1,11 +1,11 @@
 var Time = Backbone.Model.extend({
-  
+
   validate: function(attrs, options) {
     if (attrs.count <= attrs.minimum) {
       console.log(this.attributes);
     }
   },
-  
+
   defaults: {
     count: 30,
     growth: 15,
@@ -14,11 +14,11 @@ var Time = Backbone.Model.extend({
 });
 
 var Increment = Backbone.View.extend({
-  
+
   template: _.template($("#increment").html()),
-  
+
   el: $('#app'),
-  
+
   events: {
     'click .plus':  'grow',
     'click .minus': 'shrink'
@@ -32,15 +32,14 @@ var Increment = Backbone.View.extend({
     var update  = +current + +growth
     this.model.set('count', update, { validate: true })
     this.render();
-    $('.time').slideUp();
   },
-  
+
   shrink: function (e) {
     e.preventDefault();
     e.stopPropagation();
     var current = this.model.get('count');
     var growth  = this.model.get('growth');
-    
+
     if (current <= growth) {
       var update = this.model.get('minimum');
       this.model.set('count', update);
@@ -52,7 +51,7 @@ var Increment = Backbone.View.extend({
       this.render();
     }
   },
-  
+
   render: function () {
     var count = this.model.get('count')
     var min = this.model.get('minimum')

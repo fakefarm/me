@@ -8,12 +8,6 @@
     <meta name="description" content="Everything begins with the creator" />
     <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
     <meta name="author" content="dave woodall wwwoodall fakefarm" />
-    <!--
-      Whoa.. look at all these HTTP calls!?
-      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
-      Each of these files is doing it's own responsibility and I want to manage them as such.
-      Plus, I am willing to bet that my personal, static site is fast enough.
-    -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -25,7 +19,6 @@
   </head>
   <body class='layout'>
     <div id="app" class='app'></div>
-    
     <script type='text/template' id="increment">
       <div class='increment'>
         <a href='' class="h3 plus btn">+</a>
@@ -38,7 +31,7 @@
         <div class="errors">time must be at least <%= minimum %>m</div>
       </div>
     </script>
-    
+
     <div class="scripts">
       <script src="./js/vendor/jquery.min.js"></script>
       <script src="./js/vendor/underscore.min.js"></script>
