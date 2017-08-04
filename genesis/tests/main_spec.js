@@ -1,15 +1,16 @@
 describe("Genesis is a BackboneJS app", function () {
+  
   describe("The Views are tested.", function () {
     
     describe("TextView", function () {
-      var textView;
-      
-      beforeEach(function () {
-        textView = new TextView({chapter: 5});
-      });
-      
       it("is a generic View for managing small text templates", function () {
-        expect(textView).toBeDefined();
+        expect(TextView).toBeDefined();
+      });
+    });
+    
+    describe("CommentaryView", function () {
+      it('contains commentary view logic', function () {
+        expect(CommentaryView).toBeDefined();
       });
     });
   });
