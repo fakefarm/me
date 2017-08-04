@@ -1,4 +1,4 @@
-var ChapterNumber = Backbone.View.extend({
+var TextView = Backbone.View.extend({
   
   initialize: function (options) {
     this.chapter = options['chapter'];
@@ -25,8 +25,8 @@ var ChapterNumber = Backbone.View.extend({
 });
 
 $(function () {
-  cn = new ChapterNumber({chapter: '1', verse: '1', el: '#app', foo: 'chapter' });
-  cn2 = new ChapterNumber({chapter: '1', verse: '1', el: '#app', foo: 'verse' });
+  cn = new TextView({chapter: '1', verse: '1', el: '#app', foo: 'chapter' });
+  cn2 = new TextView({chapter: '1', verse: '1', el: '#app', foo: 'verse' });
   
   // _dw move this into Commmentary Model
   
