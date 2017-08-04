@@ -13,7 +13,7 @@ var ChapterNumber = Backbone.View.extend({
   getTemplate: function () {
     var self = this;
     var template = this.foo;
-    $.get('../templates/' + template + '.html', function (data) {
+    $.get('/genesis/templates/' + template + '.html', function (data) {
       self.template = _.template(data);
       self.render();
     });
@@ -30,7 +30,7 @@ $(function () {
   
   // _dw move this into Commmentary Model
   
-  var base = "../md/chapters/"
+  var base = "/genesis/md/chapters/"
   var chapter = cn.chapter
   var verse = cn.verse
   var end = '/commentary.md'
@@ -43,7 +43,3 @@ $(function () {
     $('body').append(html);
   });
 });
-
-// pass in el
-// render
-// render with data
