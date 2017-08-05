@@ -1,7 +1,3 @@
-var BaseView = Backbone.View.extend({
-  
-});
-
 var TextView = Backbone.View.extend({
   
   initialize: function (options) {
@@ -11,7 +7,7 @@ var TextView = Backbone.View.extend({
     this.getTemplate();
   },
   
-  el: '#app',
+  el: '#text',
   
   template: 'populated on initialize',
   
@@ -38,7 +34,7 @@ var CommentaryView = Backbone.View.extend({
     this.getTemplate();
   },
   
-  el: '#app',
+  el: '#commentary',
   
   template: 'populated on initialize',
   

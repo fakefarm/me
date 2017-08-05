@@ -71,16 +71,16 @@
 
 /* COLORS */
 
---red:      rgb(240, 89, 102);
+/*--red:      rgb(240, 89, 102);
 --orange:   #feb061;
 --yellow:   rgb(232, 203, 7);
 --green:    rgb(61, 227, 129);
 --seagreen: rgb(12, 177, 113);
---blue:     rgb(36, 208, 246);
 --purple:   rgb(168, 70, 245);
 --gray:     rgb(75, 75, 75);
---stone:    rgb(240, 240, 244);
-
+--stone:    rgb(240, 240, 244);*/
+--green:    #00ffa2;
+--blue:     #004466;
 
 --col-width: 100%;
 --col-skinny: 0.3025;
