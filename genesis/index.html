@@ -14,7 +14,7 @@
       Each of these files is doing it's own responsibility and I want to manage them as such.
       Plus, I am willing to bet that my personal, static site is fast enough.
     -->
-    <link rel="stylesheet" href="./css/testing.css">
+    <!-- <link rel="stylesheet" href="./css/testing.css"> -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -22,14 +22,25 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/modules.css">
     <link rel="stylesheet" href="./css/app.css">
-    <style id='footer-ss'></style>
   </head>
 
   <body>
+    <nav>
+      <a href="/genesis/tests/index.html">View the test suite.</a>
+      <h1 class="h1">In the beginning God created the heavens and earth.</h1>
+      <h2 class="h2">Genesis 1:1</h2>
+    </nav>
+    <div id="app" class='layout app'>
+      <div id="commentary" class='article commentary'></div>
+      <div id="text" class='aside text'></div>
+    </div>
+    
+    
     <div class="scripts">
       <script src="./js/vendor/jquery.min.js"></script>
       <script src="./js/vendor/underscore.min.js"></script>
       <script src="./js/vendor/backbone.min.js"></script>
+      <script src="./js/vendor/showdown.min.js"></script>
       <script src="./js/app.js"></script>
       <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

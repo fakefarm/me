@@ -1,0 +1,14 @@
+classes:
+  ☐ Set
+
+methods:
+  ☐ group_by
+  ☐ each_cons
+
+questions:
+  ☐ how to use % for ruby string substitution
+  ☐ common questions https://stackoverflow.com/questions/tagged/ruby
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+  ✔ product @done(2017-08-04 17:14) @project(methods)

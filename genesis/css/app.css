@@ -1,0 +1,19 @@
+body {
+  background: #ffa6a6;
+}
+
+nav .h1  {
+  color: #f1e1de;
+}
+
+nav .h2  {
+  color: #d78992;
+}
+
+.app {
+  overflow: auto;
+  margin: var(--size-10);
+  padding: var(--size-2);
+  border-radius: 4px;
+  background: white;
+}
