@@ -4,3 +4,6 @@ mentors:
 
 common_questions:
   ☐ https://stackoverflow.com/questions/tagged/ruby-on-rails
+
+read:
+  ☐ http://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for-label-Resource-oriented+style
