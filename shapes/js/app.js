@@ -19,7 +19,7 @@ $(function () {
     $('.shape').css('top', value);
   });
   
-  $('.down-btn').on('dbclick', function () {
+  $('.down-btn').on('dblclick', function () {
     $top += $dblclick;
     var value = $top + 'px'
     $('.shape').css('top', value);
