@@ -33,3 +33,8 @@ body {
 .right {
   left: 1000px;
 }
+
+.actions {
+  margin: 1em auto;
+  width: 40%;
+}
