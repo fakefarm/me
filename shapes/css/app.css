@@ -1,0 +1,33 @@
+body {
+  background: var(--stone);
+}
+
+.layout {
+  background: var(--gray);
+  padding: 2em;
+}
+
+.shape {
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.square {
+  background: var(--orange);
+  height: 200px;
+  width: 200px;
+}
+
+.circle {
+  background: var(--blue);
+  border-radius: 180px;
+  height: 200px;
+  width: 200px;
+}
+
+.left {
+  left: 100px;
+}
+
+.right {
+  left: 1000px;
+}
