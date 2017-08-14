@@ -5,15 +5,10 @@
     <title>Dave Woodall | shapes</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="Shape shifting excercise using simple jquery and css" />
     <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
     <meta name="author" content="dave woodall wwwoodall fakefarm" />
-    <!--
-      Whoa.. look at all these HTTP calls!?
-      It's true... I'm calling 6 different stylesheets when I could (or should) be merging them.
-      Each of these files is doing it's own responsibility and I want to manage them as such.
-      Plus, I am willing to bet that my personal, static site is fast enough.
-    -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -25,18 +20,36 @@
   </head>
 
   <body>
-    <div class="layout">
-      <div class="shape circle left"></div>
+  <div class="layout">
+    <div class="aside">
+      
+      <h1 class='title'>
+        <span class='p'>the</span>
+        <span class="h4">trio</span>
+      </h1>
+      <div class="actions">
+        <h4 class="controls">controls</h4>
+        <label for="selecter">movement amount</label>
+        <select name="selecter" id="">
+          <option value="30">30px</option>
+          <option value="50">50px</option>
+        </select>
+        <button class='shape-btn'>shape me</button>
+        <button class='direction-btn up-btn'>up</button>
+        <button class='direction-btn down-btn'>down</button>
+        <button class='direction-btn left-btn'>left</button>
+        <button class='direction-btn right-btn'>right</button>
+        <ul>
+          <li>double click for extra speed.</li>
+        </ul>
+      </div>
     </div>
-    <div class="actions">
-    <button class='shape-btn'>shape me</button>
-    <button class='direction-btn up-btn'>up</button>
-    <button class='direction-btn down-btn'>down</button>
-    <button class='direction-btn left-btn'>left</button>
-    <button class='direction-btn right-btn'>right</button>
-    <ul>
-      <li>double click for extra speed.</li>
-    </ul>
+      <div class="article content">
+        <div class="box">
+          <div class="shape circle left"></div>
+        </div>
+        <p class="p description">HTML, CSS, and JavaScript do amazing things and as such, I am trying to develop a better mindset of how the three interact. HTML holds DOM events that can be identified by classes. Classes can also be considered as actions to apply to HTML. JavaScript is how the two are wired together so that the pages come alive.</p>
+      </div>
     </div>
     <div class="scripts">
       <script src="./js/vendor/jquery.min.js"></script>

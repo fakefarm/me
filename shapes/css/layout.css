@@ -17,7 +17,7 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
   .layout > * {
     margin:  calc(var(--space-root) * var(--space-3)) 0;
     padding: calc(var(--space-root) * var(--space-3)) 0;
@@ -25,11 +25,11 @@
 
   .layout .article {
     width:   calc(var(--col-two-thirds) * var(--col-width));
-    float: left;
+    float: right;
   }
 
   .layout .aside {
-    float: right;
+    float: left;
     width:   calc(var(--col-third) * var(--col-width));
   }
 }

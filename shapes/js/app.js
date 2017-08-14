@@ -14,7 +14,7 @@ $(function () {
   });
   
   $('.down-btn').on('click', function () {
-    $top += $amount;
+    $top += $amount;;
     var value = $top + 'px'
     $('.shape').css('top', value);
   });

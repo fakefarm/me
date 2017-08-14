@@ -17,7 +17,7 @@
 --font-size-h4: calc(var(--size-12) * var(--root-font-size));
 --font-size-h5: calc(var(--size-10) * var(--root-font-size));
 --font-size-h6: calc(var(--size-8)  * var(--root-font-size));
---font-size-p:  calc(var(--size-1)  * var(--root-font-size));
+--font-size-p:  calc(var(--size-4)  * var(--root-font-size));
 
 /* SIZES */
 
