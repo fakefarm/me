@@ -13,6 +13,7 @@ Active Record gives us several mechanisms, the most important being the ability 
 - Validate models before they get persisted to the database.
 - Perform database operations in an object-oriented fashion.
 
+Another advantage to using Active Record is that in a Ruby framework which manages more than data, your data is nicely formatted for other responsibilities, like being transported in a Rails Controller or an ERB view.
 
 ## additional column features
 

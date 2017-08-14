@@ -1,3 +1,5 @@
+# Layouts and Rendering in Rails
+
 ## render_to_string
 
 If you want to see the exact results of a call to render without needing to inspect it in a browser, you can call render_to_string. This method takes exactly the same options as render, but it returns a string instead of sending a response back to the browser.
