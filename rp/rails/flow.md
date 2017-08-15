@@ -20,3 +20,27 @@
 puts "Seeding '#{Rails.env}'"
 require_relative "seeds/#{Rails.env}"
 ```
+
+Add pundit
+
+Springify rspec binstub
+
+Add rspec
+
+Use structure schema format
+
+Add guard rspec
+
+Add guard binstub
+
+Add guard
+
+Add pundit
+
+Lock ruby
+
+Add env seeds
+
+Add factory girl and faker
+
+Rails new

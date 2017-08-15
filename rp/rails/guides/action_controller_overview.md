@@ -98,3 +98,7 @@ The `response` object is not usually used directly, but is built up during the e
 - content_type
 - charset
 - header
+
+## TODO
+
+Read up on [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
