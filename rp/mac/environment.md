@@ -2,7 +2,7 @@
 
 http://hints.macworld.com/article.php?story=20090823193018149
 
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain KeyRepeat -int 4
 
 
 ## Removed extra tabs from application switcher
