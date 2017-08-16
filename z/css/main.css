@@ -109,45 +109,6 @@ body {
   bottom: 0;
 }
 
-.view-source h2 {
-  color: rgb(16, 111, 64);
-  font-weight: 100;
-  font-size: 2em;
-  padding-top: 200px;
-  padding-left: 50px;
-}
-
-@media only screen and (min-width: 500px) {
-  .view-source h2 {
-    font-size: 5em;
-    padding-top: 400px;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .view-source h2 {
-    font-size: 8em;
-    margin-top: 40px;
-    padding-top: 0px;
-    padding-left: 350px;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .view-source h2 {
-    font-size: 15em;
-    padding-left: 500px;
-  }
-}
-
-.notes-image img:hover + .view-source,
-.notes-image img:focus + .view-source {
-  transition: all 250ms ease;
-  opacity: 1;
-  z-index: 10;
-}
-
-
 .header .p {
   font-size: 1.25em;
 }
