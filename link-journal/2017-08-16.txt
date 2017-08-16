@@ -1,0 +1,45 @@
+# Looking at these open source projects that keep collections of repos. I wonder if I'd start my own version of open source tracking. I like awesome ruby and open source rails. Could I do my own? Some kind of mashup between starring github projects and categorizing them?
+
+
+
+Awesome Ruby
+http://awesome-ruby.com/
+
+Open Source Rails
+http://www.opensourcerails.com/
+
+Shipit - Deployment coordination app from Shopify · Issue #212 · opensourcerails/opensourcerails
+https://github.com/opensourcerails/opensourcerails/issues/212
+
+Getting Started | GitHub Developer Guide
+https://developer.github.com/v3/guides/getting-started/
+
+Starring | GitHub Developer Guide
+https://developer.github.com/v3/activity/starring/
+
+Commits | GitHub Developer Guide
+https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository
+
+github api get language - Google Search
+https://www.google.com/search?q=github+api+get+language&oq=github+api+get+language&aqs=chrome..69i57j0j69i64.6232j0j4&sourceid=chrome&ie=UTF-8
+
+Repositories | GitHub Developer Guide
+https://developer.github.com/v3/repos/#list-languages
+
+jashkenas/backbone: Give your JS App some Backbone with Models, Views, Collections, and Events
+https://github.com/jashkenas/backbone
+
+github api user starred - Google Search
+https://www.google.com/search?q=github+api+user+starred&oq=github+api+user+starred&aqs=chrome..69i57j69i64.4990j0j4&sourceid=chrome&ie=UTF-8
+
+Starring | GitHub Developer Guide
+https://developer.github.com/v3/activity/starring/#check-if-you-are-starring-a-repository
+
+github api user last starred - Google Search
+https://www.google.com/search?q=github+api+user+last+starred&oq=github+api+user+last+starred&aqs=chrome..69i57j69i64.9871j0j4&sourceid=chrome&ie=UTF-8
+
+How to get list of trending github repositories by github api? - Stack Overflow
+https://stackoverflow.com/questions/30525330/how-to-get-list-of-trending-github-repositories-by-github-api
+
+GitHub API v3 | GitHub Developer Guide
+https://developer.github.com/v3/
