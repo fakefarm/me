@@ -18,3 +18,5 @@ It is on the 7th day. But when is the 7th day? The Gregorian calendar is a stati
 > - Genesis 1:14
 
 Further, the 7th day (Saturday) is named after the god of Saturn, Saturn's day.  The Gregorian calendar is [7 days of pagan gods](https://www.crowl.org/Lawrence/time/days.html). How can we be sure a line up of pagan deities follows the sabbath?
+
+> And I will put an end to all her mirth, her feasts, her new moons, her Sabbaths, and all her appointed feasts. Hosea 2:11 ESV
