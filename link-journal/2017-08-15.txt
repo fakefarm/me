@@ -1,3 +1,4 @@
+## backbone
 Anatomy of Backbone.js Part 2 | Code School
 https://www.codeschool.com/courses/anatomy-of-backbone-js-part-2
 
@@ -12,6 +13,8 @@ http://www.codemag.com/Article/1312061
 
 Testing Backbone applications with Jasmine and Sinon – Part 1: Introduction
 https://tinnedfruit.com/articles/testing-backbone-apps-with-jasmine-sinon.html
+
+## open source
 
 The Ruby Toolbox - Know your options!
 https://www.ruby-toolbox.com/
@@ -28,8 +31,7 @@ https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/
 Tree Traversal | jQuery API Documentation
 https://api.jquery.com/category/traversing/tree-traversal/
 
-ESV Bible Web Service API (Version 2)
-http://www.esvapi.org/api/
+## rails jobs
 
 Reddit for Ruby on Rails enthusiasts
 https://www.reddit.com/r/rails/
@@ -37,7 +39,7 @@ https://www.reddit.com/r/rails/
 Remote Jobs: Design, Programming, Rails, Executive, Marketing, Copywriting, and more.
 https://weworkremotely.com/
 
-Sticker Mule: Senior fullstack engineer
+we work remotely
 https://weworkremotely.com
 
 Jobs for Ruby on Rails developers
@@ -49,11 +51,15 @@ https://www.rorjobs.com/jobs
 RubyNow: Ruby Jobs | Niche Ruby on Rails Jobs Board
 https://jobs.rubynow.com/
 
+## SQL
+
 EXPLAIN QUERY PLAN
 http://www.sqlite.org/eqp.html
 
 MySQL :: MySQL 5.7 Reference Manual :: 8.8.2 EXPLAIN Output Format
 https://dev.mysql.com/doc/refman/5.7/en/explain-output.html
+
+## w3
 
 www-style@w3.org Mail Archives
 https://lists.w3.org/Archives/Public/www-style/
@@ -72,6 +78,8 @@ https://www.w3.org/WoT/WG/
 
 HTML 5.2
 https://www.w3.org/TR/html52/?utm_source=frontendfocus&utm_medium=email
+
+## css
 
 Resolving CSS Gridlock · Matthias Ott – User Experience Designer
 https://matthiasott.com/articles/resolving-css-gridlock?utm_source=frontendfocus&utm_medium=email

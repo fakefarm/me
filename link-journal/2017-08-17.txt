@@ -1,0 +1,51 @@
+## RSPEC
+
+rspec/rspec-rails: RSpec for Rails-3+
+https://github.com/rspec/rspec-rails
+
+Feature spec - Feature specs - RSpec Rails - RSpec - Relish
+https://relishapp.com/rspec/rspec-rails/v/3-6/docs/feature-specs/feature-spec
+
+rspec/rspec-mocks: RSpec's 'test double' framework, with support for stubbing and mocking
+https://github.com/rspec/rspec-mocks
+
+rspec/rspec-expectations: Provides a readable API to express expected outcomes of a code example
+https://github.com/rspec/rspec-expectations
+
+rspec/rspec-core: RSpec runner and formatters
+https://github.com/rspec/rspec-core
+
+Designing Code with RSpec - via @codeship | via @codeship
+https://blog.codeship.com/rspec-designing-code/
+
+Using RSpec Stub and Mock - via @codeship | via @codeship
+https://blog.codeship.com/rspec-stub-and-mock/
+
+Learn the First Best Practices for Rails and RSpec — SitePoint
+https://www.sitepoint.com/learn-the-first-best-practices-for-rails-and-rspec/
+
+Testing Rails 4 Apps With RSpec 3: Part I - Web Ascender
+https://www.webascender.com/blog/testing-rails-4-apps-rspec-3-part/
+
+Setting Up RSpec And Capybara In Rails 5 For Testing - Custom Web & Mobile Development Company | DevMynd
+https://www.devmynd.com/blog/setting-up-rspec-and-capybara-in-rails-5-for-testing/
+
+Setup Rails 4.1, Spring, Rspec, and Guard - Girders
+http://girders.org/blog/2014/02/06/setup-rails-41-spring-rspec-and-guard/
+
+## RAILS API
+
+ActionDispatch::Request
+http://api.rubyonrails.org/v5.1/classes/ActionDispatch/Request.html
+
+ActionDispatch::Cookies
+http://api.rubyonrails.org/v5.1/classes/ActionDispatch/Cookies.html
+
+ActionDispatch::Flash::FlashHash
+http://api.rubyonrails.org/v5.1/classes/ActionDispatch/Flash/FlashHash.html
+
+ActionDispatch::Flash
+http://api.rubyonrails.org/v5.1/classes/ActionDispatch/Flash.html
+
+Ruby on Rails API
+http://api.rubyonrails.org/

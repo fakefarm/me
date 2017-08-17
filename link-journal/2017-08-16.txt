@@ -1,6 +1,6 @@
 # Looking at these open source projects that keep collections of repos. I wonder if I'd start my own version of open source tracking. I like awesome ruby and open source rails. Could I do my own? Some kind of mashup between starring github projects and categorizing them?
 
-
+## OPEN SOURCE
 
 Awesome Ruby
 http://awesome-ruby.com/
@@ -11,6 +11,7 @@ http://www.opensourcerails.com/
 Shipit - Deployment coordination app from Shopify · Issue #212 · opensourcerails/opensourcerails
 https://github.com/opensourcerails/opensourcerails/issues/212
 
+## Github developer guide
 Getting Started | GitHub Developer Guide
 https://developer.github.com/v3/guides/getting-started/
 
@@ -26,11 +27,6 @@ https://www.google.com/search?q=github+api+get+language&oq=github+api+get+langua
 Repositories | GitHub Developer Guide
 https://developer.github.com/v3/repos/#list-languages
 
-jashkenas/backbone: Give your JS App some Backbone with Models, Views, Collections, and Events
-https://github.com/jashkenas/backbone
-
-github api user starred - Google Search
-https://www.google.com/search?q=github+api+user+starred&oq=github+api+user+starred&aqs=chrome..69i57j69i64.4990j0j4&sourceid=chrome&ie=UTF-8
 
 Starring | GitHub Developer Guide
 https://developer.github.com/v3/activity/starring/#check-if-you-are-starring-a-repository
@@ -43,3 +39,37 @@ https://stackoverflow.com/questions/30525330/how-to-get-list-of-trending-github-
 
 GitHub API v3 | GitHub Developer Guide
 https://developer.github.com/v3/
+
+## javascript
+
+Video: Douglas Crockford, "Advanced JavaScript"
+https://yuiblog.com/blog/2006/11/27/video-crockford-advjs/
+
+## backbone
+
+Backbone.js Wine Cellar Tutorial — Part 1: Getting Started | Christophe Coenraets
+http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/
+
+What is a collection? - backbone.js tutorials - cdnjs.com
+https://cdnjs.com/libraries/backbone.js/tutorials/what-is-a-collection
+
+The Responsibilities Of The Various Pieces Of Backbone.js | ThoughtStream.new :derick_bailey
+https://lostechies.com/derickbailey/2011/12/27/the-responsibilities-of-the-various-pieces-of-backbone-js/
+
+3 Stages Of A Backbone Application’s Startup | ThoughtStream.new :derick_bailey
+https://lostechies.com/derickbailey/2012/02/06/3-stages-of-a-backbone-applications-startup/
+
+Backbone.js Wine Cellar Tutorial — Part 2: CRUD | Christophe Coenraets
+http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-2-crud/
+
+Backbone.js Lessons Learned and Improved Sample App | Christophe Coenraets
+http://coenraets.org/blog/2012/01/backbone-js-lessons-learned-and-improved-sample-app/
+
+References, Routing, And The Event Aggregator: Coordinating Views In Backbone.js | ThoughtStream.new :derick_bailey
+https://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/
+
+Revisiting The Backbone Event Aggregator: Lessons Learned | ThoughtStream.new :derick_bailey
+https://lostechies.com/derickbailey/2012/04/03/revisiting-the-backbone-event-aggregator-lessons-learned/
+
+Zombies! RUN! (Managing Page Transitions In Backbone Apps) | ThoughtStream.new :derick_bailey
+https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/
