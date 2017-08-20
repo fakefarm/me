@@ -11,21 +11,38 @@ Write a test that a note can only be one of the note types
 
 rails g scaffold detail title completed:boolean date_completed:datetime type:string user:references
 
+```
+  models = %w(
+    productDetail
+    projectDetail
+    taskDetail
+    noteDetail
+  )
 
-models = %w(
-  productDetail
-  projectDetail
-  taskDetail
-  noteDetail
-)
-
-models.each do |note_model|
- `rails generate model "#{note_model}" --parent=Detail`
-end
-
+  models.each do |note_model|
+   `rails generate model "#{note_model}" --parent=Detail`
+  end
+```
 
 ## activity - STI
 maybe it doesn't need to be an STI. Maybe it's just a new entry with some kind of comment about what the activity is?
+
+## standup
+review of yeterdays activity
+
+## wishlist
+list of items outstanding to try to get done today. keep track of times an item gets 'wishlisted' but not completed.
+
+## project status
+- backlog
+- in progress
+- blocked
+- completed
+
+## sessions
+- login / out
+
+## UI
 
 
 -------- DONE -------------
