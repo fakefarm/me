@@ -1,0 +1,17 @@
+body {
+  background: seagreen;
+}
+
+#container {
+  width: 100px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background: red;
+}
+
+#grid {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: blue;
+}

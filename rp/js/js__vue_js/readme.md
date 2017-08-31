@@ -1,3 +1,0 @@
-# screencasts
-- pluralsite
-- udemy

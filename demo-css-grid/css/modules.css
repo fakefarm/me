@@ -1,0 +1,27 @@
+
+
+@media only screen and (min-width: 200px) {
+
+}
+
+@media only screen and (min-width: 400px) {
+  .card-simple-3 {
+    max-width: calc(var(--col-skinny) * var(--col-width));
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

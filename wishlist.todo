@@ -1,0 +1,69 @@
+Backbone:
+  ☐ counter
+  ☐ product picker (like bill v ted)
+  ☐ Standup using localstorage
+
+Site:
+  Update footer with style
+  Update template
+
+Pet projects:
+  ☐ complex nav
+  ☐ closure function homework
+  ☐ js-ninja notes - closures
+  ☐ build hangon
+  ☐ create a consistent nav bar
+  ☐ content shows based on timer
+  ☐ combine smooth transitions and animations
+  ☐ angular material design
+  ☐ bring over www js notes
+  ☐ finish requirejs
+  ☐ create a header for projects
+  ☐ separation of ideas of the DOM(unseen) and what the Viewer sees and use JS/behavior to interact b/n the two.
+  ☐ mouse position
+  ☐ window position
+  ☐ off camera
+  ☐ basic and complex modals
+  ☐ sounds
+  ☐ Do a task control panel with key press of the following - [c]omplete, [s]nooze, [b]locked, [t]rash, [t]ag, co[m]ment, [n]ew, st[a]ndup, [e]xtend
+
+blog:
+ ☐ update callables notes. @blog
+ ☐ summarize thoughts about javascript @blog
+
+site admin:
+  ☐ update tile.png and other icons
+  ☐ update readme
+
+options for now:
+  ☐ template.html
+  ☐ style homepage
+  ☐ style cognitive dissonance
+  ☐ analytics
+
+wishlist:
+  ☐ dateTime posted when pages are last updated
+  ☐
+
+posts:
+  ☐ mobile styling on First Issue
+
+admin:
+  ☐ update meta tags
+
+code:
+  ☐ figure out index automation solution
+  ☐ convert markdown to html boilerplate
+
+content:
+  ☐ bring in dropbox text to this repo
+  ☐ bring in backpack text
+
+magazine:
+  ☐ genesis
+  ☐ minor prophets
+  ☐ bible music
+  ☐ facetime
+  ☐ animores
+  ☐ feather
+  ☐ time to draw

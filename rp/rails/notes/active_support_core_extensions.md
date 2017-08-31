@@ -6,7 +6,7 @@ Active Support is a collection of helpful methods to Ruby. It is overwhelming an
 
 [x] All Objects
 [x] Module
-[ ] Class
+[x] Class
 [ ] String
 [ ] Numeric
 [ ] Integer
@@ -51,9 +51,11 @@ The method present? is equivalent to !blank?.
 ### try
 
 ## Scenario 4 - when would I use class eval?
+
 ### class_eval(\*args, &block)
 
 ## Scenario 5 - type checking?
+
 ### acts_like?(duck)
 
 ## Scenario 6 - using pretty params
@@ -180,3 +182,7 @@ class User < ApplicationRecord
   delegate_missing_to :profile
 end
 ```
+
+## Scenario 12 - checking inheritance
+
+Use `decendants` and `subclasses` to see what classes are attached.

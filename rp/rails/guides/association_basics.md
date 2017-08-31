@@ -139,6 +139,8 @@ class CreateSuppliers < ActiveRecord::Migration[5.0]
       t.timestamps
     end
 
+it { is_expected.to allow_values(some_valid_values)}
+
     create_table :accounts do |t|
       t.belongs_to :supplier, index: true
       t.string :account_number
