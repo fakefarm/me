@@ -5,3 +5,5 @@
 [minitest cookbook]
 
 [everyday rails]
+
+[rails 4 test prescriptions]
