@@ -264,6 +264,12 @@ Include Pundit in your application controller with two `after_actions` that will
   end
 ```
 
+#### Using pundit
+
+Pundit has it's own installer. But the easiest thing to do is just follow the chain from `rails` and see what's available since it's okay to forget. But here's an example;
+
+`rails g pundit:policy post`
+
 
 ### Use structure.sql
 
