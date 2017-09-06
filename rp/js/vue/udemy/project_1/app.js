@@ -1,5 +1,4 @@
 new Vue({
-  v: this,
   el: '#exercise',
   data: {
     name: 'Dave',

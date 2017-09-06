@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dave Woodall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Everything begins with the creator" />
+    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <script src='vue.js'></script>
+  </head>
+  <body>
+    <div id="exercise">
+      <!-- 1) Show an alert when the Button gets clicked -->
+      <div>
+          <button @click='boom'>Show Alert</button>
+      </div>
+      <!-- 2) Listen to the "keydown" event and store the value in a data property (hint: event.target.value gives you the value) -->
+      <div>
+          <input type="text" @keydown='input1 = $event.target.value'>
+          <p>{{ input1 }}</p>
+      </div>
+      <!-- 3) Adjust the example from 2) to only fire if the "key down" is the ENTER key -->
+      <div>
+          <input type="text" @keydown.enter='myValue'>
+          <p>{{ input1 }}</p>
+      </div>
+  </div>
+  <script src='app.js'></script>
+  </body>
+</html>

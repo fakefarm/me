@@ -50,6 +50,10 @@ v-bind:[attribute]="[property/function]"
 
     v-on:[default_event]='[function]'
 
+#### shorthand
+@click is same as v-on:click=
+@keydown is same as v-on:keydown
+
 ### v-html
 
     v-html="[property/function]"

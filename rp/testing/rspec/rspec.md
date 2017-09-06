@@ -23,3 +23,26 @@ I'm going to go through each of these in order to provide an centralized study o
 # Rspec-mock
 - double()
 - receive()
+
+## Current resources
+
+mock with rspec - Mock framework integration - RSpec Core - RSpec - Relish
+https://relishapp.com/rspec/rspec-core/v/3-6/docs/mock-framework-integration/mock-with-rspec
+
+rspec/rspec-core: RSpec runner and formatters
+https://github.com/rspec/rspec-core#aliases
+
+rspec/rspec-expectations: Provides a readable API to express expected outcomes of a code example
+https://github.com/rspec/rspec-expectations
+
+rspec/rspec-mocks: RSpec's 'test double' framework, with support for stubbing and mocking
+https://github.com/rspec/rspec-mocks
+
+Home · pry/pry Wiki
+https://github.com/pry/pry/wiki
+
+Source browsing · pry/pry Wiki
+https://github.com/pry/pry/wiki/Source-browsing
+
+teamcapybara/capybara: Acceptance test framework for web applications
+https://github.com/teamcapybara/capybara

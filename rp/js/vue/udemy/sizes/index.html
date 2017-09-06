@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dave Woodall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Everything begins with the creator" />
+    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <link rel="stylesheet" href="styles.css">
+    <script src='vue.js'></script>
+  </head>
+  <body>
+    <div id="app">
+      <section class="sizeUp">
+        <h1>Size up</h1>
+        <p>Total based on sizes</p>
+        <div class="form__size">
+          <span>Small:</span>
+          <input type="text" v-model='small'>
+        </div>
+        <div class="form__size">
+          <span>Medium:</span>
+          <input type="text" v-model='medium'>
+        </div>
+        <div class="preview__total">total: {{ total() }}</div>
+      </section>
+      <section class="sizeDown">
+        <h1>Size Down</h1>
+        <p>sizes based on total</p>
+        <div class="form__qty">
+          <span>Total quantity:</span>
+          <input type="text" v-model='qty'>
+          <select name="" id="">
+            <option value="1">Even Split 33/33/33</option>
+            <option value="2">Youth 70/30</option>
+            <option value="3">Big People 30/70</option>
+            <option value="4">Music merchandise 70/30</option>
+            <option value="4">Bell Curve 25/50/25</option>
+          </select>
+        </div>
+        <div class="preview__size_breakdown">
+          <h2>Summary: 50/50 split</h2>
+          <div class="size">Small: {{ calculated }}
+            <input type="text" v-model='small'>
+          </div>
+          <div class="size">Medium: {{ calculated }}
+            <input type="text" v-model='medium'>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src='app.js'></script>
+  </body>
+</html>
