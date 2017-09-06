@@ -1,12 +1,41 @@
+body {
+  background: #eee;
+  font-size: 2em;
+  font-family: helvetica;
+  font-weight: 200;
+}
+h1, h2, h3 {
+  font-weight: 200;
+  margin: 0.25em 0;
+  padding: 0;
+}
+
+input {
+  background: #eee;
+  padding: 0.5em;
+  font-size: 1em;
+  border: none;
+  margin: 0.25em 0;
+}
 section {
-  border: 1px solid #eee;
+  border: 1px solid #aaa;
+  background: white;
   margin: 2em;
+  margin-bottom: 10em;
   padding: 1em;
   overflow: auto;
 }
 
-aside {
+.adjustments {
+  float: left;
+  width: 55%;
+  border-right: 2px solid #eee;
+}
+.helpers {
   float: right;
+  width: 40%;
+}
+aside {
   background: #eee;
   margin: 1em;
   padding: 0.5em;
