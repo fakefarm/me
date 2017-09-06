@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dave Woodall</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Everything begins with the creator" />
+    <meta name="keywords" content="dave woodall boulder web developer coder wwwoodall fake farm leavelist fakefarm" />
+    <meta name="author" content="dave woodall wwwoodall fakefarm" />
+    <link rel="stylesheet" href="styles.css">
+    <script src='vue.js'></script>
+  </head>
+  <body>
+    <div id="exercise">
+  <!-- 1) Start the Effect with the Button. The Effect should alternate the "highlight" or "shrink" class on each new setInterval tick (attach respective class to the div with id "effect" below) -->
+      <div>
+        <button @click="startEffect">Start Effect</button>
+        <div id="effect" :class='effect'></div>
+      </div>
+      <!-- 2) Create a couple of CSS classes and attach them via the array syntax -->
+      <div :class="['font', 'backg', { 'font-size': effect } ]">I got no class :(</div>
+      <!-- 3) Let the user enter a class (create some example classes) and attach it -->
+      <div>
+        <input type="text" v-model='classy'>
+        <div class='ex3' :class='classy'></div>
+      </div>
+      <!-- 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes -->
+      <div>
+        <input type="text" v-model='classy'>
+        <input type="checkbox" v-model='bool'>
+        <div class='ex3' :class="booleanBox()">{{ classy }} {{ bool }}</div>
+      </div>
+      <!-- 5) Repeat 3) but now with values for styles (instead of class names). Attach the respective styles.  -->
+      <h3>Ex. 5</h3>
+      <div>
+        <input type="text" v-model='square'>
+        <div class='blue ex5' :style="{height: square + 'px', width: square + 'px' }"></div>
+      </div>
+
+      <h3>Ex. 5.2</h3>
+      <div>
+        <input type="text" v-model='property' placeholder='prop'>
+        <input type="text" v-model='value' placeholder='value'>
+        <input type="checkbox" v-model='bool'>
+        <div class='ex52' :style="setStyle()">welcome to my box</div>
+      </div>
+
+      <h3>Ex. 5.3</h3>
+      <div>
+        <textarea v-model='textStyles' placeholder='enter styles here'></textarea>
+        <div class='ex53' :style="textStyler()">Here is some starter text {{ textStyles }}</div>
+      </div>
+      <!-- 6) Create a simple progress bar with setInterval and style bindings. Start it by hitting the below button. -->
+      <div>
+        <button v-on:click="startProgress">Start Progress</button>
+        <div class='progress'>
+          <div class="bar" :style="{ width: width + 'px' }"></div>
+        </div>
+      </div>
+    </div>
+    <script src='app.js'></script>
+  </body>
+</html>

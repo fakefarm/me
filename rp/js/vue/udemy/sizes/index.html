@@ -14,63 +14,76 @@
   <body>
     <div id="app">
       <h1>Size Down</h1>
-      <section class="step1">
-        <h2>Enter Your Quantity: <input type="text" v-model='start_qty' placeholder='ex. 100'></h2>
-        <p>Or, use a popular order quantity:
-        <select name="" id="">
-          <option value="">36</option>
-          <option value="">72</option>
-          <option value="">144</option>
-          <option value="">288</option>
-        </select>
-      </p>
-        <h2>Quantity: {{ start_qty }}</h2>
-        <span>next up, <a href="">View recommended sizes</a></span>
-      </section>
-      <section class="step2">
-        <h2>Size Split of {{ start_qty }}.</h2>
-        <select name="" id="">
-          <option value="">Bell Curve (recommended)</option>
-          <option value="">Band Merch</option>
-          <option value="">Volunteers</option>
-          <option value="">Even</option>
-        </select>
-        <button>upload xls</button>
-        <div class="size">S: {{ calculated_small()}}</div>
-        <div class="size">M: {{ calculated_med()}}</div>
-        <div class="size">L: {{ calculated_large()}}</div>
-        <a href="">adjustment sizes</a> |
-        <a href="">finalize</a>
-      </section>
-      <section class="step3">
-        <div class="adjustments">
-          <h2>Adjust Quantity</h2>
-          <div class="size">S: <input type="text" v-bind:placeholder="small" v-model='small_adjusted'></div>
-          <div class="size">M: <input type="text" v-bind:placeholder="medium" v-model='med_adjusted'></div>
-          <div class="size">L: <input type="text" v-bind:placeholder="large" v-model='lrg_adjusted'></div>
-          <h3>Total: {{ new_qty() }}</h3>
-        </div>
-        <div class="helpers">
-          <aside class="math_helper">
-            <h2>FYI...{{ new_qty() - start_qty }}</h2>
-            <p>You are
-              <span>{{ new_qty() - start_qty > 0 ? 'over' : 'under' }}</span> your original quote by {{ new_qty() - start_qty }}
-            </p>
-          </aside>
-          <aside class="price_break_helper">
-            <h3>{{ new_qty() * 0.2 }} away from next price break </h3>
-          </aside>
-        </div>
-        <a href="">Confirm</a>
-      </section>
-      <section class="step4">
-        <h3>Confirm: {{ confirm_size_total }}</h3>
-        <div class="size">S: {{ final_small }}</div>
-        <div class="size">M: {{ final_med }}</div>
-        <div class="size">L: {{ final_lrg }}</div>
-        <span>Sizes are accurate: <input type="checkbox"></span>
-        <button>Submit</button>
-      </section>
+      <template v-if="step.one">
+        <section class="step1">
+          <h2>Enter Your Quantity: <input type="text" v-model='start_qty' placeholder='ex. 100'></h2>
+          <p>Or, use a popular order quantity:
+          <select @change="popularQty" name="" id="">
+            <option v-for="(qty, i) in popular_quantities" :value="i">{{qty}}</option>
+          </select>
+        </p>
+          <h2>Quantity: {{ start_qty }}</h2>
+          <div class="next" v-if='start_qty > 0' :class="{ boom : start_qty > 0}">
+            <span>next up, <a @click.stop.prevent="stepTwo" href="">View recommended sizes</a></span>
+          </div>
+        </section>
+      </template>
+      <template v-if="step.two">
+        <section class="step2">
+          <h2>Size split of <input type="text" v-model='start_qty'></h2>
+          <select @change="sizeSplit" name="" id="">
+            <option v-for="(size, i) in sizeSplits" :value='i'>{{ size.name }}</option>
+          </select>
+          <template v-if="adjusted_sizes.sizes">
+          <div class="sizes">
+            <div class="size" v-for="(v,k) in adjusted_sizes.sizes">
+              {{ k }}: {{ proportionSize(v) }}
+            </div>
+            <a href="">edit sizes</a>
+          </div>
+            <h3>Comments</h3>
+            <i class="size_description">
+              {{ adjusted_sizes.description }}
+            </i>
+            <hr>
+            <a href="">finalize</a>
+          </template>
+        </section>
+      </template>
+
+      <template v-if="step.three">
+        <section class="step3">
+          <div class="adjustments">
+            <h2>Adjust Quantity</h2>
+            <div class="size">S: <input type="text" v-bind:placeholder="small" v-model='small_adjusted'></div>
+            <div class="size">M: <input type="text" v-bind:placeholder="medium" v-model='med_adjusted'></div>
+            <div class="size">L: <input type="text" v-bind:placeholder="large" v-model='lrg_adjusted'></div>
+            <h3>Total: {{ new_qty() }}</h3>
+          </div>
+          <div class="helpers">
+            <aside class="math_helper">
+              <h2>FYI...{{ new_qty() - start_qty }}</h2>
+              <p>You are
+                <span>{{ new_qty() - start_qty > 0 ? 'over' : 'under' }}</span> your original quote by {{ new_qty() - start_qty }}
+              </p>
+            </aside>
+            <aside class="price_break_helper">
+              <h3>{{ new_qty() * 0.2 }} away from next price break </h3>
+            </aside>
+          </div>
+          <a href="">Confirm</a>
+        </section>
+      </template>
+      <template v-if="step.four">
+        <section class="step4">
+          <h3>Confirm: {{ confirm_size_total }}</h3>
+          <div class="size">S: {{ final_small }}</div>
+          <div class="size">M: {{ final_med }}</div>
+          <div class="size">L: {{ final_lrg }}</div>
+          <span>Sizes are accurate: <input type="checkbox"></span>
+          <button>Submit</button>
+        </section>
+      </template>
     </div>
     <script src='app.js'></script>
   </body>

@@ -1,6 +1,6 @@
 body {
   background: #eee;
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: helvetica;
   font-weight: 200;
 }
@@ -21,7 +21,6 @@ section {
   border: 1px solid #aaa;
   background: white;
   margin: 2em;
-  margin-bottom: 10em;
   padding: 1em;
   overflow: auto;
 }
@@ -39,4 +38,11 @@ aside {
   background: #eee;
   margin: 1em;
   padding: 0.5em;
+}
+
+.sizes {
+  border: 1px solid #eee;
+  padding: 0.5em;
+  margin: 0.25em;
+  border-radius: 5px;
 }
