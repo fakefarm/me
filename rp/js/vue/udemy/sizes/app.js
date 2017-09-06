@@ -1,26 +1,20 @@
 new Vue({
   el: '#app',
   data: {
+    start_qty: '',
     small: '',
     medium: '',
-    qty: ''
-  },
-  computed: {
-    calculated: function () {
-      this.small = this.qty / 2
-      this.medium = this.qty / 2 
-      return this.qty / 2
-    }
+    large: ''
   },
   methods: {
-    total: function () {
-      if(this.small > 0 && this.medium > 0) {
-        var total =
-        parseInt(this.small) + parseInt(this.medium);
-        return total;
-      } else {
-        ''
-      }
-    }
+    calculated_small: function() {
+      return this.start_qty / 3
+    },
+    calculated_med: function() {
+      return this.start_qty / 3
+    },
+    calculated_large: function() {
+      return this.start_qty / 3
+    },
   }
 })

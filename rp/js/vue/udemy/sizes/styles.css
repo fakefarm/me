@@ -1,0 +1,13 @@
+section {
+  border: 1px solid #eee;
+  margin: 2em;
+  padding: 1em;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  background: #eee;
+  margin: 1em;
+  padding: 0.5em;
+}

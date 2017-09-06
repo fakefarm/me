@@ -13,42 +13,58 @@
   </head>
   <body>
     <div id="app">
-      <section class="sizeUp">
-        <h1>Size up</h1>
-        <p>Total based on sizes</p>
-        <div class="form__size">
-          <span>Small:</span>
-          <input type="text" v-model='small'>
-        </div>
-        <div class="form__size">
-          <span>Medium:</span>
-          <input type="text" v-model='medium'>
-        </div>
-        <div class="preview__total">total: {{ total() }}</div>
+      <h1>Size Down</h1>
+      <section class="step1">
+        <h2>Enter Your Quantity: <input type="text" v-model='start_qty' placeholder='ex. 100'></h2>
+        <h2>Or, use a popular order quantity:
+        <select name="" id="">
+          <option value="">36</option>
+          <option value="">72</option>
+          <option value="">144</option>
+          <option value="">288</option>
+        </select>
+        </h2>
+        <h2>Quantity: {{ start_qty }}</h2>
+        <span>next up, <a href="">View recommended sizes</a></span>
       </section>
-      <section class="sizeDown">
-        <h1>Size Down</h1>
-        <p>sizes based on total</p>
-        <div class="form__qty">
-          <span>Total quantity:</span>
-          <input type="text" v-model='qty'>
-          <select name="" id="">
-            <option value="1">Even Split 33/33/33</option>
-            <option value="2">Youth 70/30</option>
-            <option value="3">Big People 30/70</option>
-            <option value="4">Music merchandise 70/30</option>
-            <option value="4">Bell Curve 25/50/25</option>
-          </select>
-        </div>
-        <div class="preview__size_breakdown">
-          <h2>Summary: 50/50 split</h2>
-          <div class="size">Small: {{ calculated }}
-            <input type="text" v-model='small'>
-          </div>
-          <div class="size">Medium: {{ calculated }}
-            <input type="text" v-model='medium'>
-          </div>
-        </div>
+      <section class="step2">
+        <h2>Size Split of {{ start_qty }}.</h2>
+        <select name="" id="">
+          <option value="">Bell Curve (recommended)</option>
+          <option value="">Band Merch</option>
+          <option value="">Volunteers</option>
+          <option value="">Even</option>
+        </select>
+        <button>upload xls</button>
+        <div class="size">S: {{ calculated_small()}}</div>
+        <div class="size">M: {{ calculated_med()}}</div>
+        <div class="size">L: {{ calculated_large()}}</div>
+        <a href="">adjustment sizes</a> |
+        <a href="">finalize</a>
+      </section>
+      <section class="step3">
+        <h2>Adjust Quantity</h2>
+        <div class="size">S: <input type="text"></div>
+        <div class="size">M: <input type="text"></div>
+        <div class="size">L: <input type="text"></div>
+        <aside class="math_helper">
+          <h3>New Total: </h3>
+          <h3>+5</h3>
+          <p>You are over your original quote by 5</p>
+        </aside>
+        <aside class="price_break_helper">
+          <h3>+5 away from next price break </h3>
+          <h3>(120 is next price break)</h3>
+        </aside>
+        <a href="">review</a>
+      </section>
+      <section class="step4">
+        <h3>Confirm: 120</h3>
+        <div class="size">S: 40</div>
+        <div class="size">M: 40</div>
+        <div class="size">L: 40</div>
+        <span>Sizes are accurate: <input type="checkbox"></span>
+        <button>Submit</button>
       </section>
     </div>
     <script src='app.js'></script>
