@@ -18,3 +18,5 @@ private.md
 private/*
 _private/*
 content/markdown/private/*
+
+node_modules/*
