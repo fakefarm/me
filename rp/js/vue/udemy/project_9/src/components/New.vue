@@ -14,6 +14,13 @@ export default {
     return {
       boom: 0
     }
+  },
+  deactivated () {
+    alert('deactivated' + this);
+  },
+  activated () {
+    alert('activated' + this);
+
   }
 }
 </script>
