@@ -2,7 +2,8 @@
   <section>
     <div class="">
         <slot name='title'></slot>
-        <slot name='content'></slot>
+        <slot></slot>
+        <slot name='foreshadow'>PLACEHOLDER IF THERE IS NO SLOT NAMED foreshadow</slot>
     </div>
   </section>
 </template>

@@ -8,8 +8,8 @@
               <h1>Dry details are interesting to the devoted</h1>
               <cite>Dave Woodall</cite>
             </div>
-            <div class="col-sm-6" slot='content'>
-              <p>Vue is a framework that pulls together the three languages of the web in a way to deliver a specific type of solution. A SPA.</p>
+            <div class="col-sm-6">
+              <h2>Default slots</h2>
             </div>
           </quote>
         </div>
