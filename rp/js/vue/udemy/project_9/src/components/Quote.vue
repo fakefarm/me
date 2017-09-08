@@ -1,12 +1,11 @@
 <template lang="html">
   <div class="">
-    <p>{{ quote }}</p>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['quote']
 }
 </script>
 
@@ -18,5 +17,8 @@ export default {
     margin: 30px auto;
     text-align: center;
     font-size: 3em;
+  }
+  cite {
+    color: red;
   }
 </style>

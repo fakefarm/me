@@ -2,7 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-          <quote :quote='quote'></quote>
+          <quote>
+            <h1>Dry details are interesting to the devoted</h1>
+            <cite>Dave Woodall</cite>
+          </quote>
       </div>
     </div>
   </div>
@@ -11,11 +14,7 @@
 <script>
 import Quote from './components/Quote.vue'
 export default {
-  data () {
-    return {
-      quote: 'Dry details are interesting to the devoted'
-    }
-  },
+  data () { },
   components: {
     Quote
   }
