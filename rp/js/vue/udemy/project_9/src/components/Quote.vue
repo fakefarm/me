@@ -3,13 +3,17 @@
     <div class="">
         <slot name='title'></slot>
         <slot></slot>
-        <slot name='foreshadow'>PLACEHOLDER IF THERE IS NO SLOT NAMED foreshadow</slot>
+        <h1>BOOM</h1>
     </div>
   </section>
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+    }
+  }
 }
 </script>
 
