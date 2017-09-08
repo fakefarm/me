@@ -59,3 +59,28 @@ v-bind:[attribute]="[property/function]"
     v-html="[property/function]"
 
 Output normal html through vue. but be careful because it is not safe. You must trust your html source
+
+## VueJS instance lifecycle
+
+new Vue()
+
+`beforeCreate()`
+
+Initialize Data and Events
+
+Instance Created
+
+`created()`
+
+Compile template or el's template
+
+`beforeMount()`
+
+Replace el with compiled template
+
+Mounted to DOM
+
+`beforeUpdate()`
+`updated()`
+`beforeDestroy()`
+`destroyed()`
