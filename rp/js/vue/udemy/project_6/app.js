@@ -1,7 +1,7 @@
 new Vue({
   el: '#app',
   data: {
-    start_qty: 72,
+    start_qty: '',
     small: '',
     medium: '',
     large: '',
@@ -17,8 +17,8 @@ new Vue({
       36, 72, 144, 288
     ],
     step: {
-      one: false,
-      two: true,
+      one: true,
+      two: false,
       three: false,
       four: false,
     },
