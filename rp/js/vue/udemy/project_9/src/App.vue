@@ -2,10 +2,17 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
+        <div class="row">
           <quote>
-            <h1>Dry details are interesting to the devoted</h1>
-            <cite>Dave Woodall</cite>
+            <div class="col-sm-6" slot='title'>
+              <h1>Dry details are interesting to the devoted</h1>
+              <cite>Dave Woodall</cite>
+            </div>
+            <div class="col-sm-6" slot='content'>
+              <p>Vue is a framework that pulls together the three languages of the web in a way to deliver a specific type of solution. A SPA.</p>
+            </div>
           </quote>
+        </div>
       </div>
     </div>
   </div>
