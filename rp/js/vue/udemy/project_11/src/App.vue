@@ -1,13 +1,19 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+  <div id="app" class='container'>
+    <div class="row">
+      <dw-header></dw-header>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
+import dwHeader from './components/Header.vue'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    dwHeader
+  }
 }
 </script>
 
