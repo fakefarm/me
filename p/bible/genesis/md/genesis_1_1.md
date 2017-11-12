@@ -1,3 +1,5 @@
+Genesis 1:1
+
 # Before you begin
 
 Depending on how you view life after death will greatly influence how you read this book. I've asked more than 10 people what they think happens when we die and so far, every answer falls into one of four narratives. Of course, you may be the first to tell me there's a 5 option of what happens when we die, but I am pretty sure it will be a variation of one of the 4.

@@ -14,7 +14,6 @@ In OS X 10.8+, use this instead (note LS instead of NS):
 
 https://apple.stackexchange.com/questions/92004/is-there-a-way-to-hide-certain-apps-from-the-cmdtab-menu
 
-
 ## my first workflows!
 
 ## default to function keys
