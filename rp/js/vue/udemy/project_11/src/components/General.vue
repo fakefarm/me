@@ -3,6 +3,7 @@
     <div class="col-md-4">
       <h1>Genesis {{ this.$route.params.chapter }}</h1>
       <h2>General</h2>
+      <button @click='test' name="button">test</button>
     </div>
     <div class="col-md-8">
       <h1>
@@ -27,15 +28,16 @@ export default {
       }
     }
   },
-  beforeRouteUpdate (to, from, next) {
-    this.verse = this.$route.query.verse
-    this.chapter = this.$route.params.chapter
+  watch: {
+    '$route' (to, from) {
+      this.chapter = this.$route.params.chapter
+    }
   },
-  created () {
-    this.verse = this.$route.query.verse
-    this.chapter = this.$route.params.chapter
+  methods: {
+    test () {
+      debugger
+    }
   }
-
 }
 </script>
 

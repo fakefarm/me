@@ -33,8 +33,8 @@ export default {
       links: [
         { name: 'Welcome', to: 'Welcome', exact: true },
         { name: 'Chapter1', to: 'Chapter1', exact: false },
-        { name: 'Genesis/2', path: '/Genesis/2', exact: false },
-        { name: 'Genesis/3', path: '/Genesis/3', exact: false },
+        { name: 'Genesis', path: '/Genesis/2', exact: false },
+        { name: 'Genesis', path: '/Genesis/1', exact: false },
         { name: 'Chapter2', to: 'Chapter2', exact: false }
       ]
     }
