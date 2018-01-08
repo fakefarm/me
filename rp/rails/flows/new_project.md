@@ -18,9 +18,10 @@ These flags are the ones I am adding a the reason for doing so.
 `--skip-coffee` Don't use CoffeeScript
 `--skip-test` Skip test files because I'm going to use RSpec instead
 `--skip-bundle` Don't run bundle install because I want to modify gemfile before running bundle.
+`--webpack=vue` Use webpack with Vue
 
 ```
-  rails new [APP] --database=postgresql --skip-keeps --skip-coffee --skip-test --skip-bundle
+  rails new [APP] --database=postgresql --webpack=vue --skip-coffee --skip-test --skip-bundle
 ```
 
 or if you want a single API
@@ -41,7 +42,7 @@ or if you want a single API
 
 It's a good idea that you set your ruby version in a file called `.ruby-version` In this project I add the following one line statement;
 
-`$ echo "ruby-2.4.1" > .ruby-version`
+`$ echo "ruby-2.5" > .ruby-version`
 
 **Commit**
 

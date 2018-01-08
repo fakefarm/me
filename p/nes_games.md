@@ -63,8 +63,6 @@
 
 [Tag Team Pro-Wrestling](http://www.8bbit.com/play/tag-team-pro-wrestling/3404)
 
-[Teenage Mutant Ninja Turtles](http://www.8bbit.com/play/teenage-mutant-ninja-turtles/889)
-
 [Teenage Mutant Ninja Turtles 2](http://www.8bbit.com/play/teenage-mutant-ninja-turtles-2/891
 
 [Teenage Mutant Ninja Turtles III - The Manhattan Project  Games online](http://www.8bbit.com/play/teenage-mutant-ninja-turtles-iii-the-manhattan-project/3497)
