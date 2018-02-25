@@ -21,7 +21,7 @@ These flags are the ones I am adding a the reason for doing so.
 `--webpack=vue` Use webpack with Vue
 
 ```
-  rails new [APP] --database=postgresql --webpack=vue --skip-coffee --skip-test --skip-bundle
+  rails new [APP] --database=postgresql --skip-coffee --skip-bundle
 ```
 
 or if you want a single API
@@ -150,7 +150,7 @@ git commit -m 'bundle binstubs rspec-core'
 
 Gemfile:
 
-`gem 'factory_girl_rails'`
+`  gem 'factory_bot_rails'`
 
 Bundle
 

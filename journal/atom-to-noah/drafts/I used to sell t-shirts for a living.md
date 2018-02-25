@@ -1,0 +1,1 @@
+I used to be in t-shirt business. In total, 17 years and I was involved in responsible for pushing estimate 3 - 4M shirts by selling, designing, and running my own business. 
