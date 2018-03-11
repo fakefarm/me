@@ -1,0 +1,29 @@
+
+/helpers/licenses
+
+/licenses/helpers/
+
+container for licenses
+smart container / dumb component
+
+- main logic & complexity in container
+
+LicensesContainer.vue
+  - router manages (new, edit, )
+  - single vuex store in container
+
+`$emit.methodname`
+
+
+-------------------------
+
+How does t2ui manage dumb component?
+t2ui router?
+
+
+<LiceCon>
+  <license-new>
+  <license-show>
+
+<LiceCon>
+  <router-view>
